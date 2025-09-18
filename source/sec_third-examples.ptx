@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+
+ 
+<example>
+  <statement>
+    <p>
+      Given the velocity versus time graph as shown below:
+      <image source="fig3l.png" width="60%"> </image>  
+      <ol>
+        <li>
+          Construct a table showing distance traveled, velocity, and acceleration at various times throughout the  
+      motion and
+        </li>
+        <li>
+          Plot graphs of distance versus time and acceleration versus time.
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <ol>
+      <li>
+        <p>
+          Select several critical points on the <m>v</m> versus <m>t</m> graph as shown 
+          in the given figure. Measure the height of each point and tabulate it as 
+          velocity <m>v</m>. Measure the area under the curve and tabulate it as position <m>x</m>. 
+          Measure the slope of curve and tabulate it as the acceleration <m>a</m>. 
+        </p>
+      <tabular halign="center">
+      <row header="yes" bottom="minor" >
+       <cell>Points</cell>
+      <cell><m>t (s)</m> </cell>
+      <cell><m>x (m)</m></cell>
+      <cell><m>v (m/s)</m></cell>
+      <cell><m>a (m/s^2)</m></cell>
+      <cell><m>x=v_{o}t+\frac{1}{2}a t^2</m></cell>
+      </row>
+      <row>
+      <cell>A</cell>
+      <cell> <m>0</m></cell>
+      <cell> 0</cell>
+      <cell>0</cell>
+      <cell>---</cell>
+      <cell><m> x_{1}=0</m></cell>
+       </row>
+      <row>
+      <cell>B</cell>
+      <cell>4</cell>
+      <cell>4</cell>
+      <cell>2</cell>
+      <cell><m>\frac{2}{4} = 0.5</m></cell>
+      <cell><m>x_{2} = 0+\frac{1}{2}(0.5)(4^2)=4</m></cell>
+      </row>
+      <row>
+      <cell>C</cell>
+      <cell>7</cell>
+      <cell>4+6=10</cell>
+      <cell>2</cell>
+      <cell>0</cell>
+      <cell><m>x_{3} = 2\times 3 =6</m></cell>
+      </row>
+      <row>
+      <cell>D</cell>
+      <cell>9</cell>
+      <cell>10+2=12</cell>
+      <cell>0</cell>
+      <cell><m>\frac{-2}{2} = -1</m></cell>
+      <cell><m>x_{4} = 2\times 2+\frac{1}{2}(-1)(2^2) =2</m></cell>
+     </row>
+      <row>
+      <cell>E</cell>
+      <cell>13 </cell>
+      <cell> 12-8=4 </cell>
+      <cell>-4</cell>
+      <cell><m>\frac{-4}{4} =-1</m></cell>
+      <cell><m>x_{5} = 0+\frac{1}{2}(-1)(4^2) =-8</m></cell>
+     </row>
+      <row>
+      <cell>F</cell>
+      <cell>20</cell>
+      <cell>4-14=-10</cell>
+      <cell>0</cell>
+      <cell><m>\frac{4}{7} = 0.57</m></cell>
+      <cell><m>x_{6}=-4\times 7+\frac{1}{2}(0.57)(7^2) =-14</m></cell>
+      </row>
+      </tabular>
+    </li>
+    <li>
+      <p>
+        Plot this tabulated data as shown below: 
+        <sidebyside widths="40% 40%">
+          <image source="fig3li.png" > </image>
+          <image source="fig3lii.png" > </image>
+          </sidebyside>
+      </p>
+    </li>
+  </ol>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Given <m>x(t) = A t^{3} + B t,</m> where <m>A = 10 m/s^{3}</m> and <m>B = 100 m/s</m>. 
+      Find each of the following: 
+      <ol marker="a.">
+        <li>
+          <m>x(2s),</m>
+        </li>
+        <li><m>v</m>,</li>
+         <li><m>a</m>,</li>
+         </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <m> x(2s)  = x(t) = A t^{3} + B t,
+            =  (10 m/s^{3}) (2 s)^{3}  + (100 m/s) (2 s)	=  280 m </m>
+        </li>
+        <li><m> v= \frac{(x_{2} - x_{1})}{(t_{2} - t_{1})}
+          = \frac{(280 m - 110 m)}{(2s - 1s)}= 170 m/s </m>,</li>
+         <li><m>a=  \frac{(v_{2} - v_{1})}{(t_{2} - t_{1})}
+          =  \frac{(370m/s - 130m/s)}{(3s-(-1s))}
+          =  60 m/s^{2}</m>,</li>
+         </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A car moving with constant velocity of 10 m/s passes a policeman at rest and proceeds 
+      to run a red light 20 m farther down the road. The policeman requires 5 seconds to start 
+      his motorcycle, but then accelerate after the car with a constant acceleration of <m>3 m/s^{2}</m>. 
+      <image source="fig3m.png" width="50%"> </image>
+      <ol marker="a.">
+        <li>
+          How long after starting out does it take for the policeman to overtake the car?
+        </li>
+        <li>
+          How far does the policeman travel before overtaking the car?
+        </li>
+        <li>
+          How fast will the policeman be moving when he gets to the car?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Suppose <m>p</m> is a policeman at rest and <m>R</m> is a red light which is 20 m 
+      from the position of police. Hence time taken by the car to pass the traffic signal is given by
+      <me>
+        x=v_{c}t_{r} 
+      </me>
+      <me>
+        or, \quad t_{r}=\frac{x}{v_{c}}=\frac{20}{10}=2 s
+      </me>
+      Now car is moving with a constant velocity, therefore total distance traveled 
+      by the car before caught by police is given by
+      <men xml:id="eqn-police1">
+        x_{c}=v_{c} t_{c}=10t_{c}
+      </men>
+      Total distance travelled by the policeman to catch the car is given by
+      <men xml:id="eqn-police2">
+        x_{p}=u_{p} t_{p}+\frac{1}{2} at_{p}^{2} =0+\frac{1}{2}\cdot 3\left(t_{c}-2-5\right)^{2}
+      </men>
+      where initial velocity of policeman <m>u_{p}=0</m> and total time traveled by the policeman <m>t_{p}=t_{c}-(2+5)</m>
+      <me>
+        \because x_{c}=x_{p}
+      </me>
+      <me>
+       or,\quad  10t_{c} = \frac{3}{2}\left(t_{c}-7\right)^{2} 
+      </me>
+    <me>
+      20t_{c}=3\left(t^{2}_{c}-14t_{c}+49\right) =3t^{2}_{c}-42t_{c}+147
+    </me>
+    <me>
+      \therefore \quad t_{c}=\frac{+62\pm\sqrt{62^{2}-4\cdot 3\cdot147}}{2\cdot 3} =17.93 s \text{or,} 2.73 s
+    </me>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          Therefore the policeman caught the violator in <m>17.93 s=\approx 18 s</m>. 
+          Neglect 2.73 s as it is less time than the policeman started his motorcycle.
+        </li>
+        <li>
+           <m>x_{c}=10\times 18 =180 m</m>
+        </li>
+        <li>
+          <m>v_{p}=u_{p}+at_{p}= 0+3\times 18=54 m/s</m>.
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A man drops a stone into a well and hears the splash 5 seconds later. 
+      If the speed of sound is <m>345 m/s</m>, 
+      <ol>
+        <li>
+          how deep is the well?
+        </li>
+        <li> How fast was the stone traveling when it hits the water?</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: 
+      <me>
+        v_{o1}  = 0; \quad a_{1}  =  g  =  -9.8 m/s^{2}; \quad v_{2}  =  345 m/s
+      </me>
+      The depth of well can be calculated by 
+      <me>
+        y_{f} - y_{o} =  v_{o1} t_{1} + \frac{1}{2} a t^{2}_{1}
+      </me>
+where <m>v_{o1}</m>, is the initial velocity, <m>y_{f}</m> and <m>y_{o}</m> are the final 
+and initial position of the stone and <m>y_{f} - y_{o} = -h-0 =-h</m> is the depth of the well, 
+<m>a = g </m> is the acceleration due to gravity, and <m>t_{1}</m>, is the time taken 
+by stone to reach the water level in the well.
+<men xml:id="eqn-ch3q4i">
+  -h= 0+\frac{1}{2} g t^{2}_{1} = -\frac{1}{2} (9.8) t^{2}_{1}  \qquad \Rightarrow \quad h=4.9t^{2}_{1}
+</men>
+Now sound travels back at a constant speed.
+<men xml:id="eqn-ch3q4ii">
+  h  =  v_{2} t_{2}
+</men>
+But the distance traveled by the stone and sound are equal to the depth of the well, 
+and total time is 5 seconds. Hence,
+<me>
+  h_{stone}  = h_{sound}; \quad  t_{1}+ t_{2}  =  5 s
+</me>
+<me>
+  4.9t^{2}_{1}  =  v_{2} t_{2}  
+</me>
+from <xref first="eqn-ch3q4i" last="eqn-ch3q4ii"/>.
+<me>
+  or, \quad 4.9t^{2}_{1} = 345(5  - t_{1}) \qquad [\because t_{2}  =  5s - t_{1}]
+</me>
+<me>
+  \text{or,}\quad 4.9t^{2}_{1}+345t_{1}-1725 =0
+</me>
+<me>
+  \text{or,}\quad t=\frac{-345\pm\sqrt{345^{2}-4\cdot4.9\cdot(-1725)}}{2\cdot4.9}
+</me>
+<me>
+  \therefore t_{1}= 4.68 s; \qquad t_{2}=0.32 s;\quad \text{and}\quad h  =  v_{2} t_{2}  =  110.4 m
+</me>
+The final velocity of stone when it touches water 
+<men xml:id="eqn-ch2q4iii">
+  v_{f}  =  v_{o1}  +  a t_{1} 
+</men>
+<me>
+  v_{f}  =0 - g t_{1}  =  -45.86 m/s \quad (downwards)
+</me>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A pilot in an airplane traveling with an air speed of 100 mph wants to fly to a 
+      city 200 miles due east of his current position. There is a 20 mph wind blowing 
+      from the south-west. 
+      <ol marker ="a.">
+        <li>
+          At what heading should the pilot point his aircraft? 
+        </li>
+        <li>
+          How long will it take for the plane to reach its destination?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{pa}  =  100 mph;</m> <m>x_{pg}  =  200 m\hat{i};</m>  <m>v_{ag}  =  20 mph</m>
+      at <m>45^{o} </m> W of S <m>=  20 mph (- \sin 45^{o}\hat{i} - \cos 45^{o}\hat{j})</m>.
+      <image source="fig3mi.png" width="50%"> </image>
+    </p>
+    <p>
+      Vector Equations: 
+      <me>
+        \vec{v}_{pg}  =  \vec{v}_{pa} + \vec{v}_{ag}
+      </me>
+      <me>
+        \vec{x}_{pg}  =  \vec{v}_{pg} t	
+      </me>
+        Scalar Equations: 
+        <me>
+          v_{pg}  =  v_{pa} \sin\theta  -  v_{ag} \sin 45^{o};
+        </me>
+        <me>
+          0=  v_{pa}\cos\theta - v_{ag} \cos 45^{o};
+        </me>
+        <me>
+          x_{pg}  =  v_{pg} t
+        </me>
+        <ol marker ="a.">
+          <li>
+            <me>
+              \cos\theta  =  v_{ag} cos 45^{o} / v_{pa}  =   20 \cos 45^{o} / 100  =  0.1414
+            </me>
+            <me>
+              \therefore \theta  = 81.87^{o}
+            </me>
+          </li>
+          <li>
+            <me>
+              v_{pg}  =  v_{pa} \sin\theta -  v_{ag} \sin 45^{o}  =  100 \sin\theta - 20\sin 45^{o} =  84.85 mph
+            </me>
+            <me>
+              \therefore t  =  x_{pg} / v_{pg}  =  2.36 h
+            </me>
+          </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A man has two balls, he throws the first one straight up 10 meters high. 
+      At the instant the first rock reaches its highest point, he throws the second 
+      rock upward with the same initial speed as the first. 
+      <ol marker="a.">
+        <li>
+          What was the initial velocity of the first ball?
+        </li>
+        <li>
+          How long will it take the second ball to pass the first?
+        </li>
+        <li>
+          At what height will the two balls pass one another?
+        </li>
+        <li>
+          At that time, which ball is traveling the faster? 
+        </li>
+        <li>
+          How long was the first ball in the air?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <image source="fig3mii.png" width="25%"> </image>
+    </p>
+    <ol marker="a.">
+      <li>
+        <p>
+          The velocity of first ball is given by 
+          <me>
+            v_{f}^{2}=v_{i}^{2}+2a(x_{f}-x_{i})
+          </me>
+          <me>
+            \text{or,}\quad 0 = v^{2}_{1i}+2(-9.8) 10
+          </me>
+          <me>
+            \therefore  v_{1i} = 14 m/s=v_{2i}
+          </me>
+        </p>
+      </li>
+      <li>
+        <p>
+          The first ball passes the second ball at time <m>t_{2}</m> when the first ball 
+          falling from its maximum height <me>
+            h=|h_{1}|+ |h_{2}|=(y_{1f}-y_{1i})+(y_{2f}-y_{2i})
+          </me>
+          <me>
+            10= -(v'_{1i}t_{2}-\frac{1}{2}gt^{2}_{2})+(v_{2i}t_{2}-\frac{1}{2}gt^{2}_{2}) 
+          </me>
+          <me>
+            = 0+v_{2i}t_{2} =14 t_{2} [\because (y_{1f}-y_{1i})\quad \text{is -ve}]
+          </me>
+          <me>
+            \therefore t_{2}=\frac{10}{14} = 0.7143 s
+          </me>
+        </p>
+      </li>
+      <li>
+        <p>
+          <me>
+            h_{2}= v_{2i}t_{2}-\frac{1}{2}gt^{2}_{2}=14 (0.7143)-4.9(0.7143)^{2} = 7.50 m 
+          </me>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          The velocity of ball I at that time 
+          <me>
+            v_{1c} = 0-(9.8)t_{2} = -9.8\times (0.7143) = -7.0 m/s
+          </me>
+          The velocity of ball II at that time 
+          <me>
+            v_{2c} = 14-(9.8)t_{2} = 14-9.8\times 0.7143 = 7.00 m/s
+          </me>
+          Hence, they have the same velocity at that time, ball I is falling down and ball II is going up.
+        </p>
+      </li>
+      <li>
+        <p>
+          Time taken by ball I for maximum height <m>v_{f}=v_{i}+at</m>.
+          <me>
+            0=14-9.8t \quad \Rightarrow t = \frac{14}{9.8} =1.43 s
+          </me>
+          Therefore total time for ball I in air is given by <m>t=1.43+1.43=2.86s.</m> 
+        </p>
+      </li>
+    </ol>
+    <p>
+      <alert>Alternative,</alert>
+      <me>
+        \left[y_{f}-y_{i}=0=14t-\frac{1}{2}9.8t^{2} \Rightarrow t = \frac{14\pm\sqrt{14^{2}}}{9.8}= 2.86 s \right]
+      </me>
+    </p>
+  </solution>
+  <hint>
+    <p>
+      Draw a picture at each critical time for the above motion and label your drawings.
+    </p>
+  </hint>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A boy at playground drives two miles home at 30 mph to get her ball and immediately drives back at 20 mph. 
+      What was his average velocity for the round trip?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        v_{av}=\frac{x_{f}-x_{i}}{t_{f}-t_{i}}  = \frac{\Delta s}{\Delta t}=0 
+      </me>
+      Note that the average speed is not zero.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A boy going from home to school walks at 1m/s for (1/3) of the time 
+      and 1.5 m/s for rest of the time. He forgot his physics notebook 
+      and thus returns immediatley to home. He jogs half of the distance at 
+      1 m/s and rest of the distance at 1.5 m/s. Find his average speed for the trip.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      From home (H) to school (S).
+      <me>
+        d=v_{1}t_{1}+v_{2}t_{2} \quad = 1\times \frac{1}{3}t + 1.5\times(1-\frac{1}{3}t)  = \frac{4}{3}t
+      </me>
+      <me>
+        \therefore \quad v_{HS} = \frac{d}{t} = \frac{4}{3}  m/s
+      </me>
+From school (S) to home (H).
+<me>
+  t=t_{1}+t_{2}  \quad =  \dfrac{\frac{d}{2}}{v_{1}} + \dfrac{\frac{d}{2}}{v_{2}}   = \frac{d}{2}\left(  \frac{1}{1}+ \frac{1}{1.5}\right) = \frac{d}{2}\left( \frac{1}{2}+\frac{1}{3}\right) = \frac{5d}{6}
+</me>
+<me>
+  or, \quad v_{SH} = \frac{d}{t} = \frac{6}{5} m/s 
+</me>
+<me>
+  \therefore \quad v_{avg} = \dfrac{v_{HS}+ v_{SH}}{2} =\frac{1}{1} \left[\frac{4}{3} + \frac{6}{5}\right] = 1.26 m/s
+</me>
+    </p>
+  </solution>
+</example>
+
+
+
+<example>
+  <statement>
+    <p>
+      A boat can move at 5 <m>m/s</m> in still water river. If it is moving in a river in which 
+      water is flowing at 1 <m>m/s</m>, what is the resultant speed of the boat with 
+      respect to ground. If 
+      <ol marker="a.">
+        <li>
+          the boat goes downstream,   
+        </li>
+        <li>the boat goes upstream, and 
+         </li>
+        <li>the boat aim directly to the opposite bank of the river.
+          </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{bw} =5m/s, v_{wg}=1m/s </m>.
+      <ol marker="a.">
+        <li>
+          Since both boat and water moving in the same direction, resultant velocity 
+          of boat relative to ground is 
+          <me>
+            v_{bg}=v_{b}+v_{w} = (5+1) =6 m/s
+          </me>
+          <image source="fig3ni.png" width="25%"> </image>
+        </li>
+        <li>
+          Since boat and water are moving in opposite direction, 
+          resultant velocity of boat relative to ground is 
+          <me>
+            v_{bg}=v_{b}-v_{w} = (5-1) =4 m/s
+          </me>
+          <image source="fig3nii.png" width="25%"> </image>
+        </li>
+        <li>
+          Now boat is moving straight perpendicular to the direction of motion of water 
+          hence the resultant velocity of boat relative to ground is 
+          <image source="fig3niii.png" width="25%"> </image>
+          <me>
+            \vec{v}_{bg}=\vec{v}_{bw}+\vec{v}_{wg} 
+          </me>
+          <me>
+            \therefore v_{bg} = \sqrt{5^{2}+1^{2}} =5.1m/s 
+          </me>
+          and 
+          <me>
+            \theta =\tan^{-1}\frac{v_{wg}}{v_{bw}} =11^{o}
+          </me>
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      An truck running due north with 10m/s velocity fires a bullet with 100m/s nozzle velocity 
+      due north east. What is the velocity of the bullet with respect to ground?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      x-component of bullet velocity is <m>v_{stx}= 100\cos45=70.71 m/s</m>; and 
+      y-component of bullet velocity is <m>v_{sty}= 100\sin45=70.71 m/s</m>.
+      <image source="fig3niv.png" width="35%"> </image>
+      <me>
+        v_{x}=v_{stx}=70.71m/s; 
+      </me>
+      <me>
+        v_{y}=v_{tg}+ v_{stx} = 10+70.71 =81.71m/s
+      </me>
+      <me>
+        \therefore v_{sg}=\sqrt{v^{2}_{x}+v^{2}_{y}}= 107.30 m/s
+      </me>
+      <me>
+        \theta =\tan^{-1}\left(\frac{v_{y}}{v_{x}}\right)=\tan^{-1}\left(\frac{81.71}{70.71}\right) =49^{o}
+      </me>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A person running at 3 m/s due east, finds that the rain is dropping at 4 m/s vertically 
+      downward. Find the magnitude and direction of velocity with which rain drop hits the ground.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Velocity of a person with respect to ground, <m>v_{pg}=3 m/s</m>, velocity of rain with respect to 
+      person, <m>v_{rp} = 4m/s,</m> and velocity of rain with respect to ground, <m>v_{rg}</m>. Hence,
+      <image source="rain1.png" width="35%"> </image>
+      <mdn>
+        <mrow>  \vec{v}_{rg} \amp  = a\hat{i}+ b\hat{j}</mrow>
+           <mrow> \vec{v}_{pg}  \amp = 3\hat{i}  </mrow>
+           <mrow> \therefore \vec{v}_{rp}\amp  = 4\hat{j} = \vec{v}_{rg}-\vec{v}_{pg}  = a\hat{i}+ b\hat{j}  - 3\hat{i} = (a-3)\hat{i}+ b\hat{j} </mrow>
+      </mdn>
+      Equating on both side of the equation, we get - <m>a=3 m/s,</m> and <m>b= 4m/s</m>
+      <men>
+        \therefore \vec{v}_{rg} = 3\hat{i}+ 4\hat{j}  
+      </men>
+Now if rain makes an angle <m>\theta</m> with the vertical, then 
+<me>
+  \theta = \tan^{-1}\left(\frac{3}{4}\right) = 37^{o} 
+</me>
+and 
+<me>
+  v_{rg} =\sqrt{3^{2}+4^{2}} = 5 
+</me>
+   </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A person riding a bicycle with a speed of 5 m/s towards north direction, 
+      observes rain falling vertically down. If he double his speed, rain appears 
+      to meet him at <m>45^{o}</m> to the vertical. What is the speed of the rain? 
+      In what direction does rain fall as observed by a ground based observer?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Velocity of a person with respect to ground, <m>v_{pg}=5m/s</m>, 
+      velocity of rain with respect to person, <m>v_{rp}</m>, and velocity 
+      of rain with respect to ground, <m>v_{rg}</m>. Now for case I, 
+      <image source="rain2.png" width="35%"> </image>
+      <mdn>
+        <mrow>  \vec{v}_{rg} \amp = a\hat{i}+ b\hat{j}  </mrow>
+        <mrow> \vec{v}_{pg} \amp = 5\hat{i} </mrow>
+        <mrow> \therefore \vec{v}_{rp} \amp  =  \vec{v}_{rg}-\vec{v}_{pg}   = a\hat{i}+ b\hat{j}  - 5\hat{i} = (a-5)\hat{i}+ b\hat{j} </mrow>
+      </mdn>
+      Since rain appears to fall vertically downward to a person, there is no x- component of 
+      <m>\vec{v}_{rp}</m>. Hence, <me>
+        a -5 =0 \qquad \Rightarrow a =5 m/s 
+      </me>
+      <men>
+        \therefore \vec{v}_{rp} = b\hat{j} 
+      </men>
+      Again for case II,
+      <mdn>
+        <mrow>  \vec{v'}_{pg} \amp  = 10\hat{i}   </mrow>
+        <mrow> \therefore \vec{v'}_{rp}\amp  =  \vec{v}_{rg}-\vec{v'}_{pg}  = (a-10)\hat{i}+ b\hat{j}</mrow>
+      </mdn>
+       </p>
+       <p>
+        But, rain appears to fall now <m>45^{o}</m> to the vertical, hence 
+        <me>
+          \tan 45^{o} = 1=\frac{a-10}{b} \quad \Rightarrow b=a-10 = 5-10=-5
+        </me>
+        <me>
+          \therefore \vec{v}_{rg} = a\hat{i}+ b\hat{j}  = 5\hat{i}-5\hat{j} 
+        </me>
+        <me>
+          v_{rg} =\sqrt{5^{2}+(-5)^{2}} = 5\sqrt{2}
+        </me>
+       </p>
+  </solution>
+</example>
+
+ <example>
+  <statement>
+    <p>
+      The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. 
+      The equatorial radius of the earth is <m>6.38\times10^{6}</m> m.
+      <ol marker="a.">
+        <li>
+          Find the velocity of a person at Barbourville, KY (latitude = <m>36^{o}52'</m>) 
+          as they undergo circular motion about the earth's axis of rotation.
+        </li>
+        <li>Find the person's centripetal acceleration. </li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given:  Time period, T= 23 h 56 min and 4 sec= 
+      <me>(23h)\left(60\times 60 \frac{sec}{h}\right)+(56 min)\left(60 \frac{sec}{min}+ 4 sec\right)= 86164 s</me>,
+       <me>\text{Radius of the earth,}\quad R= 6.38\times10^{6}m,</me>  
+      <me>\text{angle of latitude,}\quad \lambda = 36^{o}52' = 36^{o}+\left(52\times\frac{1}{60}\right)^{o} = 36.87^{o}.</me> 
+      Radius of the circle at the position of a person, 
+      <image source="cireart1.png" width="40%"> </image>  
+       <md>
+        <mrow> r \amp =R\sin\theta = R\sin\left(\frac{\pi}{2}-\lambda\right) </mrow>
+        <mrow> \amp = R\cos\lambda = (6.38\times10^{6})\cos(36.87^{o}) =5.10\times10^{6}m.  </mrow>
+      </md>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v \amp =r\omega = r\frac{2\pi}{T} </mrow>
+            <mrow> \amp = \frac{2\times 5.10\times10^{6}\times \pi}{86164} = 372m/s</mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> a \amp = \frac{v^{2}}{r} = \frac{372^{2}}{5.10\times 10^{6}} = 2.7\times10^{-2}m/s^{2}  </mrow>
+        </md></li>
+        </ol>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A baseball is hit at a <m>30^{o}</m> angle with an initial speed of 30 m/s toward a 
+      wall 5 m high located 50 m away. Find each of the following: 
+      <image source="proj2.png" width="45%"> </image>  
+      <ol marker="a.">
+        <li>
+          How fast is the ball initially traveling horizontally?
+        </li>
+        <li>How fast is the ball initially traveling vertically? </li>
+        <li>When does the ball get to the wall? </li>
+        <li>How high is the ball at that time?</li>
+        <li>How fast is the ball traveling at that time? </li>
+        <li>Does the ball clear the fence? By how much?</li>
+        </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v_{ox}  \amp  =  v_{o} \cos\theta_{o} = 30\times\cos30^{o}=26 m/s</mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> v_{oy}\amp  =  v_{o} \sin\theta_{o} =30\times\sin30^{o}=15 m/s</mrow>
+        </md> </li>
+        <li><md>
+          <mrow> x \amp  =  v_{ox} t \Rightarrow \quad t=\frac{x}{v_{ox}} = \frac{50 m}{26 m/s} = 1.92 s </mrow>
+        </md></li>
+        <li><md>
+          <mrow> y \amp  =  v_{oy} t -\frac{1}{2} g t^{2} = 15 \times 1.92 -\frac{1}{2}\times9.8\times(1.92)^{2} =10.7 m</mrow>
+        </md></li>
+        <li><md>
+          <mrow> v_{x} \amp   =  v_{ox} = 26 m/s; </mrow>
+          <mrow> v_{y} \amp =  v_{oy}  -  g t = -3.82 m/s;</mrow>
+          <mrow> v \amp =\sqrt{v^{2}_{x} + v^{2}_{y}}=26.27 m/s</mrow>
+        </md></li>
+        <li>Yes, by 10.7 m - 5 m = 5.7 m.</li>
+        </ol>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A football is punted at an <m>60^{o}</m> angle and travels down field a 
+      distance of 40 yards from the kicker toward a receiver located 60 yards away. 
+      <ol marker="a.">
+        <li>
+          What was the initial speed of the football?
+        </li>
+        <li>How long was it in the air?</li>
+        <li> How high did it go?</li>
+        <li>How fast must the receiver run to catch the ball?</li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v_{ox} \amp   =  vo \cos\theta_{o};\qquad \theta_{o} =  60^{o}; \qquad v_{oy} =  vo \sin\theta_{o};</mrow>
+            <mrow> x \amp =  40 yd  =  120 ft; \quad y_i=0,\quad y_f=0</mrow>
+            <mrow> \text{But,} \quad x \amp =  v_{ox} t; \qquad \text{and}\quad g  =  32 ft/s^{2} </mrow>
+            <mrow> y_f-y_i \amp =  v_{oy} t   - \frac{1}{2} g t^{2};</mrow>
+            <mrow>0 \amp= vo \sin\theta_{o}\left( \frac{x}{vo \cos\theta_{o}}\right)- \frac{1}{2}\times 32 \left(\frac{x}{vo \cos\theta_{o}}\right)^{2}</mrow>
+            <mrow> \therefore \quad v_{o} \amp   =  62.3 ft/s</mrow>
+          </md>
+        </li>
+        <li><m>t  =  3.85 s</m></li>
+        <li> <md>
+          <mrow> v_{y}\amp   =  v_{oy}  -  g t;</mrow>
+          <mrow> v_{y} \amp =  0  </mrow>
+          <mrow> t \amp  =  1.68 s; </mrow>
+          <mrow> y \amp  =  v_{oy} t - \frac{1}{2}g t^{2} = 45.48 ft</mrow>
+          </md></li>
+        <li><md>
+          <mrow>x \amp =  v t; \quad  t  =  3.85 s</mrow>
+          <mrow> x  =  60 yd - 40 yd = 20 yd = 60 ft \amp =  v t </mrow>
+          <mrow>\therefore v \amp = \frac{60}{3.85} =15.58 ft/s</mrow>
+        </md>      
+        </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A man stands on the roof of a 150 m tall building and throws a rock with a velocity 
+      of 30m/s at an angle of <m>30^{o}</m> above the horizontal. Ignore air resistance. Calculate:
+      <image source="proj4.png" width="45%"> </image>  
+      <ol marker="a.">
+        <li>
+          The maximum height above the roof reached by the rock.
+        </li>
+        <li>The magnitude and direction of the velocity of the rock just before it strikes the ground.</li>
+        <li> The horizontal distance from the base of the building to the point where the rock strikes the ground.</li>
+        </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{o}=30m/s {,} \quad y_{f}=y=0 {,} \quad y_{o} =150 m {,}</m> and <m>\theta = 30^{o};</m>
+      <m>v_{ox}=v_{o}\cos\theta = 30\cos30=25.98 m/s =v_x;</m>
+<m>v_{oy}=v_{o}\sin\theta = 30\sin30=15 m/s. </m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v^{2}_{f} \amp =v^{2}_{i}-2gh </mrow>
+              <mrow>\text{or,} \quad 0 \amp = v^{2}_{oy}-2\times 9.8 \times h</mrow>
+              <mrow> \therefore h \amp =11.48 m  </mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> v^{2}_{y} \amp = v^{2}_{oy}-2gy </mrow>
+            <mrow> \amp =(15)^{2}-2\times 9.8 \times (-150) = 225+2940 </mrow>
+            <mrow> \text{or,}\quad v_{y} \amp =\sqrt{3165}= 56.26 m/s\quad (downward) </mrow>
+            <mrow> \therefore v_{f}\amp =\sqrt{v^{2}_{x}+v^{2}_{y}}=\sqrt{(25.98)^{2}+(56.26)^{2}} =61.97 m/s</mrow>
+            <mrow>\phi \amp  = \tan^{-1}\left( \frac{v_{y}}{v_{x}}\right)=  65.21^{o} \quad\text{[below ground]}</mrow>
+        </md></li>
+        <li> <md>
+          <mrow>x \amp =v_{ox}t = 25.98\times 7.27 = 188.87 m  </mrow>
+            <mrow> \because y_{f}-y_{o}\amp =v_{oy}t-\frac{1}{2}gt^{2}</mrow>
+            <mrow> 0-150 \amp =15 t-4.9\times t^{2} </mrow>
+            <mrow> \therefore \quad t \amp  = -4.21s, 7.27s </mrow>
+        </md></li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      In a test of <m>g-suit</m> a volunteer is rotated in horizontal circle of radius 7.0 m. 
+      what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        a=\frac{v^{2}}{r}= \left(\frac{2\pi r}{T}\right)^{2}\frac{1}{r}=\frac{4\pi ^{2}r}{T^{2}} 
+      </me>
+      <me>
+        \therefore T = \sqrt{\frac{4\pi ^{2}r}{10.0g}}=1.68s
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A 20kg rock is thrown horizontally from the top of a cliff of height 20m 
+      from the ground. What must be the minimum speed of the rock so that it 
+      falls in a 10 m deep well which is located at 50 m away from the cliff?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: Height of cliff, <m>y=-20m,</m> distance of well from the cliff, <m>x=50m,</m> 
+      depth of the well, <m>h=-10m</m>. Now <image source="proj5.png" width="45%"> </image> 
+      <me>
+        v_{o}=v_{ox},\qquad H=y+h = -20-10=-30m 
+      </me>
+      <me>
+       But,\quad H =v_{oy}t+\frac{1}{2}gt^{2} = 0-\frac{1}{2}\times 9.8\times t^{2} 
+      </me>
+      <me>
+        \therefore t=\sqrt{\frac{-30}{-4.9}} =2.47s 
+      </me>
+      Hence, 
+      <me>
+       x=v_{ox}t 
+      </me>
+      <me>
+      or,\quad  v_{ox}=v_{o}= \frac{x}{t} = \frac{50}{2.47}=20.24 m/s
+      </me>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+   A ball kicked at an angle of <m>60^o</m> hits the window of the building 15 m away. 
+   If the window is at height of 2 m above the ground find the time taken by the ball to hits it.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: x=15m, <m>\theta=60^o</m>, h=2m.
+      <me>
+        x=v_o\cos\theta. t
+      </me>
+      <me>
+        \therefore \quad t= \frac{15}{v_o\cos\theta} 
+      </me>
+      <me>
+        y=v_o\sin\theta.t -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=v_o\sin\theta. \left(\frac{15}{v_o\cos\theta}\right) -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=15.\tan\theta -\frac{1}{2}.9.8.t^2
+      </me>
+      <me>
+        \therefore\quad t= 2.21 s
+      </me>
+      </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A hunter fires the dart on a monkey with 15 m/s velocity at tree 20 m away from him. 
+      The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired. 
+      <ol marker="a.">
+        <li>
+          How long does it take for the dart to get him? and 
+        </li>
+        <li>Find the vertical position of where the monkey meets his end.</li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: Position of monkey on the tree, <m>y=15 m,</m> distance of tree 
+      from the hunter, <m>x=20m,</m> nozle velocity of dart, <m>v_{o} =15m/s</m>. 
+      <image source="proj6.png" width="45%"> </image> 
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            \theta = \tan^{-1}\left(\frac{y}{x}\right)=37^{o}
+          </me>
+          <me>
+            x =v_{ox}t =v_{o}\cos\theta t 
+          </me>
+          <me>
+            \therefore \quad t= \frac{x}{v_{o}\cos\theta}=1.67s
+          </me>
+          </li>
+        <li><me>
+          h=v_{oy}t+\frac{1}{2}gt^{2}=v_{o}\sin\theta \times (1.67)-\frac{1}{2}\times 9.8\times (1.67)^{2}
+          </me>
+          <me>
+            \therefore h= 15\times\sin37^{o}\times 1.67-4.9\times (1.67)^{2} =1.4 m
+          </me>
+          </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The golf is bouncing from the floor with components of velocity <m>v_{x} =
+        0.662 m/s</m> and <m>v_{y} = 3.66 m/s.</m> 
+        <ol marker="a.">
+          <li>
+            Determine the horizontal distance from the point where the ball 
+            left the floor to the point where it hits the floor again.
+          </li>
+          <li>The ball leaves the floor at x = 0, y = 0. Determine the ball's y 
+            coordinate as a function of x.</li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{x} = v_{xo}=0.662 m/s, \quad v_{y} =v_{yo}= 3.66 m/s, \quad a_{x}=0, \quad a_{y}=-g.</m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          When it hits the ground,
+         <md>
+          <mrow> h\amp =v_{yo}t+\frac{1}{2}gt^{2}</mrow>
+          <mrow> 0 \amp  =3.66t-\frac{1}{2}(9.8)t^{2}</mrow>
+          <mrow> \therefore \quad t \amp = \frac{2\times3.66}{9.8}=0.747 s</mrow>
+          <mrow> and \quad x \amp =v_{xo}t = 0.662\times0.747 = 0.494m</mrow>
+         </md>
+        </li>
+        <li>
+          At any point of the flight, we have 
+          <md>
+            <mrow> y_{f} \amp =y_{o}+v_{i}t+\frac{1}{2}gt^{2}</mrow>
+          </md>
+              <me>
+                \text{or,}\quad y = 0 + v_{yo}\left[ \frac{x}{v_{xo}}\right]-\frac{1}{2}(9.8) \left[\frac{x}{v_{xo}}\right]^{2} \quad [\because \quad x = v_{xo}t]
+              </me>
+              <me>
+                \therefore y = 5.53 x - (11.2/m) x^{2} 
+              </me>
+        </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+
+
+<example>
+  <statement>
+    <p>
+      A football is kicked from 40 m away from the goalpost at 25 m/s. 
+      The goalpost crossbar is 3.5 m above the ground. Determine the minimum and 
+      maximum kicking angles which will take the goal.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{o} =25 m/s,</m> <m>d=40m,</m> and <m>h =3.5</m> m.
+      <md>
+        <mrow> d \amp = v_{ox}t</mrow>
+        <mrow>or, \quad 40 \amp = v_{o} \cos\theta \cdot t</mrow>
+      </md>
+      <me>
+        \therefore \quad t = \frac{40}{v_{o}\cos\theta} 
+      </me>
+            <me>
+      \text{Now,} \quad y-y_{o} = ut -\frac{1}{2} gt^{2} 
+      </me>
+     <me>
+      or, \quad h = v_{o}\sin\theta\cdot t - 4.9 t^{2}
+     </me>
+     <me>
+      or, \quad h =   v_{o}\sin\theta \cdot {\frac{40}{v_{o}\cos\theta}} - 4.9 \left(\frac{40}{v_{o}\cos\theta}\right)^{2} 
+     </me>
+     <me>
+      or, \quad 3.5 =   40\tan\theta - \frac{7840}{400} \sec^{2}\theta
+     </me>
+     <me>
+      or, \quad 3.5 =   40\tan\theta - \frac{7840}{625} (1+\tan^{2}\theta) 
+     </me>
+     <me>
+      or, \quad 16.04 =   40\tan\theta - 12.54\tan^{2}\theta
+     </me>
+     <me>
+      or, \quad 12.54 \tan^{2}\theta - 40\tan\theta + 16.04 = 0 
+     </me>
+     <me>
+      or,\quad \tan\theta = \dfrac{-40\pm\sqrt{40^{2}-4\times 12.54\times 16.04}}{2\times 12.54}   =  2.73, 0.472
+     </me>
+     <me>
+      \therefore \quad \theta = 70^{o}, \quad 25^{o} 
+     </me>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A point P on wheel of radius 0.5 m which was touching the road initially 
+      had made a 3/4 revolution on the road. Find its displacement.
+     </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \vec{D}= \frac{3}{4}(2\pi r)\hat{i}+r\hat{i}+ r\hat{j}
+      </me>
+      Note: <m>\frac{3}{4}(2\pi r)</m> is the distance of center to center displacement 
+      on x axis but point P is still r distance ahead of new point of contact.
+      <image source="wheel.png" width="40%"> </image>
+      <me>
+        or, \quad \vec{D} = 2.86\hat{i} +0.5\hat{j} 
+      </me>
+      <me>
+        \therefore \quad D = 2.9 m
+      </me>
+       </p>
+  </solution>
+</example>
+
+
+
+</section>
