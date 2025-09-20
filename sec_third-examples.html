@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examples</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physics I">
+<meta property="book:author" content="Sunil Karna">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec_dimanal-subsection-2-2 { counter-set: subsec_dimanal-subsection-2-2 0; }
+#subsec_dimanal-subsection-2-2 > li::marker { content: ""counter(subsec_dimanal-subsection-2-2,decimal)"."; }
+#subsec_dimanal-subsection-2-2 > li { counter-increment: subsec_dimanal-subsection-2-2; }
+#subsec-erranalysis-3 { counter-set: subsec-erranalysis-3 0; }
+#subsec-erranalysis-3 > li::marker { content: ""counter(subsec-erranalysis-3,lower-alpha)"."; }
+#subsec-erranalysis-3 > li { counter-increment: subsec-erranalysis-3; }
+#subsec-sigfig-2-6 { counter-set: subsec-sigfig-2-6 0; }
+#subsec-sigfig-2-6 > li::marker { content: ""counter(subsec-sigfig-2-6,lower-roman)"."; }
+#subsec-sigfig-2-6 > li { counter-increment: subsec-sigfig-2-6; }
+#subsubsec-rounding_off-6 { counter-set: subsubsec-rounding_off-6 0; }
+#subsubsec-rounding_off-6 > li::marker { content: ""counter(subsubsec-rounding_off-6,lower-roman)"."; }
+#subsubsec-rounding_off-6 > li { counter-increment: subsubsec-rounding_off-6; }
+#subsubsec-math_op_sig-2 { counter-set: subsubsec-math_op_sig-2 0; }
+#subsubsec-math_op_sig-2 > li::marker { content: ""counter(subsubsec-math_op_sig-2,upper-roman)"."; }
+#subsubsec-math_op_sig-2 > li { counter-increment: subsubsec-math_op_sig-2; }
+#ex_first-2-1-4 { counter-set: ex_first-2-1-4 0; }
+#ex_first-2-1-4 > li::marker { content: ""counter(ex_first-2-1-4,lower-alpha)"."; }
+#ex_first-2-1-4 > li { counter-increment: ex_first-2-1-4; }
+#ex_first-6-2 { counter-set: ex_first-6-2 0; }
+#ex_first-6-2 > li::marker { content: ""counter(ex_first-6-2,lower-alpha)"."; }
+#ex_first-6-2 > li { counter-increment: ex_first-6-2; }
+#ex_first-8-2 { counter-set: ex_first-8-2 0; }
+#ex_first-8-2 > li::marker { content: ""counter(ex_first-8-2,lower-alpha)"."; }
+#ex_first-8-2 > li { counter-increment: ex_first-8-2; }
+#ex_first-9-2 { counter-set: ex_first-9-2 0; }
+#ex_first-9-2 > li::marker { content: ""counter(ex_first-9-2,lower-alpha)"."; }
+#ex_first-9-2 > li { counter-increment: ex_first-9-2; }
+#sec_second-intro-2-3-20 { counter-set: sec_second-intro-2-3-20 0; }
+#sec_second-intro-2-3-20 > li::marker { content: ""counter(sec_second-intro-2-3-20,lower-roman)"."; }
+#sec_second-intro-2-3-20 > li { counter-increment: sec_second-intro-2-3-20; }
+#subsubsec-dot_product-5-2 { counter-set: subsubsec-dot_product-5-2 0; }
+#subsubsec-dot_product-5-2 > li::marker { content: ""counter(subsubsec-dot_product-5-2,decimal)"."; }
+#subsubsec-dot_product-5-2 > li { counter-increment: subsubsec-dot_product-5-2; }
+#subsubsec-cross_product-7-2-1 { counter-set: subsubsec-cross_product-7-2-1 0; }
+#subsubsec-cross_product-7-2-1 > li::marker { content: ""counter(subsubsec-cross_product-7-2-1,decimal)"."; }
+#subsubsec-cross_product-7-2-1 > li { counter-increment: subsubsec-cross_product-7-2-1; }
+#sec_second-examples-2-2-1-1 { counter-set: sec_second-examples-2-2-1-1 0; }
+#sec_second-examples-2-2-1-1 > li::marker { content: ""counter(sec_second-examples-2-2-1-1,lower-alpha)"."; }
+#sec_second-examples-2-2-1-1 > li { counter-increment: sec_second-examples-2-2-1-1; }
+#sec_second-examples-3-1-1-1 { counter-set: sec_second-examples-3-1-1-1 0; }
+#sec_second-examples-3-1-1-1 > li::marker { content: ""counter(sec_second-examples-3-1-1-1,lower-alpha)"."; }
+#sec_second-examples-3-1-1-1 > li { counter-increment: sec_second-examples-3-1-1-1; }
+#sec_second-examples-3-2-1-1 { counter-set: sec_second-examples-3-2-1-1 0; }
+#sec_second-examples-3-2-1-1 > li::marker { content: ""counter(sec_second-examples-3-2-1-1,lower-alpha)"."; }
+#sec_second-examples-3-2-1-1 > li { counter-increment: sec_second-examples-3-2-1-1; }
+#sec_second-examples-4-1-1-8 { counter-set: sec_second-examples-4-1-1-8 0; }
+#sec_second-examples-4-1-1-8 > li::marker { content: ""counter(sec_second-examples-4-1-1-8,lower-alpha)"."; }
+#sec_second-examples-4-1-1-8 > li { counter-increment: sec_second-examples-4-1-1-8; }
+#sec_second-examples-7-1-1-2 { counter-set: sec_second-examples-7-1-1-2 0; }
+#sec_second-examples-7-1-1-2 > li::marker { content: ""counter(sec_second-examples-7-1-1-2,upper-alpha)"."; }
+#sec_second-examples-7-1-1-2 > li { counter-increment: sec_second-examples-7-1-1-2; }
+#sec_second-examples-7-2-1-1 { counter-set: sec_second-examples-7-2-1-1 0; }
+#sec_second-examples-7-2-1-1 > li::marker { content: ""counter(sec_second-examples-7-2-1-1,upper-alpha)"."; }
+#sec_second-examples-7-2-1-1 > li { counter-increment: sec_second-examples-7-2-1-1; }
+#sec_second-examples-8-1-1-5 { counter-set: sec_second-examples-8-1-1-5 0; }
+#sec_second-examples-8-1-1-5 > li::marker { content: ""counter(sec_second-examples-8-1-1-5,lower-alpha)"."; }
+#sec_second-examples-8-1-1-5 > li { counter-increment: sec_second-examples-8-1-1-5; }
+#sec_second-examples-8-2-1-1 { counter-set: sec_second-examples-8-2-1-1 0; }
+#sec_second-examples-8-2-1-1 > li::marker { content: ""counter(sec_second-examples-8-2-1-1,lower-alpha)"."; }
+#sec_second-examples-8-2-1-1 > li { counter-increment: sec_second-examples-8-2-1-1; }
+#ex_second-8-1-3 { counter-set: ex_second-8-1-3 0; }
+#ex_second-8-1-3 > li::marker { content: ""counter(ex_second-8-1-3,lower-alpha)"."; }
+#ex_second-8-1-3 > li { counter-increment: ex_second-8-1-3; }
+#ex_second-10-1-1 { counter-set: ex_second-10-1-1 0; }
+#ex_second-10-1-1 > li::marker { content: ""counter(ex_second-10-1-1,lower-alpha)"."; }
+#ex_second-10-1-1 > li { counter-increment: ex_second-10-1-1; }
+#ex_second-11-1-5 { counter-set: ex_second-11-1-5 0; }
+#ex_second-11-1-5 > li::marker { content: "("counter(ex_second-11-1-5,lower-alpha)")"; }
+#ex_second-11-1-5 > li { counter-increment: ex_second-11-1-5; }
+#ex_second-14-1-7 { counter-set: ex_second-14-1-7 0; }
+#ex_second-14-1-7 > li::marker { content: ""counter(ex_second-14-1-7,lower-alpha)"."; }
+#ex_second-14-1-7 > li { counter-increment: ex_second-14-1-7; }
+#ex_second-15-1-3 { counter-set: ex_second-15-1-3 0; }
+#ex_second-15-1-3 > li::marker { content: ""counter(ex_second-15-1-3,lower-alpha)"."; }
+#ex_second-15-1-3 > li { counter-increment: ex_second-15-1-3; }
+#subsec-rule_solveMotion-2 { counter-set: subsec-rule_solveMotion-2 0; }
+#subsec-rule_solveMotion-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2,lower-roman)"."; }
+#subsec-rule_solveMotion-2 > li { counter-increment: subsec-rule_solveMotion-2; }
+#subsec-rule_solveMotion-2-1-1-2 { counter-set: subsec-rule_solveMotion-2-1-1-2 0; }
+#subsec-rule_solveMotion-2-1-1-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2-1-1-2,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-1-1-2 > li { counter-increment: subsec-rule_solveMotion-2-1-1-2; }
+#subsec-rule_solveMotion-2-2-1-1 { counter-set: subsec-rule_solveMotion-2-2-1-1 0; }
+#subsec-rule_solveMotion-2-2-1-1 > li::marker { content: ""counter(subsec-rule_solveMotion-2-2-1-1,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-2-1-1 > li { counter-increment: subsec-rule_solveMotion-2-2-1-1; }
+#subsec-projtile_motion-3-1 { counter-set: subsec-projtile_motion-3-1 0; }
+#subsec-projtile_motion-3-1 > li::marker { content: ""counter(subsec-projtile_motion-3-1,decimal)"."; }
+#subsec-projtile_motion-3-1 > li { counter-increment: subsec-projtile_motion-3-1; }
+#sec_third-examples-2-1-1-2 { counter-set: sec_third-examples-2-1-1-2 0; }
+#sec_third-examples-2-1-1-2 > li::marker { content: ""counter(sec_third-examples-2-1-1-2,decimal)"."; }
+#sec_third-examples-2-1-1-2 > li { counter-increment: sec_third-examples-2-1-1-2; }
+#sec_third-examples-2-2-1 { counter-set: sec_third-examples-2-2-1 0; }
+#sec_third-examples-2-2-1 > li::marker { content: ""counter(sec_third-examples-2-2-1,decimal)"."; }
+#sec_third-examples-2-2-1 > li { counter-increment: sec_third-examples-2-2-1; }
+#sec_third-examples-3-1-1-4 { counter-set: sec_third-examples-3-1-1-4 0; }
+#sec_third-examples-3-1-1-4 > li::marker { content: ""counter(sec_third-examples-3-1-1-4,lower-alpha)"."; }
+#sec_third-examples-3-1-1-4 > li { counter-increment: sec_third-examples-3-1-1-4; }
+#sec_third-examples-3-2-1-1 { counter-set: sec_third-examples-3-2-1-1 0; }
+#sec_third-examples-3-2-1-1 > li::marker { content: ""counter(sec_third-examples-3-2-1-1,lower-alpha)"."; }
+#sec_third-examples-3-2-1-1 > li { counter-increment: sec_third-examples-3-2-1-1; }
+#sec_third-examples-4-1-1-3 { counter-set: sec_third-examples-4-1-1-3 0; }
+#sec_third-examples-4-1-1-3 > li::marker { content: ""counter(sec_third-examples-4-1-1-3,lower-alpha)"."; }
+#sec_third-examples-4-1-1-3 > li { counter-increment: sec_third-examples-4-1-1-3; }
+#sec_third-examples-4-2-2-1 { counter-set: sec_third-examples-4-2-2-1 0; }
+#sec_third-examples-4-2-2-1 > li::marker { content: ""counter(sec_third-examples-4-2-2-1,lower-alpha)"."; }
+#sec_third-examples-4-2-2-1 > li { counter-increment: sec_third-examples-4-2-2-1; }
+#sec_third-examples-5-1-1-2 { counter-set: sec_third-examples-5-1-1-2 0; }
+#sec_third-examples-5-1-1-2 > li::marker { content: ""counter(sec_third-examples-5-1-1-2,decimal)"."; }
+#sec_third-examples-5-1-1-2 > li { counter-increment: sec_third-examples-5-1-1-2; }
+#sec_third-examples-6-1-1-1 { counter-set: sec_third-examples-6-1-1-1 0; }
+#sec_third-examples-6-1-1-1 > li::marker { content: ""counter(sec_third-examples-6-1-1-1,lower-alpha)"."; }
+#sec_third-examples-6-1-1-1 > li { counter-increment: sec_third-examples-6-1-1-1; }
+#sec_third-examples-6-2-2-6 { counter-set: sec_third-examples-6-2-2-6 0; }
+#sec_third-examples-6-2-2-6 > li::marker { content: ""counter(sec_third-examples-6-2-2-6,lower-alpha)"."; }
+#sec_third-examples-6-2-2-6 > li { counter-increment: sec_third-examples-6-2-2-6; }
+#sec_third-examples-7-1-1-1 { counter-set: sec_third-examples-7-1-1-1 0; }
+#sec_third-examples-7-1-1-1 > li::marker { content: ""counter(sec_third-examples-7-1-1-1,lower-alpha)"."; }
+#sec_third-examples-7-1-1-1 > li { counter-increment: sec_third-examples-7-1-1-1; }
+#sec_third-examples-7-2-2 { counter-set: sec_third-examples-7-2-2 0; }
+#sec_third-examples-7-2-2 > li::marker { content: ""counter(sec_third-examples-7-2-2,lower-alpha)"."; }
+#sec_third-examples-7-2-2 > li { counter-increment: sec_third-examples-7-2-2; }
+#sec_third-examples-10-1-1-3 { counter-set: sec_third-examples-10-1-1-3 0; }
+#sec_third-examples-10-1-1-3 > li::marker { content: ""counter(sec_third-examples-10-1-1-3,lower-alpha)"."; }
+#sec_third-examples-10-1-1-3 > li { counter-increment: sec_third-examples-10-1-1-3; }
+#sec_third-examples-10-2-1-2 { counter-set: sec_third-examples-10-2-1-2 0; }
+#sec_third-examples-10-2-1-2 > li::marker { content: ""counter(sec_third-examples-10-2-1-2,lower-alpha)"."; }
+#sec_third-examples-10-2-1-2 > li { counter-increment: sec_third-examples-10-2-1-2; }
+#sec_third-examples-14-1-1-2 { counter-set: sec_third-examples-14-1-1-2 0; }
+#sec_third-examples-14-1-1-2 > li::marker { content: ""counter(sec_third-examples-14-1-1-2,lower-alpha)"."; }
+#sec_third-examples-14-1-1-2 > li { counter-increment: sec_third-examples-14-1-1-2; }
+#sec_third-examples-14-2-1-6 { counter-set: sec_third-examples-14-2-1-6 0; }
+#sec_third-examples-14-2-1-6 > li::marker { content: ""counter(sec_third-examples-14-2-1-6,lower-alpha)"."; }
+#sec_third-examples-14-2-1-6 > li { counter-increment: sec_third-examples-14-2-1-6; }
+#sec_third-examples-15-1-1-3 { counter-set: sec_third-examples-15-1-1-3 0; }
+#sec_third-examples-15-1-1-3 > li::marker { content: ""counter(sec_third-examples-15-1-1-3,lower-alpha)"."; }
+#sec_third-examples-15-1-1-3 > li { counter-increment: sec_third-examples-15-1-1-3; }
+#sec_third-examples-15-2-1-1 { counter-set: sec_third-examples-15-2-1-1 0; }
+#sec_third-examples-15-2-1-1 > li::marker { content: ""counter(sec_third-examples-15-2-1-1,lower-alpha)"."; }
+#sec_third-examples-15-2-1-1 > li { counter-increment: sec_third-examples-15-2-1-1; }
+#sec_third-examples-16-1-1-2 { counter-set: sec_third-examples-16-1-1-2 0; }
+#sec_third-examples-16-1-1-2 > li::marker { content: ""counter(sec_third-examples-16-1-1-2,lower-alpha)"."; }
+#sec_third-examples-16-1-1-2 > li { counter-increment: sec_third-examples-16-1-1-2; }
+#sec_third-examples-16-2-1-1 { counter-set: sec_third-examples-16-2-1-1 0; }
+#sec_third-examples-16-2-1-1 > li::marker { content: ""counter(sec_third-examples-16-2-1-1,lower-alpha)"."; }
+#sec_third-examples-16-2-1-1 > li { counter-increment: sec_third-examples-16-2-1-1; }
+#sec_third-examples-17-1-1-3 { counter-set: sec_third-examples-17-1-1-3 0; }
+#sec_third-examples-17-1-1-3 > li::marker { content: ""counter(sec_third-examples-17-1-1-3,lower-alpha)"."; }
+#sec_third-examples-17-1-1-3 > li { counter-increment: sec_third-examples-17-1-1-3; }
+#sec_third-examples-17-2-2-1 { counter-set: sec_third-examples-17-2-2-1 0; }
+#sec_third-examples-17-2-2-1 > li::marker { content: ""counter(sec_third-examples-17-2-2-1,lower-alpha)"."; }
+#sec_third-examples-17-2-2-1 > li { counter-increment: sec_third-examples-17-2-2-1; }
+#sec_third-examples-21-1-1-1 { counter-set: sec_third-examples-21-1-1-1 0; }
+#sec_third-examples-21-1-1-1 > li::marker { content: ""counter(sec_third-examples-21-1-1-1,lower-alpha)"."; }
+#sec_third-examples-21-1-1-1 > li { counter-increment: sec_third-examples-21-1-1-1; }
+#sec_third-examples-21-2-2-1 { counter-set: sec_third-examples-21-2-2-1 0; }
+#sec_third-examples-21-2-2-1 > li::marker { content: ""counter(sec_third-examples-21-2-2-1,lower-alpha)"."; }
+#sec_third-examples-21-2-2-1 > li { counter-increment: sec_third-examples-21-2-2-1; }
+#sec_third-examples-22-1-1-3 { counter-set: sec_third-examples-22-1-1-3 0; }
+#sec_third-examples-22-1-1-3 > li::marker { content: ""counter(sec_third-examples-22-1-1-3,lower-alpha)"."; }
+#sec_third-examples-22-1-1-3 > li { counter-increment: sec_third-examples-22-1-1-3; }
+#sec_third-examples-22-2-2-1 { counter-set: sec_third-examples-22-2-2-1 0; }
+#sec_third-examples-22-2-2-1 > li::marker { content: ""counter(sec_third-examples-22-2-2-1,lower-alpha)"."; }
+#sec_third-examples-22-2-2-1 > li { counter-increment: sec_third-examples-22-2-2-1; }
+#ex_third-2-3-1-1 { counter-set: ex_third-2-3-1-1 0; }
+#ex_third-2-3-1-1 > li::marker { content: ""counter(ex_third-2-3-1-1,lower-alpha)"."; }
+#ex_third-2-3-1-1 > li { counter-increment: ex_third-2-3-1-1; }
+#ex_third-2-4-1-1 { counter-set: ex_third-2-4-1-1 0; }
+#ex_third-2-4-1-1 > li::marker { content: ""counter(ex_third-2-4-1-1,lower-alpha)"."; }
+#ex_third-2-4-1-1 > li { counter-increment: ex_third-2-4-1-1; }
+#ex_third-2-5-1-1 { counter-set: ex_third-2-5-1-1 0; }
+#ex_third-2-5-1-1 > li::marker { content: ""counter(ex_third-2-5-1-1,lower-alpha)"."; }
+#ex_third-2-5-1-1 > li { counter-increment: ex_third-2-5-1-1; }
+#ex_third-2-6-1-1 { counter-set: ex_third-2-6-1-1 0; }
+#ex_third-2-6-1-1 > li::marker { content: ""counter(ex_third-2-6-1-1,lower-alpha)"."; }
+#ex_third-2-6-1-1 > li { counter-increment: ex_third-2-6-1-1; }
+#ex_third-2-7-2 { counter-set: ex_third-2-7-2 0; }
+#ex_third-2-7-2 > li::marker { content: ""counter(ex_third-2-7-2,lower-alpha)"."; }
+#ex_third-2-7-2 > li { counter-increment: ex_third-2-7-2; }
+#ex_third-2-7-2-2-1-1 { counter-set: ex_third-2-7-2-2-1-1 0; }
+#ex_third-2-7-2-2-1-1 > li::marker { content: ""counter(ex_third-2-7-2-2-1-1,lower-roman)"."; }
+#ex_third-2-7-2-2-1-1 > li { counter-increment: ex_third-2-7-2-2-1-1; }
+#ex_third-2-8-1-3 { counter-set: ex_third-2-8-1-3 0; }
+#ex_third-2-8-1-3 > li::marker { content: ""counter(ex_third-2-8-1-3,lower-alpha)"."; }
+#ex_third-2-8-1-3 > li { counter-increment: ex_third-2-8-1-3; }
+#ex_third-2-16-1-2 { counter-set: ex_third-2-16-1-2 0; }
+#ex_third-2-16-1-2 > li::marker { content: ""counter(ex_third-2-16-1-2,lower-alpha)"."; }
+#ex_third-2-16-1-2 > li { counter-increment: ex_third-2-16-1-2; }
+#ex_third-3-2-1-1 { counter-set: ex_third-3-2-1-1 0; }
+#ex_third-3-2-1-1 > li::marker { content: ""counter(ex_third-3-2-1-1,lower-alpha)"."; }
+#ex_third-3-2-1-1 > li { counter-increment: ex_third-3-2-1-1; }
+#ex_third-3-3-1-1 { counter-set: ex_third-3-3-1-1 0; }
+#ex_third-3-3-1-1 > li::marker { content: ""counter(ex_third-3-3-1-1,lower-alpha)"."; }
+#ex_third-3-3-1-1 > li { counter-increment: ex_third-3-3-1-1; }
+#ex_third-3-4-1-2 { counter-set: ex_third-3-4-1-2 0; }
+#ex_third-3-4-1-2 > li::marker { content: ""counter(ex_third-3-4-1-2,lower-alpha)"."; }
+#ex_third-3-4-1-2 > li { counter-increment: ex_third-3-4-1-2; }
+#ex_third-3-8-1-2 { counter-set: ex_third-3-8-1-2 0; }
+#ex_third-3-8-1-2 > li::marker { content: ""counter(ex_third-3-8-1-2,lower-alpha)"."; }
+#ex_third-3-8-1-2 > li { counter-increment: ex_third-3-8-1-2; }
+#subsec-types_forces-2 { counter-set: subsec-types_forces-2 0; }
+#subsec-types_forces-2 > li::marker { content: ""counter(subsec-types_forces-2,decimal)"."; }
+#subsec-types_forces-2 > li { counter-increment: subsec-types_forces-2; }
+#subsec-Nlaw_motion-2 { counter-set: subsec-Nlaw_motion-2 0; }
+#subsec-Nlaw_motion-2 > li::marker { content: ""counter(subsec-Nlaw_motion-2,decimal)"."; }
+#subsec-Nlaw_motion-2 > li { counter-increment: subsec-Nlaw_motion-2; }
+#subsec-statics-2-1-1 { counter-set: subsec-statics-2-1-1 0; }
+#subsec-statics-2-1-1 > li::marker { content: ""counter(subsec-statics-2-1-1,lower-roman)"."; }
+#subsec-statics-2-1-1 > li { counter-increment: subsec-statics-2-1-1; }
+#subsubsec-state_eqlbrm-3 { counter-set: subsubsec-state_eqlbrm-3 0; }
+#subsubsec-state_eqlbrm-3 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3,decimal)"."; }
+#subsubsec-state_eqlbrm-3 > li { counter-increment: subsubsec-state_eqlbrm-3; }
+#subsubsec-state_eqlbrm-3-2-1-2 { counter-set: subsubsec-state_eqlbrm-3-2-1-2 0; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3-2-1-2,lower-alpha)"."; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li { counter-increment: subsubsec-state_eqlbrm-3-2-1-2; }
+#sec_fourth-cm-2-4-2 { counter-set: sec_fourth-cm-2-4-2 0; }
+#sec_fourth-cm-2-4-2 > li::marker { content: ""counter(sec_fourth-cm-2-4-2,decimal)"."; }
+#sec_fourth-cm-2-4-2 > li { counter-increment: sec_fourth-cm-2-4-2; }
+#sec_fourth-examplesA-4-1-1-1 { counter-set: sec_fourth-examplesA-4-1-1-1 0; }
+#sec_fourth-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesA-4-1-1-1 > li { counter-increment: sec_fourth-examplesA-4-1-1-1; }
+#sec_fourth-examplesA-4-2-2-2 { counter-set: sec_fourth-examplesA-4-2-2-2 0; }
+#sec_fourth-examplesA-4-2-2-2 > li::marker { content: ""counter(sec_fourth-examplesA-4-2-2-2,lower-alpha)"."; }
+#sec_fourth-examplesA-4-2-2-2 > li { counter-increment: sec_fourth-examplesA-4-2-2-2; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Alphys.html"><span class="title">Physics I:</span> <span class="subtitle">Algebra-Based</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec_third-2D.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_third.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ex_third.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} 
+\newcommand{\Z}{\mathbb Z} 
+\newcommand{\Q}{\mathbb Q} 
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise 1</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-compnt_vect" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec-vect_mult" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-1D.html#subsec-slope" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-eqns_motion" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rel_vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rule_solveMotion" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Problem Solving Technique</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.2</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-projtile_motion" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-2D.html#subsec-cir_kinem" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.2.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.2.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.2.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.2.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercise 3</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force &amp; Equilibrium</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-types_forces" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-Nlaw_motion" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-friction" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-statics" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Exercise 4</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_third-examples"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.3</span><span class="space"> </span><span class="title">Examples</span>
+</h2>
+<article class="example example-like" id="sec_third-examples-2"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-2-1-1">
+<div class="para">Given the velocity versus time graph as shown below: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/fig3l.png" class="contained"></div>
+</div>
+<ol class="decimal" id="sec_third-examples-2-1-1-2">
+<li id="sec_third-examples-2-1-1-2-1"><div class="para" id="p-derived-sec_third-examples-2-1-1-2-1">Construct a table showing distance traveled, velocity, and acceleration at various times throughout the motion and</div></li>
+<li id="sec_third-examples-2-1-1-2-2"><div class="para" id="p-derived-sec_third-examples-2-1-1-2-2">Plot graphs of distance versus time and acceleration versus time.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><ol class="decimal" id="sec_third-examples-2-2-1">
+<li id="sec_third-examples-2-2-1-1">
+<div class="para" id="sec_third-examples-2-2-1-1-1">Select several critical points on the <span class="process-math">\(v\)</span> versus <span class="process-math">\(t\)</span> graph as shown in the given figure. Measure the height of each point and tabulate it as velocity <span class="process-math">\(v\text{.}\)</span> Measure the area under the curve and tabulate it as position <span class="process-math">\(x\text{.}\)</span> Measure the slope of curve and tabulate it as the acceleration <span class="process-math">\(a\text{.}\)</span>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Points</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines"><span class="process-math">\(t (s)\)</span></th>
+<th scope="col" class="c m b1 r0 l0 t0 lines"><span class="process-math">\(x (m)\)</span></th>
+<th scope="col" class="c m b1 r0 l0 t0 lines"><span class="process-math">\(v (m/s)\)</span></th>
+<th scope="col" class="c m b1 r0 l0 t0 lines"><span class="process-math">\(a (m/s^2)\)</span></th>
+<th scope="col" class="c m b1 r0 l0 t0 lines"><span class="process-math">\(x=v_{o}t+\frac{1}{2}a t^2\)</span></th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">A</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">0</td>
+<td class="c m b0 r0 l0 t0 lines">0</td>
+<td class="c m b0 r0 l0 t0 lines">---</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{1}=0\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">B</td>
+<td class="c m b0 r0 l0 t0 lines">4</td>
+<td class="c m b0 r0 l0 t0 lines">4</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{2}{4} = 0.5\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{2} = 0+\frac{1}{2}(0.5)(4^2)=4\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">C</td>
+<td class="c m b0 r0 l0 t0 lines">7</td>
+<td class="c m b0 r0 l0 t0 lines">4+6=10</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines">0</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{3} = 2\times 3 =6\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">D</td>
+<td class="c m b0 r0 l0 t0 lines">9</td>
+<td class="c m b0 r0 l0 t0 lines">10+2=12</td>
+<td class="c m b0 r0 l0 t0 lines">0</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{-2}{2} = -1\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{4} = 2\times 2+\frac{1}{2}(-1)(2^2) =2\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">E</td>
+<td class="c m b0 r0 l0 t0 lines">13</td>
+<td class="c m b0 r0 l0 t0 lines">12-8=4</td>
+<td class="c m b0 r0 l0 t0 lines">-4</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{-4}{4} =-1\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{5} = 0+\frac{1}{2}(-1)(4^2) =-8\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">F</td>
+<td class="c m b0 r0 l0 t0 lines">20</td>
+<td class="c m b0 r0 l0 t0 lines">4-14=-10</td>
+<td class="c m b0 r0 l0 t0 lines">0</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{4}{7} = 0.57\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x_{6}=-4\times 7+\frac{1}{2}(0.57)(7^2) =-14\)</span></td>
+</tr>
+</table></div>
+</li>
+<li id="sec_third-examples-2-2-1-2"><div class="para" id="sec_third-examples-2-2-1-2-1">Plot this tabulated data as shown below: <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:44.4444444444444%;"><img src="external/fig3li.png" class="contained"></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><img src="external/fig3lii.png" class="contained"></div>
+</div></div>
+</div></li>
+</ol></div></details></div></article><article class="example example-like" id="sec_third-examples-3"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-3-1-1">
+<div class="para">Given <span class="process-math">\(x(t) = A t^{3} + B t,\)</span> where <span class="process-math">\(A = 10 m/s^{3}\)</span> and <span class="process-math">\(B = 100 m/s\text{.}\)</span> Find each of the following:</div>
+<ol class="lower-alpha" id="sec_third-examples-3-1-1-4">
+<li id="sec_third-examples-3-1-1-4-1"><div class="para" id="p-derived-sec_third-examples-3-1-1-4-1"><span class="process-math">\(\displaystyle x(2s),\)</span></div></li>
+<li id="sec_third-examples-3-1-1-4-2"><div class="para" id="p-derived-sec_third-examples-3-1-1-4-2"><span class="process-math">\(v\text{,}\)</span></div></li>
+<li id="sec_third-examples-3-1-1-4-3"><div class="para" id="p-derived-sec_third-examples-3-1-1-4-3"><span class="process-math">\(a\text{,}\)</span></div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-3-2-1"><ol class="lower-alpha" id="sec_third-examples-3-2-1-1">
+<li id="sec_third-examples-3-2-1-1-1"><div class="para" id="p-derived-sec_third-examples-3-2-1-1-1"><span class="process-math">\(\displaystyle x(2s)  = x(t) = A t^{3} + B t,
+=  (10 m/s^{3}) (2 s)^{3}  + (100 m/s) (2 s)	=  280 m \)</span></div></li>
+<li id="sec_third-examples-3-2-1-1-2"><div class="para" id="p-derived-sec_third-examples-3-2-1-1-2"><span class="process-math">\(v= \frac{(x_{2} - x_{1})}{(t_{2} - t_{1})}
+= \frac{(280 m - 110 m)}{(2s - 1s)}= 170 m/s \text{,}\)</span></div></li>
+<li id="sec_third-examples-3-2-1-1-3"><div class="para" id="p-derived-sec_third-examples-3-2-1-1-3"><span class="process-math">\(a=  \frac{(v_{2} - v_{1})}{(t_{2} - t_{1})}
+=  \frac{(370m/s - 130m/s)}{(3s-(-1s))}
+=  60 m/s^{2}\text{,}\)</span></div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="sec_third-examples-4"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.3</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-4-1-1">
+<div class="para">A car moving with constant velocity of 10 m/s passes a policeman at rest and proceeds to run a red light 20 m farther down the road. The policeman requires 5 seconds to start his motorcycle, but then accelerate after the car with a constant acceleration of <span class="process-math">\(3 m/s^{2}\text{.}\)</span> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/fig3m.png" class="contained"></div>
+</div>
+<ol class="lower-alpha" id="sec_third-examples-4-1-1-3">
+<li id="sec_third-examples-4-1-1-3-1"><div class="para" id="p-derived-sec_third-examples-4-1-1-3-1">How long after starting out does it take for the policeman to overtake the car?</div></li>
+<li id="sec_third-examples-4-1-1-3-2"><div class="para" id="p-derived-sec_third-examples-4-1-1-3-2">How far does the policeman travel before overtaking the car?</div></li>
+<li id="sec_third-examples-4-1-1-3-3"><div class="para" id="p-derived-sec_third-examples-4-1-1-3-3">How fast will the policeman be moving when he gets to the car?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_third-examples-4-2-1">
+<div class="para">Suppose <span class="process-math">\(p\)</span> is a policeman at rest and <span class="process-math">\(R\)</span> is a red light which is 20 m from the position of police. Hence time taken by the car to pass the traffic signal is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=v_{c}t_{r} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad t_{r}=\frac{x}{v_{c}}=\frac{20}{10}=2 s
+\end{equation*}
+</div>
+<div class="para">Now car is moving with a constant velocity, therefore total distance traveled by the car before caught by police is given by</div>
+<div class="displaymath process-math" id="eqn-police1">
+\begin{equation}
+x_{c}=v_{c} t_{c}=10t_{c}\tag{3.3.1}
+\end{equation}
+</div>
+<div class="para">Total distance travelled by the policeman to catch the car is given by</div>
+<div class="displaymath process-math" id="eqn-police2">
+\begin{equation}
+x_{p}=u_{p} t_{p}+\frac{1}{2} at_{p}^{2} =0+\frac{1}{2}\cdot 3\left(t_{c}-2-5\right)^{2}\tag{3.3.2}
+\end{equation}
+</div>
+<div class="para">where initial velocity of policeman <span class="process-math">\(u_{p}=0\)</span> and total time traveled by the policeman <span class="process-math">\(t_{p}=t_{c}-(2+5)\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\because x_{c}=x_{p}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad  10t_{c} = \frac{3}{2}\left(t_{c}-7\right)^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+20t_{c}=3\left(t^{2}_{c}-14t_{c}+49\right) =3t^{2}_{c}-42t_{c}+147
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad t_{c}=\frac{+62\pm\sqrt{62^{2}-4\cdot 3\cdot147}}{2\cdot 3} =17.93 s \text{or,} 2.73 s
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="sec_third-examples-4-2-2"><ol class="lower-alpha" id="sec_third-examples-4-2-2-1">
+<li id="sec_third-examples-4-2-2-1-1"><div class="para" id="p-derived-sec_third-examples-4-2-2-1-1">Therefore the policeman caught the violator in <span class="process-math">\(17.93 s=\approx 18 s\text{.}\)</span> Neglect 2.73 s as it is less time than the policeman started his motorcycle.</div></li>
+<li id="sec_third-examples-4-2-2-1-2"><div class="para" id="p-derived-sec_third-examples-4-2-2-1-2"><span class="process-math">\(\displaystyle x_{c}=10\times 18 =180 m\)</span></div></li>
+<li id="sec_third-examples-4-2-2-1-3"><div class="para" id="p-derived-sec_third-examples-4-2-2-1-3"><span class="process-math">\(v_{p}=u_{p}+at_{p}= 0+3\times 18=54 m/s\text{.}\)</span></div></li>
+</ol></div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-5"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-5-1-1">
+<div class="para">A man drops a stone into a well and hears the splash 5 seconds later. If the speed of sound is <span class="process-math">\(345 m/s\text{,}\)</span>
+</div>
+<ol class="decimal" id="sec_third-examples-5-1-1-2">
+<li id="sec_third-examples-5-1-1-2-1"><div class="para" id="p-derived-sec_third-examples-5-1-1-2-1">how deep is the well?</div></li>
+<li id="sec_third-examples-5-1-1-2-2"><div class="para" id="p-derived-sec_third-examples-5-1-1-2-2">How fast was the stone traveling when it hits the water?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-5-2-1">
+<div class="para">Given:</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+v_{o1}  = 0; \quad a_{1}  =  g  =  -9.8 m/s^{2}; \quad v_{2}  =  345 m/s
+\end{equation*}
+</div>
+<div class="para">The depth of well can be calculated by</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+y_{f} - y_{o} =  v_{o1} t_{1} + \frac{1}{2} a t^{2}_{1}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(v_{o1}\text{,}\)</span> is the initial velocity, <span class="process-math">\(y_{f}\)</span> and <span class="process-math">\(y_{o}\)</span> are the final and initial position of the stone and <span class="process-math">\(y_{f} - y_{o} = -h-0 =-h\)</span> is the depth of the well, <span class="process-math">\(a = g \)</span> is the acceleration due to gravity, and <span class="process-math">\(t_{1}\text{,}\)</span> is the time taken by stone to reach the water level in the well.</div>
+<div class="displaymath process-math" data-contains-math-knowls="" id="eqn-ch3q4i">
+\begin{equation}
+-h= 0+\frac{1}{2} g t^{2}_{1} = -\frac{1}{2} (9.8) t^{2}_{1}  \qquad \Rightarrow \quad h=4.9t^{2}_{1}\tag{3.3.3}
+\end{equation}
+</div>
+<div class="para">Now sound travels back at a constant speed.</div>
+<div class="displaymath process-math" data-contains-math-knowls="" id="eqn-ch3q4ii">
+\begin{equation}
+h  =  v_{2} t_{2}\tag{3.3.4}
+\end{equation}
+</div>
+<div class="para">But the distance traveled by the stone and sound are equal to the depth of the well, and total time is 5 seconds. Hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+h_{stone}  = h_{sound}; \quad  t_{1}+ t_{2}  =  5 s
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+4.9t^{2}_{1}  =  v_{2} t_{2}  
+\end{equation*}
+</div>
+<div class="para">from <a href="sec_third-examples.html#eqn-ch3q4i" class="xref" data-knowl="./knowl/xref/eqn-ch3q4i.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 3.3.3">(3.3.3)–(3.3.4)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+or, \quad 4.9t^{2}_{1} = 345(5  - t_{1}) \qquad [\because t_{2}  =  5s - t_{1}]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{or,}\quad 4.9t^{2}_{1}+345t_{1}-1725 =0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{or,}\quad t=\frac{-345\pm\sqrt{345^{2}-4\cdot4.9\cdot(-1725)}}{2\cdot4.9}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\therefore t_{1}= 4.68 s; \qquad t_{2}=0.32 s;\quad \text{and}\quad h  =  v_{2} t_{2}  =  110.4 m
+\end{equation*}
+</div>
+<div class="para">The final velocity of stone when it touches water</div>
+<div class="displaymath process-math" data-contains-math-knowls="" id="eqn-ch2q4iii">
+\begin{equation}
+v_{f}  =  v_{o1}  +  a t_{1} \tag{3.3.5}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+v_{f}  =0 - g t_{1}  =  -45.86 m/s \quad (downwards)
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-6"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.5</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-6-1-1">
+<div class="para">A pilot in an airplane traveling with an air speed of 100 mph wants to fly to a city 200 miles due east of his current position. There is a 20 mph wind blowing from the south-west.</div>
+<ol class="lower-alpha" id="sec_third-examples-6-1-1-1">
+<li id="sec_third-examples-6-1-1-1-1"><div class="para" id="p-derived-sec_third-examples-6-1-1-1-1">At what heading should the pilot point his aircraft?</div></li>
+<li id="sec_third-examples-6-1-1-1-2"><div class="para" id="p-derived-sec_third-examples-6-1-1-1-2">How long will it take for the plane to reach its destination?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-examples-6-2-1">Given: <span class="process-math">\(v_{pa}  =  100 mph;\)</span> <span class="process-math">\(x_{pg}  =  200 m\hat{i};\)</span>  <span class="process-math">\(v_{ag}  =  20 mph\)</span> at <span class="process-math">\(45^{o} \)</span> W of S <span class="process-math">\(=  20 mph (- \sin 45^{o}\hat{i} - \cos 45^{o}\hat{j})\text{.}\)</span> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/fig3mi.png" class="contained"></div>
+</div>
+<div class="para logical" id="sec_third-examples-6-2-2">
+<div class="para">Vector Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{v}_{pg}  =  \vec{v}_{pa} + \vec{v}_{ag}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{x}_{pg}  =  \vec{v}_{pg} t	
+\end{equation*}
+</div>
+<div class="para">Scalar Equations:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{pg}  =  v_{pa} \sin\theta  -  v_{ag} \sin 45^{o};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0=  v_{pa}\cos\theta - v_{ag} \cos 45^{o};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x_{pg}  =  v_{pg} t
+\end{equation*}
+</div>
+<ol class="lower-alpha" id="sec_third-examples-6-2-2-6">
+<li id="sec_third-examples-6-2-2-6-1"><div class="para" id="p-derived-sec_third-examples-6-2-2-6-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\theta  =  v_{ag} cos 45^{o} / v_{pa}  =   20 \cos 45^{o} / 100  =  0.1414
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \theta  = 81.87^{o}
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_third-examples-6-2-2-6-2"><div class="para" id="p-derived-sec_third-examples-6-2-2-6-2">
+<div class="displaymath process-math">
+\begin{equation*}
+v_{pg}  =  v_{pa} \sin\theta -  v_{ag} \sin 45^{o}  =  100 \sin\theta - 20\sin 45^{o} =  84.85 mph
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore t  =  x_{pg} / v_{pg}  =  2.36 h
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-7-1-1">
+<div class="para">A man has two balls, he throws the first one straight up 10 meters high. At the instant the first rock reaches its highest point, he throws the second rock upward with the same initial speed as the first.</div>
+<ol class="lower-alpha" id="sec_third-examples-7-1-1-1">
+<li id="sec_third-examples-7-1-1-1-1"><div class="para" id="p-derived-sec_third-examples-7-1-1-1-1">What was the initial velocity of the first ball?</div></li>
+<li id="sec_third-examples-7-1-1-1-2"><div class="para" id="p-derived-sec_third-examples-7-1-1-1-2">How long will it take the second ball to pass the first?</div></li>
+<li id="sec_third-examples-7-1-1-1-3"><div class="para" id="p-derived-sec_third-examples-7-1-1-1-3">At what height will the two balls pass one another?</div></li>
+<li id="sec_third-examples-7-1-1-1-4"><div class="para" id="p-derived-sec_third-examples-7-1-1-1-4">At that time, which ball is traveling the faster?</div></li>
+<li id="sec_third-examples-7-1-1-1-5"><div class="para" id="p-derived-sec_third-examples-7-1-1-1-5">How long was the first ball in the air?</div></li>
+</ol>
+</div>
+<div class="solutions">
+<details id="sec_third-examples-7-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec_third-examples-7-3-1">Draw a picture at each critical time for the above motion and label your drawings.</div></div></details><details id="sec_third-examples-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-examples-7-2-1"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/fig3mii.png" class="contained"></div></div>
+<ol class="lower-alpha" id="sec_third-examples-7-2-2">
+<li id="sec_third-examples-7-2-2-1"><div class="para logical" id="sec_third-examples-7-2-2-1-1">
+<div class="para">The velocity of first ball is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{f}^{2}=v_{i}^{2}+2a(x_{f}-x_{i})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad 0 = v^{2}_{1i}+2(-9.8) 10
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore  v_{1i} = 14 m/s=v_{2i}
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_third-examples-7-2-2-2"><div class="para logical" id="sec_third-examples-7-2-2-2-1">
+<div class="para">The first ball passes the second ball at time <span class="process-math">\(t_{2}\)</span> when the first ball falling from its maximum height</div>
+<div class="displaymath process-math">
+\begin{equation*}
+h=|h_{1}|+ |h_{2}|=(y_{1f}-y_{1i})+(y_{2f}-y_{2i})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+10= -(v'_{1i}t_{2}-\frac{1}{2}gt^{2}_{2})+(v_{2i}t_{2}-\frac{1}{2}gt^{2}_{2}) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 0+v_{2i}t_{2} =14 t_{2} [\because (y_{1f}-y_{1i})\quad \text{is -ve}]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore t_{2}=\frac{10}{14} = 0.7143 s
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_third-examples-7-2-2-3"><div class="para logical" id="sec_third-examples-7-2-2-3-1"><div class="displaymath process-math">
+\begin{equation*}
+h_{2}= v_{2i}t_{2}-\frac{1}{2}gt^{2}_{2}=14 (0.7143)-4.9(0.7143)^{2} = 7.50 m 
+\end{equation*}
+</div></div></li>
+<li id="sec_third-examples-7-2-2-4"><div class="para logical" id="sec_third-examples-7-2-2-4-1">
+<div class="para">The velocity of ball I at that time</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{1c} = 0-(9.8)t_{2} = -9.8\times (0.7143) = -7.0 m/s
+\end{equation*}
+</div>
+<div class="para">The velocity of ball II at that time</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{2c} = 14-(9.8)t_{2} = 14-9.8\times 0.7143 = 7.00 m/s
+\end{equation*}
+</div>
+<div class="para">Hence, they have the same velocity at that time, ball I is falling down and ball II is going up.</div>
+</div></li>
+<li id="sec_third-examples-7-2-2-5"><div class="para logical" id="sec_third-examples-7-2-2-5-1">
+<div class="para">Time taken by ball I for maximum height <span class="process-math">\(v_{f}=v_{i}+at\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0=14-9.8t \quad \Rightarrow t = \frac{14}{9.8} =1.43 s
+\end{equation*}
+</div>
+<div class="para">Therefore total time for ball I in air is given by <span class="process-math">\(t=1.43+1.43=2.86s.\)</span>
+</div>
+</div></li>
+</ol>
+<div class="para logical" id="sec_third-examples-7-2-3">
+<div class="para"><em class="alert">Alternative,</em></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[y_{f}-y_{i}=0=14t-\frac{1}{2}9.8t^{2} \Rightarrow t = \frac{14\pm\sqrt{14^{2}}}{9.8}= 2.86 s \right]
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article><article class="example example-like" id="sec_third-examples-8"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-8-1-1">A boy at playground drives two miles home at 30 mph to get her ball and immediately drives back at 20 mph. What was his average velocity for the round trip?</div>
+<div class="solutions"><details id="sec_third-examples-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-8-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+v_{av}=\frac{x_{f}-x_{i}}{t_{f}-t_{i}}  = \frac{\Delta s}{\Delta t}=0 
+\end{equation*}
+</div>
+<div class="para">Note that the average speed is not zero.</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-9"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.8</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-9-1-1">A boy going from home to school walks at 1m/s for (1/3) of the time and 1.5 m/s for rest of the time. He forgot his physics notebook and thus returns immediatley to home. He jogs half of the distance at 1 m/s and rest of the distance at 1.5 m/s. Find his average speed for the trip.</div>
+<div class="solutions"><details id="sec_third-examples-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-9-2-1">
+<div class="para">From home (H) to school (S).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+d=v_{1}t_{1}+v_{2}t_{2} \quad = 1\times \frac{1}{3}t + 1.5\times(1-\frac{1}{3}t)  = \frac{4}{3}t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad v_{HS} = \frac{d}{t} = \frac{4}{3}  m/s
+\end{equation*}
+</div>
+<div class="para">From school (S) to home (H).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+t=t_{1}+t_{2}  \quad =  \dfrac{\frac{d}{2}}{v_{1}} + \dfrac{\frac{d}{2}}{v_{2}}   = \frac{d}{2}\left(  \frac{1}{1}+ \frac{1}{1.5}\right) = \frac{d}{2}\left( \frac{1}{2}+\frac{1}{3}\right) = \frac{5d}{6}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad v_{SH} = \frac{d}{t} = \frac{6}{5} m/s 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad v_{avg} = \dfrac{v_{HS}+ v_{SH}}{2} =\frac{1}{1} \left[\frac{4}{3} + \frac{6}{5}\right] = 1.26 m/s
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-10"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.9</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-10-1-1">
+<div class="para">A boat can move at 5 <span class="process-math">\(m/s\)</span> in still water river. If it is moving in a river in which water is flowing at 1 <span class="process-math">\(m/s\text{,}\)</span> what is the resultant speed of the boat with respect to ground. If</div>
+<ol class="lower-alpha" id="sec_third-examples-10-1-1-3">
+<li id="sec_third-examples-10-1-1-3-1"><div class="para" id="p-derived-sec_third-examples-10-1-1-3-1">the boat goes downstream,</div></li>
+<li id="sec_third-examples-10-1-1-3-2"><div class="para" id="p-derived-sec_third-examples-10-1-1-3-2">the boat goes upstream, and</div></li>
+<li id="sec_third-examples-10-1-1-3-3"><div class="para" id="p-derived-sec_third-examples-10-1-1-3-3">the boat aim directly to the opposite bank of the river.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-10-2-1">
+<div class="para">Given: <span class="process-math">\(v_{bw} =5m/s, v_{wg}=1m/s \text{.}\)</span>
+</div>
+<ol class="lower-alpha" id="sec_third-examples-10-2-1-2">
+<li id="sec_third-examples-10-2-1-2-1">Since both boat and water moving in the same direction, resultant velocity of boat relative to ground is<div class="displaymath process-math">
+\begin{equation*}
+v_{bg}=v_{b}+v_{w} = (5+1) =6 m/s
+\end{equation*}
+</div>
+<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/fig3ni.png" class="contained"></div>
+</li>
+<li id="sec_third-examples-10-2-1-2-2">Since boat and water are moving in opposite direction, resultant velocity of boat relative to ground is<div class="displaymath process-math">
+\begin{equation*}
+v_{bg}=v_{b}-v_{w} = (5-1) =4 m/s
+\end{equation*}
+</div>
+<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/fig3nii.png" class="contained"></div>
+</li>
+<li id="sec_third-examples-10-2-1-2-3">Now boat is moving straight perpendicular to the direction of motion of water hence the resultant velocity of boat relative to ground is <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/fig3niii.png" class="contained"></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{v}_{bg}=\vec{v}_{bw}+\vec{v}_{wg} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore v_{bg} = \sqrt{5^{2}+1^{2}} =5.1m/s 
+\end{equation*}
+</div>and<div class="displaymath process-math">
+\begin{equation*}
+\theta =\tan^{-1}\frac{v_{wg}}{v_{bw}} =11^{o}
+\end{equation*}
+</div>
+</li>
+</ol>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-11"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.10</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-11-1-1">An truck running due north with 10m/s velocity fires a bullet with 100m/s nozzle velocity due north east. What is the velocity of the bullet with respect to ground?</div>
+<div class="solutions"><details id="sec_third-examples-11-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-11-2-1">
+<div class="para">x-component of bullet velocity is <span class="process-math">\(v_{stx}= 100\cos45=70.71 m/s\text{;}\)</span> and y-component of bullet velocity is <span class="process-math">\(v_{sty}= 100\sin45=70.71 m/s\text{.}\)</span> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/fig3niv.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{x}=v_{stx}=70.71m/s; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{y}=v_{tg}+ v_{stx} = 10+70.71 =81.71m/s
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore v_{sg}=\sqrt{v^{2}_{x}+v^{2}_{y}}= 107.30 m/s
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\theta =\tan^{-1}\left(\frac{v_{y}}{v_{x}}\right)=\tan^{-1}\left(\frac{81.71}{70.71}\right) =49^{o}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-12"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-12-1-1">A person running at 3 m/s due east, finds that the rain is dropping at 4 m/s vertically downward. Find the magnitude and direction of velocity with which rain drop hits the ground.</div>
+<div class="solutions"><details id="sec_third-examples-12-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-12-2-1">
+<div class="para">Velocity of a person with respect to ground, <span class="process-math">\(v_{pg}=3 m/s\text{,}\)</span> velocity of rain with respect to person, <span class="process-math">\(v_{rp} = 4m/s,\)</span> and velocity of rain with respect to ground, <span class="process-math">\(v_{rg}\text{.}\)</span> Hence, <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rain1.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" id="sec_third-examples-12-2-1-5">
+\begin{align}
+\vec{v}_{rg} \amp  = a\hat{i}+ b\hat{j}\tag{3.3.6}\\
+\vec{v}_{pg}  \amp = 3\hat{i}  \tag{3.3.7}\\
+\therefore \vec{v}_{rp}\amp  = 4\hat{j} = \vec{v}_{rg}-\vec{v}_{pg}  = a\hat{i}+ b\hat{j}  - 3\hat{i} = (a-3)\hat{i}+ b\hat{j} \tag{3.3.8}
+\end{align}
+</div>
+<div class="para">Equating on both side of the equation, we get - <span class="process-math">\(a=3 m/s,\)</span> and <span class="process-math">\(b= 4m/s\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-examples-12-2-1-8">
+\begin{equation}
+\therefore \vec{v}_{rg} = 3\hat{i}+ 4\hat{j}  \tag{3.3.9}
+\end{equation}
+</div>
+<div class="para">Now if rain makes an angle <span class="process-math">\(\theta\)</span> with the vertical, then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\theta = \tan^{-1}\left(\frac{3}{4}\right) = 37^{o} 
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{rg} =\sqrt{3^{2}+4^{2}} = 5 
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-13"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.12</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-13-1-1">A person riding a bicycle with a speed of 5 m/s towards north direction, observes rain falling vertically down. If he double his speed, rain appears to meet him at <span class="process-math">\(45^{o}\)</span> to the vertical. What is the speed of the rain? In what direction does rain fall as observed by a ground based observer?</div>
+<div class="solutions"><details id="sec_third-examples-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_third-examples-13-2-1">
+<div class="para">Velocity of a person with respect to ground, <span class="process-math">\(v_{pg}=5m/s\text{,}\)</span> velocity of rain with respect to person, <span class="process-math">\(v_{rp}\text{,}\)</span> and velocity of rain with respect to ground, <span class="process-math">\(v_{rg}\text{.}\)</span> Now for case I, <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rain2.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" id="sec_third-examples-13-2-1-5">
+\begin{align}
+\vec{v}_{rg} \amp = a\hat{i}+ b\hat{j}  \tag{3.3.10}\\
+\vec{v}_{pg} \amp = 5\hat{i} \tag{3.3.11}\\
+\therefore \vec{v}_{rp} \amp  =  \vec{v}_{rg}-\vec{v}_{pg}   = a\hat{i}+ b\hat{j}  - 5\hat{i} = (a-5)\hat{i}+ b\hat{j} \tag{3.3.12}
+\end{align}
+</div>
+<div class="para">Since rain appears to fall vertically downward to a person, there is no x- component of <span class="process-math">\(\vec{v}_{rp}\text{.}\)</span> Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a -5 =0 \qquad \Rightarrow a =5 m/s 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-examples-13-2-1-8">
+\begin{equation}
+\therefore \vec{v}_{rp} = b\hat{j} \tag{3.3.13}
+\end{equation}
+</div>
+<div class="para">Again for case II,</div>
+<div class="displaymath process-math" id="sec_third-examples-13-2-1-9">
+\begin{align}
+\vec{v'}_{pg} \amp  = 10\hat{i}   \tag{3.3.14}\\
+\therefore \vec{v'}_{rp}\amp  =  \vec{v}_{rg}-\vec{v'}_{pg}  = (a-10)\hat{i}+ b\hat{j}\tag{3.3.15}
+\end{align}
+</div>
+</div>
+<div class="para logical" id="sec_third-examples-13-2-2">
+<div class="para">But, rain appears to fall now <span class="process-math">\(45^{o}\)</span> to the vertical, hence</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan 45^{o} = 1=\frac{a-10}{b} \quad \Rightarrow b=a-10 = 5-10=-5
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \vec{v}_{rg} = a\hat{i}+ b\hat{j}  = 5\hat{i}-5\hat{j} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{rg} =\sqrt{5^{2}+(-5)^{2}} = 5\sqrt{2}
+\end{equation*}
+</div>
+</div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-14"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.13</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-14-1-1">
+<div class="para">The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. The equatorial radius of the earth is <span class="process-math">\(6.38\times10^{6}\)</span> m.</div>
+<ol class="lower-alpha" id="sec_third-examples-14-1-1-2">
+<li id="sec_third-examples-14-1-1-2-1"><div class="para" id="p-derived-sec_third-examples-14-1-1-2-1">Find the velocity of a person at Barbourville, KY (latitude = <span class="process-math">\(36^{o}52'\)</span>) as they undergo circular motion about the earth’s axis of rotation.</div></li>
+<li id="sec_third-examples-14-1-1-2-2"><div class="para" id="p-derived-sec_third-examples-14-1-1-2-2">Find the person’s centripetal acceleration.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-14-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-14-2-1">
+<div class="para">Given:  Time period, T= 23 h 56 min and 4 sec=</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(23h)\left(60\times 60 \frac{sec}{h}\right)+(56 min)\left(60 \frac{sec}{min}+ 4 sec\right)= 86164 s\text{,}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Radius of the earth,}\quad R= 6.38\times10^{6}m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{angle of latitude,}\quad \lambda = 36^{o}52' = 36^{o}+\left(52\times\frac{1}{60}\right)^{o} = 36.87^{o}.
+\end{equation*}
+</div>
+<div class="para">Radius of the circle at the position of a person, <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/cireart1.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" id="sec_third-examples-14-2-1-5">
+\begin{align*}
+r \amp =R\sin\theta = R\sin\left(\frac{\pi}{2}-\lambda\right) \\
+\amp = R\cos\lambda = (6.38\times10^{6})\cos(36.87^{o}) =5.10\times10^{6}m.  
+\end{align*}
+</div>
+<ol class="lower-alpha" id="sec_third-examples-14-2-1-6">
+<li id="sec_third-examples-14-2-1-6-1"><div class="para" id="p-derived-sec_third-examples-14-2-1-6-1"><div class="displaymath process-math" id="sec_third-examples-14-2-1-6-1-1">
+\begin{align*}
+v \amp =r\omega = r\frac{2\pi}{T} \\
+\amp = \frac{2\times 5.10\times10^{6}\times \pi}{86164} = 372m/s
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-14-2-1-6-2"><div class="para" id="p-derived-sec_third-examples-14-2-1-6-2"><div class="displaymath process-math" id="sec_third-examples-14-2-1-6-2-1">
+\begin{align*}
+a \amp = \frac{v^{2}}{r} = \frac{372^{2}}{5.10\times 10^{6}} = 2.7\times10^{-2}m/s^{2}  
+\end{align*}
+</div></div></li>
+</ol>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-15"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.14</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-15-1-1">
+<div class="para">A baseball is hit at a <span class="process-math">\(30^{o}\)</span> angle with an initial speed of 30 m/s toward a wall 5 m high located 50 m away. Find each of the following: <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/proj2.png" class="contained"></div>
+</div>
+<ol class="lower-alpha" id="sec_third-examples-15-1-1-3">
+<li id="sec_third-examples-15-1-1-3-1"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-1">How fast is the ball initially traveling horizontally?</div></li>
+<li id="sec_third-examples-15-1-1-3-2"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-2">How fast is the ball initially traveling vertically?</div></li>
+<li id="sec_third-examples-15-1-1-3-3"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-3">When does the ball get to the wall?</div></li>
+<li id="sec_third-examples-15-1-1-3-4"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-4">How high is the ball at that time?</div></li>
+<li id="sec_third-examples-15-1-1-3-5"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-5">How fast is the ball traveling at that time?</div></li>
+<li id="sec_third-examples-15-1-1-3-6"><div class="para" id="p-derived-sec_third-examples-15-1-1-3-6">Does the ball clear the fence? By how much?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-15-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-15-2-1"><ol class="lower-alpha" id="sec_third-examples-15-2-1-1">
+<li id="sec_third-examples-15-2-1-1-1"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-1"><div class="displaymath process-math" id="sec_third-examples-15-2-1-1-1-1">
+\begin{align*}
+v_{ox}  \amp  =  v_{o} \cos\theta_{o} = 30\times\cos30^{o}=26 m/s
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-15-2-1-1-2"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-2"><div class="displaymath process-math" id="sec_third-examples-15-2-1-1-2-1">
+\begin{align*}
+v_{oy}\amp  =  v_{o} \sin\theta_{o} =30\times\sin30^{o}=15 m/s
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-15-2-1-1-3"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-3"><div class="displaymath process-math" id="sec_third-examples-15-2-1-1-3-1">
+\begin{align*}
+x \amp  =  v_{ox} t \Rightarrow \quad t=\frac{x}{v_{ox}} = \frac{50 m}{26 m/s} = 1.92 s 
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-15-2-1-1-4"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-4"><div class="displaymath process-math" id="sec_third-examples-15-2-1-1-4-1">
+\begin{align*}
+y \amp  =  v_{oy} t -\frac{1}{2} g t^{2} = 15 \times 1.92 -\frac{1}{2}\times9.8\times(1.92)^{2} =10.7 m
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-15-2-1-1-5"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-5"><div class="displaymath process-math" id="sec_third-examples-15-2-1-1-5-1">
+\begin{align*}
+v_{x} \amp   =  v_{ox} = 26 m/s; \\
+v_{y} \amp =  v_{oy}  -  g t = -3.82 m/s;\\
+v \amp =\sqrt{v^{2}_{x} + v^{2}_{y}}=26.27 m/s
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-15-2-1-1-6"><div class="para" id="p-derived-sec_third-examples-15-2-1-1-6">Yes, by 10.7 m - 5 m = 5.7 m.</div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="sec_third-examples-16"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.15</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-16-1-1">
+<div class="para">A football is punted at an <span class="process-math">\(60^{o}\)</span> angle and travels down field a distance of 40 yards from the kicker toward a receiver located 60 yards away.</div>
+<ol class="lower-alpha" id="sec_third-examples-16-1-1-2">
+<li id="sec_third-examples-16-1-1-2-1"><div class="para" id="p-derived-sec_third-examples-16-1-1-2-1">What was the initial speed of the football?</div></li>
+<li id="sec_third-examples-16-1-1-2-2"><div class="para" id="p-derived-sec_third-examples-16-1-1-2-2">How long was it in the air?</div></li>
+<li id="sec_third-examples-16-1-1-2-3"><div class="para" id="p-derived-sec_third-examples-16-1-1-2-3">How high did it go?</div></li>
+<li id="sec_third-examples-16-1-1-2-4"><div class="para" id="p-derived-sec_third-examples-16-1-1-2-4">How fast must the receiver run to catch the ball?</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-16-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-16-2-1"><ol class="lower-alpha" id="sec_third-examples-16-2-1-1">
+<li id="sec_third-examples-16-2-1-1-1"><div class="para" id="p-derived-sec_third-examples-16-2-1-1-1"><div class="displaymath process-math" id="sec_third-examples-16-2-1-1-1-1">
+\begin{align*}
+v_{ox} \amp   =  vo \cos\theta_{o};\qquad \theta_{o} =  60^{o}; \qquad v_{oy} =  vo \sin\theta_{o};\\
+x \amp =  40 yd  =  120 ft; \quad y_i=0,\quad y_f=0\\
+\text{But,} \quad x \amp =  v_{ox} t; \qquad \text{and}\quad g  =  32 ft/s^{2} \\
+y_f-y_i \amp =  v_{oy} t   - \frac{1}{2} g t^{2};\\
+0 \amp= vo \sin\theta_{o}\left( \frac{x}{vo \cos\theta_{o}}\right)- \frac{1}{2}\times 32 \left(\frac{x}{vo \cos\theta_{o}}\right)^{2}\\
+\therefore \quad v_{o} \amp   =  62.3 ft/s
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-16-2-1-1-2"><div class="para" id="p-derived-sec_third-examples-16-2-1-1-2"><span class="process-math">\(\displaystyle t  =  3.85 s\)</span></div></li>
+<li id="sec_third-examples-16-2-1-1-3"><div class="para" id="p-derived-sec_third-examples-16-2-1-1-3"><div class="displaymath process-math" id="sec_third-examples-16-2-1-1-3-1">
+\begin{align*}
+v_{y}\amp   =  v_{oy}  -  g t;\\
+v_{y} \amp =  0  \\
+t \amp  =  1.68 s; \\
+y \amp  =  v_{oy} t - \frac{1}{2}g t^{2} = 45.48 ft
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-16-2-1-1-4"><div class="para" id="p-derived-sec_third-examples-16-2-1-1-4"><div class="displaymath process-math" id="sec_third-examples-16-2-1-1-4-1">
+\begin{align*}
+x \amp =  v t; \quad  t  =  3.85 s\\
+x  =  60 yd - 40 yd = 20 yd = 60 ft \amp =  v t \\
+\therefore v \amp = \frac{60}{3.85} =15.58 ft/s
+\end{align*}
+</div></div></li>
+</ol></div></div></details></div></article><article class="example example-like" id="sec_third-examples-17"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.16</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-17-1-1">
+<div class="para">A man stands on the roof of a 150 m tall building and throws a rock with a velocity of 30m/s at an angle of <span class="process-math">\(30^{o}\)</span> above the horizontal. Ignore air resistance. Calculate: <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/proj4.png" class="contained"></div>
+</div>
+<ol class="lower-alpha" id="sec_third-examples-17-1-1-3">
+<li id="sec_third-examples-17-1-1-3-1"><div class="para" id="p-derived-sec_third-examples-17-1-1-3-1">The maximum height above the roof reached by the rock.</div></li>
+<li id="sec_third-examples-17-1-1-3-2"><div class="para" id="p-derived-sec_third-examples-17-1-1-3-2">The magnitude and direction of the velocity of the rock just before it strikes the ground.</div></li>
+<li id="sec_third-examples-17-1-1-3-3"><div class="para" id="p-derived-sec_third-examples-17-1-1-3-3">The horizontal distance from the base of the building to the point where the rock strikes the ground.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-17-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-examples-17-2-1">Given: <span class="process-math">\(v_{o}=30m/s {,} \quad y_{f}=y=0 {,} \quad y_{o} =150 m {,}\)</span> and <span class="process-math">\(\theta = 30^{o};\)</span> <span class="process-math">\(v_{ox}=v_{o}\cos\theta = 30\cos30=25.98 m/s =v_x;\)</span> <span class="process-math">\(v_{oy}=v_{o}\sin\theta = 30\sin30=15 m/s. \)</span>
+</div>
+<div class="para logical" id="sec_third-examples-17-2-2"><ol class="lower-alpha" id="sec_third-examples-17-2-2-1">
+<li id="sec_third-examples-17-2-2-1-1"><div class="para" id="p-derived-sec_third-examples-17-2-2-1-1"><div class="displaymath process-math" id="sec_third-examples-17-2-2-1-1-1">
+\begin{align*}
+v^{2}_{f} \amp =v^{2}_{i}-2gh \\
+\text{or,} \quad 0 \amp = v^{2}_{oy}-2\times 9.8 \times h\\
+\therefore h \amp =11.48 m  
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-17-2-2-1-2"><div class="para" id="p-derived-sec_third-examples-17-2-2-1-2"><div class="displaymath process-math" id="sec_third-examples-17-2-2-1-2-1">
+\begin{align*}
+v^{2}_{y} \amp = v^{2}_{oy}-2gy \\
+\amp =(15)^{2}-2\times 9.8 \times (-150) = 225+2940 \\
+\text{or,}\quad v_{y} \amp =\sqrt{3165}= 56.26 m/s\quad (downward) \\
+\therefore v_{f}\amp =\sqrt{v^{2}_{x}+v^{2}_{y}}=\sqrt{(25.98)^{2}+(56.26)^{2}} =61.97 m/s\\
+\phi \amp  = \tan^{-1}\left( \frac{v_{y}}{v_{x}}\right)=  65.21^{o} \quad\text{[below ground]}
+\end{align*}
+</div></div></li>
+<li id="sec_third-examples-17-2-2-1-3"><div class="para" id="p-derived-sec_third-examples-17-2-2-1-3"><div class="displaymath process-math" id="sec_third-examples-17-2-2-1-3-1">
+\begin{align*}
+x \amp =v_{ox}t = 25.98\times 7.27 = 188.87 m  \\
+\because y_{f}-y_{o}\amp =v_{oy}t-\frac{1}{2}gt^{2}\\
+0-150 \amp =15 t-4.9\times t^{2} \\
+\therefore \quad t \amp  = -4.21s, 7.27s 
+\end{align*}
+</div></div></li>
+</ol></div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-18"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.17</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-18-1-1">In a test of <span class="process-math">\(g-suit\)</span> a volunteer is rotated in horizontal circle of radius 7.0 m. what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?</div>
+<div class="solutions"><details id="sec_third-examples-18-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-18-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+a=\frac{v^{2}}{r}= \left(\frac{2\pi r}{T}\right)^{2}\frac{1}{r}=\frac{4\pi ^{2}r}{T^{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore T = \sqrt{\frac{4\pi ^{2}r}{10.0g}}=1.68s
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-19"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.18</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-19-1-1">A 20kg rock is thrown horizontally from the top of a cliff of height 20m from the ground. What must be the minimum speed of the rock so that it falls in a 10 m deep well which is located at 50 m away from the cliff?</div>
+<div class="solutions"><details id="sec_third-examples-19-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-19-2-1">
+<div class="para">Given: Height of cliff, <span class="process-math">\(y=-20m,\)</span> distance of well from the cliff, <span class="process-math">\(x=50m,\)</span> depth of the well, <span class="process-math">\(h=-10m\text{.}\)</span> Now <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/proj5.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v_{o}=v_{ox},\qquad H=y+h = -20-10=-30m 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+But,\quad H =v_{oy}t+\frac{1}{2}gt^{2} = 0-\frac{1}{2}\times 9.8\times t^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore t=\sqrt{\frac{-30}{-4.9}} =2.47s 
+\end{equation*}
+</div>
+<div class="para">Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=v_{ox}t 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad  v_{ox}=v_{o}= \frac{x}{t} = \frac{50}{2.47}=20.24 m/s
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-20"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.19</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-20-1-1">A ball kicked at an angle of <span class="process-math">\(60^o\)</span> hits the window of the building 15 m away. If the window is at height of 2 m above the ground find the time taken by the ball to hits it.</div>
+<div class="solutions"><details id="sec_third-examples-20-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-20-2-1">
+<div class="para">Given: x=15m, <span class="process-math">\(\theta=60^o\text{,}\)</span> h=2m.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=v_o\cos\theta. t
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad t= \frac{15}{v_o\cos\theta} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y=v_o\sin\theta.t -\frac{1}{2}gt^2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2=v_o\sin\theta. \left(\frac{15}{v_o\cos\theta}\right) -\frac{1}{2}gt^2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2=15.\tan\theta -\frac{1}{2}.9.8.t^2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad t= 2.21 s
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-21"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.20</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-21-1-1">
+<div class="para">A hunter fires the dart on a monkey with 15 m/s velocity at tree 20 m away from him. The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired.</div>
+<ol class="lower-alpha" id="sec_third-examples-21-1-1-1">
+<li id="sec_third-examples-21-1-1-1-1"><div class="para" id="p-derived-sec_third-examples-21-1-1-1-1">How long does it take for the dart to get him? and</div></li>
+<li id="sec_third-examples-21-1-1-1-2"><div class="para" id="p-derived-sec_third-examples-21-1-1-1-2">Find the vertical position of where the monkey meets his end.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-21-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-examples-21-2-1">Given: Position of monkey on the tree, <span class="process-math">\(y=15 m,\)</span> distance of tree from the hunter, <span class="process-math">\(x=20m,\)</span> nozle velocity of dart, <span class="process-math">\(v_{o} =15m/s\text{.}\)</span> <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/proj6.png" class="contained"></div>
+</div>
+<div class="para logical" id="sec_third-examples-21-2-2"><ol class="lower-alpha" id="sec_third-examples-21-2-2-1">
+<li id="sec_third-examples-21-2-2-1-1"><div class="para" id="p-derived-sec_third-examples-21-2-2-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\theta = \tan^{-1}\left(\frac{y}{x}\right)=37^{o}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x =v_{ox}t =v_{o}\cos\theta t 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad t= \frac{x}{v_{o}\cos\theta}=1.67s
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_third-examples-21-2-2-1-2"><div class="para" id="p-derived-sec_third-examples-21-2-2-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+h=v_{oy}t+\frac{1}{2}gt^{2}=v_{o}\sin\theta \times (1.67)-\frac{1}{2}\times 9.8\times (1.67)^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore h= 15\times\sin37^{o}\times 1.67-4.9\times (1.67)^{2} =1.4 m
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-22"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.21</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_third-examples-22-1-1">
+<div class="para">The golf is bouncing from the floor with components of velocity <span class="process-math">\(v_{x} =
+0.662 m/s\)</span> and <span class="process-math">\(v_{y} = 3.66 m/s.\)</span>
+</div>
+<ol class="lower-alpha" id="sec_third-examples-22-1-1-3">
+<li id="sec_third-examples-22-1-1-3-1"><div class="para" id="p-derived-sec_third-examples-22-1-1-3-1">Determine the horizontal distance from the point where the ball left the floor to the point where it hits the floor again.</div></li>
+<li id="sec_third-examples-22-1-1-3-2"><div class="para" id="p-derived-sec_third-examples-22-1-1-3-2">The ball leaves the floor at x = 0, y = 0. Determine the ball’s y coordinate as a function of x.</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_third-examples-22-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-examples-22-2-1">Given: <span class="process-math">\(v_{x} = v_{xo}=0.662 m/s, \quad v_{y} =v_{yo}= 3.66 m/s, \quad a_{x}=0, \quad a_{y}=-g.\)</span>
+</div>
+<div class="para logical" id="sec_third-examples-22-2-2"><ol class="lower-alpha" id="sec_third-examples-22-2-2-1">
+<li id="sec_third-examples-22-2-2-1-1"><div class="para" id="p-derived-sec_third-examples-22-2-2-1-1">When it hits the ground,<div class="displaymath process-math" id="sec_third-examples-22-2-2-1-1-1">
+\begin{align*}
+h\amp =v_{yo}t+\frac{1}{2}gt^{2}\\
+0 \amp  =3.66t-\frac{1}{2}(9.8)t^{2}\\
+\therefore \quad t \amp = \frac{2\times3.66}{9.8}=0.747 s\\
+and \quad x \amp =v_{xo}t = 0.662\times0.747 = 0.494m
+\end{align*}
+</div>
+</div></li>
+<li id="sec_third-examples-22-2-2-1-2"><div class="para" id="p-derived-sec_third-examples-22-2-2-1-2">At any point of the flight, we have<div class="displaymath process-math" id="sec_third-examples-22-2-2-1-2-1">
+\begin{align*}
+y_{f} \amp =y_{o}+v_{i}t+\frac{1}{2}gt^{2}
+\end{align*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad y = 0 + v_{yo}\left[ \frac{x}{v_{xo}}\right]-\frac{1}{2}(9.8) \left[\frac{x}{v_{xo}}\right]^{2} \quad [\because \quad x = v_{xo}t]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore y = 5.53 x - (11.2/m) x^{2} 
+\end{equation*}
+</div>
+</div></li>
+</ol></div>
+</div></details></div></article><article class="example example-like" id="sec_third-examples-23"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.22</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-23-1-1">A football is kicked from 40 m away from the goalpost at 25 m/s. The goalpost crossbar is 3.5 m above the ground. Determine the minimum and maximum kicking angles which will take the goal.</div>
+<div class="solutions"><details id="sec_third-examples-23-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-23-2-1">
+<div class="para">Given: <span class="process-math">\(v_{o} =25 m/s,\)</span> <span class="process-math">\(d=40m,\)</span> and <span class="process-math">\(h =3.5\)</span> m.</div>
+<div class="displaymath process-math" id="sec_third-examples-23-2-1-4">
+\begin{align*}
+d \amp = v_{ox}t\\
+or, \quad 40 \amp = v_{o} \cos\theta \cdot t
+\end{align*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad t = \frac{40}{v_{o}\cos\theta} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Now,} \quad y-y_{o} = ut -\frac{1}{2} gt^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad h = v_{o}\sin\theta\cdot t - 4.9 t^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad h =   v_{o}\sin\theta \cdot {\frac{40}{v_{o}\cos\theta}} - 4.9 \left(\frac{40}{v_{o}\cos\theta}\right)^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad 3.5 =   40\tan\theta - \frac{7840}{400} \sec^{2}\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad 3.5 =   40\tan\theta - \frac{7840}{625} (1+\tan^{2}\theta) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad 16.04 =   40\tan\theta - 12.54\tan^{2}\theta
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad 12.54 \tan^{2}\theta - 40\tan\theta + 16.04 = 0 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad \tan\theta = \dfrac{-40\pm\sqrt{40^{2}-4\times 12.54\times 16.04}}{2\times 12.54}   =  2.73, 0.472
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad \theta = 70^{o}, \quad 25^{o} 
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_third-examples-24"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.23</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_third-examples-24-1-1">A point P on wheel of radius 0.5 m which was touching the road initially had made a 3/4 revolution on the road. Find its displacement.</div>
+<div class="solutions"><details id="sec_third-examples-24-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_third-examples-24-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\vec{D}= \frac{3}{4}(2\pi r)\hat{i}+r\hat{i}+ r\hat{j}
+\end{equation*}
+</div>
+<div class="para">Note: <span class="process-math">\(\frac{3}{4}(2\pi r)\)</span> is the distance of center to center displacement on x axis but point P is still r distance ahead of new point of contact. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/wheel.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \quad \vec{D} = 2.86\hat{i} +0.5\hat{j} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad D = 2.9 m
+\end{equation*}
+</div>
+</div></div></details></div></article></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_third-2D.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ex_third.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

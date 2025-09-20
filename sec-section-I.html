@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Physical Quantities</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physics I">
+<meta property="book:author" content="Sunil Karna">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec_dimanal-subsection-2-2 { counter-set: subsec_dimanal-subsection-2-2 0; }
+#subsec_dimanal-subsection-2-2 > li::marker { content: ""counter(subsec_dimanal-subsection-2-2,decimal)"."; }
+#subsec_dimanal-subsection-2-2 > li { counter-increment: subsec_dimanal-subsection-2-2; }
+#subsec-erranalysis-3 { counter-set: subsec-erranalysis-3 0; }
+#subsec-erranalysis-3 > li::marker { content: ""counter(subsec-erranalysis-3,lower-alpha)"."; }
+#subsec-erranalysis-3 > li { counter-increment: subsec-erranalysis-3; }
+#subsec-sigfig-2-6 { counter-set: subsec-sigfig-2-6 0; }
+#subsec-sigfig-2-6 > li::marker { content: ""counter(subsec-sigfig-2-6,lower-roman)"."; }
+#subsec-sigfig-2-6 > li { counter-increment: subsec-sigfig-2-6; }
+#subsubsec-rounding_off-6 { counter-set: subsubsec-rounding_off-6 0; }
+#subsubsec-rounding_off-6 > li::marker { content: ""counter(subsubsec-rounding_off-6,lower-roman)"."; }
+#subsubsec-rounding_off-6 > li { counter-increment: subsubsec-rounding_off-6; }
+#subsubsec-math_op_sig-2 { counter-set: subsubsec-math_op_sig-2 0; }
+#subsubsec-math_op_sig-2 > li::marker { content: ""counter(subsubsec-math_op_sig-2,upper-roman)"."; }
+#subsubsec-math_op_sig-2 > li { counter-increment: subsubsec-math_op_sig-2; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Alphys.html"><span class="title">Physics I:</span> <span class="subtitle">Algebra-Based</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch-I.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-I.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-chapter-title.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} 
+\newcommand{\Z}{\mathbb Z} 
+\newcommand{\Q}{\mathbb Q} 
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-I.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-section-I.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-I.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-I.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-I.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-section-I.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-I.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-section-I.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">2</span> <span class="title">Chapter Title</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-II.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Section Title</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-section-I"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Physical Quantities</span>
+</h2>
+<section class="introduction" id="sec-section-I-2"><div class="para" id="sec-section-I-2-1">There are three fundamental physical quantities, length, mass, and time which are independent to one another. However, to completely express our daily life physical events these three quantities would not be sufficient so some more physical quantities were included later in the list of fundamental quantity and are altogether known as the base quantities. Their units are called  <em class="emphasis">fundamental or base units</em>. The units of  all other physical quantities can be expressed  as combinations of the base units. Such units obtained for the physical quantities are called the <em class="emphasis">derived units</em>. A complete set of these  units, both the  base  units and  derived  units,  is known as the system of units. The diverse human history and geo-political issues gave birth to many systems of units some of them are now obsolete and some of them are still in use at different parts of world. The three different systems of units are considered here for discussion. They are FPS (foot pound second), MKS (meter kilogram second) systems, and  CGS (centimeter gram second). The FPS system  of units is  also called British system and  MKS system is also called a metric  system. The metric system is  a decimalized  system  of  measurement developed  in France  in late <span class="process-math">\(18^{th}\)</span> century. Since  the metric  system  is  almost  universally  used,  it  is often  referred to  as  the  International  System  of Units and abbreviated SI. Since SI units use decimal system, unit conversion within the system is quite simple and convenient. The systems of units are summarized in <em class="alert">table 1.1</em>.</div>
+<figure class="table table-like" id="sec-section-I-2-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span>Physical Quantities and their Units</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Physicqal Quantity</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">SI Units</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Symbol</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Length</td>
+<td class="c m b0 r0 l0 t0 lines">Meter</td>
+<td class="c m b0 r0 l0 t0 lines">m</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Mass</td>
+<td class="c m b0 r0 l0 t0 lines">Kilogram</td>
+<td class="c m b0 r0 l0 t0 lines">kg</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Time</td>
+<td class="c m b0 r0 l0 t0 lines">Second</td>
+<td class="c m b0 r0 l0 t0 lines">s</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Electric Current</td>
+<td class="c m b0 r0 l0 t0 lines">Ampere</td>
+<td class="c m b0 r0 l0 t0 lines">A</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Temperature</td>
+<td class="c m b0 r0 l0 t0 lines">Kelvin</td>
+<td class="c m b0 r0 l0 t0 lines">K</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Amount of substance</td>
+<td class="c m b0 r0 l0 t0 lines">Mole</td>
+<td class="c m b0 r0 l0 t0 lines">mol</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Luminous Intensity</td>
+<td class="c m b0 r0 l0 t0 lines">Candela</td>
+<td class="c m b0 r0 l0 t0 lines">cd</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Plane Angle</td>
+<td class="c m b0 r0 l0 t0 lines">Radian</td>
+<td class="c m b0 r0 l0 t0 lines">rad</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Solid Angle</td>
+<td class="c m b0 r0 l0 t0 lines">steradian</td>
+<td class="c m b0 r0 l0 t0 lines">sterad</td>
+</tr>
+</table></div></figure><div class="para" id="sec-section-I-2-3">Definitions: A <dfn class="terminology">meter</dfn> is the length of the path traveled by light in vacuum during a time interval of <span class="process-math">\(1/299,792,458\)</span> second. <dfn class="terminology">Kilogram</dfn> is the mass of a platinum-iridium alloy cylinder stored in the International Bureau of Weights and Measures at Saint-Cloud, France.  A <dfn class="terminology">second</dfn> is the time that elapses during <span class="process-math">\(9192631770\)</span> cycles of a cesium-133 atomic clock. An <dfn class="terminology">ampere</dfn> is the current which would produce a force <span class="process-math">\(2\times 10^{-7}\)</span> Newton per meter if passes through two negligibly thin straight parallel conductors of infinite length when placed at 1 meter apart in vacuum. <dfn class="terminology">Kelvin</dfn> is a temperature which defines the triple point of water as 273.16 K. A <dfn class="terminology">mole</dfn> is the amount of substance that contains as many elementary entities as there are atoms in exactly 12 grams of carbon-12 isotope. One mole of anything is equal to Avogadro’s number. <dfn class="terminology">Candela</dfn> is the intensity of a light source that emits monochromatic radiation of frequency <span class="process-math">\(540\times 10^{12}\)</span> hertz and has a radiant intensity <span class="process-math">\(\frac{1}{683}\)</span> watt per steradian in the same direction. <dfn class="terminology">Radian</dfn> is the ratio of length of arc <span class="process-math">\(\,ds\)</span> to the radius <span class="process-math">\(r\)</span> of a circle [<a href="sec-section-I.html#fig1a" class="xref" data-knowl="./knowl/xref/fig1a.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.2.(a)">Figure 1.1.2.(a)</a>]. <dfn class="terminology">Sterad</dfn> is the ratio of the intercepted area <span class="process-math">\(\,dA\)</span> of the spherical surface, described about the apex O as the center, to the square of its radius <span class="process-math">\(r\)</span> [<a href="sec-section-I.html#fig1b" class="xref" data-knowl="./knowl/xref/fig1b.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.1.2.(b)">Figure 1.1.2.(b)</a>].</div>
+<figure class="figure figure-like" id="sec-section-I-2-4"><div class="sidebyside"><div class="sbsrow" style="margin-left:13.75%;margin-right:13.75%;">
+<div class="sbspanel top" style="width:27.5862068965517%;"><figure class="figure figure-like" id="fig1a"><img src="external/fig1a.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span></figcaption></figure></div>
+<div class="sbspanel top" style="width:34.4827586206897%;"><figure class="figure figure-like" id="fig1b"><img src="external/fig1b.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.2<span class="period">.</span></span><span class="space"> </span>Plane (a) and solid angle (b)</figcaption></figure></section><section class="subsection" id="subsec_dimanal-subsection"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Derived Units</span>
+</h3>
+<section class="introduction" id="subsec_dimanal-subsection-2"><div class="para" id="subsec_dimanal-subsection-2-1">Derived units are the unit of such physical quantities which depends on the base physical quantities via a mathematical relation between them. Some of the derived units are expressed below.</div>
+<ol class="decimal" id="subsec_dimanal-subsection-2-2">
+<li id="subsec_dimanal-subsection-2-2-1">
+<div class="para" id="subsec_dimanal-subsection-2-2-1-1">
+<dfn class="terminology">Area</dfn> =<span class="process-math">\(Length \times Length = L^{2}\)</span>
+</div>
+<div class="para" id="subsec_dimanal-subsection-2-2-1-2">i.e. <span class="process-math">\(m^{2}\)</span> in SI system, <span class="process-math">\(cm^{2}\)</span> in CGS system, and <span class="process-math">\(ft^{2}\)</span> in FPS system.</div>
+</li>
+<li id="subsec_dimanal-subsection-2-2-2">
+<div class="para" id="subsec_dimanal-subsection-2-2-2-1">
+<dfn class="terminology">Density</dfn> =<span class="process-math">\(\frac{mass}{volume}=\frac{M}{L^{3}}\)</span>
+</div>
+<div class="para" id="subsec_dimanal-subsection-2-2-2-2">i.e. <span class="process-math">\(kg/m^{3}\)</span> in SI system, <span class="process-math">\(g/cm^{3}\)</span> in CGS system, and <span class="process-math">\(lb/ft^{3}\)</span> in FPS system, (lb stands for pound).</div>
+</li>
+<li id="subsec_dimanal-subsection-2-2-3">
+<div class="para" id="subsec_dimanal-subsection-2-2-3-1">
+<dfn class="terminology">Speed</dfn> =<span class="process-math">\(\frac{length}{time}\)</span>
+</div>
+<div class="para" id="subsec_dimanal-subsection-2-2-3-2">i.e. <span class="process-math">\(m/s\)</span> in SI system, <span class="process-math">\(cm/s\)</span> in CGS system, and <span class="process-math">\(ft/s\)</span> in FPS system.</div>
+</li>
+<li id="subsec_dimanal-subsection-2-2-4">
+<div class="para" id="subsec_dimanal-subsection-2-2-4-1">
+<dfn class="terminology">Electric resistance</dfn> = <span class="process-math">\(\frac{\text{electric potential difference}}{current}\)</span>
+</div>
+<div class="para" id="subsec_dimanal-subsection-2-2-4-2">i.e. <span class="process-math">\(V/A = kgm^{2}/A^{2}s^{3}=\Omega (Ohm)\)</span> in SI system.</div>
+</li>
+<li id="subsec_dimanal-subsection-2-2-5">
+<div class="para" id="subsec_dimanal-subsection-2-2-5-1">
+<dfn class="terminology">Magnetic flux</dfn> =electric potential <span class="process-math">\(\times time\)</span>
+</div>
+<div class="para" id="subsec_dimanal-subsection-2-2-5-2">i.e. <span class="process-math">\(Vs\)</span> or wb (weber) in SI system.</div>
+</li>
+</ol></section><section class="subsubsection" id="subsubsec-diamanlysis"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.1.1</span><span class="space"> </span><span class="title">Dimensional Analysis</span>
+</h4>
+<div class="para" id="subsubsec-diamanlysis-2">We can express the derived physical quantity by the dimensions of the base quantities. The dimensions of mass, length, and time are written as [M], [L], and [T], respectively. The square brackets round the letter represent dimensions of a base quantity. The dimensions of any other quantity will involve one or more of these basic dimensions. For example, the  volume occupied by an object can be expressed as a product of length, breadth, and height, hence the dimensions of volume are <span class="process-math">\([L]\times [L]\times [L]=[L]^{3}\text{.}\)</span> Similarly, velocity is a distance divided by a time, and hence the dimensions of velocity are  <span class="process-math">\([L][T]^{-1}\text{.}\)</span> The dimensional equations of speed [v], force [F] and mass density <span class="process-math">\([\rho]\)</span> can be expressed as <span class="process-math">\([v]=[M^{o}LT^{-1}]\text{,}\)</span> <span class="process-math">\([F]=[MLT^{-2}]\text{,}\)</span> and <span class="process-math">\([\rho]=[ML^{-3}T^{o}]\text{.}\)</span>
+</div>
+<div class="para" id="subsubsec-diamanlysis-3">Dimensional analysis is a method in which the relationship between different physical quantities (or units) can be analyzed by identifying their base quantities (or units). Dimensional analysis helps convert the  units of one system into another system or helps check the resulting formula in a physical process. Some quantities have no dimensions and they are called dimensionless quantities, e.g. the ratio of two lengths are dimensionless. The dimensional consistency does  not guarantee the correctness of equations. It is uncertain to the extent of dimensionless  quantities or functions. Dimensional analysis is based on the principle of homogeneity which states that the dimensions of both sides of an equation are same.  For example, in the equation below dimension on left is equal to dimension on right.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=x_{o}+v_{o}t+\frac{1}{2}at^{2}.
+\end{equation*}
+</div>
+<div class="para logical" id="subsubsec-diamanlysis-5">
+<div class="para">To verify that let us use the principle of homogeneity, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+[L]=[L]+[LT^{-1}][T] + [LT^{-2}][T]^{2} = [L]+[L]+[L] =3[L]
+\end{equation*}
+</div>
+<div class="para">which implies that both sides of the equation has the same dimension, hence  this equation is a dimensionally correct. It must be noted that  a dimensionally correct equation  need not be an  exact (correct) equation, but a dimensionally wrong (incorrect) equation must be wrong.</div>
+</div>
+<div class="para logical" id="subsubsec-diamanlysis-6">
+<div class="para">Use principle of homogeneity to find the time period of the oscillation of a simple pendulum  which is dependent on its mass,  length, and the acceleration due to gravity. From the given information, we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+time \varpropto  mass^a* (length)^b* g^c
+\end{equation*}
+</div>
+<div class="para">or,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T = K* M^a* L^b* g^c
+\end{equation*}
+</div>
+<div class="para">[where K is a dimensionless quantity]</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad [M^{o}L^{o}T] = [M]^a* [L]^b*[L*T^-2]^c = [M^{a}L^{b+c}T^{-2c}]
+\end{equation*}
+</div>
+<div class="para">Equating the power on both sides of the dimensional equation, we get - <span class="process-math">\(a=0, \quad b+c=0, \quad -2c=1 \Rightarrow \quad c=-\frac{1}{2},\)</span> and <span class="process-math">\(b=-c=\frac{1}{2},\)</span> <span class="process-math">\(\qquad\therefore\quad t =K \sqrt{\frac{l}{g}}\)</span>
+</div>
+</div>
+<div class="para" id="subsubsec-diamanlysis-7">Some derived units are summarized in the table 1.2.</div>
+<figure class="table table-like" id="subsubsec-diamanlysis-8"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.3<span class="period">.</span></span><span class="space"> </span>Physical Quantities and their Units</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Physical Quantity</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Formula</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Derived SI Units</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Symbol</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Velocity</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(v/t\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(m/s\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Acceleration</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(v/t^2\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(m/s^2\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Force</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(ma\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kgm/s^2\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Newton (N)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Work (Energy)</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(Fd\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kgm^2/s^2\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Joule (J)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Power</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(W/t\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kgm^2/s^3\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Watt (W)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Pressure</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(Force/A\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kg/ms^{2}\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Pascal (Pa)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Electric Charge</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(It\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(As\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Coulomb (C)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Electric Potential</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(IR\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kgm^2/As^3\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Volt (V)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Magnetic Field</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\mu_{o} I/A\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kg/As^{2}\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Tesla (T)</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Magnetic Flux</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(Vt\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(kgm^{2}/As^{2}\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">Weber (wb)</td>
+</tr>
+</table></div></figure></section></section><section class="subsection" id="subsec-erranalysis"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Errors in Measurement</span>
+</h3>
+<div class="para" id="subsec-erranalysis-2">Measurement is a base of science. In every measurement there is some  uncertainty. This uncertainty  is  called an error. The concept of errors can be understood by knowing the terms accuracy and precision. Accuracy refers to how closely a measured value agrees with the correct (true) value. Precision refers to how closely individual measurements agree with each other. For example, suppose the true value of a certain length is near 5.678 cm. In one experiment, the measured value is found to be  5.5 cm by using a measuring instrument of resolution 0.1 cm, while  in  another  experiment, the length is determined to be 5.38 cm by using a measuring device of greater resolution, say 0.01 cm. The first measurement is  more  accurate (as it  is closer to the true value) but less precise (as its resolution  is  only  0.1  cm),  while  the second  measurement is less  accurate but more  precise.  Thus  every  measurement is approximate due to errors in measurement. In general, the  errors can be classified as (a) systematic errors and (b) random errors. The errors that appear due to faulty instruments or imperfact instrumental design are known as systematic errors. It is a repeatable error in the measurement. The systematic errors are</div>
+<ol class="lower-alpha" id="subsec-erranalysis-3">
+<li id="subsec-erranalysis-3-1"><div class="para" id="subsec-erranalysis-3-1-1">
+<dfn class="terminology">Instrumental errors:</dfn> These errors arise due to imperfact calibration or design of the measuring instrument. Usually they are called a <em class="emphasis">Zero Error</em>. It is either a positive or a negative type. These errors can be removed by correcting the measuring device, e.g., in vernier calipers the zero mark of vernier scale may not coincide with the zero mark of the main scale.</div></li>
+<li id="subsec-erranalysis-3-2"><div class="para" id="subsec-erranalysis-3-2-1">
+<dfn class="terminology">Personal errors:</dfn> They arise due to wrong observations, an individual’s bias, lack of proper setting of the apparatus, e.g., parallax error, a person viewing a car’s speedometer from the driver’s seat will get an accurate reading because she has a direct line of sight. A person viewing the speedometer from the passenger seat will overestimate the reading because of the viewing angle between his eye, the meter, and the arrow.</div></li>
+</ol>
+<div class="para" id="subsec-erranalysis-4">The errors that appear due to system noise or disturbance of measuring location are known as random errors. It is a unpredictable and non-repeatable. Experimental error is one of the random errors. Experimental errors arise  due to some external conditions of the instrument such as pressure, temperature, humidity, or magnetic fields, e.g., a  thermometer  placed under  the  armpit  will  always  give  a temperature lower than the actual value of the  body  temperature. This type of errors may also occur due to random and unpredictable fluctuations in experimental conditions (e.g. variation in temperature, supply voltage, local atmospheric pressure, etc) and personal errors (e.g., change in readings if the observer repeats the same observation).</div></section><section class="subsection" id="subsec-sigfig"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Significant Figures</span>
+</h3>
+<section class="introduction" id="subsec-sigfig-2"><div class="para" id="subsec-sigfig-2-1">Significant figures are the digits which give us useful information about the accuracy of a measurement. The result of a measurement includes  digits that are known reliably and the last digit that is uncertain. For example, the  length  of an  object measured to be <span class="process-math">\(287.5\)</span> cm when measured with a meterstick marked with centimeter (0.1 resolution) and has four  significant  figures, the  digits  2,  8,  7 are certain while the last digit 5 is uncertain. If someone measure the same object with another meterstick marked with millimeters (0.01 resolution) one could have measured the length to be 287.54 cm and that contains 5 significant figures, the  digits 2, 8, 7, and 5  are certain while the last digit 4 is uncertain. Each smaller measurement allows observers to determine the length of the object with a bit more accuracy. Maybe someother can measure with great accuracy as 287.542 cm. No matter what you do, there must be some inaccuracy always come at every measurement. Scientists account for this unavoidable uncertainty in measurement by using significant digits. significant digits do not remove the uncertainty but warn readers to where uncertainty lies.</div>
+<div class="para" id="subsec-sigfig-2-2">
+<span class="process-math">\(1000\)</span> has one significant digit: only 1 is interesting and reliable. The zeroes may have been just the placeholders; they may have rounded something off to get this value.</div>
+<div class="para" id="subsec-sigfig-2-3">1000.0 has five significant digits: the ".0" tells us about the accuracy of the measurement that the measurement is accurate to the tenths place.</div>
+<div class="para" id="subsec-sigfig-2-4">In scientific notation if 200 has two significant figures then <span class="process-math">\(2.0\times10^{2}\)</span> is used. If it has three sig.fig. then <span class="process-math">\(2.00\times10^{2}\)</span> is used. If it had four then 200.0 is sufficient.</div>
+<div class="para" id="subsec-sigfig-2-5">Here are some basic rules to determine significant figures:</div>
+<ol class="lower-roman" id="subsec-sigfig-2-6">
+<li id="subsec-sigfig-2-6-1"><div class="para" id="subsec-sigfig-2-6-1-1">All nonzero digits are significant; in number 0.003004500 the digits 3, 4, and 5 are significant.</div></li>
+<li id="subsec-sigfig-2-6-2"><div class="para" id="subsec-sigfig-2-6-2-1">All zeroes between significant digits are significant; in number 0.003004500 the 0, 0 between 3 and 4 are significant.</div></li>
+<li id="subsec-sigfig-2-6-3"><div class="para" id="subsec-sigfig-2-6-3-1">Trailing zeros in the decimal portion are significant; in number 0.003004500 the 0,0 at end of 5 are significant.</div></li>
+<li id="subsec-sigfig-2-6-4"><div class="para" id="subsec-sigfig-2-6-4-1">Trailing zeroes in a whole number with no decimal shown are not significant; in number "540" there are only two sig.fig. 5 and 4, the last 0 is not significant.</div></li>
+<li id="subsec-sigfig-2-6-5"><div class="para" id="subsec-sigfig-2-6-5-1">Leading zeroes in the decimal portion to the first non-zero digit are not significant; in number 0.003004500 the 0 to the right of decimal point and digits 0, 0 to the left of decimal point before the digit 3 are not significant.</div></li>
+<li id="subsec-sigfig-2-6-6"><div class="para" id="subsec-sigfig-2-6-6-1">Exponential digits in scientific notation are not significant; <span class="process-math">\(1.32\times 10^{6}\)</span> has only three significant figures, 1, 3, and 2.</div></li>
+</ol></section><section class="subsubsection" id="subsubsec-rounding_off"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.3.1</span><span class="space"> </span><span class="title">Rounding off the Numbers</span>
+</h4>
+<div class="para" id="subsubsec-rounding_off-2">When rounding, we examine the digit following to the right of the digit that is to be the last digit in the rounded off number. The digit we are examining is the first digit to be dropped.</div>
+<div class="para" id="subsubsec-rounding_off-3">If digit to be dropped off is less than 5, then drop it off with all the other digits to the right of it.</div>
+<div class="para" id="subsubsec-rounding_off-4">If the digit to be dropped off is greater than 5, then increase the number by 1 to the preceeding digit to be rounded.</div>
+<div class="para" id="subsubsec-rounding_off-5">If the digit to be dropped is 5, then round the preceeding digit so that it will become even number. Zero is considered to be even when rounding off. This is the process of minimizing systematic error. Here are some examples:</div>
+<ol class="lower-roman" id="subsubsec-rounding_off-6">
+<li id="subsubsec-rounding_off-6-1">
+<div class="para" id="subsubsec-rounding_off-6-1-1">Round 742,396 to four, three, and two significant digits: To round to four sig. fig. start with the first significant digit, which is the 7. Then count to the right from there. The first four significant digits of 742,396 are the 7, the 4, the 2, and the 3. Just to the right of the 3 is a 9. Because this value is "greater than  5", round the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. Then: 742,400 (four significant digits).</div>
+<div class="para" id="subsubsec-rounding_off-6-1-2">To round 742,396 to three places, start again with the 7 and include the next two digits, being the 4 and the 2. Since the next digit is a 3, which is "less than 5", leave the 2 alone and don’t round up. Replace the three digits after the comma with zeroes. Then: 742,000 (three significant digits).</div>
+<div class="para" id="subsubsec-rounding_off-6-1-3">To round 742,396 to two places, use only the first two digits, which are followed by a 2, so don’t round up. Instead, just replace the final four digits with zeroes, to get: 740,000 (two significant digits).</div>
+</li>
+<li id="subsubsec-rounding_off-6-2">
+<div class="para" id="subsubsec-rounding_off-6-2-1">Round 0.07284 to four, three, and two significant digits: To round 0.07284 to four significant digits, start with the first significant digit, which is the 7. (The zero between the decimal point and the 7 is not significant, as it serves only to "place" the 7 into the hundreds place.) There are only three more digits, so all of them will be included in answer. Since no digit follows the 4, there is no information about rounding, so just leave the 4 as it is. Hence, 0.07284 is four sig-digs.</div>
+<div class="para" id="subsubsec-rounding_off-6-2-2">When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, which is followed by the 4. Since 4 is less than 5, so simply drop it. Because these sig-digs are after the decimal point, not replace the 4 with a zero. Hence, 0.0728 is three sig-digs.</div>
+<div class="para" id="subsubsec-rounding_off-6-2-3">To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is followed by an 8, round the 2 up to 3; drop everything that follows. Hence, 0.073 is two sig-digs.</div>
+</li>
+<li id="subsubsec-rounding_off-6-3"><div class="para" id="subsubsec-rounding_off-6-3-1">Round 425.35 to four and two significant digits: For four sig.fig. this number is 425.4, because the value to be rounded off (3) is "odd" and followed by a "5", then round the 3 up to 4 and remove the remaining digits. For two sig.fig. it would be 420, because the value to be rounded off (2) is "even" and  followed by a "5", then leave 2 as it is and replace the other with zeroes.</div></li>
+</ol></section><section class="subsubsection" id="subsubsec-math_op_sig"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.1.3.2</span><span class="space"> </span><span class="title">Mathematical Operations with Significant Figures</span>
+</h4>
+<ol class="upper-roman" id="subsubsec-math_op_sig-2">
+<li id="subsubsec-math_op_sig-2-1"><div class="para" id="subsubsec-math_op_sig-2-1-1">
+<dfn class="terminology">Addition or subtraction:</dfn> The final result should retain <em class="emphasis">as many decimal places as</em> there are in the number with the least decimal places in the data. For example, the sum of the numbers 436.32 g, 227.2 g and 0.301 g is 663.821 g by mere arithmetic addition but the least precise measurement (227.2 g) is correct to only one decimal place. Therefore, the final result should  be rounded off to 663.8 g. Similarly, the difference in lengths of 66.25 m and 23.3055 m is <span class="process-math">\(66.25 \,m - 23.3055 \,m = 42.9445 \,m\text{.}\)</span> Which can be expressed as 42.94 only.</div></li>
+<li id="subsubsec-math_op_sig-2-2"><div class="para logical" id="subsubsec-math_op_sig-2-2-1">
+<div class="para">
+<dfn class="terminology">Multiplication or division:</dfn> The final result should retain <em class="emphasis">as many significant figures as</em> are there in the original number with the least significant figures. For example, if mass of an object is measured to be, say, 4.237 g (four significant figures) and its volume is measured to be <span class="process-math">\(2.51 \,cm^{3}\text{,}\)</span> then its density, by mere arithmetic division, is 1.68804780876 <span class="process-math">\(g/cm^{3}\)</span> upto 11 decimal places. But density should be reported to three significant figures.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Density  =\frac{4.237 \,g}{2.51 \,cm^{3}}= 1.69\,g/cm^{3}.
+\end{equation*}
+</div>
+</div></li>
+</ol></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-I.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-chapter-title.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
