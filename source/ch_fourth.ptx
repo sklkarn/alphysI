@@ -22,8 +22,8 @@
   <xi:include href="./sec_fourth-intro.ptx" />
   <xi:include href="./sec_fourth-cm.ptx" />
   <xi:include href="./sec_fourth-examplesA.ptx" />  
- <!--  <xi:include href="./sec_fourth-transeql.ptx" />
-  <xi:include href="./sec_fourth-examplesB.ptx" />  
+  <xi:include href="./sec_fourth-transeql.ptx" />
+  <!-- <xi:include href="./sec_fourth-examplesB.ptx" />  
   <xi:include href="./sec_fourth-dynamics.ptx" />
   <xi:include href="./sec_fourth-examplesC.ptx" /> 
   <xi:include href="./sec_fourth-circular.ptx" /> 
