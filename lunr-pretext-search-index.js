@@ -1414,11 +1414,20 @@ var ptx_lunr_docs = [
   "body": "  Draw force (free-body) diagrams for the bodies shown in the figure below:                 "
 },
 {
+  "id": "sec_fourth-transeql",
+  "level": "1",
+  "url": "sec_fourth-transeql.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Translational Equilibrium",
+  "body": " Translational Equilibrium   An object is in translational equilibrium if the vector sum of the forces acting on that object add to zero.    An object in translational equilibrium continues moving in a straight line with a constant speed as described by Newton's First law. That is (Graphical and vector algebra problems.) or equivalently (x-component of net force), (y-component of net force), (weight equation), and (friction equation). In translational motion and .    Problem Solving Technique: To solve a translational equilibrium problem one needs to:  Read problem, list given quantities, and label a drawing of the physical situation.  Draw force diagrams for each body in translational equilibrium.  Resolve the forces into components.  Sum the x- and y-components of forces and set them to zero.  Include a weight equation for each mass.  Include a friction equation for each surface.  Solve equations simultaneously for the quantities of interest.       "
+},
+{
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Section",
-  "number": "4.4",
+  "number": "4.5",
   "title": "Exercise 4",
   "body": " Exercise 4  Text of section.  "
 },
