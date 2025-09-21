@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examples A</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Physics I">
+<meta property="book:author" content="Sunil Karna">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec_dimanal-subsection-2-2 { counter-set: subsec_dimanal-subsection-2-2 0; }
+#subsec_dimanal-subsection-2-2 > li::marker { content: ""counter(subsec_dimanal-subsection-2-2,decimal)"."; }
+#subsec_dimanal-subsection-2-2 > li { counter-increment: subsec_dimanal-subsection-2-2; }
+#subsec-erranalysis-3 { counter-set: subsec-erranalysis-3 0; }
+#subsec-erranalysis-3 > li::marker { content: ""counter(subsec-erranalysis-3,lower-alpha)"."; }
+#subsec-erranalysis-3 > li { counter-increment: subsec-erranalysis-3; }
+#subsec-sigfig-2-6 { counter-set: subsec-sigfig-2-6 0; }
+#subsec-sigfig-2-6 > li::marker { content: ""counter(subsec-sigfig-2-6,lower-roman)"."; }
+#subsec-sigfig-2-6 > li { counter-increment: subsec-sigfig-2-6; }
+#subsubsec-rounding_off-6 { counter-set: subsubsec-rounding_off-6 0; }
+#subsubsec-rounding_off-6 > li::marker { content: ""counter(subsubsec-rounding_off-6,lower-roman)"."; }
+#subsubsec-rounding_off-6 > li { counter-increment: subsubsec-rounding_off-6; }
+#subsubsec-math_op_sig-2 { counter-set: subsubsec-math_op_sig-2 0; }
+#subsubsec-math_op_sig-2 > li::marker { content: ""counter(subsubsec-math_op_sig-2,upper-roman)"."; }
+#subsubsec-math_op_sig-2 > li { counter-increment: subsubsec-math_op_sig-2; }
+#ex_first-2-1-4 { counter-set: ex_first-2-1-4 0; }
+#ex_first-2-1-4 > li::marker { content: ""counter(ex_first-2-1-4,lower-alpha)"."; }
+#ex_first-2-1-4 > li { counter-increment: ex_first-2-1-4; }
+#ex_first-6-2 { counter-set: ex_first-6-2 0; }
+#ex_first-6-2 > li::marker { content: ""counter(ex_first-6-2,lower-alpha)"."; }
+#ex_first-6-2 > li { counter-increment: ex_first-6-2; }
+#ex_first-8-2 { counter-set: ex_first-8-2 0; }
+#ex_first-8-2 > li::marker { content: ""counter(ex_first-8-2,lower-alpha)"."; }
+#ex_first-8-2 > li { counter-increment: ex_first-8-2; }
+#ex_first-9-2 { counter-set: ex_first-9-2 0; }
+#ex_first-9-2 > li::marker { content: ""counter(ex_first-9-2,lower-alpha)"."; }
+#ex_first-9-2 > li { counter-increment: ex_first-9-2; }
+#sec_second-intro-2-3-20 { counter-set: sec_second-intro-2-3-20 0; }
+#sec_second-intro-2-3-20 > li::marker { content: ""counter(sec_second-intro-2-3-20,lower-roman)"."; }
+#sec_second-intro-2-3-20 > li { counter-increment: sec_second-intro-2-3-20; }
+#subsubsec-dot_product-5-2 { counter-set: subsubsec-dot_product-5-2 0; }
+#subsubsec-dot_product-5-2 > li::marker { content: ""counter(subsubsec-dot_product-5-2,decimal)"."; }
+#subsubsec-dot_product-5-2 > li { counter-increment: subsubsec-dot_product-5-2; }
+#subsubsec-cross_product-7-2-1 { counter-set: subsubsec-cross_product-7-2-1 0; }
+#subsubsec-cross_product-7-2-1 > li::marker { content: ""counter(subsubsec-cross_product-7-2-1,decimal)"."; }
+#subsubsec-cross_product-7-2-1 > li { counter-increment: subsubsec-cross_product-7-2-1; }
+#sec_second-examples-2-2-1-1 { counter-set: sec_second-examples-2-2-1-1 0; }
+#sec_second-examples-2-2-1-1 > li::marker { content: ""counter(sec_second-examples-2-2-1-1,lower-alpha)"."; }
+#sec_second-examples-2-2-1-1 > li { counter-increment: sec_second-examples-2-2-1-1; }
+#sec_second-examples-3-1-1-1 { counter-set: sec_second-examples-3-1-1-1 0; }
+#sec_second-examples-3-1-1-1 > li::marker { content: ""counter(sec_second-examples-3-1-1-1,lower-alpha)"."; }
+#sec_second-examples-3-1-1-1 > li { counter-increment: sec_second-examples-3-1-1-1; }
+#sec_second-examples-3-2-1-1 { counter-set: sec_second-examples-3-2-1-1 0; }
+#sec_second-examples-3-2-1-1 > li::marker { content: ""counter(sec_second-examples-3-2-1-1,lower-alpha)"."; }
+#sec_second-examples-3-2-1-1 > li { counter-increment: sec_second-examples-3-2-1-1; }
+#sec_second-examples-4-1-1-8 { counter-set: sec_second-examples-4-1-1-8 0; }
+#sec_second-examples-4-1-1-8 > li::marker { content: ""counter(sec_second-examples-4-1-1-8,lower-alpha)"."; }
+#sec_second-examples-4-1-1-8 > li { counter-increment: sec_second-examples-4-1-1-8; }
+#sec_second-examples-7-1-1-2 { counter-set: sec_second-examples-7-1-1-2 0; }
+#sec_second-examples-7-1-1-2 > li::marker { content: ""counter(sec_second-examples-7-1-1-2,upper-alpha)"."; }
+#sec_second-examples-7-1-1-2 > li { counter-increment: sec_second-examples-7-1-1-2; }
+#sec_second-examples-7-2-1-1 { counter-set: sec_second-examples-7-2-1-1 0; }
+#sec_second-examples-7-2-1-1 > li::marker { content: ""counter(sec_second-examples-7-2-1-1,upper-alpha)"."; }
+#sec_second-examples-7-2-1-1 > li { counter-increment: sec_second-examples-7-2-1-1; }
+#sec_second-examples-8-1-1-5 { counter-set: sec_second-examples-8-1-1-5 0; }
+#sec_second-examples-8-1-1-5 > li::marker { content: ""counter(sec_second-examples-8-1-1-5,lower-alpha)"."; }
+#sec_second-examples-8-1-1-5 > li { counter-increment: sec_second-examples-8-1-1-5; }
+#sec_second-examples-8-2-1-1 { counter-set: sec_second-examples-8-2-1-1 0; }
+#sec_second-examples-8-2-1-1 > li::marker { content: ""counter(sec_second-examples-8-2-1-1,lower-alpha)"."; }
+#sec_second-examples-8-2-1-1 > li { counter-increment: sec_second-examples-8-2-1-1; }
+#ex_second-8-1-3 { counter-set: ex_second-8-1-3 0; }
+#ex_second-8-1-3 > li::marker { content: ""counter(ex_second-8-1-3,lower-alpha)"."; }
+#ex_second-8-1-3 > li { counter-increment: ex_second-8-1-3; }
+#ex_second-10-1-1 { counter-set: ex_second-10-1-1 0; }
+#ex_second-10-1-1 > li::marker { content: ""counter(ex_second-10-1-1,lower-alpha)"."; }
+#ex_second-10-1-1 > li { counter-increment: ex_second-10-1-1; }
+#ex_second-11-1-5 { counter-set: ex_second-11-1-5 0; }
+#ex_second-11-1-5 > li::marker { content: "("counter(ex_second-11-1-5,lower-alpha)")"; }
+#ex_second-11-1-5 > li { counter-increment: ex_second-11-1-5; }
+#ex_second-14-1-7 { counter-set: ex_second-14-1-7 0; }
+#ex_second-14-1-7 > li::marker { content: ""counter(ex_second-14-1-7,lower-alpha)"."; }
+#ex_second-14-1-7 > li { counter-increment: ex_second-14-1-7; }
+#ex_second-15-1-3 { counter-set: ex_second-15-1-3 0; }
+#ex_second-15-1-3 > li::marker { content: ""counter(ex_second-15-1-3,lower-alpha)"."; }
+#ex_second-15-1-3 > li { counter-increment: ex_second-15-1-3; }
+#subsec-rule_solveMotion-2 { counter-set: subsec-rule_solveMotion-2 0; }
+#subsec-rule_solveMotion-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2,lower-roman)"."; }
+#subsec-rule_solveMotion-2 > li { counter-increment: subsec-rule_solveMotion-2; }
+#subsec-rule_solveMotion-2-1-1-2 { counter-set: subsec-rule_solveMotion-2-1-1-2 0; }
+#subsec-rule_solveMotion-2-1-1-2 > li::marker { content: ""counter(subsec-rule_solveMotion-2-1-1-2,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-1-1-2 > li { counter-increment: subsec-rule_solveMotion-2-1-1-2; }
+#subsec-rule_solveMotion-2-2-1-1 { counter-set: subsec-rule_solveMotion-2-2-1-1 0; }
+#subsec-rule_solveMotion-2-2-1-1 > li::marker { content: ""counter(subsec-rule_solveMotion-2-2-1-1,lower-alpha)"."; }
+#subsec-rule_solveMotion-2-2-1-1 > li { counter-increment: subsec-rule_solveMotion-2-2-1-1; }
+#subsec-projtile_motion-3-1 { counter-set: subsec-projtile_motion-3-1 0; }
+#subsec-projtile_motion-3-1 > li::marker { content: ""counter(subsec-projtile_motion-3-1,decimal)"."; }
+#subsec-projtile_motion-3-1 > li { counter-increment: subsec-projtile_motion-3-1; }
+#sec_third-examples-2-1-1-2 { counter-set: sec_third-examples-2-1-1-2 0; }
+#sec_third-examples-2-1-1-2 > li::marker { content: ""counter(sec_third-examples-2-1-1-2,decimal)"."; }
+#sec_third-examples-2-1-1-2 > li { counter-increment: sec_third-examples-2-1-1-2; }
+#sec_third-examples-2-2-1 { counter-set: sec_third-examples-2-2-1 0; }
+#sec_third-examples-2-2-1 > li::marker { content: ""counter(sec_third-examples-2-2-1,decimal)"."; }
+#sec_third-examples-2-2-1 > li { counter-increment: sec_third-examples-2-2-1; }
+#sec_third-examples-3-1-1-4 { counter-set: sec_third-examples-3-1-1-4 0; }
+#sec_third-examples-3-1-1-4 > li::marker { content: ""counter(sec_third-examples-3-1-1-4,lower-alpha)"."; }
+#sec_third-examples-3-1-1-4 > li { counter-increment: sec_third-examples-3-1-1-4; }
+#sec_third-examples-3-2-1-1 { counter-set: sec_third-examples-3-2-1-1 0; }
+#sec_third-examples-3-2-1-1 > li::marker { content: ""counter(sec_third-examples-3-2-1-1,lower-alpha)"."; }
+#sec_third-examples-3-2-1-1 > li { counter-increment: sec_third-examples-3-2-1-1; }
+#sec_third-examples-4-1-1-3 { counter-set: sec_third-examples-4-1-1-3 0; }
+#sec_third-examples-4-1-1-3 > li::marker { content: ""counter(sec_third-examples-4-1-1-3,lower-alpha)"."; }
+#sec_third-examples-4-1-1-3 > li { counter-increment: sec_third-examples-4-1-1-3; }
+#sec_third-examples-4-2-2-1 { counter-set: sec_third-examples-4-2-2-1 0; }
+#sec_third-examples-4-2-2-1 > li::marker { content: ""counter(sec_third-examples-4-2-2-1,lower-alpha)"."; }
+#sec_third-examples-4-2-2-1 > li { counter-increment: sec_third-examples-4-2-2-1; }
+#sec_third-examples-5-1-1-2 { counter-set: sec_third-examples-5-1-1-2 0; }
+#sec_third-examples-5-1-1-2 > li::marker { content: ""counter(sec_third-examples-5-1-1-2,decimal)"."; }
+#sec_third-examples-5-1-1-2 > li { counter-increment: sec_third-examples-5-1-1-2; }
+#sec_third-examples-6-1-1-1 { counter-set: sec_third-examples-6-1-1-1 0; }
+#sec_third-examples-6-1-1-1 > li::marker { content: ""counter(sec_third-examples-6-1-1-1,lower-alpha)"."; }
+#sec_third-examples-6-1-1-1 > li { counter-increment: sec_third-examples-6-1-1-1; }
+#sec_third-examples-6-2-2-6 { counter-set: sec_third-examples-6-2-2-6 0; }
+#sec_third-examples-6-2-2-6 > li::marker { content: ""counter(sec_third-examples-6-2-2-6,lower-alpha)"."; }
+#sec_third-examples-6-2-2-6 > li { counter-increment: sec_third-examples-6-2-2-6; }
+#sec_third-examples-7-1-1-1 { counter-set: sec_third-examples-7-1-1-1 0; }
+#sec_third-examples-7-1-1-1 > li::marker { content: ""counter(sec_third-examples-7-1-1-1,lower-alpha)"."; }
+#sec_third-examples-7-1-1-1 > li { counter-increment: sec_third-examples-7-1-1-1; }
+#sec_third-examples-7-2-2 { counter-set: sec_third-examples-7-2-2 0; }
+#sec_third-examples-7-2-2 > li::marker { content: ""counter(sec_third-examples-7-2-2,lower-alpha)"."; }
+#sec_third-examples-7-2-2 > li { counter-increment: sec_third-examples-7-2-2; }
+#sec_third-examples-10-1-1-3 { counter-set: sec_third-examples-10-1-1-3 0; }
+#sec_third-examples-10-1-1-3 > li::marker { content: ""counter(sec_third-examples-10-1-1-3,lower-alpha)"."; }
+#sec_third-examples-10-1-1-3 > li { counter-increment: sec_third-examples-10-1-1-3; }
+#sec_third-examples-10-2-1-2 { counter-set: sec_third-examples-10-2-1-2 0; }
+#sec_third-examples-10-2-1-2 > li::marker { content: ""counter(sec_third-examples-10-2-1-2,lower-alpha)"."; }
+#sec_third-examples-10-2-1-2 > li { counter-increment: sec_third-examples-10-2-1-2; }
+#sec_third-examples-14-1-1-2 { counter-set: sec_third-examples-14-1-1-2 0; }
+#sec_third-examples-14-1-1-2 > li::marker { content: ""counter(sec_third-examples-14-1-1-2,lower-alpha)"."; }
+#sec_third-examples-14-1-1-2 > li { counter-increment: sec_third-examples-14-1-1-2; }
+#sec_third-examples-14-2-1-6 { counter-set: sec_third-examples-14-2-1-6 0; }
+#sec_third-examples-14-2-1-6 > li::marker { content: ""counter(sec_third-examples-14-2-1-6,lower-alpha)"."; }
+#sec_third-examples-14-2-1-6 > li { counter-increment: sec_third-examples-14-2-1-6; }
+#sec_third-examples-15-1-1-3 { counter-set: sec_third-examples-15-1-1-3 0; }
+#sec_third-examples-15-1-1-3 > li::marker { content: ""counter(sec_third-examples-15-1-1-3,lower-alpha)"."; }
+#sec_third-examples-15-1-1-3 > li { counter-increment: sec_third-examples-15-1-1-3; }
+#sec_third-examples-15-2-1-1 { counter-set: sec_third-examples-15-2-1-1 0; }
+#sec_third-examples-15-2-1-1 > li::marker { content: ""counter(sec_third-examples-15-2-1-1,lower-alpha)"."; }
+#sec_third-examples-15-2-1-1 > li { counter-increment: sec_third-examples-15-2-1-1; }
+#sec_third-examples-16-1-1-2 { counter-set: sec_third-examples-16-1-1-2 0; }
+#sec_third-examples-16-1-1-2 > li::marker { content: ""counter(sec_third-examples-16-1-1-2,lower-alpha)"."; }
+#sec_third-examples-16-1-1-2 > li { counter-increment: sec_third-examples-16-1-1-2; }
+#sec_third-examples-16-2-1-1 { counter-set: sec_third-examples-16-2-1-1 0; }
+#sec_third-examples-16-2-1-1 > li::marker { content: ""counter(sec_third-examples-16-2-1-1,lower-alpha)"."; }
+#sec_third-examples-16-2-1-1 > li { counter-increment: sec_third-examples-16-2-1-1; }
+#sec_third-examples-17-1-1-3 { counter-set: sec_third-examples-17-1-1-3 0; }
+#sec_third-examples-17-1-1-3 > li::marker { content: ""counter(sec_third-examples-17-1-1-3,lower-alpha)"."; }
+#sec_third-examples-17-1-1-3 > li { counter-increment: sec_third-examples-17-1-1-3; }
+#sec_third-examples-17-2-2-1 { counter-set: sec_third-examples-17-2-2-1 0; }
+#sec_third-examples-17-2-2-1 > li::marker { content: ""counter(sec_third-examples-17-2-2-1,lower-alpha)"."; }
+#sec_third-examples-17-2-2-1 > li { counter-increment: sec_third-examples-17-2-2-1; }
+#sec_third-examples-21-1-1-1 { counter-set: sec_third-examples-21-1-1-1 0; }
+#sec_third-examples-21-1-1-1 > li::marker { content: ""counter(sec_third-examples-21-1-1-1,lower-alpha)"."; }
+#sec_third-examples-21-1-1-1 > li { counter-increment: sec_third-examples-21-1-1-1; }
+#sec_third-examples-21-2-2-1 { counter-set: sec_third-examples-21-2-2-1 0; }
+#sec_third-examples-21-2-2-1 > li::marker { content: ""counter(sec_third-examples-21-2-2-1,lower-alpha)"."; }
+#sec_third-examples-21-2-2-1 > li { counter-increment: sec_third-examples-21-2-2-1; }
+#sec_third-examples-22-1-1-3 { counter-set: sec_third-examples-22-1-1-3 0; }
+#sec_third-examples-22-1-1-3 > li::marker { content: ""counter(sec_third-examples-22-1-1-3,lower-alpha)"."; }
+#sec_third-examples-22-1-1-3 > li { counter-increment: sec_third-examples-22-1-1-3; }
+#sec_third-examples-22-2-2-1 { counter-set: sec_third-examples-22-2-2-1 0; }
+#sec_third-examples-22-2-2-1 > li::marker { content: ""counter(sec_third-examples-22-2-2-1,lower-alpha)"."; }
+#sec_third-examples-22-2-2-1 > li { counter-increment: sec_third-examples-22-2-2-1; }
+#ex_third-2-3-1-1 { counter-set: ex_third-2-3-1-1 0; }
+#ex_third-2-3-1-1 > li::marker { content: ""counter(ex_third-2-3-1-1,lower-alpha)"."; }
+#ex_third-2-3-1-1 > li { counter-increment: ex_third-2-3-1-1; }
+#ex_third-2-4-1-1 { counter-set: ex_third-2-4-1-1 0; }
+#ex_third-2-4-1-1 > li::marker { content: ""counter(ex_third-2-4-1-1,lower-alpha)"."; }
+#ex_third-2-4-1-1 > li { counter-increment: ex_third-2-4-1-1; }
+#ex_third-2-5-1-1 { counter-set: ex_third-2-5-1-1 0; }
+#ex_third-2-5-1-1 > li::marker { content: ""counter(ex_third-2-5-1-1,lower-alpha)"."; }
+#ex_third-2-5-1-1 > li { counter-increment: ex_third-2-5-1-1; }
+#ex_third-2-6-1-1 { counter-set: ex_third-2-6-1-1 0; }
+#ex_third-2-6-1-1 > li::marker { content: ""counter(ex_third-2-6-1-1,lower-alpha)"."; }
+#ex_third-2-6-1-1 > li { counter-increment: ex_third-2-6-1-1; }
+#ex_third-2-7-2 { counter-set: ex_third-2-7-2 0; }
+#ex_third-2-7-2 > li::marker { content: ""counter(ex_third-2-7-2,lower-alpha)"."; }
+#ex_third-2-7-2 > li { counter-increment: ex_third-2-7-2; }
+#ex_third-2-7-2-2-1-1 { counter-set: ex_third-2-7-2-2-1-1 0; }
+#ex_third-2-7-2-2-1-1 > li::marker { content: ""counter(ex_third-2-7-2-2-1-1,lower-roman)"."; }
+#ex_third-2-7-2-2-1-1 > li { counter-increment: ex_third-2-7-2-2-1-1; }
+#ex_third-2-8-1-3 { counter-set: ex_third-2-8-1-3 0; }
+#ex_third-2-8-1-3 > li::marker { content: ""counter(ex_third-2-8-1-3,lower-alpha)"."; }
+#ex_third-2-8-1-3 > li { counter-increment: ex_third-2-8-1-3; }
+#ex_third-2-16-1-2 { counter-set: ex_third-2-16-1-2 0; }
+#ex_third-2-16-1-2 > li::marker { content: ""counter(ex_third-2-16-1-2,lower-alpha)"."; }
+#ex_third-2-16-1-2 > li { counter-increment: ex_third-2-16-1-2; }
+#ex_third-3-2-1-1 { counter-set: ex_third-3-2-1-1 0; }
+#ex_third-3-2-1-1 > li::marker { content: ""counter(ex_third-3-2-1-1,lower-alpha)"."; }
+#ex_third-3-2-1-1 > li { counter-increment: ex_third-3-2-1-1; }
+#ex_third-3-3-1-1 { counter-set: ex_third-3-3-1-1 0; }
+#ex_third-3-3-1-1 > li::marker { content: ""counter(ex_third-3-3-1-1,lower-alpha)"."; }
+#ex_third-3-3-1-1 > li { counter-increment: ex_third-3-3-1-1; }
+#ex_third-3-4-1-2 { counter-set: ex_third-3-4-1-2 0; }
+#ex_third-3-4-1-2 > li::marker { content: ""counter(ex_third-3-4-1-2,lower-alpha)"."; }
+#ex_third-3-4-1-2 > li { counter-increment: ex_third-3-4-1-2; }
+#ex_third-3-8-1-2 { counter-set: ex_third-3-8-1-2 0; }
+#ex_third-3-8-1-2 > li::marker { content: ""counter(ex_third-3-8-1-2,lower-alpha)"."; }
+#ex_third-3-8-1-2 > li { counter-increment: ex_third-3-8-1-2; }
+#subsec-types_forces-2 { counter-set: subsec-types_forces-2 0; }
+#subsec-types_forces-2 > li::marker { content: ""counter(subsec-types_forces-2,decimal)"."; }
+#subsec-types_forces-2 > li { counter-increment: subsec-types_forces-2; }
+#subsec-Nlaw_motion-2 { counter-set: subsec-Nlaw_motion-2 0; }
+#subsec-Nlaw_motion-2 > li::marker { content: ""counter(subsec-Nlaw_motion-2,decimal)"."; }
+#subsec-Nlaw_motion-2 > li { counter-increment: subsec-Nlaw_motion-2; }
+#subsec-statics-2-1-1 { counter-set: subsec-statics-2-1-1 0; }
+#subsec-statics-2-1-1 > li::marker { content: ""counter(subsec-statics-2-1-1,lower-roman)"."; }
+#subsec-statics-2-1-1 > li { counter-increment: subsec-statics-2-1-1; }
+#subsubsec-state_eqlbrm-3 { counter-set: subsubsec-state_eqlbrm-3 0; }
+#subsubsec-state_eqlbrm-3 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3,decimal)"."; }
+#subsubsec-state_eqlbrm-3 > li { counter-increment: subsubsec-state_eqlbrm-3; }
+#subsubsec-state_eqlbrm-3-2-1-2 { counter-set: subsubsec-state_eqlbrm-3-2-1-2 0; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li::marker { content: ""counter(subsubsec-state_eqlbrm-3-2-1-2,lower-alpha)"."; }
+#subsubsec-state_eqlbrm-3-2-1-2 > li { counter-increment: subsubsec-state_eqlbrm-3-2-1-2; }
+#sec_fourth-cm-2-4-2 { counter-set: sec_fourth-cm-2-4-2 0; }
+#sec_fourth-cm-2-4-2 > li::marker { content: ""counter(sec_fourth-cm-2-4-2,decimal)"."; }
+#sec_fourth-cm-2-4-2 > li { counter-increment: sec_fourth-cm-2-4-2; }
+#sec_fourth-examplesA-3-4-1-1-1 { counter-set: sec_fourth-examplesA-3-4-1-1-1 0; }
+#sec_fourth-examplesA-3-4-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesA-3-4-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesA-3-4-1-1-1 > li { counter-increment: sec_fourth-examplesA-3-4-1-1-1; }
+#sec_fourth-examplesA-3-4-2-2-2 { counter-set: sec_fourth-examplesA-3-4-2-2-2 0; }
+#sec_fourth-examplesA-3-4-2-2-2 > li::marker { content: ""counter(sec_fourth-examplesA-3-4-2-2-2,lower-alpha)"."; }
+#sec_fourth-examplesA-3-4-2-2-2 > li { counter-increment: sec_fourth-examplesA-3-4-2-2-2; }
+#sec_fourth-transeql-2-2 { counter-set: sec_fourth-transeql-2-2 0; }
+#sec_fourth-transeql-2-2 > li::marker { content: ""counter(sec_fourth-transeql-2-2,decimal)"."; }
+#sec_fourth-transeql-2-2 > li { counter-increment: sec_fourth-transeql-2-2; }
+#sec_fourth-transeql-2-2-2-1-1 { counter-set: sec_fourth-transeql-2-2-2-1-1 0; }
+#sec_fourth-transeql-2-2-2-1-1 > li::marker { content: ""counter(sec_fourth-transeql-2-2-2-1-1,lower-alpha)"."; }
+#sec_fourth-transeql-2-2-2-1-1 > li { counter-increment: sec_fourth-transeql-2-2-2-1-1; }
+#sec_fourth-examplesB-2-1-1-2 { counter-set: sec_fourth-examplesB-2-1-1-2 0; }
+#sec_fourth-examplesB-2-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesB-2-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesB-2-1-1-2 > li { counter-increment: sec_fourth-examplesB-2-1-1-2; }
+#sec_fourth-examplesB-2-2-2-11 { counter-set: sec_fourth-examplesB-2-2-2-11 0; }
+#sec_fourth-examplesB-2-2-2-11 > li::marker { content: ""counter(sec_fourth-examplesB-2-2-2-11,lower-alpha)"."; }
+#sec_fourth-examplesB-2-2-2-11 > li { counter-increment: sec_fourth-examplesB-2-2-2-11; }
+#sec_fourth-examplesC-2-1-1-3 { counter-set: sec_fourth-examplesC-2-1-1-3 0; }
+#sec_fourth-examplesC-2-1-1-3 > li::marker { content: ""counter(sec_fourth-examplesC-2-1-1-3,lower-alpha)"."; }
+#sec_fourth-examplesC-2-1-1-3 > li { counter-increment: sec_fourth-examplesC-2-1-1-3; }
+#sec_fourth-examplesC-2-2-3-1 { counter-set: sec_fourth-examplesC-2-2-3-1 0; }
+#sec_fourth-examplesC-2-2-3-1 > li::marker { content: ""counter(sec_fourth-examplesC-2-2-3-1,lower-alpha)"."; }
+#sec_fourth-examplesC-2-2-3-1 > li { counter-increment: sec_fourth-examplesC-2-2-3-1; }
+#sec_fourth-examplesC-3-1-1-9 { counter-set: sec_fourth-examplesC-3-1-1-9 0; }
+#sec_fourth-examplesC-3-1-1-9 > li::marker { content: ""counter(sec_fourth-examplesC-3-1-1-9,lower-alpha)"."; }
+#sec_fourth-examplesC-3-1-1-9 > li { counter-increment: sec_fourth-examplesC-3-1-1-9; }
+#sec_fourth-examplesC-4-1-1-2 { counter-set: sec_fourth-examplesC-4-1-1-2 0; }
+#sec_fourth-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-1-1-2 > li { counter-increment: sec_fourth-examplesC-4-1-1-2; }
+#sec_fourth-examplesC-4-2-2 { counter-set: sec_fourth-examplesC-4-2-2 0; }
+#sec_fourth-examplesC-4-2-2 > li::marker { content: ""counter(sec_fourth-examplesC-4-2-2,lower-alpha)"."; }
+#sec_fourth-examplesC-4-2-2 > li { counter-increment: sec_fourth-examplesC-4-2-2; }
+#sec_fourth-examplesD-3-1-1-1 { counter-set: sec_fourth-examplesD-3-1-1-1 0; }
+#sec_fourth-examplesD-3-1-1-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-1-1-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-1-1-1 > li { counter-increment: sec_fourth-examplesD-3-1-1-1; }
+#sec_fourth-examplesD-3-2-1 { counter-set: sec_fourth-examplesD-3-2-1 0; }
+#sec_fourth-examplesD-3-2-1 > li::marker { content: ""counter(sec_fourth-examplesD-3-2-1,lower-alpha)"."; }
+#sec_fourth-examplesD-3-2-1 > li { counter-increment: sec_fourth-examplesD-3-2-1; }
+#subsec-st_equlbrm-3 { counter-set: subsec-st_equlbrm-3 0; }
+#subsec-st_equlbrm-3 > li::marker { content: ""counter(subsec-st_equlbrm-3,decimal)"."; }
+#subsec-st_equlbrm-3 > li { counter-increment: subsec-st_equlbrm-3; }
+#sec_fourth-examplesE-2-4-2-1-1 { counter-set: sec_fourth-examplesE-2-4-2-1-1 0; }
+#sec_fourth-examplesE-2-4-2-1-1 > li::marker { content: ""counter(sec_fourth-examplesE-2-4-2-1-1,upper-alpha)"."; }
+#sec_fourth-examplesE-2-4-2-1-1 > li { counter-increment: sec_fourth-examplesE-2-4-2-1-1; }
+#sec_fourth-examplesE-2-6-1-1-6 { counter-set: sec_fourth-examplesE-2-6-1-1-6 0; }
+#sec_fourth-examplesE-2-6-1-1-6 > li::marker { content: ""counter(sec_fourth-examplesE-2-6-1-1-6,lower-alpha)"."; }
+#sec_fourth-examplesE-2-6-1-1-6 > li { counter-increment: sec_fourth-examplesE-2-6-1-1-6; }
+#ex_fourth-2-4-1-2 { counter-set: ex_fourth-2-4-1-2 0; }
+#ex_fourth-2-4-1-2 > li::marker { content: ""counter(ex_fourth-2-4-1-2,lower-alpha)"."; }
+#ex_fourth-2-4-1-2 > li { counter-increment: ex_fourth-2-4-1-2; }
+#ex_fourth-2-5-1-1 { counter-set: ex_fourth-2-5-1-1 0; }
+#ex_fourth-2-5-1-1 > li::marker { content: ""counter(ex_fourth-2-5-1-1,lower-alpha)"."; }
+#ex_fourth-2-5-1-1 > li { counter-increment: ex_fourth-2-5-1-1; }
+#ex_fourth-2-6-1-2 { counter-set: ex_fourth-2-6-1-2 0; }
+#ex_fourth-2-6-1-2 > li::marker { content: ""counter(ex_fourth-2-6-1-2,lower-alpha)"."; }
+#ex_fourth-2-6-1-2 > li { counter-increment: ex_fourth-2-6-1-2; }
+#ex_fourth-3-2-1-2 { counter-set: ex_fourth-3-2-1-2 0; }
+#ex_fourth-3-2-1-2 > li::marker { content: ""counter(ex_fourth-3-2-1-2,lower-alpha)"."; }
+#ex_fourth-3-2-1-2 > li { counter-increment: ex_fourth-3-2-1-2; }
+#ex_fourth-3-3-1-2 { counter-set: ex_fourth-3-3-1-2 0; }
+#ex_fourth-3-3-1-2 > li::marker { content: ""counter(ex_fourth-3-3-1-2,lower-alpha)"."; }
+#ex_fourth-3-3-1-2 > li { counter-increment: ex_fourth-3-3-1-2; }
+#ex_fourth-3-4-1-4 { counter-set: ex_fourth-3-4-1-4 0; }
+#ex_fourth-3-4-1-4 > li::marker { content: ""counter(ex_fourth-3-4-1-4,lower-alpha)"."; }
+#ex_fourth-3-4-1-4 > li { counter-increment: ex_fourth-3-4-1-4; }
+#ex_fourth-3-5-1-4 { counter-set: ex_fourth-3-5-1-4 0; }
+#ex_fourth-3-5-1-4 > li::marker { content: ""counter(ex_fourth-3-5-1-4,lower-alpha)"."; }
+#ex_fourth-3-5-1-4 > li { counter-increment: ex_fourth-3-5-1-4; }
+#ex_fourth-4-4-1-6 { counter-set: ex_fourth-4-4-1-6 0; }
+#ex_fourth-4-4-1-6 > li::marker { content: ""counter(ex_fourth-4-4-1-6,lower-alpha)"."; }
+#ex_fourth-4-4-1-6 > li { counter-increment: ex_fourth-4-4-1-6; }
+#ex_fourth-4-5-1-6 { counter-set: ex_fourth-4-5-1-6 0; }
+#ex_fourth-4-5-1-6 > li::marker { content: ""counter(ex_fourth-4-5-1-6,lower-alpha)"."; }
+#ex_fourth-4-5-1-6 > li { counter-increment: ex_fourth-4-5-1-6; }
+#ex_fourth-4-6-1-2 { counter-set: ex_fourth-4-6-1-2 0; }
+#ex_fourth-4-6-1-2 > li::marker { content: ""counter(ex_fourth-4-6-1-2,lower-alpha)"."; }
+#ex_fourth-4-6-1-2 > li { counter-increment: ex_fourth-4-6-1-2; }
+#ex_fourth-4-7-1-4 { counter-set: ex_fourth-4-7-1-4 0; }
+#ex_fourth-4-7-1-4 > li::marker { content: ""counter(ex_fourth-4-7-1-4,lower-alpha)"."; }
+#ex_fourth-4-7-1-4 > li { counter-increment: ex_fourth-4-7-1-4; }
+#ex_fourth-4-9-1-3 { counter-set: ex_fourth-4-9-1-3 0; }
+#ex_fourth-4-9-1-3 > li::marker { content: ""counter(ex_fourth-4-9-1-3,lower-alpha)"."; }
+#ex_fourth-4-9-1-3 > li { counter-increment: ex_fourth-4-9-1-3; }
+#ex_fourth-5-2-1-1 { counter-set: ex_fourth-5-2-1-1 0; }
+#ex_fourth-5-2-1-1 > li::marker { content: ""counter(ex_fourth-5-2-1-1,lower-alpha)"."; }
+#ex_fourth-5-2-1-1 > li { counter-increment: ex_fourth-5-2-1-1; }
+#ex_fourth-5-3-1-1 { counter-set: ex_fourth-5-3-1-1 0; }
+#ex_fourth-5-3-1-1 > li::marker { content: ""counter(ex_fourth-5-3-1-1,lower-alpha)"."; }
+#ex_fourth-5-3-1-1 > li { counter-increment: ex_fourth-5-3-1-1; }
+#ex_fourth-5-4-1-1 { counter-set: ex_fourth-5-4-1-1 0; }
+#ex_fourth-5-4-1-1 > li::marker { content: ""counter(ex_fourth-5-4-1-1,lower-alpha)"."; }
+#ex_fourth-5-4-1-1 > li { counter-increment: ex_fourth-5-4-1-1; }
+#ex_fourth-5-5-1-1 { counter-set: ex_fourth-5-5-1-1 0; }
+#ex_fourth-5-5-1-1 > li::marker { content: ""counter(ex_fourth-5-5-1-1,lower-alpha)"."; }
+#ex_fourth-5-5-1-1 > li { counter-increment: ex_fourth-5-5-1-1; }
+#ex_fourth-5-9-1-2 { counter-set: ex_fourth-5-9-1-2 0; }
+#ex_fourth-5-9-1-2 > li::marker { content: ""counter(ex_fourth-5-9-1-2,lower-alpha)"."; }
+#ex_fourth-5-9-1-2 > li { counter-increment: ex_fourth-5-9-1-2; }
+#ex_fourth-6-4-1-2 { counter-set: ex_fourth-6-4-1-2 0; }
+#ex_fourth-6-4-1-2 > li::marker { content: ""counter(ex_fourth-6-4-1-2,lower-alpha)"."; }
+#ex_fourth-6-4-1-2 > li { counter-increment: ex_fourth-6-4-1-2; }
+#ex_fourth-6-7-1-2 { counter-set: ex_fourth-6-7-1-2 0; }
+#ex_fourth-6-7-1-2 > li::marker { content: ""counter(ex_fourth-6-7-1-2,lower-alpha)"."; }
+#ex_fourth-6-7-1-2 > li { counter-increment: ex_fourth-6-7-1-2; }
+#ex_fourth-6-10-1-1 { counter-set: ex_fourth-6-10-1-1 0; }
+#ex_fourth-6-10-1-1 > li::marker { content: ""counter(ex_fourth-6-10-1-1,lower-alpha)"."; }
+#ex_fourth-6-10-1-1 > li { counter-increment: ex_fourth-6-10-1-1; }
+#ex_fourth-7-7-1 { counter-set: ex_fourth-7-7-1 0; }
+#ex_fourth-7-7-1 > li::marker { content: ""counter(ex_fourth-7-7-1,lower-alpha)"."; }
+#ex_fourth-7-7-1 > li { counter-increment: ex_fourth-7-7-1; }
+#ex_fourth-7-8-1-1 { counter-set: ex_fourth-7-8-1-1 0; }
+#ex_fourth-7-8-1-1 > li::marker { content: ""counter(ex_fourth-7-8-1-1,lower-alpha)"."; }
+#ex_fourth-7-8-1-1 > li { counter-increment: ex_fourth-7-8-1-1; }
+#ex_fourth-7-10-3 { counter-set: ex_fourth-7-10-3 0; }
+#ex_fourth-7-10-3 > li::marker { content: ""counter(ex_fourth-7-10-3,lower-alpha)"."; }
+#ex_fourth-7-10-3 > li { counter-increment: ex_fourth-7-10-3; }
+#ex_fourth-7-11-1-1 { counter-set: ex_fourth-7-11-1-1 0; }
+#ex_fourth-7-11-1-1 > li::marker { content: ""counter(ex_fourth-7-11-1-1,lower-alpha)"."; }
+#ex_fourth-7-11-1-1 > li { counter-increment: ex_fourth-7-11-1-1; }
+#ex_fourth-7-12-2 { counter-set: ex_fourth-7-12-2 0; }
+#ex_fourth-7-12-2 > li::marker { content: ""counter(ex_fourth-7-12-2,lower-alpha)"."; }
+#ex_fourth-7-12-2 > li { counter-increment: ex_fourth-7-12-2; }
+#ex_fourth-7-15-1-2 { counter-set: ex_fourth-7-15-1-2 0; }
+#ex_fourth-7-15-1-2 > li::marker { content: ""counter(ex_fourth-7-15-1-2,lower-alpha)"."; }
+#ex_fourth-7-15-1-2 > li { counter-increment: ex_fourth-7-15-1-2; }
+#subsubsec-pe-3 { counter-set: subsubsec-pe-3 0; }
+#subsubsec-pe-3 > li::marker { content: ""counter(subsubsec-pe-3,decimal)"."; }
+#subsubsec-pe-3 > li { counter-increment: subsubsec-pe-3; }
+#subsec-sm-6 { counter-set: subsec-sm-6 0; }
+#subsec-sm-6 > li::marker { content: ""counter(subsec-sm-6,upper-roman)"."; }
+#subsec-sm-6 > li { counter-increment: subsec-sm-6; }
+#subsubsec-pulley_type-3 { counter-set: subsubsec-pulley_type-3 0; }
+#subsubsec-pulley_type-3 > li::marker { content: ""counter(subsubsec-pulley_type-3,upper-roman)"."; }
+#subsubsec-pulley_type-3 > li { counter-increment: subsubsec-pulley_type-3; }
+#sec_fifth-examplesA-2-3-1-1-3 { counter-set: sec_fifth-examplesA-2-3-1-1-3 0; }
+#sec_fifth-examplesA-2-3-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-1-1-3 > li { counter-increment: sec_fifth-examplesA-2-3-1-1-3; }
+#sec_fifth-examplesA-2-3-2-1-1 { counter-set: sec_fifth-examplesA-2-3-2-1-1 0; }
+#sec_fifth-examplesA-2-3-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-2-3-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-2-3-2-1-1 > li { counter-increment: sec_fifth-examplesA-2-3-2-1-1; }
+#sec_fifth-examplesA-3-2-1-1-4 { counter-set: sec_fifth-examplesA-3-2-1-1-4 0; }
+#sec_fifth-examplesA-3-2-1-1-4 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-1-1-4,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-1-1-4 > li { counter-increment: sec_fifth-examplesA-3-2-1-1-4; }
+#sec_fifth-examplesA-3-2-2-3 { counter-set: sec_fifth-examplesA-3-2-2-3 0; }
+#sec_fifth-examplesA-3-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-2-2-3 > li { counter-increment: sec_fifth-examplesA-3-2-2-3; }
+#sec_fifth-examplesA-3-3-1-2-1 { counter-set: sec_fifth-examplesA-3-3-1-2-1 0; }
+#sec_fifth-examplesA-3-3-1-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-1-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-1-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-1-2-1; }
+#sec_fifth-examplesA-3-3-2-2-1 { counter-set: sec_fifth-examplesA-3-3-2-2-1 0; }
+#sec_fifth-examplesA-3-3-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-3-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-3-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-3-2-2-1; }
+#sec_fifth-examplesA-3-4-1-1-3 { counter-set: sec_fifth-examplesA-3-4-1-1-3 0; }
+#sec_fifth-examplesA-3-4-1-1-3 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-1-1-3,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-1-1-3 > li { counter-increment: sec_fifth-examplesA-3-4-1-1-3; }
+#sec_fifth-examplesA-3-4-2-2 { counter-set: sec_fifth-examplesA-3-4-2-2 0; }
+#sec_fifth-examplesA-3-4-2-2 > li::marker { content: ""counter(sec_fifth-examplesA-3-4-2-2,lower-alpha)"."; }
+#sec_fifth-examplesA-3-4-2-2 > li { counter-increment: sec_fifth-examplesA-3-4-2-2; }
+#sec_fifth-examplesA-3-7-1-1-1 { counter-set: sec_fifth-examplesA-3-7-1-1-1 0; }
+#sec_fifth-examplesA-3-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-7-1-1-1; }
+#sec_fifth-examplesA-3-7-2-3-1 { counter-set: sec_fifth-examplesA-3-7-2-3-1 0; }
+#sec_fifth-examplesA-3-7-2-3-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-7-2-3-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-7-2-3-1 > li { counter-increment: sec_fifth-examplesA-3-7-2-3-1; }
+#sec_fifth-examplesA-3-8-1-1-1 { counter-set: sec_fifth-examplesA-3-8-1-1-1 0; }
+#sec_fifth-examplesA-3-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-1-1-1 > li { counter-increment: sec_fifth-examplesA-3-8-1-1-1; }
+#sec_fifth-examplesA-3-8-2-2-1 { counter-set: sec_fifth-examplesA-3-8-2-2-1 0; }
+#sec_fifth-examplesA-3-8-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-3-8-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-3-8-2-2-1 > li { counter-increment: sec_fifth-examplesA-3-8-2-2-1; }
+#sec_fifth-examplesA-4-2-1-1-1 { counter-set: sec_fifth-examplesA-4-2-1-1-1 0; }
+#sec_fifth-examplesA-4-2-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-1-1-1 > li { counter-increment: sec_fifth-examplesA-4-2-1-1-1; }
+#sec_fifth-examplesA-4-2-2-2-1 { counter-set: sec_fifth-examplesA-4-2-2-2-1 0; }
+#sec_fifth-examplesA-4-2-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesA-4-2-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesA-4-2-2-2-1 > li { counter-increment: sec_fifth-examplesA-4-2-2-2-1; }
+#subsubsec-2d_col-2-1 { counter-set: subsubsec-2d_col-2-1 0; }
+#subsubsec-2d_col-2-1 > li::marker { content: ""counter(subsubsec-2d_col-2-1,lower-alpha)"."; }
+#subsubsec-2d_col-2-1 > li { counter-increment: subsubsec-2d_col-2-1; }
+#subsubsec-2d_col-5-1 { counter-set: subsubsec-2d_col-5-1 0; }
+#subsubsec-2d_col-5-1 > li::marker { content: ""counter(subsubsec-2d_col-5-1,lower-alpha)"."; }
+#subsubsec-2d_col-5-1 > li { counter-increment: subsubsec-2d_col-5-1; }
+#sec_fifth-examplesB-6-1-1-1 { counter-set: sec_fifth-examplesB-6-1-1-1 0; }
+#sec_fifth-examplesB-6-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-1-1-1 > li { counter-increment: sec_fifth-examplesB-6-1-1-1; }
+#sec_fifth-examplesB-6-2-1-1 { counter-set: sec_fifth-examplesB-6-2-1-1 0; }
+#sec_fifth-examplesB-6-2-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-6-2-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-6-2-1-1 > li { counter-increment: sec_fifth-examplesB-6-2-1-1; }
+#sec_fifth-examplesB-7-1-1-1 { counter-set: sec_fifth-examplesB-7-1-1-1 0; }
+#sec_fifth-examplesB-7-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-7-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-7-1-1-1 > li { counter-increment: sec_fifth-examplesB-7-1-1-1; }
+#sec_fifth-examplesB-7-2-3 { counter-set: sec_fifth-examplesB-7-2-3 0; }
+#sec_fifth-examplesB-7-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-3 > li { counter-increment: sec_fifth-examplesB-7-2-3; }
+#sec_fifth-examplesB-7-2-6 { counter-set: sec_fifth-examplesB-7-2-6 0; }
+#sec_fifth-examplesB-7-2-6 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-6,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-6 > li { counter-increment: sec_fifth-examplesB-7-2-6; }
+#sec_fifth-examplesB-7-2-9 { counter-set: sec_fifth-examplesB-7-2-9 0; }
+#sec_fifth-examplesB-7-2-9 > li::marker { content: ""counter(sec_fifth-examplesB-7-2-9,lower-alpha)"."; }
+#sec_fifth-examplesB-7-2-9 > li { counter-increment: sec_fifth-examplesB-7-2-9; }
+#sec_fifth-examplesB-8-1-1-1 { counter-set: sec_fifth-examplesB-8-1-1-1 0; }
+#sec_fifth-examplesB-8-1-1-1 > li::marker { content: ""counter(sec_fifth-examplesB-8-1-1-1,lower-alpha)"."; }
+#sec_fifth-examplesB-8-1-1-1 > li { counter-increment: sec_fifth-examplesB-8-1-1-1; }
+#sec_fifth-examplesB-8-2-2-3 { counter-set: sec_fifth-examplesB-8-2-2-3 0; }
+#sec_fifth-examplesB-8-2-2-3 > li::marker { content: ""counter(sec_fifth-examplesB-8-2-2-3,lower-alpha)"."; }
+#sec_fifth-examplesB-8-2-2-3 > li { counter-increment: sec_fifth-examplesB-8-2-2-3; }
+#sec_fifth-examplesB-10-1-3-1 { counter-set: sec_fifth-examplesB-10-1-3-1 0; }
+#sec_fifth-examplesB-10-1-3-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-1-3-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-1-3-1 > li { counter-increment: sec_fifth-examplesB-10-1-3-1; }
+#sec_fifth-examplesB-10-2-2-1 { counter-set: sec_fifth-examplesB-10-2-2-1 0; }
+#sec_fifth-examplesB-10-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-10-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-10-2-2-1 > li { counter-increment: sec_fifth-examplesB-10-2-2-1; }
+#sec_fifth-examplesB-11-1-1-2 { counter-set: sec_fifth-examplesB-11-1-1-2 0; }
+#sec_fifth-examplesB-11-1-1-2 > li::marker { content: ""counter(sec_fifth-examplesB-11-1-1-2,lower-alpha)"."; }
+#sec_fifth-examplesB-11-1-1-2 > li { counter-increment: sec_fifth-examplesB-11-1-1-2; }
+#sec_fifth-examplesB-11-2-2-4 { counter-set: sec_fifth-examplesB-11-2-2-4 0; }
+#sec_fifth-examplesB-11-2-2-4 > li::marker { content: ""counter(sec_fifth-examplesB-11-2-2-4,lower-alpha)"."; }
+#sec_fifth-examplesB-11-2-2-4 > li { counter-increment: sec_fifth-examplesB-11-2-2-4; }
+#sec_fifth-examplesB-12-1-1-5 { counter-set: sec_fifth-examplesB-12-1-1-5 0; }
+#sec_fifth-examplesB-12-1-1-5 > li::marker { content: ""counter(sec_fifth-examplesB-12-1-1-5,lower-alpha)"."; }
+#sec_fifth-examplesB-12-1-1-5 > li { counter-increment: sec_fifth-examplesB-12-1-1-5; }
+#sec_fifth-examplesB-12-2-2-1 { counter-set: sec_fifth-examplesB-12-2-2-1 0; }
+#sec_fifth-examplesB-12-2-2-1 > li::marker { content: ""counter(sec_fifth-examplesB-12-2-2-1,lower-alpha)"."; }
+#sec_fifth-examplesB-12-2-2-1 > li { counter-increment: sec_fifth-examplesB-12-2-2-1; }
+#ex_fifth-2-4-1-2 { counter-set: ex_fifth-2-4-1-2 0; }
+#ex_fifth-2-4-1-2 > li::marker { content: ""counter(ex_fifth-2-4-1-2,lower-alpha)"."; }
+#ex_fifth-2-4-1-2 > li { counter-increment: ex_fifth-2-4-1-2; }
+#ex_fifth-2-5-1-2 { counter-set: ex_fifth-2-5-1-2 0; }
+#ex_fifth-2-5-1-2 > li::marker { content: ""counter(ex_fifth-2-5-1-2,lower-alpha)"."; }
+#ex_fifth-2-5-1-2 > li { counter-increment: ex_fifth-2-5-1-2; }
+#ex_fifth-3-2-1-1 { counter-set: ex_fifth-3-2-1-1 0; }
+#ex_fifth-3-2-1-1 > li::marker { content: ""counter(ex_fifth-3-2-1-1,lower-alpha)"."; }
+#ex_fifth-3-2-1-1 > li { counter-increment: ex_fifth-3-2-1-1; }
+#ex_fifth-3-3-1-1 { counter-set: ex_fifth-3-3-1-1 0; }
+#ex_fifth-3-3-1-1 > li::marker { content: ""counter(ex_fifth-3-3-1-1,lower-alpha)"."; }
+#ex_fifth-3-3-1-1 > li { counter-increment: ex_fifth-3-3-1-1; }
+#ex_fifth-3-4-1-1 { counter-set: ex_fifth-3-4-1-1 0; }
+#ex_fifth-3-4-1-1 > li::marker { content: ""counter(ex_fifth-3-4-1-1,lower-alpha)"."; }
+#ex_fifth-3-4-1-1 > li { counter-increment: ex_fifth-3-4-1-1; }
+#ex_fifth-3-5-1-1 { counter-set: ex_fifth-3-5-1-1 0; }
+#ex_fifth-3-5-1-1 > li::marker { content: ""counter(ex_fifth-3-5-1-1,lower-alpha)"."; }
+#ex_fifth-3-5-1-1 > li { counter-increment: ex_fifth-3-5-1-1; }
+#ex_fifth-3-6-1-1 { counter-set: ex_fifth-3-6-1-1 0; }
+#ex_fifth-3-6-1-1 > li::marker { content: ""counter(ex_fifth-3-6-1-1,lower-alpha)"."; }
+#ex_fifth-3-6-1-1 > li { counter-increment: ex_fifth-3-6-1-1; }
+#ex_fifth-3-7-1-1 { counter-set: ex_fifth-3-7-1-1 0; }
+#ex_fifth-3-7-1-1 > li::marker { content: ""counter(ex_fifth-3-7-1-1,upper-roman)"."; }
+#ex_fifth-3-7-1-1 > li { counter-increment: ex_fifth-3-7-1-1; }
+#ex_fifth-3-7-1-1-1-2 { counter-set: ex_fifth-3-7-1-1-1-2 0; }
+#ex_fifth-3-7-1-1-1-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-1-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-1-2 > li { counter-increment: ex_fifth-3-7-1-1-1-2; }
+#ex_fifth-3-7-1-1-2-2 { counter-set: ex_fifth-3-7-1-1-2-2 0; }
+#ex_fifth-3-7-1-1-2-2 > li::marker { content: ""counter(ex_fifth-3-7-1-1-2-2,lower-alpha)"."; }
+#ex_fifth-3-7-1-1-2-2 > li { counter-increment: ex_fifth-3-7-1-1-2-2; }
+#ex_fifth-3-8-1-2 { counter-set: ex_fifth-3-8-1-2 0; }
+#ex_fifth-3-8-1-2 > li::marker { content: ""counter(ex_fifth-3-8-1-2,lower-alpha)"."; }
+#ex_fifth-3-8-1-2 > li { counter-increment: ex_fifth-3-8-1-2; }
+#ex_fifth-3-10-1-1 { counter-set: ex_fifth-3-10-1-1 0; }
+#ex_fifth-3-10-1-1 > li::marker { content: ""counter(ex_fifth-3-10-1-1,lower-alpha)"."; }
+#ex_fifth-3-10-1-1 > li { counter-increment: ex_fifth-3-10-1-1; }
+#ex_fifth-3-11-1-1 { counter-set: ex_fifth-3-11-1-1 0; }
+#ex_fifth-3-11-1-1 > li::marker { content: ""counter(ex_fifth-3-11-1-1,lower-alpha)"."; }
+#ex_fifth-3-11-1-1 > li { counter-increment: ex_fifth-3-11-1-1; }
+#ex_fifth-3-12-1-1 { counter-set: ex_fifth-3-12-1-1 0; }
+#ex_fifth-3-12-1-1 > li::marker { content: ""counter(ex_fifth-3-12-1-1,lower-alpha)"."; }
+#ex_fifth-3-12-1-1 > li { counter-increment: ex_fifth-3-12-1-1; }
+#ex_fifth-4-2-1-1 { counter-set: ex_fifth-4-2-1-1 0; }
+#ex_fifth-4-2-1-1 > li::marker { content: ""counter(ex_fifth-4-2-1-1,lower-alpha)"."; }
+#ex_fifth-4-2-1-1 > li { counter-increment: ex_fifth-4-2-1-1; }
+#ex_fifth-4-3-1-1 { counter-set: ex_fifth-4-3-1-1 0; }
+#ex_fifth-4-3-1-1 > li::marker { content: ""counter(ex_fifth-4-3-1-1,lower-alpha)"."; }
+#ex_fifth-4-3-1-1 > li { counter-increment: ex_fifth-4-3-1-1; }
+#ex_fifth-4-4-1-1 { counter-set: ex_fifth-4-4-1-1 0; }
+#ex_fifth-4-4-1-1 > li::marker { content: ""counter(ex_fifth-4-4-1-1,lower-alpha)"."; }
+#ex_fifth-4-4-1-1 > li { counter-increment: ex_fifth-4-4-1-1; }
+#ex_fifth-4-5-1-1 { counter-set: ex_fifth-4-5-1-1 0; }
+#ex_fifth-4-5-1-1 > li::marker { content: ""counter(ex_fifth-4-5-1-1,lower-alpha)"."; }
+#ex_fifth-4-5-1-1 > li { counter-increment: ex_fifth-4-5-1-1; }
+#ex_fifth-4-7-1-1 { counter-set: ex_fifth-4-7-1-1 0; }
+#ex_fifth-4-7-1-1 > li::marker { content: ""counter(ex_fifth-4-7-1-1,lower-alpha)"."; }
+#ex_fifth-4-7-1-1 > li { counter-increment: ex_fifth-4-7-1-1; }
+#ex_fifth-5-2-1-1 { counter-set: ex_fifth-5-2-1-1 0; }
+#ex_fifth-5-2-1-1 > li::marker { content: ""counter(ex_fifth-5-2-1-1,lower-alpha)"."; }
+#ex_fifth-5-2-1-1 > li { counter-increment: ex_fifth-5-2-1-1; }
+#ex_fifth-5-3-1-1 { counter-set: ex_fifth-5-3-1-1 0; }
+#ex_fifth-5-3-1-1 > li::marker { content: ""counter(ex_fifth-5-3-1-1,lower-alpha)"."; }
+#ex_fifth-5-3-1-1 > li { counter-increment: ex_fifth-5-3-1-1; }
+#ex_fifth-5-4-1-1 { counter-set: ex_fifth-5-4-1-1 0; }
+#ex_fifth-5-4-1-1 > li::marker { content: ""counter(ex_fifth-5-4-1-1,lower-alpha)"."; }
+#ex_fifth-5-4-1-1 > li { counter-increment: ex_fifth-5-4-1-1; }
+#ex_fifth-5-5-1-1 { counter-set: ex_fifth-5-5-1-1 0; }
+#ex_fifth-5-5-1-1 > li::marker { content: ""counter(ex_fifth-5-5-1-1,lower-alpha)"."; }
+#ex_fifth-5-5-1-1 > li { counter-increment: ex_fifth-5-5-1-1; }
+#ex_fifth-5-6-1-1 { counter-set: ex_fifth-5-6-1-1 0; }
+#ex_fifth-5-6-1-1 > li::marker { content: ""counter(ex_fifth-5-6-1-1,lower-alpha)"."; }
+#ex_fifth-5-6-1-1 > li { counter-increment: ex_fifth-5-6-1-1; }
+#ex_fifth-5-7-1-1 { counter-set: ex_fifth-5-7-1-1 0; }
+#ex_fifth-5-7-1-1 > li::marker { content: ""counter(ex_fifth-5-7-1-1,lower-alpha)"."; }
+#ex_fifth-5-7-1-1 > li { counter-increment: ex_fifth-5-7-1-1; }
+#ex_fifth-5-8-1-3 { counter-set: ex_fifth-5-8-1-3 0; }
+#ex_fifth-5-8-1-3 > li::marker { content: ""counter(ex_fifth-5-8-1-3,lower-alpha)"."; }
+#ex_fifth-5-8-1-3 > li { counter-increment: ex_fifth-5-8-1-3; }
+#ex_fifth-5-9-1-2 { counter-set: ex_fifth-5-9-1-2 0; }
+#ex_fifth-5-9-1-2 > li::marker { content: ""counter(ex_fifth-5-9-1-2,lower-alpha)"."; }
+#ex_fifth-5-9-1-2 > li { counter-increment: ex_fifth-5-9-1-2; }
+#ex_fifth-5-10-1-1 { counter-set: ex_fifth-5-10-1-1 0; }
+#ex_fifth-5-10-1-1 > li::marker { content: ""counter(ex_fifth-5-10-1-1,lower-alpha)"."; }
+#ex_fifth-5-10-1-1 > li { counter-increment: ex_fifth-5-10-1-1; }
+#ex_fifth-5-14-1-1 { counter-set: ex_fifth-5-14-1-1 0; }
+#ex_fifth-5-14-1-1 > li::marker { content: ""counter(ex_fifth-5-14-1-1,lower-alpha)"."; }
+#ex_fifth-5-14-1-1 > li { counter-increment: ex_fifth-5-14-1-1; }
+#ex_fifth-5-15-1-2 { counter-set: ex_fifth-5-15-1-2 0; }
+#ex_fifth-5-15-1-2 > li::marker { content: ""counter(ex_fifth-5-15-1-2,lower-alpha)"."; }
+#ex_fifth-5-15-1-2 > li { counter-increment: ex_fifth-5-15-1-2; }
+#sec_sixth-kepler-2-4-1 { counter-set: sec_sixth-kepler-2-4-1 0; }
+#sec_sixth-kepler-2-4-1 > li::marker { content: ""counter(sec_sixth-kepler-2-4-1,decimal)"."; }
+#sec_sixth-kepler-2-4-1 > li { counter-increment: sec_sixth-kepler-2-4-1; }
+#sec_sixth-examples-3-1-1-1 { counter-set: sec_sixth-examples-3-1-1-1 0; }
+#sec_sixth-examples-3-1-1-1 > li::marker { content: ""counter(sec_sixth-examples-3-1-1-1,lower-alpha)"."; }
+#sec_sixth-examples-3-1-1-1 > li { counter-increment: sec_sixth-examples-3-1-1-1; }
+#ex_sixth-2-1-2 { counter-set: ex_sixth-2-1-2 0; }
+#ex_sixth-2-1-2 > li::marker { content: ""counter(ex_sixth-2-1-2,lower-alpha)"."; }
+#ex_sixth-2-1-2 > li { counter-increment: ex_sixth-2-1-2; }
+#ex_sixth-3-1-1 { counter-set: ex_sixth-3-1-1 0; }
+#ex_sixth-3-1-1 > li::marker { content: ""counter(ex_sixth-3-1-1,lower-alpha)"."; }
+#ex_sixth-3-1-1 > li { counter-increment: ex_sixth-3-1-1; }
+#ex_sixth-6-1-1 { counter-set: ex_sixth-6-1-1 0; }
+#ex_sixth-6-1-1 > li::marker { content: ""counter(ex_sixth-6-1-1,lower-alpha)"."; }
+#ex_sixth-6-1-1 > li { counter-increment: ex_sixth-6-1-1; }
+#ex_sixth-7-1-1 { counter-set: ex_sixth-7-1-1 0; }
+#ex_sixth-7-1-1 > li::marker { content: ""counter(ex_sixth-7-1-1,lower-alpha)"."; }
+#ex_sixth-7-1-1 > li { counter-increment: ex_sixth-7-1-1; }
+#sec_seventh-examplesA-2-1-1-1 { counter-set: sec_seventh-examplesA-2-1-1-1 0; }
+#sec_seventh-examplesA-2-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-2-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-2-1-1-1 > li { counter-increment: sec_seventh-examplesA-2-1-1-1; }
+#sec_seventh-examplesA-2-2-2-2 { counter-set: sec_seventh-examplesA-2-2-2-2 0; }
+#sec_seventh-examplesA-2-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesA-2-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesA-2-2-2-2 > li { counter-increment: sec_seventh-examplesA-2-2-2-2; }
+#sec_seventh-examplesA-4-1-1-1 { counter-set: sec_seventh-examplesA-4-1-1-1 0; }
+#sec_seventh-examplesA-4-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-1-1-1 > li { counter-increment: sec_seventh-examplesA-4-1-1-1; }
+#sec_seventh-examplesA-4-2-1-1 { counter-set: sec_seventh-examplesA-4-2-1-1 0; }
+#sec_seventh-examplesA-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesA-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesA-4-2-1-1 > li { counter-increment: sec_seventh-examplesA-4-2-1-1; }
+#sec_seventh-examplesB-2-1-1-4 { counter-set: sec_seventh-examplesB-2-1-1-4 0; }
+#sec_seventh-examplesB-2-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-2-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-2-1-1-4 > li { counter-increment: sec_seventh-examplesB-2-1-1-4; }
+#sec_seventh-examplesB-2-2-1-2 { counter-set: sec_seventh-examplesB-2-2-1-2 0; }
+#sec_seventh-examplesB-2-2-1-2 > li::marker { content: ""counter(sec_seventh-examplesB-2-2-1-2,lower-alpha)"."; }
+#sec_seventh-examplesB-2-2-1-2 > li { counter-increment: sec_seventh-examplesB-2-2-1-2; }
+#sec_seventh-examplesB-3-1-1-1 { counter-set: sec_seventh-examplesB-3-1-1-1 0; }
+#sec_seventh-examplesB-3-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-3-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-3-1-1-1 > li { counter-increment: sec_seventh-examplesB-3-1-1-1; }
+#sec_seventh-examplesB-3-2-1-4 { counter-set: sec_seventh-examplesB-3-2-1-4 0; }
+#sec_seventh-examplesB-3-2-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-3-2-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-3-2-1-4 > li { counter-increment: sec_seventh-examplesB-3-2-1-4; }
+#sec_seventh-examplesB-4-1-1-3 { counter-set: sec_seventh-examplesB-4-1-1-3 0; }
+#sec_seventh-examplesB-4-1-1-3 > li::marker { content: ""counter(sec_seventh-examplesB-4-1-1-3,lower-alpha)"."; }
+#sec_seventh-examplesB-4-1-1-3 > li { counter-increment: sec_seventh-examplesB-4-1-1-3; }
+#sec_seventh-examplesB-4-2-1-1 { counter-set: sec_seventh-examplesB-4-2-1-1 0; }
+#sec_seventh-examplesB-4-2-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-4-2-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-4-2-1-1 > li { counter-increment: sec_seventh-examplesB-4-2-1-1; }
+#sec_seventh-examplesB-9-1-1-1 { counter-set: sec_seventh-examplesB-9-1-1-1 0; }
+#sec_seventh-examplesB-9-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-9-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-9-1-1-1 > li { counter-increment: sec_seventh-examplesB-9-1-1-1; }
+#sec_seventh-examplesB-9-2-3-11 { counter-set: sec_seventh-examplesB-9-2-3-11 0; }
+#sec_seventh-examplesB-9-2-3-11 > li::marker { content: ""counter(sec_seventh-examplesB-9-2-3-11,lower-alpha)"."; }
+#sec_seventh-examplesB-9-2-3-11 > li { counter-increment: sec_seventh-examplesB-9-2-3-11; }
+#sec_seventh-examplesB-11-1-1-1 { counter-set: sec_seventh-examplesB-11-1-1-1 0; }
+#sec_seventh-examplesB-11-1-1-1 > li::marker { content: ""counter(sec_seventh-examplesB-11-1-1-1,lower-alpha)"."; }
+#sec_seventh-examplesB-11-1-1-1 > li { counter-increment: sec_seventh-examplesB-11-1-1-1; }
+#sec_seventh-examplesB-11-2-2-6 { counter-set: sec_seventh-examplesB-11-2-2-6 0; }
+#sec_seventh-examplesB-11-2-2-6 > li::marker { content: ""counter(sec_seventh-examplesB-11-2-2-6,lower-alpha)"."; }
+#sec_seventh-examplesB-11-2-2-6 > li { counter-increment: sec_seventh-examplesB-11-2-2-6; }
+#sec_seventh-examplesB-17-1-1-4 { counter-set: sec_seventh-examplesB-17-1-1-4 0; }
+#sec_seventh-examplesB-17-1-1-4 > li::marker { content: ""counter(sec_seventh-examplesB-17-1-1-4,lower-alpha)"."; }
+#sec_seventh-examplesB-17-1-1-4 > li { counter-increment: sec_seventh-examplesB-17-1-1-4; }
+#sec_seventh-examplesB-17-2-1-15 { counter-set: sec_seventh-examplesB-17-2-1-15 0; }
+#sec_seventh-examplesB-17-2-1-15 > li::marker { content: ""counter(sec_seventh-examplesB-17-2-1-15,lower-alpha)"."; }
+#sec_seventh-examplesB-17-2-1-15 > li { counter-increment: sec_seventh-examplesB-17-2-1-15; }
+#subsec-shm-3-2-2 { counter-set: subsec-shm-3-2-2 0; }
+#subsec-shm-3-2-2 > li::marker { content: ""counter(subsec-shm-3-2-2,decimal)"."; }
+#subsec-shm-3-2-2 > li { counter-increment: subsec-shm-3-2-2; }
+#subsec-shm-3-4-1 { counter-set: subsec-shm-3-4-1 0; }
+#subsec-shm-3-4-1 > li::marker { content: ""counter(subsec-shm-3-4-1,decimal)"."; }
+#subsec-shm-3-4-1 > li { counter-increment: subsec-shm-3-4-1; }
+#sec_seventh-examplesC-2-1-1-2 { counter-set: sec_seventh-examplesC-2-1-1-2 0; }
+#sec_seventh-examplesC-2-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-1-1-2 > li { counter-increment: sec_seventh-examplesC-2-1-1-2; }
+#sec_seventh-examplesC-2-2-2 { counter-set: sec_seventh-examplesC-2-2-2 0; }
+#sec_seventh-examplesC-2-2-2 > li::marker { content: ""counter(sec_seventh-examplesC-2-2-2,lower-alpha)"."; }
+#sec_seventh-examplesC-2-2-2 > li { counter-increment: sec_seventh-examplesC-2-2-2; }
+#sec_seventh-examplesC-4-1-1-2 { counter-set: sec_seventh-examplesC-4-1-1-2 0; }
+#sec_seventh-examplesC-4-1-1-2 > li::marker { content: ""counter(sec_seventh-examplesC-4-1-1-2,lower-alpha)"."; }
+#sec_seventh-examplesC-4-1-1-2 > li { counter-increment: sec_seventh-examplesC-4-1-1-2; }
+#sec_seventh-examplesC-4-2-1-7 { counter-set: sec_seventh-examplesC-4-2-1-7 0; }
+#sec_seventh-examplesC-4-2-1-7 > li::marker { content: ""counter(sec_seventh-examplesC-4-2-1-7,lower-alpha)"."; }
+#sec_seventh-examplesC-4-2-1-7 > li { counter-increment: sec_seventh-examplesC-4-2-1-7; }
+#ex_seventh-2-7-1-1 { counter-set: ex_seventh-2-7-1-1 0; }
+#ex_seventh-2-7-1-1 > li::marker { content: ""counter(ex_seventh-2-7-1-1,lower-alpha)"."; }
+#ex_seventh-2-7-1-1 > li { counter-increment: ex_seventh-2-7-1-1; }
+#ex_seventh-3-2-1-4 { counter-set: ex_seventh-3-2-1-4 0; }
+#ex_seventh-3-2-1-4 > li::marker { content: ""counter(ex_seventh-3-2-1-4,lower-alpha)"."; }
+#ex_seventh-3-2-1-4 > li { counter-increment: ex_seventh-3-2-1-4; }
+#ex_seventh-3-3-1-1 { counter-set: ex_seventh-3-3-1-1 0; }
+#ex_seventh-3-3-1-1 > li::marker { content: ""counter(ex_seventh-3-3-1-1,lower-alpha)"."; }
+#ex_seventh-3-3-1-1 > li { counter-increment: ex_seventh-3-3-1-1; }
+#ex_seventh-3-4-1-2 { counter-set: ex_seventh-3-4-1-2 0; }
+#ex_seventh-3-4-1-2 > li::marker { content: ""counter(ex_seventh-3-4-1-2,lower-alpha)"."; }
+#ex_seventh-3-4-1-2 > li { counter-increment: ex_seventh-3-4-1-2; }
+#ex_seventh-3-5-1-2 { counter-set: ex_seventh-3-5-1-2 0; }
+#ex_seventh-3-5-1-2 > li::marker { content: ""counter(ex_seventh-3-5-1-2,lower-alpha)"."; }
+#ex_seventh-3-5-1-2 > li { counter-increment: ex_seventh-3-5-1-2; }
+#ex_seventh-4-4-1-1 { counter-set: ex_seventh-4-4-1-1 0; }
+#ex_seventh-4-4-1-1 > li::marker { content: ""counter(ex_seventh-4-4-1-1,lower-alpha)"."; }
+#ex_seventh-4-4-1-1 > li { counter-increment: ex_seventh-4-4-1-1; }
+#ex_seventh-4-5-1-1 { counter-set: ex_seventh-4-5-1-1 0; }
+#ex_seventh-4-5-1-1 > li::marker { content: ""counter(ex_seventh-4-5-1-1,lower-alpha)"."; }
+#ex_seventh-4-5-1-1 > li { counter-increment: ex_seventh-4-5-1-1; }
+#ex_seventh-4-6-1-1 { counter-set: ex_seventh-4-6-1-1 0; }
+#ex_seventh-4-6-1-1 > li::marker { content: ""counter(ex_seventh-4-6-1-1,lower-alpha)"."; }
+#ex_seventh-4-6-1-1 > li { counter-increment: ex_seventh-4-6-1-1; }
+#ex_seventh-4-7-1-1 { counter-set: ex_seventh-4-7-1-1 0; }
+#ex_seventh-4-7-1-1 > li::marker { content: ""counter(ex_seventh-4-7-1-1,lower-alpha)"."; }
+#ex_seventh-4-7-1-1 > li { counter-increment: ex_seventh-4-7-1-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Alphys.html"><span class="title">Physics I:</span> <span class="subtitle">Algebra-Based</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec_seventh-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-rotdyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} 
+\newcommand{\Z}{\mathbb Z} 
+\newcommand{\Q}{\mathbb Q} 
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise 1</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-compnt_vect" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec-vect_mult" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-1D.html#subsec-slope" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-eqns_motion" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rel_vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rule_solveMotion" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Problem Solving Technique</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.2</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-projtile_motion" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-2D.html#subsec-cir_kinem" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.2.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.2.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.2.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.2.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.2.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Exercise 3</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force &amp; Equilibrium</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-types_forces" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-Nlaw_motion" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-friction" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-statics" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-transeql.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Translational Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-dynamics.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Dynamics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-atwood_machine" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Atwood’s Machine</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesC.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-circular.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-con_pendulum" class="internal"><span class="codenumber">4.8.1</span> <span class="title">Horizontal Circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-vertcir" class="internal"><span class="codenumber">4.8.2</span> <span class="title">Vertical Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Banking of a Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Examples D</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Torque</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-rot_eql" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Rotational Equilibrium</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-st_equlbrm" class="internal"><span class="codenumber">4.11.2</span> <span class="title">States of Equilibrium</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesE.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Examples E</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Energy and Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-work" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Work</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-energy" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-we_theorem" class="internal"><span class="codenumber">5.1.2.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-ke" class="internal"><span class="codenumber">5.1.2.2</span> <span class="title">Kinetic Energy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-pe" class="internal"><span class="codenumber">5.1.2.3</span> <span class="title">Potential Energy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-con_nonconservF" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Conservative and Non-Conservative Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-princ_con-energy" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ediagram" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Energy Diagram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ll_track" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Loop-the-Loop Track</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-power.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsec-sm" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Simple Machine</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-power.html#subsec-pulley" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Pulley</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-mech_adv" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Mechanical Advantage</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-pulley_type" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Types of Pulley</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Impulse and Momentum</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-collision" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-ineleast_col" class="internal"><span class="codenumber">5.4.1.1</span> <span class="title">Inelastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-elast_col" class="internal"><span class="codenumber">5.4.1.2</span> <span class="title">Elastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-2d_col" class="internal"><span class="codenumber">5.4.1.3</span> <span class="title">Collision in 2D</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-coef_restit" class="internal"><span class="codenumber">5.4.1.4</span> <span class="title">Coefficient of Restitution, e</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-ball_pendulum" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Ballistic Pendulum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-accl_grav" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Acceleration Due to Gravity, <span class="process-math">\(g\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-rot_g" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Effect of the Rotation of the Earth on  g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-alt_g" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Effect of Altitude of the Earth on g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-depth_g" class="internal"><span class="codenumber">6.1.1.3</span> <span class="title">Effect of Depth of the Earth on g</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-grav_pot" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Gravitational Potential Energy, U</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-orb_vel" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Orbital Velocity of a Satelite</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-esc_vel" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Escape Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-geo_sync" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Geosynchronous satellite</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-kepler.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Rigid Body</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-paral_axis" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-perpend_axis" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_ring" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_rod" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_disk" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_plate" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cylnd" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_spher" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-rad_gyr" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec_seventh-examplesA.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rot_overview" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rwep" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-ang_momnt" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-gyros" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesB.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-shm" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-eq_shm" class="internal"><span class="codenumber">7.5.1.1</span> <span class="title">Equation of SHM</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-energy_shm" class="internal"><span class="codenumber">7.5.1.2</span> <span class="title">Energy in SHM</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-simp_pendulum" class="internal"><span class="codenumber">7.5.2</span> <span class="title">Simple Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-comp_pendulum" class="internal"><span class="codenumber">7.5.3</span> <span class="title">Compound Pendulum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesC.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">Elasticity</span></a></div></li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_seventh-examplesA"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.2</span><span class="space"> </span><span class="title">Examples A</span>
+</h2>
+<article class="example example-like" id="sec_seventh-examplesA-2"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.1</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_seventh-examplesA-2-1-1">
+<div class="para">Find the moment of inertia of the following mass distribution for the following axes,</div>
+<ol class="lower-alpha" id="sec_seventh-examplesA-2-1-1-1">
+<li id="sec_seventh-examplesA-2-1-1-1-1"><div class="para" id="p-derived-sec_seventh-examplesA-2-1-1-1-1">x,</div></li>
+<li id="sec_seventh-examplesA-2-1-1-1-2"><div class="para" id="p-derived-sec_seventh-examplesA-2-1-1-1-2">x’,</div></li>
+<li id="sec_seventh-examplesA-2-1-1-1-3"><div class="para" id="p-derived-sec_seventh-examplesA-2-1-1-1-3">y,</div></li>
+<li id="sec_seventh-examplesA-2-1-1-1-4"><div class="para" id="p-derived-sec_seventh-examplesA-2-1-1-1-4">z (out of the paper through the (x,y) origin).</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesA-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/mi1.png" class="contained"></div>
+<div class="para logical" id="sec_seventh-examplesA-2-2-2">
+<div class="para">Given:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m_{1}  =  1 \,kg, \quad m_{2}  =  2 \,kg, \quad m_{3}  =  3 \,kg,\quad m_{4}  =  4 \,kg
+\end{equation*}
+</div>
+<ol class="lower-alpha" id="sec_seventh-examplesA-2-2-2-2">
+<li id="sec_seventh-examplesA-2-2-2-2-1"><div class="para" id="p-derived-sec_seventh-examplesA-2-2-2-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0,  \quad r_{2}  =  0 \,m, \quad r_{3}  =  1 \,m,\quad  r_{4}  =  1 \,m
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{x}  = \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+0+3\cdot 1^{2}+4\cdot 1^{2} = 7\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_seventh-examplesA-2-2-2-2-2"><div class="para" id="p-derived-sec_seventh-examplesA-2-2-2-2-2">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  1 \,m,\quad r_{2}  =  1 \,m, \quad r_{3}  =  0, \quad r_{4} =  0 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I_{x'}  =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 1+2+0+0=3\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_seventh-examplesA-2-2-2-2-3"><div class="para" id="p-derived-sec_seventh-examplesA-2-2-2-2-3">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0,\quad r_{2}  =  1 \,m,\quad r_{3}  =  1 \,m,\quad r_{4}  =  0 \,m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad I_{y} =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+2+3+0=5\, kg m^{2} 
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_seventh-examplesA-2-2-2-2-4"><div class="para" id="p-derived-sec_seventh-examplesA-2-2-2-2-4">
+<div class="displaymath process-math">
+\begin{equation*}
+r_{1}  =  0, \quad r_{2}  =  1 \,m,\quad r_{3}  = \sqrt{2}\, m,\quad r_{4}  =  1\, m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{z}  =  \sum m r^{2} = 12 \, kg m^{2}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div>
+</div></details></div></article><article class="example example-like" id="sec_seventh-examplesA-3"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec_seventh-examplesA-3-1-1">Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.</div>
+<div class="solutions"><details id="sec_seventh-examplesA-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_seventh-examplesA-3-2-1">
+<div class="para">Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{1} =\frac{1}{3}ml^{2}. 
+\end{equation*}
+</div>
+<div class="para">Moment of inertia of second rod about its center,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2} =\frac{1}{12}ml^{2}.
+\end{equation*}
+</div>
+<div class="para">Moment of inertia of CM of second rod about point o using <span class="process-math">\(||^{l}\)</span> axis theorem,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2cm} =ml^{2}. 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore I = I_{1}+(I_{2}+I_{2cm}) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{3}ml^{2}+ \frac{1}{12}ml^{2}+ml^{2} = \frac{17}{12}ml^{2}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="sec_seventh-examplesA-4"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.2.3</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec_seventh-examplesA-4-1-1">
+<div class="para">Calculate the moment of inertia of each of the uniform bodies</div>
+<ol class="lower-alpha" id="sec_seventh-examplesA-4-1-1-1">
+<li id="sec_seventh-examplesA-4-1-1-1-1">uniform block about its long axis, <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3.png" class="contained"></div>
+</li>
+<li id="sec_seventh-examplesA-4-1-1-1-2">square ring about its center, and <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3b.png" class="contained"></div>
+</li>
+<li id="sec_seventh-examplesA-4-1-1-1-3">hula hoop about its rim. <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/mi3c.png" class="contained"></div>
+</li>
+</ol>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesA-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec_seventh-examplesA-4-2-1"><ol class="lower-alpha" id="sec_seventh-examplesA-4-2-1-1">
+<li id="sec_seventh-examplesA-4-2-1-1-1"><div class="para" id="p-derived-sec_seventh-examplesA-4-2-1-1-1"><div class="displaymath process-math">
+\begin{equation*}
+I  =  1/12 M(a^{2} + a^{2})  =  \frac{1}{6} M a^{2};
+\end{equation*}
+</div></div></li>
+<li id="sec_seventh-examplesA-4-2-1-1-2"><div class="para" id="p-derived-sec_seventh-examplesA-4-2-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+I  =  4 I_{1}, \, I_{1}  =  I_{1cm} + M_{1} R^{2}_{1},\, I_{1cm}=  \frac{1}{12} M_{1} R^{2}_{1},
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+M_{1} =  M/4,\,	R_{1} =  L/2,\, I  =  \frac{13}{24} M L^{2};
+\end{equation*}
+</div>
+</div></li>
+<li id="sec_seventh-examplesA-4-2-1-1-3"><div class="para" id="p-derived-sec_seventh-examplesA-4-2-1-1-3"><div class="displaymath process-math">
+\begin{equation*}
+I  =  I_{cm} + M R^{2},\, I_{cm} = \frac{2}{5} M R^{2}, \, I =  \frac{7}{5} M R^{2}.
+\end{equation*}
+</div></div></li>
+</ol></div></div></details></div></article></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_seventh-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-rotdyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

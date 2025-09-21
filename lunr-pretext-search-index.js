@@ -1375,41 +1375,86 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Examples A",
-  "body": " Examples A    What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure      from figure   from figure      Step 5. Solve equations simultaneously for unknowns:           Find the tension in each of the strings of the system below if the weight and the angle .      From figure         from eqns. , , and , we have       A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?        Given:                Draw force (free-body) diagrams for the bodies shown in the figure below:                  "
+  "body": " Examples A   Center of MassM    Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9               Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point      Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:         Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.      Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung, For example, in three books system like above: we have for first book for second book  for third book  Hence, maximum overhung,   The general rule to find the maximum overhung,x for a uniform object is       Force & Equilibrium    What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure      from figure   from figure      Step 5. Solve equations simultaneously for unknowns:           Find the tension in each of the strings of the system below if the weight and the angle .      From figure         from eqns. , , and , we have       A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?        Given:                Draw force (free-body) diagrams for the bodies shown in the figure below:                   "
 },
 {
-  "id": "sec_fourth-examplesA-2",
+  "id": "sec_fourth-examplesA-2-2",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2-2",
   "type": "Example",
   "number": "4.3.1",
+  "title": "",
+  "body": "  Find the location of the center of mass of the point masses tabulated below:   Mass (kg)  x-coordinate (m)  y-coordinate (m)    1  2  3    4  -5  6    7  8  -9            "
+},
+{
+  "id": "sec_fourth-examplesA-2-3",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2-3",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "",
+  "body": "  Find the center of mass of the point masses illustrated below:      1. Find the coordinates of each mass and specify those coordinate pairs beside each respective mass.  2. Use the center of mass equations to calculate the coordinates of the center of mass.  the center of mass lies at point   "
+},
+{
+  "id": "sec_fourth-examplesA-2-4",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2-4",
+  "type": "Example",
+  "number": "4.3.3",
+  "title": "",
+  "body": "  Find the center of mass of the uniform sheet illustrated at right:      1. Break the body down into its two constituent parts.  2. Specify the area of each constituent part.   and   3. Locate the coordinates of the center of mass of each constituent part. The center of mass of big surface of surface area is at (4,5) and that for small surface of surface area is at (11,2). (Note: For uniform object geometrical center is taken as its center of mass.)  4. Utilize the equations shown above.   Note: mass is proportional to area for a uniform surface:      "
+},
+{
+  "id": "sec_fourth-examplesA-2-5",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2-5",
+  "type": "Example",
+  "number": "4.3.4",
+  "title": "",
+  "body": "  Find the x-coordinate of a center of mass of a uniform disk of radius 2R from which the mass of a small disk of radius R is missing as shown in given figure.      We know that the center of mass of full disk of radius lies at its center (0,0). here stand for the x-coordinates of a center of mass of the full disk, small disk, and real disk, and stand for the mass of a small disk which is missing, and the mass of the real disk.  Note: mass is proportional to area for a uniform surface. is a density of the disk.   "
+},
+{
+  "id": "sec_fourth-examplesA-2-6",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-2-6",
+  "type": "Example",
+  "number": "4.3.5",
+  "title": "",
+  "body": "  Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, are placed one on top of the other overhanging the edge of a table. What is the maximum distance that the top brick can extend beyond the edge of the table without falling off the table?    Block(s) can be balanced at the edge of anything if its center of mass lies before edge or at least at the edge of that thing.    Maximum overhung = center of mass of blocks system.  Maximum overhung for blue (I) brick = its center of mass from the free end = .  Center of mass for red (II) and blue (I) bricks Center of mass for green (III), red (II) and blue (I) bricks Which is the maximum overhung for three bricks system. Using torque equation , we can get same condition, if we set . Where is C.M. of first object, and stands for number of objects. Maximum overhung, For example, in three books system like above: we have for first book for second book  for third book  Hence, maximum overhung,   The general rule to find the maximum overhung,x for a uniform object is    "
+},
+{
+  "id": "sec_fourth-examplesA-3-2",
+  "level": "2",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-3-2",
+  "type": "Example",
+  "number": "4.3.6",
   "title": "",
   "body": "  What is the tension in each of the strings of the system shown here:       Step 1. List the given quantities and label the diagram:     Step 2. Isolate each object and draw the force diagrams:           Step 3. Resolve forces into components as shown in figure:     Step 4. Write equations using the figure      from figure   from figure      Step 5. Solve equations simultaneously for unknowns:        "
 },
 {
-  "id": "sec_fourth-examplesA-3",
+  "id": "sec_fourth-examplesA-3-3",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-3",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-3-3",
   "type": "Example",
-  "number": "4.3.2",
+  "number": "4.3.7",
   "title": "",
   "body": "  Find the tension in each of the strings of the system below if the weight and the angle .      From figure         from eqns. , , and , we have    "
 },
 {
-  "id": "sec_fourth-examplesA-4",
+  "id": "sec_fourth-examplesA-3-4",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-4",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-3-4",
   "type": "Example",
-  "number": "4.3.3",
+  "number": "4.3.8",
   "title": "",
   "body": "  A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N.  What is the frictional force exerted by the wall on the block?  What is the minimum horizontal force needed to prevent the block from sliding down the wall if the coefficient of static friction between the wall and the block is ?        Given:             "
 },
 {
-  "id": "sec_fourth-examplesA-5",
+  "id": "sec_fourth-examplesA-3-5",
   "level": "2",
-  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-5",
+  "url": "sec_fourth-examplesA.html#sec_fourth-examplesA-3-5",
   "type": "Example",
-  "number": "4.3.4",
+  "number": "4.3.9",
   "title": "",
   "body": "  Draw force (free-body) diagrams for the bodies shown in the figure below:                 "
 },
@@ -1594,20 +1639,182 @@ var ptx_lunr_docs = [
   "body": "  A thin circular loop of radius rotates about a vertical diameter with an angular frequency inside of which a small bead of mass is constrained to slide without friction. Show that the bead remains at its lowest point for .                 "
 },
 {
+  "id": "sec_fourth-torque",
+  "level": "1",
+  "url": "sec_fourth-torque.html",
+  "type": "Section",
+  "number": "4.11",
+  "title": "Torque",
+  "body": " Torque   The rotational effect of force is called a torque. It is a physical quantity that changes the object's state of rotational motion. It is a rotational analog of force in a linear motion. It depends on the magnitude, direction and location of force that is acting on the body. Imagine we try to push a door to open it. How much push we apply to rotate the door depends on how far from the hinges (the pivot point ) and the direction we are applying a force. The closer we are to the hinges (the smaller r), the harder it is to push. The torque we created on the door is smaller when we push it near the hinge than it would be away from its hinges.  Consider a force acts on an object at a distance from the point of pivot in such a way that the object rotates about the point , then the magnitude of the torque about the axis of rotation through is given by                   From , where is the direction of torque acting on an object.  From , i.e., Torque = radius (perpendicular component of force).  From , i.e., Torque = force (lever arm).  The shortest distance between line of action of force to the point of rotation of a body is called the lever arm or moment arm. Torque is maximum when force and lever arm are perpendicularly to each other. There will be no torque if a force is applied at the pivot point (point of rotation) since the moment arm would be zero (r = 0). It is a vector quantity and its direction is always perpendicular to the plane describes by a lever arm and a force. Our right hand can be useful to find the direction of torque. Stretch your right hand fingures in the direction of lever arm then curl them in a direction of force. Now thumb must be oriented in the direction of torque. Since torque is associated with three dimensional case but the motion of object we consider here is only in a plane we make it simple by using the following convention.      Torque is taken as positive ( ) if it tends to rotate the object counterclockwise, and negative ( ) if it tends to rotate the object clockwise. The direction of torque and the direction of rotation can be remembered using the right-hand thumb's rule. The thumb of right hand gives the direction of torque, if the fingers curled along the direction of rotation of the body. The torque vector is perpendicular to and . When torque points into the screen, the rotation is clockwise and when it points out of the screen, the rotation is counter-clockwise. There may be more than one forces acting on an object, and each of these forces may act on different points on the object. Then, each force will cause a torque. The net torque is the sum of the individual torques.     Rotational Equilibrium  If the force is applied at an angle to the radius vector, then the lever arm is . An object in rotational equilibrium has no net external torque, i.e., sum of all external torques = 0. Remember that \"rotational equilibrium\" may mean that the object is either not rotating or may be rotating with a constant angular velocity. (3-D vector problems.)    States of Equilibrium  There are three states of equilibrium:                      Stable equilibrium: The body is said to be in stable equilibrium if its center of gravity lies below lowest possible position. A funnel standing vertically on its base on the table is in stable equilibrium [ ]. If the funnel is tilted a little bit against any side and then allowed to fall, it will come back to its original position. When the funnel is tilted against any side its center of gravity is raised [ ]. The line of action of weight passes through the base of the funnel. As long as the line of action of weight remains inside the base area funnel will come back to the original position. A torque due to weight of the funnel brings it back to the original position. For the funnel to tip over the line of action of the weight arrow will have to form a clockwise moment (or to pass outside the point of support). The funnel needs to have been pushed a lot for tip over. Some examples of stable equilibrium are bodies lying on the floor such as chair, table, book, etc. If a system in stable equilibrium is disturbed slightly, it oscillates around that state first but eventually settles down in exactly the same position as it started [ ]. It does this because its center of gravity is already at the lowest possible position.                      Unstable equilibrium: The body is said to be in unstable equilibrium if the center of gravity of a body lies above the highest possible position. A funnel standing vertically on its stem on the table [ ] is in unstable equilibrium. If the funnel standing vertically is slightly disturbed from its position it will not come back to its original position rather fall down on the surface of table. when the funnel is slightly disturbed its center of gravity is lowered [ ]. The line of action of its weight lies outside the base of stem. The torque due to weight of the rod toppled it down. Other examples of unstable equilibrium are vertically standing cylinder and pencil etc. An unstable system moves away from its original equilibrium state when disturbed. It wants to move away from the original position as soon as it has been disturbed [ ]. It does this because its center of gravity is higher in this state and when disturbed the center of gravity continues to move to a lower position (a more stable one).                      Natural equilibrium: The body is said to be in natural (neutral) equilibrium if the center of gravity of a body is at optimal position it is neither lowered nor is raised up. The object with lower center of gravity is more stable than the one with the higher center of gravity. A funnel lying horizontally on its side at rest on the surface of a table [ ] is in natural equilibrium. If a funnel is pushed slightly to roll, it will neither come back to its original position nor it will roll forward rather it will remain at rest. If the funnel is rolled, its center of gravity is neither raised nor lowered [ ]. This means that its center of gravity is at the same height as before. A neutral system is one where the center of gravity of the system is always at the same level. If it has been disturbed slightly it will therefore settle in the new position without a need to move further on or to move back [ ]. For example, a rolling ball lying on the table.     "
+},
+{
+  "id": "sec_fourth-torque-2-3",
+  "level": "2",
+  "url": "sec_fourth-torque.html#sec_fourth-torque-2-3",
+  "type": "Figure",
+  "number": "4.11.1",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "sec_fourth-torque-2-7",
+  "level": "2",
+  "url": "sec_fourth-torque.html#sec_fourth-torque-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lever arm "
+},
+{
+  "id": "rinchtrq",
+  "level": "2",
+  "url": "sec_fourth-torque.html#rinchtrq",
+  "type": "Figure",
+  "number": "4.11.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-st_equlbrm-3-1-1",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-1-1",
+  "type": "Figure",
+  "number": "4.11.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-st_equlbrm-3-1-2",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Stable equilibrium: "
+},
+{
+  "id": "subsec-st_equlbrm-3-2-1",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-2-1",
+  "type": "Figure",
+  "number": "4.11.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-st_equlbrm-3-2-2",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Unstable equilibrium: "
+},
+{
+  "id": "subsec-st_equlbrm-3-3-1",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-3-1",
+  "type": "Figure",
+  "number": "4.11.5",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-st_equlbrm-3-3-2",
+  "level": "2",
+  "url": "sec_fourth-torque.html#subsec-st_equlbrm-3-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Natural equilibrium: "
+},
+{
+  "id": "sec_fourth-examplesE",
+  "level": "1",
+  "url": "sec_fourth-examplesE.html",
+  "type": "Section",
+  "number": "4.12",
+  "title": "Examples E",
+  "body": " Examples E   Rotational Equilibrium    Write the torque equation about the specified axis for the forces indicated in the figure:             Write the torque equation about the specified axis for the forces indicated below:             A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:           A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                    A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -         A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,       "
+},
+{
+  "id": "sec_fourth-examplesE-2-2",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-2",
+  "type": "Example",
+  "number": "4.12.1",
+  "title": "",
+  "body": "  Write the torque equation about the specified axis for the forces indicated in the figure:          "
+},
+{
+  "id": "sec_fourth-examplesE-2-3",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-3",
+  "type": "Example",
+  "number": "4.12.2",
+  "title": "",
+  "body": "  Write the torque equation about the specified axis for the forces indicated below:          "
+},
+{
+  "id": "sec_fourth-examplesE-2-4",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-4",
+  "type": "Example",
+  "number": "4.12.3",
+  "title": "",
+  "body": "  A symmetrical beam of weight and length is suspended from the ceiling on one end by a hinge and on the other by a wire also of length so that both beam and wire make an angle of with the ceiling as shown in the figure below. Suspended from the junction of wire and beam is a weight . What is the tension in the cable and the horizontal and vertical components of the force on the beam at the hinge?        List given quantities .  Draw the forces acting on the beam and resolve them into components.    Choose an axis and specify the perpendicular distances from each line of action to that axis.  Write equations: and    Solve to get answers:        "
+},
+{
+  "id": "sec_fourth-examplesE-2-5",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-5",
+  "type": "Example",
+  "number": "4.12.4",
+  "title": "",
+  "body": "  A uniform rod of length 1 meter and of weight 10 Newtons is resting against a vertical wall with its base 0.5 meters from the bottom of the wall. If a 20 Newton weight is suspended from the rod from a point 3\/4 of the way up the rod, what is the minimum coefficient of friction that will keep the rod from slipping on the floor? Assume there is no friction between the rod and the vertical wall.      Given:                 "
+},
+{
+  "id": "sec_fourth-examplesE-2-6",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-6",
+  "type": "Example",
+  "number": "4.12.5",
+  "title": "",
+  "body": "  A uniform rod of length L = 1 meter and mass is suspended as shown in the figure below, making an angle of with the horizontal and supporting a second unknown mass . The support wire on the left is horizontal, the support wire on the top makes an angle of with the rod, and the other wire on the right is vertical. The top wire is attached at a point S = 0.75 m up the rod from the left.    What is the tension in the wire on the left?  What is the tension in the wire on top?  What is the tension in the wire on the right?  What is the mass ?            Given:       from eqn.      Hence, from eqn.  from eqn. , we have -      "
+},
+{
+  "id": "sec_fourth-examplesE-2-7",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-7",
+  "type": "Example",
+  "number": "4.12.6",
+  "title": "",
+  "body": "  A block with a square base measuring and height is placed on an inclined plane of angle . The coefficient of friction is and the angle of the incline is gradually increased. Find the condition at which block tip over before it begins to slide.    The block will not slide if the coefficient of friction . In other words, sliding begins only when becomes the angle of repose . The block will toppled down once the line of action of weight pass throgh the edge of the block, i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below.        From first figure, we have -  Divide these equations and substitute , we get- If is gradually increasing to [second figure], then at the instant of toppling, normal force acts along the bottom edge of block which is the point of rotation. Hence the total torque must be zero (i.e., at rotational equilibrium).   Now, from eqns. and , if , it will tip over before slide, and if , it will slide before toppling.   "
+},
+{
+  "id": "sec_fourth-examplesE-2-8",
+  "level": "2",
+  "url": "sec_fourth-examplesE.html#sec_fourth-examplesE-2-8",
+  "type": "Example",
+  "number": "4.12.7",
+  "title": "",
+  "body": "  A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, but simply rests on the surface. A 60kg man intends to position the beam in such a way that he can walk to the end of it. What is the maximum distance the beam can extend past end of the ledge and still allow him to perform this feat?      The beam can be balanced if it is placed on the edge of ledge by its new center of mass, (i.e., the center of mass of beam and man system). Here is the center of mass of a beam only.    Let be the distance of beam overhung past the edge of ledge, then from free -body diagram, we have -  Since the beam is at static equilibrium. Now, This is a total torque about the new center of mass, (or the point of rotation).   Alternative: we can solve this problem using center of mass formula,     "
+},
+{
   "id": "ex_fourth",
   "level": "1",
   "url": "ex_fourth.html",
   "type": "Exercises",
-  "number": "4.11",
+  "number": "4.13",
   "title": "Exercise",
-  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .       A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.    Rotational Equilibrium  Given the vectors and , find a vector of unit length perpendicular to both and .  Write down the results of all possible cross products between and .  Prove that for any two vectors and .  Prove that for any vector .  Prove that the determinant form of the cross product renders the same result as the component form.    Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?      A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?    A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip?  A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find    the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.    A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?    A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?      If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.   A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope?  A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.      "
+  "body": "  Exercise   Static Equilibrium  Find the tension in each of the cords illustrated below.    A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire.  A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?    A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.    A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?    Draw force diagrams for each of the bodies shown below:                Translational Equilibrium  A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?    A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?    Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.    A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?      Dynamics  A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box.  Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?    A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.    A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?    A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.    A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?    Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground.  A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .        Banking of a Curve    A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?      An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?    A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?    A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?    A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road?  At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s?  A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall.  An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and      Center of Mass  Find the center-of-mass coordinates of the masses shown below:    Find the coordinates of the center of mass of the system of particles shown at right:    In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.    Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.    On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.    Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .    A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)    To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish.  A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?    A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3.    Rotational Equilibrium  Given the vectors and , find a vector of unit length perpendicular to both and .  Write down the results of all possible cross products between and .  Prove that for any two vectors and .  Prove that for any vector .  Prove that the determinant form of the cross product renders the same result as the component form.    Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?      A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?    A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip?  A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find    the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.    A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?    A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?      If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.   A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope?  A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.      "
 },
 {
   "id": "ex_fourth-2-2",
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-2",
   "type": "Exercise",
-  "number": "4.11.1",
+  "number": "4.13.1",
   "title": "",
   "body": "Find the tension in each of the cords illustrated below.   "
 },
@@ -1616,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-3",
   "type": "Exercise",
-  "number": "4.11.2",
+  "number": "4.13.2",
   "title": "",
   "body": "A 25 kg water bucket is hanging at the middle of a perfectly horizontal plastic wire on a clothes line stretched between two poles 6.0 m apart. The bucket in the center of the wire depressing it by a distance of 4.0 cm. Find the tensions in each wire. "
 },
@@ -1625,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-4",
   "type": "Exercise",
-  "number": "4.11.3",
+  "number": "4.13.3",
   "title": "",
   "body": "A light rope 2 m in length suspends a weight of 200 N. A horizontal force is then applied at the midpoint of the rope, swinging the midpoint 0.5 m to the side and raising the weight somewhat.  What is the magnitude of ?  What then is the tension in the upper half of the original rope?  What is the tension in the lower half of the original rope?  How much is the weight raised?   "
 },
@@ -1634,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-5",
   "type": "Exercise",
-  "number": "4.11.4",
+  "number": "4.13.4",
   "title": "",
   "body": "A mountaineer weighing 200 lb with his equipment traverses a canyon 100 ft wide using a rope which stretches to become 120 ft long (between the knots anchoring each end of the rope to the canyon walls at equal heights).  When the mountaineer reaches the half-way point across the canyon, what is the tension in the rope?  What angle does each end of the rope make with the horizontal?  Would the tension in the rope increase or decrease as the mountaineer moves away from the midpoint? Explain.   "
 },
@@ -1643,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-6",
   "type": "Exercise",
-  "number": "4.11.5",
+  "number": "4.13.5",
   "title": "",
   "body": "A heavy rope of weight w is hung between two hooks at equal heights. The weight is distributed uniformly along the rope as it sags between the two hooks. The angle that the rope makes with the horizontal at the left hook is .  In terms of $w$ and , what is the angle that the rope makes with the horizontal at the right hook? Why?  What is the tension in the rope at the lowest point of the sagging rope?  With what magnitude force does the rope pull on each of the hooks?   "
 },
@@ -1652,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-2-7",
   "type": "Exercise",
-  "number": "4.11.6",
+  "number": "4.13.6",
   "title": "",
   "body": "Draw force diagrams for each of the bodies shown below:             "
 },
@@ -1661,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-3-2",
   "type": "Exercise",
-  "number": "4.11.7",
+  "number": "4.13.7",
   "title": "",
   "body": "A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. The lower block is then pulled to the right at constant speed by a horizontal force while the top block is pulled to the left by a massless string passing over a massless, frictionless pulley back to the second mass as shown below. If the coefficient of kinetic friction between all surfaces is 0.25.    what is the tension in the string, and  the force pulling the bottom block?   "
 },
@@ -1670,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-3-3",
   "type": "Exercise",
-  "number": "4.11.8",
+  "number": "4.13.8",
   "title": "",
   "body": "A 10-kg block of wood is placed on a plank 3 m long with one end raised slowly as shown in figure below. If the coefficient of static friction between block and plank is 0.3 and the coefficient of kinetic friction is 0.2,    what is the tilt angle of the plank when the block first starts moving?  What is the tilt angle for the block to slide down the plane at a constant speed?  How large a force parallel to the plank would be required to make the block move up the plane at constant speed if the tilt angle is ?  How large a force parallel to the horizon would be required to make the block move up the plane at constant speed if the tilt angle is ?   "
 },
@@ -1679,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-3-4",
   "type": "Exercise",
-  "number": "4.11.9",
+  "number": "4.13.9",
   "title": "",
   "body": "Weight slides to the right at constant speed along a rough horizontal surface while weight moves downward as shown in the figure below. If the strings and pulleys are massless and frictionless, find    the tension in each of the strings,  the coefficient of kinetic friction between block 1 and the surface.   "
 },
@@ -1688,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-3-5",
   "type": "Exercise",
-  "number": "4.11.10",
+  "number": "4.13.10",
   "title": "",
   "body": "A sail boat weighing 1000 lb including contents is sailing at a constant speed of 10 mph into a wind of 20 mph as shown below. The angle between the keel of the boat and the wind is , and the angle between the sail and the keel is . Assume that the force of the air on the sail is perpendicular to the sail, that the force of the water on the keel is perpendicular to the keel, and that the friction of the boat through the water is 100 lb.    With what force does the wind push against the sail?  How hard does the water push against the keel?   "
 },
@@ -1697,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-2",
   "type": "Exercise",
-  "number": "4.11.11",
+  "number": "4.13.11",
   "title": "",
   "body": "A box of mass 100 kg is pushed across the floor by a man pushing with 500 N northward and a boy pushing 200 N eastward. If the coefficient of sliding friction is 0.2, what is the magnitude and direction of the acceleration of the box. "
 },
@@ -1706,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-3",
   "type": "Exercise",
-  "number": "4.11.12",
+  "number": "4.13.12",
   "title": "",
   "body": "Two blocks are sliding down an inclined plane in contact with one another as shown in the figure below. Block A has a mass of 3 kg while block B has a mass of 2 kg. The coefficient of sliding friction between A and the surface is 0.3 while that between the B and the surface is 0.2. What is the magnitude of the minimum force between the two blocks?   "
 },
@@ -1715,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-4",
   "type": "Exercise",
-  "number": "4.11.13",
+  "number": "4.13.13",
   "title": "",
   "body": "A block of mass = 20 kg rests on a plane inclined at an angle . It is attached by a thin string run over a massless, frictionless pulley to a hanging weight of unknown mass . If the coefficient of static friction is 0.25 and of kinetic friction is 0.1, determine the values of the mass which will    start the mass moving up the plane.  What will be the acceleration of m1 once it starts moving.   "
 },
@@ -1724,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-5",
   "type": "Exercise",
-  "number": "4.11.14",
+  "number": "4.13.14",
   "title": "",
   "body": "A block of mass = 10 kg rests on top of a larger block of mass = 20 kg which rests on a plane inclined at an angle . The coefficient of static friction between all surfaces is 1\/3 and that of kinetic friction is 1\/4. A constant force F parallel to the plane is applied to accelerating it up the plane.    What is the maximum acceleration of which will allow m1 to stay with it?  What is the force F which causes this acceleration?   "
 },
@@ -1733,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-6",
   "type": "Exercise",
-  "number": "4.11.15",
+  "number": "4.13.15",
   "title": "",
   "body": "A large block A of mass 10 kg is resting on a horizontal surface. A second block B of mass 100 g is placed against the side of the first block and the whole system is accelerated to the right by a force P pushing on the back side of A. If the horizontal surface is frictionless but the vertical surface between A and B has a coefficient of static friction of 0.3, find    the acceleration of the system and  the force P that will just keep the block B from falling.   "
 },
@@ -1742,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-7",
   "type": "Exercise",
-  "number": "4.11.16",
+  "number": "4.13.16",
   "title": "",
   "body": "A block of mass = 10 kg rests on top of a frictionless horizontal surface as shown in the figure below. All pulleys and strings in the figure are frictionless and massless. Mass is 5 kg.    What is the tension in the long string?  What is the acceleration of ?  What is the acceleration of ?   "
 },
@@ -1751,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-8",
   "type": "Exercise",
-  "number": "4.11.17",
+  "number": "4.13.17",
   "title": "",
   "body": "Two boxes (X=2kg) and (Y=5kg) are connected through a massless spring and are placed on a frictionless surface. If the acceleration of the box X is , find the acceleration of the box Y, if a 30N force is being applied horizontally on the box X to move them on the ground. "
 },
@@ -1760,25 +1967,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-4-9",
   "type": "Exercise",
-  "number": "4.11.18",
+  "number": "4.13.18",
   "title": "",
   "body": "A ball is dropped from a height of 100 m. If the friction due to air resistance is proportional to the velocity according to the equation where c = 0.3 Ns\/m. Determine the time taken by the ball to hit the ground. How fast is the ball going when it hits the ground if the mass of the ball is    0.1 kg,  1.0 kg,  10 kg,  so large that friction is negligible.    use excel sheet to find height, corresponding to different time, .     "
-},
-{
-  "id": "ex_fourth-4-10",
-  "level": "2",
-  "url": "ex_fourth.html#ex_fourth-4-10",
-  "type": "Exercise",
-  "number": "4.11.19",
-  "title": "",
-  "body": " A projectile with air resistance: A projectile of mass 1 kg is shot into the air with an initial velocity of 100 m\/s at an angle of . If the air resistive force is proportional to the velocity and directed opposite the velocity with a proportionality constant of c = 0.0, 0.01, 0.1, 1.0 N.s\/m, in each case find  the maximum height it reaches,  the range of the projectile, and  the time of flight.    Use formula     "
 },
 {
   "id": "ex_fourth-5-2",
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-2",
   "type": "Exercise",
-  "number": "4.11.20",
+  "number": "4.13.19",
   "title": "",
   "body": "  A level highway curve of radius 100 m is banked for cars traveling at a speed of 20 m\/s. What is the bank angle?  If a car rounds the above curve at 40 m\/s what is the minimum coefficient of friction that will keep it on the road?   "
 },
@@ -1787,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-3",
   "type": "Exercise",
-  "number": "4.11.21",
+  "number": "4.13.20",
   "title": "",
   "body": "  An airplane traveling at 40 m\/s pulls out of a dive in a circle of radius 200 m. How many g's of force does the pilot experience at the bottom of the pull-out?  The above pilot makes a loop of radius 200 m having slowed down to 30 m\/s at the top.  How many g's of force does he experience at the top?   "
 },
@@ -1796,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-4",
   "type": "Exercise",
-  "number": "4.11.22",
+  "number": "4.13.21",
   "title": "",
   "body": "A mass of 500 g is whirled in a horizontal circle on the end of a string 1.5 m long at the rate of 200 rpm.  What is the speed of the rock?  What is the angle that the string makes with the horizontal?  What is the tension in the string?   "
 },
@@ -1805,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-5",
   "type": "Exercise",
-  "number": "4.11.23",
+  "number": "4.13.22",
   "title": "",
   "body": "A child of mass 50 kg is standing at the edge of a playground merry-go-round of diameter 3 m. Other children push the merry-go-round faster and faster until the first child's feet begin to slip.  If the friction between shoes and rotating surface is 0.2, how long does it take the merry-go-round to make one revolution?  How fast is the first child traveling when he begins to slip?  What is the angle between the first child\\rq s body and a vertical line before he begins to slip?   "
 },
@@ -1814,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-6",
   "type": "Exercise",
-  "number": "4.11.24",
+  "number": "4.13.23",
   "title": "",
   "body": "A car traveling at 80 mph rounds a curve of radius 50 m which is banked for a speed of 50 mph. What is the minimum coefficient of friction that would keep the car on the road? "
 },
@@ -1823,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-7",
   "type": "Exercise",
-  "number": "4.11.25",
+  "number": "4.13.24",
   "title": "",
   "body": "At what angle from vertical a cyclist has to lean in order to make a turn on 10 m radius curve path, if his speed is 5 m\/s? "
 },
@@ -1832,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-8",
   "type": "Exercise",
-  "number": "4.11.26",
+  "number": "4.13.25",
   "title": "",
   "body": "A small sphere of mass m is dropped from a great height. After it has fallen 100 m, it has attained its terminal velocity and continues to fall at that speed. Calculate the work done by air friction against the sphere during the first 100 m of fall. "
 },
@@ -1841,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-5-9",
   "type": "Exercise",
-  "number": "4.11.27",
+  "number": "4.13.26",
   "title": "",
   "body": "An automobile traveling at 60 mph rounds a curve banked at . The radius of the curve is 200 ft.  What is the minimum coefficient of friction that will keep the car on the road?  What would the bank angle need to be in order for the car to stay on the road without any friction?       and   "
 },
@@ -1850,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-2",
   "type": "Exercise",
-  "number": "4.11.28",
+  "number": "4.13.27",
   "title": "",
   "body": "Find the center-of-mass coordinates of the masses shown below:   "
 },
@@ -1859,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-3",
   "type": "Exercise",
-  "number": "4.11.29",
+  "number": "4.13.28",
   "title": "",
   "body": "Find the coordinates of the center of mass of the system of particles shown at right:   "
 },
@@ -1868,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-4",
   "type": "Exercise",
-  "number": "4.11.30",
+  "number": "4.13.29",
   "title": "",
   "body": "In the figure at right,    find the center of mass of each segment,  recognize that the mass of each segment is proportional to the length of each segment and write down the length of each segment,  write the coordinates of the center of each segment,  calculate the coordinates of the center of mass of the L shaped figure, and  locate the center of mass on the figure.   "
 },
@@ -1877,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-5",
   "type": "Exercise",
-  "number": "4.11.31",
+  "number": "4.13.30",
   "title": "",
   "body": "Calculate the center of mass of uniform sheet of metal shaped as shown in figure below.   "
 },
@@ -1886,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-6",
   "type": "Exercise",
-  "number": "4.11.32",
+  "number": "4.13.31",
   "title": "",
   "body": "On the figure below place a dot at the center of mass of the object shown, assuming its mass is distributed uniformly.   "
 },
@@ -1895,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-7",
   "type": "Exercise",
-  "number": "4.11.33",
+  "number": "4.13.32",
   "title": "",
   "body": "Find the location of the center of mass of the object illustrated below if    the object consists of two circles connected by a rectangle all of uniform mass distribution,  the object consists of two spheres each of density connected by a cylindrical rod of density .   "
 },
@@ -1904,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-8",
   "type": "Exercise",
-  "number": "4.11.34",
+  "number": "4.13.33",
   "title": "",
   "body": "A man of weight 200 lb is sitting at one end of a canoe of weight 60 lb which is 10 ft long and at rest in the water. If the man walks to the other end of the canoe how far does the canoe move through the water? (Assume the water has no friction.)   "
 },
@@ -1913,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-9",
   "type": "Exercise",
-  "number": "4.11.35",
+  "number": "4.13.34",
   "title": "",
   "body": "To weigh a fish, a person hangs a fish at a point of the length of a rigid rod which is suspended by a rope attached to its center. If there is 3.5 kg mass is hanging at one end near to fish and a 5 kg mass is hanging at another end to balance the system. What is the weight of the fish. "
 },
@@ -1922,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-10",
   "type": "Exercise",
-  "number": "4.11.36",
+  "number": "4.13.35",
   "title": "",
   "body": "A 60 kg man and his 40 kg dog are sitting together at the left end of a 8.0 m long boat. The boat is 100 kg, and its center of mass lies at the geometric center. The boat starts out at rest in the middle of a calm lake. Ignore all friction and water resistance throughout this problem.  Where is the center of mass of the boat + man + dog system? Consider the origin of coordinates lies at left end of the boat.  Suppose that the dog moves to the other end of the boat, while the man stays still. How far does the boat move and in which direction? (left or right).  After reaching the other end of the boat, the dog jumps off with a horizontal velocity of 2.0 m\/s, directed to the right, as measured relative to the water. What is the speed with which the boat and the man drift in the opposite direction?   "
 },
@@ -1931,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-6-11",
   "type": "Exercise",
-  "number": "4.11.37",
+  "number": "4.13.36",
   "title": "",
   "body": "A system consists of three balls. Ball 1 has a mass of 2 kg and is located at (-2cm,0); ball 2 has an unknown mass and is located at (4cm,3cm); ball 3 has a mass of 1 kg and is located at (x,y). The center of mass of the system is located (0,2cm). Calculate the mass ball 2 and find the location of ball 3. "
 },
@@ -1940,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-2",
   "type": "Exercise",
-  "number": "4.11.38",
+  "number": "4.13.37",
   "title": "",
   "body": "Given the vectors and , find a vector of unit length perpendicular to both and . "
 },
@@ -1949,7 +2147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-3",
   "type": "Exercise",
-  "number": "4.11.39",
+  "number": "4.13.38",
   "title": "",
   "body": "Write down the results of all possible cross products between and . "
 },
@@ -1958,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-4",
   "type": "Exercise",
-  "number": "4.11.40",
+  "number": "4.13.39",
   "title": "",
   "body": "Prove that for any two vectors and . "
 },
@@ -1967,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-5",
   "type": "Exercise",
-  "number": "4.11.41",
+  "number": "4.13.40",
   "title": "",
   "body": "Prove that for any vector . "
 },
@@ -1976,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-6",
   "type": "Exercise",
-  "number": "4.11.42",
+  "number": "4.13.41",
   "title": "",
   "body": "Prove that the determinant form of the cross product renders the same result as the component form. "
 },
@@ -1985,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-7",
   "type": "Exercise",
-  "number": "4.11.43",
+  "number": "4.13.42",
   "title": "",
   "body": "  Draw the forces acting on the ladder shown below if there is no friction on the vertical surface.      What is the torque equation for an axis located at the bottom of the ladder?      What is the torque equation for an axis located at the top of the ladder?      What is the torque equation for an axis located at the point in space labeled P?     "
 },
@@ -1994,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-8",
   "type": "Exercise",
-  "number": "4.11.44",
+  "number": "4.13.43",
   "title": "",
   "body": "A uniform sheet of metal in the shape of a hemisphere of radius 1 m is used as a sign. The hemisphere has a mass of 200 kg and is suspended by two vertical wires attached to points along its horizontal diameter. One wire is attached to the left end of the diameter and the other is attached to a point three-quarters of the way to the other end.  Write the torque equation for the left end of the diameter.  Write the torque equation for the right end of the diameter.  What is the tension in each wire?   "
 },
@@ -2003,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-9",
   "type": "Exercise",
-  "number": "4.11.45",
+  "number": "4.13.44",
   "title": "",
   "body": "A ladder 10 m long and weighing 200 N is placed against a frictionless wall with its base 6 m from the bottom of the wall. If the coefficient of static friction between the floor and the bottom of the ladder is 0.2, how far up the ladder can a man weighing 800 N climb before the base of the ladder starts to slip? "
 },
@@ -2012,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-10",
   "type": "Exercise",
-  "number": "4.11.46",
+  "number": "4.13.45",
   "title": "",
   "body": "A gate of height 1 m, length, 2 m, and weight 400 N is hinged at points A and B as shown in the figure below. The tension T in a support cable making an angle of is adjusted until the horizontal force at hinge A is zero. Find    the tension T,    the horizontal component of the force exerted on the gate by hinge B, and    the sum of the vertical components of the forces exerted on the gate by hinges A and B.   "
 },
@@ -2021,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-11",
   "type": "Exercise",
-  "number": "4.11.47",
+  "number": "4.13.46",
   "title": "",
   "body": "A uniform block of weight 10 N, height 20 cm, and base 10 cm is placed base down on a horizontal plane 1 m long resting on a table. The coefficient of static friction is 0.3 and that of kinetic friction is 0.2. One end of the plane is slowly raised until the block either tips over or begins sliding.  Which of the two possibilities happens first?  What is the angle between the plane and the table when this happens?   "
 },
@@ -2030,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-12",
   "type": "Exercise",
-  "number": "4.11.48",
+  "number": "4.13.47",
   "title": "",
   "body": "A wheel of diameter 0.6 m and weight 100 N is pushed over a curb of height 10 cm by a horizontal force F. What is the magnitude of this force if it is applied   at the top of the wheel as shown in figure below?      at the axle as shown in figure below?     "
 },
@@ -2039,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-13",
   "type": "Exercise",
-  "number": "4.11.49",
+  "number": "4.13.48",
   "title": "",
   "body": "If the bowling ball weighs 25 N is lying between two inclined planes which make an angle and with the horizontal. what is the value of the normal exerted on each point of tangency? Each surface is frictionless.  "
 },
@@ -2048,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-14",
   "type": "Exercise",
-  "number": "4.11.50",
+  "number": "4.13.49",
   "title": "",
   "body": "A rope is supporting a 200 kg uniform beam which is 10 m long. One end of the beam is hinged at a wall and the other end of supports a 1000 kg load. The rope is attached to the end of the beam and makes an angle of with the horizontal beam. What is the tension in the rope? "
 },
@@ -2057,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_fourth.html#ex_fourth-7-15",
   "type": "Exercise",
-  "number": "4.11.51",
+  "number": "4.13.50",
   "title": "",
   "body": "A 3 m long stepladder is hinged at point C and spreads on the frictionless floor. The ladder is massless and has a 1m tie rod, BD fixed at halfway up. A man weighing 800N is standing at 2.75 m along the ladder. Find     the tension in the tie-rod and    the magnitudes of the forces on the floor at points A and E.    "
 },
@@ -2951,6 +3149,1095 @@ var ptx_lunr_docs = [
   "number": "5.6.37",
   "title": "",
   "body": "A bullet of mass m penetrates a block of mass M lying on a frictionless table. If the initial velocity of bullet is and it exits form the block with velocity , find the time taken by the block to fly off the table if it is at a distance L from the edge of the table. If the table has a height h how far from the edge of the table will it land? "
+},
+{
+  "id": "sec_sixth-intro",
+  "level": "1",
+  "url": "sec_sixth-intro.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Newton’s Law of Gravitation",
+  "body": " Newton's Law of Gravitation       Newton observed that when an object, such as an apple, was released near the surface of the earth, it was accelerated toward the earth. Since the cause of such acceleration is an unbalanced force, there must be a force pulling that object toward the earth. On this basis he came up with an idea called Newton's Law of Universal Gravitation . It states that any two masses in the universe attract each other with a force that is directly proportional to the product of the masses and inversely proportional to the square of the distance between them. Mathematically,  Where and are masses of two objects, is the distance between them, and , is the proportionality constant, also called the universal gravitational constant. The value of G was first measured by Sir Henry Cavendish experimentally in 1798. The force is the force on mass 1 due to mass 2, the force is the force on mass 2 due to mass 1, and they are equal and opposite [ ].   universal gravitational constant      Acceleration Due to Gravity,        From Newton's II law of motion, when an external unbalanced force acts on an object, it will give an acceleration to that object, that is, . But, if the gravitational force is acting on the body near the surface of the earth, then the body experiences the acceleration for a freely falling body. This force is called weight of the body, . Hence, Where and are the mass of earth, mass of a body on the surface of the earth, and the radius of the earth, respectively. The shape of earth is not a perfect sphere, rather, it is an oblate spheroid. That is, the radius of the earth at the equator is slightly greater than the radius of the earth at the poles as shown in . Hence the value of varies slightly with latitude on the surface of the earth as since G and M are constants. The value of The mean value of Even though the variation in the radius of the earth seems quite small, the variation in the acceleration due to gravity on the earth goes from as low as at the equator to as high as at the north Pole.    Effect of the Rotation of the Earth on g      The value of on the surface of the earth does not only vary with the radius of the earth but it is also affected by the rotation of the earth. Any mass rotating in a circular motion needs a centripetal force which is acting towards the center of the circular path. Remember that a centripetal force is not a real force that is acting on a rotating body, but it is the required force that must be applied to keep the body in that rotational motion. Hence the part of gravitational force must be acting on a body to provide a necessary centripetal force to keep that object moving on a circle with the rotation of the earth as shown in .  Since the centripetal force required by the mass m to follow a circle of radius r, then this force must be provided by the vector difference in force of gravity and a real force , i.e.,   The magnitude of can be found by   where R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is     Effect of Altitude of the Earth on g      Acceleration due to gravity on the surface of the earth is given by At height from the surface of the earth [Figure ], acceleration due to gravity is given by  using binomial theorem     Effect of Depth of the Earth on g      Acceleration due to gravity on the surface of the earth is given by where mass of the entire earth, At depth from the surface of the earth, mass of the earth [ ]. Therefore the acceleration due to gravity at that depth is given by        Gravitational Potential Energy, U      The gravitational potential energy of a body is work required to bring the body from infinity to the particular position in a gravitational field. Let a body of mass is displaced without acceleration by a distance against the force of gravity, then work done by the external force is given by If a body is displaced from a position of distance to infinity [ ], then work done by the gravity, (or the gravitational potential energy) is given by by taking calculus approach.    Orbital Velocity of a Satelite      The velocity of a satellite in its orbit around the planet is called the orbital velocity, . To move in a circular track an object must need a centripetal force which is provided by the force of gravity between the object and the planet. i.e.,  Where , , and are distance of a satellite (object), mass of a satellite, and mass of the planet, respectively. is radius of the planet, is universal gravitational constant, and is the altitude of the satellite from the surface of the planet.    Escape Velocity      The minimum velocity of an object with which it can be thrown out from the planet so that it never come back is known as escape velocity. Suppose a stone of mass is thrown out from a planet with a velocity so that it never fall back on the earth again, then the total energy of the stone on the planet, is equal to total energy of the stone at infinity,    Where , , and are distance of a satellite (object), mass of a satellite, and mass of the planet, respectively. Here is radius of the planet, is universal gravitational constant, and is the altitude of the satellite from the surface of the planet. If radius of the earth, and mass of the earth is , then      Geosynchronous satellite      A geosynchronous satellite orbits the earth in such a way that it reaches at the same point above the earth in every 24 hours. It orbits in a polar orbit. The special kind of geosynchronous satellite is called geostationary satellite which seems to be at rest at the same position above the earth. It takes an equatorial orbit. The only force which provides the necessary centripetal force of such satellite is the gravitational force. Such satellites are used for weather forecasting and signal transmission. Where  and are mass, orbital velocity, and the orbital radius of the satellite, respectively. Also Where is orbiting time period of satellite. From eqns. and , we have - Since the angular speed of satellite in its orbit must be the same as that of the earth about its axis, the orbiting time period of satellite must be equal to 1 day. Therefore,  A geostationary satellite must orbit at a distance of about 36000 km above the surface of the earth, [ ].   "
+},
+{
+  "id": "NLG1",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG1",
+  "type": "Figure",
+  "number": "6.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_sixth-intro-2-2",
+  "level": "2",
+  "url": "sec_sixth-intro.html#sec_sixth-intro-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Newton's Law of Universal Gravitation "
+},
+{
+  "id": "NLG2",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG2",
+  "type": "Figure",
+  "number": "6.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG3",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG3",
+  "type": "Figure",
+  "number": "6.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG4",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG4",
+  "type": "Figure",
+  "number": "6.1.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG5",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG5",
+  "type": "Figure",
+  "number": "6.1.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG6",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG6",
+  "type": "Figure",
+  "number": "6.1.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG7",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG7",
+  "type": "Figure",
+  "number": "6.1.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG8",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG8",
+  "type": "Figure",
+  "number": "6.1.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "NLG9",
+  "level": "2",
+  "url": "sec_sixth-intro.html#NLG9",
+  "type": "Figure",
+  "number": "6.1.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_sixth-kepler",
+  "level": "1",
+  "url": "sec_sixth-kepler.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Kepler’s Laws of Planetary Motion",
+  "body": " Kepler's Laws of Planetary Motion                The asymmetric position of a massive object within the elliptical orbit [ ] renders the orbiting object moves in a varying distance from the massive object. The distance of closest approach is called the periapsis and the distance of maximum separation, is called the apoapsis. For the earth around the sun perihelion is the distance of closest approach and \"aphelion\" is distance of the maximum separation (helio means sun in Greek) [ ]. For earth-moon system, \"perigee\" is the distance of closest approach and \"apogee\" is distance of the maximum separation (gee means earth in Greek).  Johannes Kepler established three laws for planetary motion from his and Tyco Brahe years of sky gazing in early century. They are      The law of orbit: In Solar system, every planet revolves in an elliptical orbit and the Sun being at one of its focii [ ].       The law of area: Planet sweeps out an equal area in equal interval of time in the orbit [ ].          The law of period: The square of time period of planet around the sun is directly proportional to the cube of semi-major axis.  Any object moving in a circular motion needs centripetal force, here graviational force provides a necessary centripetal force to the planet,  is orbital velocity of the planet, is semi-major axis of the elliptical orbit, and mass of the sun. also, and . Now on rearrangeing the above equation, we get -       "
+},
+{
+  "id": "sec_sixth-kepler-2-1",
+  "level": "2",
+  "url": "sec_sixth-kepler.html#sec_sixth-kepler-2-1",
+  "type": "Figure",
+  "number": "6.2.1",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "sec_sixth-kepler-2-4",
+  "level": "2",
+  "url": "sec_sixth-kepler.html#sec_sixth-kepler-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The law of orbit: Sun The law of area: The law of period: "
+},
+{
+  "id": "sec_sixth-examples",
+  "level": "1",
+  "url": "sec_sixth-examples.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Examples",
+  "body": " Examples    Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?      Given:    Equations:        The direction of resultant force is acting along below the x-axis, which is also the direction of resultant acceleration of mass 4 kg.       A satellite orbits the earth in a circular orbit at an altitude of 1000 mile.  What is its orbital speed?  How long does it take to complete one orbit?      Given:     Equations:        A rocket is launched straight up from the surface of the planet of mass and radius at twice the escape speed. What is the speed of the rocket far away from the planet?    Given:              A starship in a binary system is located a distance r from one star and a distance 2r from the other star. The starship wants to launch a deep space probe of mass m. The probe has no propulsion system of its own. What is the escape velocity from the starship's current location in the binary star system above?      From the energy conservation, total energy at starship = 0.  That is total potential energy at starship = kinetic energy for escaping the probe at starship.         Two satellites of equal masses m revolve around the planet of mass M. The planet's mass is much larger than the mass of the satellites, . The radii of the orbits of the satellites are r and 2r. The satellites are connected by a light string, directed along the radius of the orbit, that keeps their periods of revolution equal. Find the force of tension T in the string in terms of m, M, r, and G. What is the period of the satellites' orbit? Answer in terms of G, r, and M, and mathematical constants.      Let be the angular velocity of satelites, then centripetal force needed for first satelite is given by centripetal force needed for second satelite is given by  From eqns. and , we get -    Now, from eqn , and hence,        Two asteroids of masses M and m and radii R and r are at rest and isolated in space at a distance d apart. They begin drifting towards each other and smashed eventually. If M = 4m and R = 2r, find the velocity of the small asteroid just before it hits the big asteroid.    From conservation of momentum   Also from conservation on energy,          "
+},
+{
+  "id": "sec_sixth-examples-2",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-2",
+  "type": "Example",
+  "number": "6.3.1",
+  "title": "",
+  "body": "  Consider the mass distribution shown at right. What is the magnitude and direction of initial acceleration of the 4 kg mass if all of the masses are released from rest out in space?      Given:    Equations:        The direction of resultant force is acting along below the x-axis, which is also the direction of resultant acceleration of mass 4 kg.    "
+},
+{
+  "id": "sec_sixth-examples-3",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-3",
+  "type": "Example",
+  "number": "6.3.2",
+  "title": "",
+  "body": "  A satellite orbits the earth in a circular orbit at an altitude of 1000 mile.  What is its orbital speed?  How long does it take to complete one orbit?      Given:     Equations:     "
+},
+{
+  "id": "sec_sixth-examples-4",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-4",
+  "type": "Example",
+  "number": "6.3.3",
+  "title": "",
+  "body": "  A rocket is launched straight up from the surface of the planet of mass and radius at twice the escape speed. What is the speed of the rocket far away from the planet?    Given:           "
+},
+{
+  "id": "sec_sixth-examples-5",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-5",
+  "type": "Example",
+  "number": "6.3.4",
+  "title": "",
+  "body": "  A starship in a binary system is located a distance r from one star and a distance 2r from the other star. The starship wants to launch a deep space probe of mass m. The probe has no propulsion system of its own. What is the escape velocity from the starship's current location in the binary star system above?      From the energy conservation, total energy at starship = 0.  That is total potential energy at starship = kinetic energy for escaping the probe at starship.      "
+},
+{
+  "id": "sec_sixth-examples-6",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-6",
+  "type": "Example",
+  "number": "6.3.5",
+  "title": "",
+  "body": "  Two satellites of equal masses m revolve around the planet of mass M. The planet's mass is much larger than the mass of the satellites, . The radii of the orbits of the satellites are r and 2r. The satellites are connected by a light string, directed along the radius of the orbit, that keeps their periods of revolution equal. Find the force of tension T in the string in terms of m, M, r, and G. What is the period of the satellites' orbit? Answer in terms of G, r, and M, and mathematical constants.      Let be the angular velocity of satelites, then centripetal force needed for first satelite is given by centripetal force needed for second satelite is given by  From eqns. and , we get -    Now, from eqn , and hence,     "
+},
+{
+  "id": "sec_sixth-examples-7",
+  "level": "2",
+  "url": "sec_sixth-examples.html#sec_sixth-examples-7",
+  "type": "Example",
+  "number": "6.3.6",
+  "title": "",
+  "body": "  Two asteroids of masses M and m and radii R and r are at rest and isolated in space at a distance d apart. They begin drifting towards each other and smashed eventually. If M = 4m and R = 2r, find the velocity of the small asteroid just before it hits the big asteroid.    From conservation of momentum   Also from conservation on energy,         "
+},
+{
+  "id": "ex_sixth",
+  "level": "1",
+  "url": "ex_sixth.html",
+  "type": "Exercises",
+  "number": "6.4",
+  "title": "Exercise",
+  "body": "  Exercise  An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?    A rock of mass 500 kg is dropped from a height of 1 m. While it is falling,  how hard does the earth pull down on the rock?  how hard does the rock pull up on the earth?  why doesn't the earth move upward to meet the rock?    If the the earth were a sphere of radius , the acceleration due to gravity at the surface of the earth were , and the universal gravitational constant were , what would be the mass of the earth?  What is the altitude of a communications satellite which remains stationary over one spot on the earth? Can this spot be the north pole?  The Moon is 384,400 km distant from the Earth's center, and it completes an orbit in 27.3 days.  Determine the Moon's orbital speed.  How far does the Moon \"fall\" toward the Earth in 1 s?          Io, a small moon of Jupiter, has an orbital period of 1.77 days and an orbital radius of . From these data, determine the mass of Jupiter.  Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?    Find the difference in potential energy of a satellite of mass , when it is at a distance of and when it is at the distance of from the center of the earth.  Three point masses of 30.0 kg, 50.0 kg, and 70.0 kg are located at the vertices of an equilateral triangle 1.00 m on a side. Find the resultant gravitational force on each mass.  At what speed would the earth have to rotate such that the centripetal force at the equator would be equal to the weight of a body there? If the earth rotated at this velocity, how long would a day be? If a 900-N man stood on a weighing scale there, what would the scales read?  Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. Assume the radius of the earth is 6400km and has a uniform density.  "
+},
+{
+  "id": "ex_sixth-2",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-2",
+  "type": "Exercise",
+  "number": "6.4.1",
+  "title": "",
+  "body": "An asteroid 1 mi in diameter of density enters the earth's gravity when it is at rest with respect to the solar system.  What is the speed of the asteroid with respect to the earth before entering the earth's gravity?  What is the speed of the asteroid when it hits the surface of the earth?  What is the energy of the asteroid when it hits the earth's surface?  How does this compare with the amount of solar energy which hits the surface of the earth every day if the solar constant is ?   "
+},
+{
+  "id": "ex_sixth-3",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-3",
+  "type": "Exercise",
+  "number": "6.4.2",
+  "title": "",
+  "body": "A rock of mass 500 kg is dropped from a height of 1 m. While it is falling,  how hard does the earth pull down on the rock?  how hard does the rock pull up on the earth?  why doesn't the earth move upward to meet the rock?   "
+},
+{
+  "id": "ex_sixth-4",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-4",
+  "type": "Exercise",
+  "number": "6.4.3",
+  "title": "",
+  "body": "If the the earth were a sphere of radius , the acceleration due to gravity at the surface of the earth were , and the universal gravitational constant were , what would be the mass of the earth? "
+},
+{
+  "id": "ex_sixth-5",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-5",
+  "type": "Exercise",
+  "number": "6.4.4",
+  "title": "",
+  "body": "What is the altitude of a communications satellite which remains stationary over one spot on the earth? Can this spot be the north pole? "
+},
+{
+  "id": "ex_sixth-6",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-6",
+  "type": "Exercise",
+  "number": "6.4.5",
+  "title": "",
+  "body": "The Moon is 384,400 km distant from the Earth's center, and it completes an orbit in 27.3 days.  Determine the Moon's orbital speed.  How far does the Moon \"fall\" toward the Earth in 1 s?       "
+},
+{
+  "id": "ex_sixth-7",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-7",
+  "type": "Exercise",
+  "number": "6.4.6",
+  "title": "",
+  "body": "  Io, a small moon of Jupiter, has an orbital period of 1.77 days and an orbital radius of . From these data, determine the mass of Jupiter.  Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?   "
+},
+{
+  "id": "ex_sixth-8",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-8",
+  "type": "Exercise",
+  "number": "6.4.7",
+  "title": "",
+  "body": "Find the difference in potential energy of a satellite of mass , when it is at a distance of and when it is at the distance of from the center of the earth. "
+},
+{
+  "id": "ex_sixth-9",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-9",
+  "type": "Exercise",
+  "number": "6.4.8",
+  "title": "",
+  "body": "Three point masses of 30.0 kg, 50.0 kg, and 70.0 kg are located at the vertices of an equilateral triangle 1.00 m on a side. Find the resultant gravitational force on each mass. "
+},
+{
+  "id": "ex_sixth-10",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-10",
+  "type": "Exercise",
+  "number": "6.4.9",
+  "title": "",
+  "body": "At what speed would the earth have to rotate such that the centripetal force at the equator would be equal to the weight of a body there? If the earth rotated at this velocity, how long would a day be? If a 900-N man stood on a weighing scale there, what would the scales read? "
+},
+{
+  "id": "ex_sixth-11",
+  "level": "2",
+  "url": "ex_sixth.html#ex_sixth-11",
+  "type": "Exercise",
+  "number": "6.4.10",
+  "title": "",
+  "body": "Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. Assume the radius of the earth is 6400km and has a uniform density. "
+},
+{
+  "id": "sec_seventh-intro",
+  "level": "1",
+  "url": "sec_seventh-intro.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Moment of Inertia",
+  "body": " Moment of Inertia   Moment of inertia is a property of a material during rotation. It is a measure of sluggishness (resistance to any changes) in object's rotational motion. Moment of inertia depends on the shape, mass distribution, and axis of rotation of the object. It is a rotational analog of a mass for linear motion. For a point mass the moment of inertia is just the product of mass and the square of perpendicular distance to the rotation axis. If a point object has a mass and is rotating about an axis then its moment of inertia, is given by where is a distance of the object from the axis of rotation [ ]. If there are an infinite number of point objects each at a distance are rotating about an axis, then the moment of inertia (M.I) of these discrete objects are given as                    as shown in .    Parallel axis theorem  The moment of inertia of a body depends upon the axis of rotation and there are many axes possible about which a body can rotate. Hence the parallel axis theorem provides a relationship between the moment of inertia of a body about an axis passing through its center of mass to any other axis of a body which is parallel to the axis through center of mass.      Consider an elementary mass at a distance from the center of mass of a body and at a distance from the axis of rotation through a point p [ ], then the moment of inertia of that point mass is given by   In this expression a moment of inertia of the body about an axis through center of mass, , the mass of a body, , moment of inertia of a body about an axis parallel to the axis through the center of mass, a distance between parallel axes, and   Since the position of the center of mass lies at origin (0,0), i.e.,  The parallel axis theorem states that the moment of inertia of a body about an axis parallel to an axis passing through the center of mass is equal to the sum of the moment of inertia of body about an axis passing through center of mass and product of mass and square of the distance between the two axes.    Perpendicular axis theorem      The perpendicular axis theorem states that the moment of inertia of a planar body (plane lamina) about an axis perpendicular to its plane is equal to the sum of its moments of inertia about two other perpendicular axes lying in the plane of the body.     Moment of Inertia of a Ring or Hoop                    As moment inertia depends upon the shape, mass distribution, and position of axis of rotation. Here are some conditions discussed below for a ring.    About an axis passing through its center of mass and perpendicular to its plane  Consider as a mass of a rim of radius rotating about an axis passing passing through its center of mass and perpendicular to its plane [ ], then the moment of inertia of tthe whole rim is given by     About an axis passing through its rim and perpendicular to its plane  Consider a ring of mass and radius is rotating about an axis passing passing through its rim and perpendicular to its plane [ ], then the moment of inertia of that ring can be obtained by     About an axis through its diameter  The moment of inertia of a ring about its center of mass and perpendicular to its plane [ ], is Now using the perpendicular axis theorem, we have As ring is a symmetrical object is considered as equal to . Hence       Moment of Inertia of a Rod                  About an axis passing through its center of mass and perpendicular to its plane  The moment of inertia of a rod of length and mass about an axis passing through its center of mass [ ] is given by     About an axis passing through its one edge and perpendicular to its plane  Using parallel axis theorem [ ], here, is the distance between axis of rotation and an axis through center of mass of a rod.     About an axis passing along its length and through the center of mass  If the rod is negligibly thin (slender rod), then , otherwise depends upon of its shape, its moment of inertia can be obtained similar to that for a solid cylinder or as for a rectangular prism      Moment of Inertia of a Disk                      About an axis passing through its center of mass and perpendicular to its plane  Consider a disk of radius and mass is rotating about an axis passing through its center of mass and perpendicular to its plane [ ], then the moment of inertia of the disk is given by     About an axis through its diameter  Using perpendicular axis theorem, [ ]  and by symmetry,      About an axis passing through its edge and perpendicular to its plane  Using parallel axis theorem, [ ]      Moment of Inertia of a Plate       About an axis passing through its center of mass and parallel to its plane           About an axis passing through its center of mass and parallel to its plane           About an axis passing through its center of mass and perpendicular to its plane      Moment of inertia of plate about using perpendicular axis theorem,      Moment of Inertia of a Cylinder                      Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  The moment of inertia of such cylinder [ ] is given by, then the Here is mass of the cylinder and is its radius.    Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane  [ ] here and are the inner and outer radius of the cylinder, and is its mass.    Moment of inertia of a solid cylinder about an axis passing through its center of mass  A cylindrical shell of length , radius , and mass [ ], then the moment of inertia of solid cylinder about an axis passing through its center of mass and perpendicular to its plane is given by Moment of inertia of solid cylinder about an axis passing through its center of mass and parallel to its plane      Moment of Inertia of a Sphere                  Moment of inertia of a hollow sphere about its diameter  Moment of inertia of a hollow sphere of mass and radius [ ], about its center of mass is given as     Moment of inertia of a solid sphere about its diameter  Moment of inertia of a solid sphere of mass and radius [ ] about its diameter is given by      Radius of Gyration  The radius of gyration, is a measure used to describe the distribution of mass or the shape of an object in rotational motion. It is the distance from the axis of rotation where the entire mass of the body is assumed to be concentrated that give the same moment of inertia of that body when it is rotating about an axis of rotation. It is an equivalent distance of the mass from the axis of rotation. It is helpfull to obtain the moment of inertia of a complex object. The radius of gyration of mass is given by Here refers to the radius of gyration of the object. The radius of gyration of a spherical body about its diameter can be obtained by considering the entire body is concentrated as a point mass at a distance from the axis of rotation and hence The radius of gyration provides a way to quantify how the mass of an object is distributed relative to its axis of rotation. Objects with a larger radius of gyration have their mass distributed farther from the axis of rotation, which typically means they are harder to rotate. Conversely, objects with a smaller radius of gyration have their mass distributed closer to the axis of rotation, making them easier to rotate.   "
+},
+{
+  "id": "sec_seventh-intro-2-2",
+  "level": "2",
+  "url": "sec_seventh-intro.html#sec_seventh-intro-2-2",
+  "type": "Figure",
+  "number": "7.1.1",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "miparallel1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#miparallel1",
+  "type": "Figure",
+  "number": "7.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-paral_axis-5",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-paral_axis-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "parallel axis theorem "
+},
+{
+  "id": "miperp1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#miperp1",
+  "type": "Figure",
+  "number": "7.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-perpend_axis-3",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-perpend_axis-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perpendicular axis theorem "
+},
+{
+  "id": "subsec-mi_ring-2-1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-mi_ring-2-1",
+  "type": "Figure",
+  "number": "7.1.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_rod-2-1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-mi_rod-2-1",
+  "type": "Figure",
+  "number": "7.1.5",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsec-mi_disk-2-1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-mi_disk-2-1",
+  "type": "Figure",
+  "number": "7.1.6",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "miplate2",
+  "level": "2",
+  "url": "sec_seventh-intro.html#miplate2",
+  "type": "Figure",
+  "number": "7.1.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "miplate3",
+  "level": "2",
+  "url": "sec_seventh-intro.html#miplate3",
+  "type": "Figure",
+  "number": "7.1.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "miplate1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#miplate1",
+  "type": "Figure",
+  "number": "7.1.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-mi_cylnd-2-1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-mi_cylnd-2-1",
+  "type": "Figure",
+  "number": "7.1.10",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-mi_spher-2-1",
+  "level": "2",
+  "url": "sec_seventh-intro.html#subsec-mi_spher-2-1",
+  "type": "Figure",
+  "number": "7.1.11",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "sec_seventh-examplesA",
+  "level": "1",
+  "url": "sec_seventh-examplesA.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Examples A",
+  "body": " Examples A    Find the moment of inertia of the following mass distribution for the following axes,  x,  x',  y,  z (out of the paper through the (x,y) origin).        Given:                         Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.    Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end, Moment of inertia of second rod about its center, Moment of inertia of CM of second rod about point o using axis theorem,         Calculate the moment of inertia of each of the uniform bodies  uniform block about its long axis,    square ring about its center, and    hula hoop about its rim.                        "
+},
+{
+  "id": "sec_seventh-examplesA-2",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#sec_seventh-examplesA-2",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Find the moment of inertia of the following mass distribution for the following axes,  x,  x',  y,  z (out of the paper through the (x,y) origin).        Given:                      "
+},
+{
+  "id": "sec_seventh-examplesA-3",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#sec_seventh-examplesA-3",
+  "type": "Example",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  Two rods, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis through point O that is perpendicular to the bars.    Divide the object into two pieces, each corresponding to a bar of mass m. Moment of inertia of first rod about its one end, Moment of inertia of second rod about its center, Moment of inertia of CM of second rod about point o using axis theorem,      "
+},
+{
+  "id": "sec_seventh-examplesA-4",
+  "level": "2",
+  "url": "sec_seventh-examplesA.html#sec_seventh-examplesA-4",
+  "type": "Example",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  Calculate the moment of inertia of each of the uniform bodies  uniform block about its long axis,    square ring about its center, and    hula hoop about its rim.                       "
+},
+{
+  "id": "sec_seventh-rotdyn",
+  "level": "1",
+  "url": "sec_seventh-rotdyn.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Rotational Dynamics",
+  "body": " Rotational Dynamics   Just as linear dynamics describes the influence of force on a body and its transalational motion, in rotational dynamics torque describes the nature of rotational motion. Torque in rotational motion is a linear analogue of force. Actually, torque is a turning effect of force which acts on a body in specific direction and at specific position.  A general expression for the angular acceleration produced by a torque is quite similar to acceleration produced by a force in linear motion. For example, if a force is applied at the center of mass it will not produce any torque. It seems that no torque no rotation and it is right but in this case we have to consider no net torque. If the net torque acting on a rigid object is zero, the body will rotate with a constant angular velocity as we have seen in rotational equilibrium. The moment of inertia of a rigid body is a linear analogue to a mass. Torque plays the same role in rotational motion as force plays in translational motion. As we have similarly, if Remember, circular motion is not possible without centripetal acceleration and it has nothing to do with angular accelration. Direction of angular acceleration is along the same direction as a torque acting on a body. Angular acceration by defintion is acting along the same direction along which angular velocity is changing. Since , we have . Here is a tangential acceleration. If the direction of uniform angular velocity is changing the torque starts acting on the body and the body starts precessing.    Rotational Overview  The table below summarizes some of the physical quantities as rotational anologue to a translation motion.      Linear Motion  Unit  Rotational Motion  Unit  Relation                                                   W     Mass (M)  kg  Inertia (I)       p=mv  kgm\/s          Joule    Joule         Nms          J                Although the mathematical forms of the equations are quite similar, rotational dynamics differs from linear dynamics in the following respects. It applies to systems consisting of a single rotating object rather than a point particle; The motion of a body is due to rotational velocity rather than the translational velocity; and the agent which cause the motion is the net torque not the net force. In rotational motion axis of rotation must be specified to characterize the rotational motion.    Rotational Energy, Work, and Power  Whenever a rigid body is set into rotation about an axis, work is done by the torques. Which is given as Since the direction of the angular displacement is measured along the axis, and the torque is acting along the same direction on the body. If a constant torque acts on a rigid body which is rotating about a fixed axis, then from the principle of conservation of mechanical energy, assuming no loss due to friction, the work done by the torque will produce a change in the kinetic energy of the body given by      For maximum torque, , and Also, and  From rotational kinematics, where and are the final and initial angular velocity of the body, respectively and is angular displacement through which the torque is applied.    Angular Momentum  A rigid body rotating with angular velocity, about a fixed axis has an angular momentum about this axis which is given by where is the moment of inertia of the body about this axis. To change the angular momentum of a body, an external torque must be applied to it. Similar to in linear dynamics, we have in rotational dynamics That is, the torque acting on a rigid body is equal to the rate of change of the angular momentum. The direction of torque is along the change in angular momentum. The direction of angular momentum is along the angular velocity, which is along the axis of rotation. In the absence of external torques, the angular momentum of a rigid body must be constant, in other words, there is no change in the angular momentum when the sum of the external torques is zero. This is known as the principle of conservation of angular momentum, i.e., Similarly, the angular impulse Thus the change in angular momentum is equal to the angular impulse. Again,       Hence angular momentum is also called moment of momentum. It is a vector quantity. It is acting along the direction perpendicular to the plane subtends by and The angular momentum of a point particle is a measure of the circulation of the particle's linear momentum about some specific point. In , is a position vector of mass, measured from point  here is a component of velocity (or momentum) along position vector . If the position vector and the velocity are contained in the x-y plane then the angular momentum is either along the +z axis or along the -z axis. If the right hand fingers pointed along the position vector curl along the velocity vector, then thumb will give the direction of angular momentum. In the if the right hand fingers are along the red dashed line curled towards the momentum vector then thumb is pointed out of the paper.                   The angular momentum vector depends on the position vector of the point particle, therefore it depends on the point from which the particle's position is measured. Consider a particle of mass moving along the axis with velocity as shown in , then the angular momentum of this particle is given with respect to points and are   where is pointed into the paper [figure ]. Similarly,  and is pointed out of the paper [figure ].    The Gyroscope                It is a spinning disc or wheel in which the axis of rotation is free to orient in any direction. It is used to detect rotational movement. It is very useful in navigation, especially where magnetic compasses can't be used, such as in spacecraft, intercontinental ballistic missiles, and satellites. Wheels on a bicycle, for example, act as gyroscopes as they spin up to speed, making it easier to stay upright and harder to upset momentum.  In the , and are initial and final angular momentum after time respectively. is angular velocity of wheel rotation and is a precessional velocity. is the distance of wheel from the axis of rotation, . is the direction of torque being acted on the wheel because of its weight. The direction of torque can be given by right hand thumb rule. When the right hand fingers are curled from the direction along to the direction along weight then the direction of thumb will be pointed along the torque. Because of torque the direction of angular momentum changes every second hence the orientation of new angular momentum is given by    Earth precesses because of the torque produced on it due to gravitational tidal force of the Sun and the Moon.   "
+},
+{
+  "id": "subsec-rot_overview-3",
+  "level": "2",
+  "url": "sec_seventh-rotdyn.html#subsec-rot_overview-3",
+  "type": "Table",
+  "number": "7.3.1",
+  "title": "",
+  "body": "    Linear Motion  Unit  Rotational Motion  Unit  Relation                                                   W     Mass (M)  kg  Inertia (I)       p=mv  kgm\/s          Joule    Joule         Nms          J               "
+},
+{
+  "id": "rotwork",
+  "level": "2",
+  "url": "sec_seventh-rotdyn.html#rotwork",
+  "type": "Figure",
+  "number": "7.3.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "angmomnt",
+  "level": "2",
+  "url": "sec_seventh-rotdyn.html#angmomnt",
+  "type": "Figure",
+  "number": "7.3.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-ang_momnt-5",
+  "level": "2",
+  "url": "sec_seventh-rotdyn.html#subsec-ang_momnt-5",
+  "type": "Figure",
+  "number": "7.3.4",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "gyroscope",
+  "level": "2",
+  "url": "sec_seventh-rotdyn.html#gyroscope",
+  "type": "Figure",
+  "number": "7.3.5",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "sec_seventh-examplesB",
+  "level": "1",
+  "url": "sec_seventh-examplesB.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "Examples B",
+  "body": " Examples B    A body rotates according to the equation , where and . Find:               Given:                     A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                       An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                        The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions by using the principle of work and energy.      Given:             Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,           A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -        A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by         A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                       A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case        The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                      A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,        A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                   A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,       A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?               A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.      A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.       Find the acceleration of a spherical ball rolling down the hill without slipping.             "
+},
+{
+  "id": "sec_seventh-examplesB-2",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-2",
+  "type": "Example",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  A body rotates according to the equation , where and . Find:               Given:                  "
+},
+{
+  "id": "sec_seventh-examplesB-3",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-3",
+  "type": "Example",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:  What is its angular acceleration?  How much time did it take to get up to speed?  What is the speed of the nail?  What is the acceleration of the nail?  What is the moment of inertia of the wheel?  What torque is required to make the wheel rotate?  How much energy was imparted to the wheel?  How much power is required to rotate the wheel?  What is the angular momentum of the wheel?      Given:                                    "
+},
+{
+  "id": "sec_seventh-examplesB-4",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-4",
+  "type": "Example",
+  "number": "7.4.3",
+  "title": "",
+  "body": "  An automobile engine with a moment of inertia of is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is .  What is the angular velocity of the clutch plate after the clutch is popped?  If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?  If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?                     "
+},
+{
+  "id": "sec_seventh-examplesB-5",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-5",
+  "type": "Example",
+  "number": "7.4.4",
+  "title": "",
+  "body": "  The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m counterclockwise torque is applied. Determine the disk's angular velocity (in rpm) when it has rotated through four revolutions by using the principle of work and energy.      Given:          "
+},
+{
+  "id": "sec_seventh-examplesB-6",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-6",
+  "type": "Example",
+  "number": "7.4.5",
+  "title": "",
+  "body": "  Two blocks of mass and are connected through a rope over a pulley of mass and radius as shown in figure  . What is the acceleration of the blocks and the tension in the rope on either side of the pulley?    From figure  .   Note: The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure  .   From figure    Now from eqns. and ,        "
+},
+{
+  "id": "sec_seventh-examplesB-7",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-7",
+  "type": "Example",
+  "number": "7.4.6",
+  "title": "",
+  "body": "  A yo-yo has a mass , a moment of inertia , and an inner radius A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.         From eqns. and , we have -     "
+},
+{
+  "id": "sec_seventh-examplesB-8",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-8",
+  "type": "Example",
+  "number": "7.4.7",
+  "title": "",
+  "body": "  A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?      Given: and Now, from free-body diagram [Figure b],  From free-body diagram [Figure c],  From eqns. and , we have -  Now well is 3m deep, so time taken by the block to reach at bottom of well is given by      "
+},
+{
+  "id": "sec_seventh-examplesB-9",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-9",
+  "type": "Example",
+  "number": "7.4.8",
+  "title": "",
+  "body": "  A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,  What is the minimum coefficient of static friction that will cause the ring to roll without slipping?  How long does it take for the ring to get to the bottom of the incline?  How fast is the ring moving at that time?  What fraction of the kinetic energy of the ring is due to its rotation at that time?        Given:  From geometry of the figure,         For ring and From eqns. and , we get - Also from eqns. and , we get -   From eqns. and , we get -                    "
+},
+{
+  "id": "sec_seventh-examplesB-10",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-10",
+  "type": "Example",
+  "number": "7.4.9",
+  "title": "",
+  "body": "  A block of mass and a disk of mass and radius are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is The coefficient of static friction between the slope and the block\/disk is 0.05 and the coefficient of kinetic friction between the slope and the block\/disk is 0.15. The angle is Find the maximum ratio such that the disk still rolls without slipping up the hill.      Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., ). Now, whether the system is accelerating or not for the maximum ratio of can be determined by the evaluation of final equation. From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration for now, then           From [Figure (c)] the disk is accelerating downwards with an acceleration because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore     Now from eqns. , and , we get - and from eqns. , and , we get - Hence from eqns. and , and we have -   If the system is not accelerating but moving with constant velocity, then Hence in that case     "
+},
+{
+  "id": "sec_seventh-examplesB-11",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-11",
+  "type": "Example",
+  "number": "7.4.10",
+  "title": "",
+  "body": "  The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N\/m, and  if the disk rolls without slipping, what is its angular acceleration at the instant it is released?  What is the minimum coefficient of static friction for which the disk will not slip when it is released?        Given: From free-body diagram,                   "
+},
+{
+  "id": "sec_seventh-examplesB-12",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-12",
+  "type": "Example",
+  "number": "7.4.11",
+  "title": "",
+  "body": "  A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.      The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.  The composites have same angular velocity, . Now, moment of inertia of a rod about its end, Also, moment of inertia of a disk about point using parallel axis theorem,     "
+},
+{
+  "id": "sec_seventh-examplesB-13",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-13",
+  "type": "Example",
+  "number": "7.4.12",
+  "title": "",
+  "body": "  A small ball of mass traveling with initial velocity hits a disk at rest of mass and radius at a vertical distance from the disk's center. The ball bounces back horizontally with a velocity and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.                "
+},
+{
+  "id": "sec_seventh-examplesB-14",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-14",
+  "type": "Example",
+  "number": "7.4.13",
+  "title": "",
+  "body": "  A uniform thin rod of length and mass can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet's velocity makes an angle degrees with the rod. If the bullet lodges in the rod and the angular velocity of the rod is rad\/s immediately after the collision, what is the magnitude of the bullet's velocity, m\/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.        Kinetic energy of bullet before collision, and total rotational kinetic energy after the collision,    "
+},
+{
+  "id": "sec_seventh-examplesB-15",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-15",
+  "type": "Example",
+  "number": "7.4.14",
+  "title": "",
+  "body": "  A disk is spinning at a rate of 10 rad\/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?            "
+},
+{
+  "id": "sec_seventh-examplesB-16",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-16",
+  "type": "Example",
+  "number": "7.4.15",
+  "title": "",
+  "body": "  A particle attached to a string of length 2 m is given an initial velocity of 6 m\/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m\/s?    when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.     Hence of string has already wound around the peg when the velocity is 20 m\/s.   "
+},
+{
+  "id": "sec_seventh-examplesB-17",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-17",
+  "type": "Example",
+  "number": "7.4.16",
+  "title": "",
+  "body": "  A rotating round object has an initial angular velocity placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity . If moment of inertia of the body is .  Find .  If find the shape of the round object.        when rotating object is placed on the surface its initial velocity Now due to frction translational velocity of the object is reduced after a time when object starts rolling without slipping with an angular velocity     also,   After time on rolling without slipping,         Hence the round object is a hollow sphere.     "
+},
+{
+  "id": "sec_seventh-examplesB-18",
+  "level": "2",
+  "url": "sec_seventh-examplesB.html#sec_seventh-examplesB-18",
+  "type": "Example",
+  "number": "7.4.17",
+  "title": "",
+  "body": " Find the acceleration of a spherical ball rolling down the hill without slipping.            "
+},
+{
+  "id": "sec_seventh-oscil",
+  "level": "1",
+  "url": "sec_seventh-oscil.html",
+  "type": "Section",
+  "number": "7.5",
+  "title": "Oscillatory Motion",
+  "body": " Oscillatory Motion   If a body repeats its motion after a fixed interval of time, then the body is said to be in periodic motion . In periodic motion object returns to its original position at some later time. The motion of the wheels, rocking chair, bouncing ball, a swing in motion, water waves, motion of planets around the sun, motion of clock arms, motion of spring-mass system, and motion of simple pendulum, etc. are some examples of periodic motion. If a body retraces its original path over and over about a mean position, then the body is in oscillatory motion . In oscillatory motion body moves to and fro ( or back and forth ) repeatedly about a fixed mean ( equilibrium ) position. Motion of a simple pendulum, spring-mass system, vibrating tuning fork, rocking chair, etc are some examples of oscillatory motion. A restoring force is responsible for oscillatory motion. A ball displaced a little from its rest position in a bowl performs an oscillatory motion. Circular motion of clock arms or wheels, etc. is periodic but not oscillatory. The wheels or clock arms do not move back and forth about the mean position rather they are moving in a circular motion is periodic not oscillatory. The motion of a pendulum is both oscillatory and periodic. All oscillatory motion is periodic but not all periodic motion is oscillatory. The motion of simple pendulum, spring - mass system, etc. is both oscillatory and periodic but the motion of wheels, motion of clock arm, planetary motion, etc. is only periodic. In periodic motion body also regain its all parameters after equal interval. The particles of a body get same velocity and direction at the same point over and over. If not then it becomes a random motion. In oscilattory motion, particle changes its direction of velocity at each point during the course of motion.    Simple Harmonic Motion   Phasor Diagram     If a body oscillates repeatedly ( to and fro ) between two extremes in equal interval of time then the motion is called a simple harmonic motion. It is the simplest form of oscillatory motion. The moving particle follows the same velocity at the same displacement of its oscillation and the restoring force always pointed towards the mean position. The bouncing ball motion is oscillatory but not simple harmonic. A particle moving in a uniform circular motion in a given phasor diagram [ ] can be seen as a foot ( ) of the particle executing SHM.  The angular velocity of the particle is therefore the same as angular frequency of the foot of the particle executing SHM as shown in . As the particle moves on a circle its foot, M executes up and down motion which traces a sinusoidal curve with respect to time. Some important terminologies are given below to understand SHM.   Amplitude, :  amplitude The maximum displacement of the oscillating particle on either side of its mean position.   Time Period, :  time period Time taken by oscillatory particle to complete one oscillation is called time period.   Frequency, :  frequency The number of oscillation completed per unit time is called frequency. If is the time period, then frequency, is given by    Angular frequency, :  angular frequency It is a circular frequency which measures angular displacement per unit time. Its unit is radians\/sec. It is a scalar quantity. In circular motion, angular frequency and angular velocity is used interchangeably.   Phase, :  phase It is the initial position (in angle) of a particle at time If the particle executing SHM is at mean position when then if it is at its extreme positions then         The followings are some features to recognize simple harmonic motion (SHM). Any of these features guarantee the motion is SHM in nature.  Restoring force is proportional to displacement from equilibrium position, i.e., where is a proportionality constant and is a displacement from the equilibrium.  ime period, is independent of the amplitude of oscillation.  Potential energy is proportional to .  The graphs for position vs time, ( ); velocity vs time, ( ); and acceleration vs time, ( ) are all sinusoidal [ ].      Equation of SHM  Equation for simple harmonic oscillation can be obtained by considering a spring-mass system, but the equation can be used for any other system performing SHM. Consider a block of mass attached to the spring and one end of spring is fixed to the wall. If the block is displaced by the distance from the mean position of spring-block system and released on a frictionless surface then restoring force of spring is proportional to the displacement. That is,  Where is proportionality constant, called a force constant. It defines the elastic property of material, hence it is also called elastic constant. For spring we may also called as stiffness constant. However, if the restoring force has some other source then elastic property of material then is simply a proportionality constant and depends on the nature of space, e.g. gravitational field in case of simple pendulum. sign here shows restoring force is always opposite to the displacement from the mean position. Equation is Hook's Law, we can discuss this law in the chapter Elasticity .   Where is the angular frequency (velocity) of the object executing SHM or performing circular motion. Angular frequency, is taken as because phaser always revolves anticlockwise. In the , is a mean length of spring-mass system and is displacement from the equilibrium position at any time . Here point is equilibrium position and points and are two extremes. The solution to SHM is given by       Where is a phase of oscillating particle. The displacement of oscillating particle can also be obtained by using Either solutions will work perfectly fine in solving shm problems. However, we can use cosine term solution if time when the particle is at its extreme position. If time when the particle is at mean position sine term solution will suffice. Here we are using as a solution for the differential equation. Time period of oscillation in spring-mass system is given by    Algebric derivation of particle's velocity in SHM:      Energy in SHM  Consider a vibrating spring with mass attached to its end, then the kinetic energy of the mass , and potential energy stored in the spring with a displacement is . Now since restoring force involved in spring mass system is conservative, the total mechanical energy is conserved [ ]. Here is a spring constant, is the amplitude of vibrating spring and the velocity of the particle executing SHM is zero at extremes. Let the spring oscillates in vertical up and down then the solution for SHM is given by      From eqn. , we have -  means mass is oscillating in up and down direction, i.e. Now  Note: The same result could be obtained by considering equation of SHM as        Summary of Phasor Diagram for    Points    s      KE  PE                                                                      Simple Pendulum      A simple pendulum consists of a heavy bob of mass hanging from an inextensible and massless string of length When the bob is displaced from its mean position and released, it will swing back and forth with periodic motion as shown in . From free body diagram, it is clear that is balanced by tension in the string but unbalanced force provides the restoring force. Hence   where is the angular velocity of the bob performing circular motion. The time period of simple pendulum can be given as     Alternative: The restoring torque acting on the bob is given by  As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.    This is second order differential equation the solution of which can be written as where is called an angular amplitude.    Compound Pendulum      A compound pendulum consists of a rigid body that oscillates about a horizontal frictionless axis passing through a point . It is also called a physical pendulum. When a body is displaced from its equilibrium position by an angle then the restoring torque starts acting on the center of gravity G of the body which is given by    where   here,  is radius of gyration   Comparing time period of simple pendulum and compound pendulums we will get - This is the length of equivalent simple pendulum. If all the mass of a rigid body were concentrated at a point [ ] such that then we will get a simple pendulum of same time period. The point is called the center of oscillation . Now from we have - Which is a quadratic in a, whose roots are Therefore and Thus both and are positive. That is there are two positions of the center of suspension and center of oscillation about which the time periods are the same. The distance between two such positions of the centers of suspension, asymmetrically located on either side of C.G, is the length of the simple equivalent pendulum. Thus time period through point or is same. If the body is supported by an axis through , the time period of oscillation would be infinite.   "
+},
+{
+  "id": "sec_seventh-oscil-2-1",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#sec_seventh-oscil-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "periodic motion oscillatory motion "
+},
+{
+  "id": "rfcc",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#rfcc",
+  "type": "Figure",
+  "number": "7.5.1",
+  "title": "",
+  "body": " Phasor Diagram   "
+},
+{
+  "id": "subsec-shm-3-2",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#subsec-shm-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Amplitude, : Time Period, : Frequency, : Angular frequency, : Phase, : "
+},
+{
+  "id": "rfcc2",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#rfcc2",
+  "type": "Figure",
+  "number": "7.5.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "shm1",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#shm1",
+  "type": "Figure",
+  "number": "7.5.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-eq_shm-5",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#subsubsec-eq_shm-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Algebric derivation of particle's velocity in SHM: "
+},
+{
+  "id": "subsubsec-energy_shm-2",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#subsubsec-energy_shm-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "phasor1",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#phasor1",
+  "type": "Figure",
+  "number": "7.5.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-energy_shm-4",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#subsubsec-energy_shm-4",
+  "type": "Table",
+  "number": "7.5.5",
+  "title": "Summary of Phasor Diagram for <span class=\"process-math\">\\(x= A\\cos\\phi\\)<\/span>",
+  "body": " Summary of Phasor Diagram for    Points    s      KE  PE                                                                  "
+},
+{
+  "id": "sp1a",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#sp1a",
+  "type": "Figure",
+  "number": "7.5.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-simp_pendulum-4",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#subsec-simp_pendulum-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Alternative: "
+},
+{
+  "id": "cp1",
+  "level": "2",
+  "url": "sec_seventh-oscil.html#cp1",
+  "type": "Figure",
+  "number": "7.5.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_seventh-examplesC",
+  "level": "1",
+  "url": "sec_seventh-examplesC.html",
+  "type": "Section",
+  "number": "7.6",
+  "title": "Examples C",
+  "body": " Examples C    A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                       A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:           A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. Initially the mass is at 5.0 cm left of equilibrium and moving to the left.    What is its position at and in what direction it is moving at that time?  What is its velocity and direction at that time?      Initial condition at    Hence,     to the right of mean position.    to the right of mean position going to towards       "
+},
+{
+  "id": "sec_seventh-examplesC-2",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#sec_seventh-examplesC-2",
+  "type": "Example",
+  "number": "7.6.1",
+  "title": "",
+  "body": "  A mass of 1 kg resting on a frictionless horizontal surface is pressed against a spring of constant 100 N\/m compressing the spring 25 cm and released from rest as shown in the figure below.    Where will the block attain its fastest velocity?  How fast will it be moving at that time?  Where will it stop again?  What will it do after it stops?  Where does the block attain its greatest acceleration?  What is that acceleration?  Describe the motion of the block as time progresses.  Write the equation of motion for the block.  Write the equation for the velocity of the block.  Write the equation for the acceleration of the block.  Compare (h) with (j) to obtain a relationship between and for the block.  Apply Newton's Second Law to the block so as to find in terms of   Compare (k) with (l) to obtain a relationship between and at ( ) for the block.  How long does it take for the block to reach the equilibrium point the first time?  How fast is the block moving when it is 10 cm beyond the equilibrium point?  What is the energy of the block when it is 10 cm beyond the equilibrium point?      Given:      The velocity particle in shm is given by For to be maximum, . Hence the position of the particle at that time is i.e., at the equilibrium position:     At equilibrium position, velocity of the block is    Alternatively: The total potential energy at extreme position is converted into total kinetic energy at mean position, i.e.,     Velocity, Therefore, Hence at 25 cm to the right of equilibrium:     Because of maximum restoring force it starts accelerate to the left.    Since the restoring force is maximum at extremes, it attains maximum acceleration ( ) at that points. Hence at the extremes, where it stops:          It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.                                                    "
+},
+{
+  "id": "sec_seventh-examplesC-3",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#sec_seventh-examplesC-3",
+  "type": "Example",
+  "number": "7.6.2",
+  "title": "",
+  "body": "  A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.    Given:        "
+},
+{
+  "id": "sec_seventh-examplesC-4",
+  "level": "2",
+  "url": "sec_seventh-examplesC.html#sec_seventh-examplesC-4",
+  "type": "Example",
+  "number": "7.6.3",
+  "title": "",
+  "body": "  A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. Initially the mass is at 5.0 cm left of equilibrium and moving to the left.    What is its position at and in what direction it is moving at that time?  What is its velocity and direction at that time?      Initial condition at    Hence,     to the right of mean position.    to the right of mean position going to towards      "
+},
+{
+  "id": "ex_seventh",
+  "level": "1",
+  "url": "ex_seventh.html",
+  "type": "Exercises",
+  "number": "7.7",
+  "title": "Exercise",
+  "body": "  Exercise   MI  A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why?  A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick?  A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel?  A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes?  Find the moment of inertia of the following uniform bodies about the axis indicated.            Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.      Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods.    Rot Dyn  A body rotates according to the equation , where and . Find:             A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?    An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.    A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.    A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity?  A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance   A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass.  A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed?  Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP?    Osc_Motion  What are the simple harmonic motion equations for a particle starting out from rest at when ?  What are the simple harmonic motion equations for a particle passing through with velocity when ?  The piston in the engine of an automobile oscillates at 1000 rpm in simple harmonic motion of amplitude 5 cm. If its mass is 0.25 kg, find  its period of oscillation,  its angular frequency,  its maximum displacement,  its maximum velocity,  its maximum acceleration,  the maximum force exerted on the piston.    A simple harmonic oscillator of mass 10 kg on a spring of constant 100 N\/m starts out at x = 10 cm moving in the +x direction with a velocity of 10 m\/s. Find                         A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released.  What is the equation giving the horizontal force F(x) required to displace the mass a horizontal distance x for small values of x?  Is this equation valid for x = 10 cm? Why or why not?  What is the effective spring constant of the pendulum?  What is the period of the pendulum?  What is the equation of motion for this pendulum?  What is the kinetic energy of the pendulum when it is 5 cm from the equilibrium position?    A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.    A 250 gram bob is hanging on a 80 cm long string. Its velocity is 0.25 m\/s when observed at mean position. What maximum angle does it reach?      Two pendula have strings of equal length but the mass of the second pendulum is four times the mass of the first pendulum. If is the frequency of the first pendulum and is the frequency of the second pendulum, then determine the relationship between and .  Determine the effect on time period of a simple pendulum if the iron bob is replaced by a wooden one of same mass? Neglect air resistance.  A simple pendulum has a length L and a time period T on the surface of the earth. What would be its time period when it is taken to the surface of a planet of acceleration due to gravity is   A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N\/m. A system is executing SHM and has velocity 40 m\/s at 3 m away from equlibrium position. Determine its amplitude of oscillation.   "
+},
+{
+  "id": "ex_seventh-2-2",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-2",
+  "type": "Exercise",
+  "number": "7.7.1",
+  "title": "",
+  "body": "A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released from rest at the top of an inclined plane 2 m long. Which will reach the bottom of the plane the fastest? Why? "
+},
+{
+  "id": "ex_seventh-2-3",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-3",
+  "type": "Exercise",
+  "number": "7.7.2",
+  "title": "",
+  "body": "A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. What is the moment of inertia of the meter stick? "
+},
+{
+  "id": "ex_seventh-2-4",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-4",
+  "type": "Exercise",
+  "number": "7.7.3",
+  "title": "",
+  "body": "A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel? "
+},
+{
+  "id": "ex_seventh-2-5",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-5",
+  "type": "Exercise",
+  "number": "7.7.4",
+  "title": "",
+  "body": "A rectangular block has a length of 20 cm, a width of 10 cm, a height of 5 cm, and a mass of 4 kg. What is its moment of inertia about its three principle axes? "
+},
+{
+  "id": "ex_seventh-2-6",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-6",
+  "type": "Exercise",
+  "number": "7.7.5",
+  "title": "",
+  "body": "Find the moment of inertia of the following uniform bodies about the axis indicated.           "
+},
+{
+  "id": "ex_seventh-2-7",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-7",
+  "type": "Exercise",
+  "number": "7.7.6",
+  "title": "",
+  "body": "Find the moment of inertia of  a physical pendulum and    a square about the axis indicated.     "
+},
+{
+  "id": "ex_seventh-2-8",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-2-8",
+  "type": "Exercise",
+  "number": "7.7.7",
+  "title": "",
+  "body": "Find the moment of inertia of an equilateral triangle about one of its vertices and perpendicular to its plane. The triangle is made out of three rods. "
+},
+{
+  "id": "ex_seventh-3-2",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-2",
+  "type": "Exercise",
+  "number": "7.7.8",
+  "title": "",
+  "body": "A body rotates according to the equation , where and . Find:            "
+},
+{
+  "id": "ex_seventh-3-3",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-3",
+  "type": "Exercise",
+  "number": "7.7.9",
+  "title": "",
+  "body": "A uniform cylinder of mass 100 kg has a radius of 30 cm and spins freely about its axis of symmetry. One end of a string is attached to the surface of the cylinder so that the string winds and unwinds as the cylinder rotates first one direction and then the other. A constant tension of 100 N is maintained in the string by a constant vector force applied to the other end of the string. At time t = 0, the string is completely unwound and the cylinder is spinning at 30 rad\/s.  What is the moment of inertia of the cylinder?  As long as or , the torque on the cylinder is constant in magnitude. Why? What is this torque?  Ignoring the first quarter revolution, how long does it take the cylinder to stop?  What is the angular acceleration of the cylinder when it is slowing down?  What is the minimum length of string that will stop the cylinder?  What is the initial kinetic energy of the cylinder?  What is the initial angular momentum of the cylinder?  If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector?   "
+},
+{
+  "id": "ex_seventh-3-4",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-4",
+  "type": "Exercise",
+  "number": "7.7.10",
+  "title": "",
+  "body": "An Atwood machine as shown at right consists of a mass of 10 kg supported by a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then tied to a mass of 5 kg located 1.5 m below the first mass. If the system is released from rest,    find the tension in the rope supporting the $10-kg$ mass.  What is the maximum height ever attained by the second mass.   "
+},
+{
+  "id": "ex_seventh-3-5",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-5",
+  "type": "Exercise",
+  "number": "7.7.11",
+  "title": "",
+  "body": "A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. If the system is released from rest with the ring directly above the pivot point as shown in figure and if it swings downward, when it is exactly half way down to the bottom find    how fast it is moving,  the radial and tangential acceleration of its center of mass, and  the horizontal and vertical forces exerted on the ring by its pivot.   "
+},
+{
+  "id": "ex_seventh-3-6",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-6",
+  "type": "Exercise",
+  "number": "7.7.12",
+  "title": "",
+  "body": "A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface with initial angular velocity The coefficient of kinetic friction between the sphere and the surface is What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity? "
+},
+{
+  "id": "ex_seventh-3-7",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-7",
+  "type": "Exercise",
+  "number": "7.7.13",
+  "title": "",
+  "body": "A 1 m long and 2 kg stick is nailed to the wall so that it can rotate freely about the end. A 1 kg ball, with speed 3 m\/s hits with the stick at some distance below the pivot point. The ball collides elastically with the stick, and stops dead after collision. Find the stick's resulting initial angular velocity. Find the distance  "
+},
+{
+  "id": "ex_seventh-3-8",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-8",
+  "type": "Exercise",
+  "number": "7.7.14",
+  "title": "",
+  "body": "A 25 g bug crawls from the center to the outside edge of a 150 g disk of radius 15.0 cm. The disk was rotating at 15.0 rad\/s. What will be its final angular velocity? Treat the bug as a point mass. "
+},
+{
+  "id": "ex_seventh-3-9",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-9",
+  "type": "Exercise",
+  "number": "7.7.15",
+  "title": "",
+  "body": "A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 22 rad\/s what is its angular momentum? If it is used as a gyroscope with a 24 cm long pivot bar, what will be its precession speed? "
+},
+{
+  "id": "ex_seventh-3-10",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-3-10",
+  "type": "Exercise",
+  "number": "7.7.16",
+  "title": "",
+  "body": "Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at rev\/min. An LP has a radius of 15 cm and a mass of 150 g. A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, what average torque would be exerted on the LP? "
+},
+{
+  "id": "ex_seventh-4-2",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-2",
+  "type": "Exercise",
+  "number": "7.7.17",
+  "title": "",
+  "body": "What are the simple harmonic motion equations for a particle starting out from rest at when ? "
+},
+{
+  "id": "ex_seventh-4-3",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-3",
+  "type": "Exercise",
+  "number": "7.7.18",
+  "title": "",
+  "body": "What are the simple harmonic motion equations for a particle passing through with velocity when ? "
+},
+{
+  "id": "ex_seventh-4-4",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-4",
+  "type": "Exercise",
+  "number": "7.7.19",
+  "title": "",
+  "body": "The piston in the engine of an automobile oscillates at 1000 rpm in simple harmonic motion of amplitude 5 cm. If its mass is 0.25 kg, find  its period of oscillation,  its angular frequency,  its maximum displacement,  its maximum velocity,  its maximum acceleration,  the maximum force exerted on the piston.   "
+},
+{
+  "id": "ex_seventh-4-5",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-5",
+  "type": "Exercise",
+  "number": "7.7.20",
+  "title": "",
+  "body": "A simple harmonic oscillator of mass 10 kg on a spring of constant 100 N\/m starts out at x = 10 cm moving in the +x direction with a velocity of 10 m\/s. Find                        "
+},
+{
+  "id": "ex_seventh-4-6",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-6",
+  "type": "Exercise",
+  "number": "7.7.21",
+  "title": "",
+  "body": "A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released.  What is the equation giving the horizontal force F(x) required to displace the mass a horizontal distance x for small values of x?  Is this equation valid for x = 10 cm? Why or why not?  What is the effective spring constant of the pendulum?  What is the period of the pendulum?  What is the equation of motion for this pendulum?  What is the kinetic energy of the pendulum when it is 5 cm from the equilibrium position?   "
+},
+{
+  "id": "ex_seventh-4-7",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-7",
+  "type": "Exercise",
+  "number": "7.7.22",
+  "title": "",
+  "body": "A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 10 cm below its equilibrium position and released from rest. Find  the angular frequency of oscillation  the spring constant of the spring,  the amplitude of oscillation,  the kinetic energy of mass when passing through equilibrium,  the potential energy of the spring when the mass passes through equilibrium,  the time to first reach equilibrium,  the time to make one complete cycle.   "
+},
+{
+  "id": "ex_seventh-4-8",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-8",
+  "type": "Exercise",
+  "number": "7.7.23",
+  "title": "",
+  "body": "A 250 gram bob is hanging on a 80 cm long string. Its velocity is 0.25 m\/s when observed at mean position. What maximum angle does it reach?     "
+},
+{
+  "id": "ex_seventh-4-9",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-9",
+  "type": "Exercise",
+  "number": "7.7.24",
+  "title": "",
+  "body": "Two pendula have strings of equal length but the mass of the second pendulum is four times the mass of the first pendulum. If is the frequency of the first pendulum and is the frequency of the second pendulum, then determine the relationship between and . "
+},
+{
+  "id": "ex_seventh-4-10",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-10",
+  "type": "Exercise",
+  "number": "7.7.25",
+  "title": "",
+  "body": "Determine the effect on time period of a simple pendulum if the iron bob is replaced by a wooden one of same mass? Neglect air resistance. "
+},
+{
+  "id": "ex_seventh-4-11",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-11",
+  "type": "Exercise",
+  "number": "7.7.26",
+  "title": "",
+  "body": "A simple pendulum has a length L and a time period T on the surface of the earth. What would be its time period when it is taken to the surface of a planet of acceleration due to gravity is  "
+},
+{
+  "id": "ex_seventh-4-12",
+  "level": "2",
+  "url": "ex_seventh.html#ex_seventh-4-12",
+  "type": "Exercise",
+  "number": "7.7.27",
+  "title": "",
+  "body": "A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N\/m. A system is executing SHM and has velocity 40 m\/s at 3 m away from equlibrium position. Determine its amplitude of oscillation. "
+},
+{
+  "id": "ch_eighth",
+  "level": "1",
+  "url": "ch_eighth.html",
+  "type": "Chapter",
+  "number": "8",
+  "title": "Elasticity",
+  "body": " Elasticity   The property of a material by virtue of which it regains its original shape and size after removal of deforming force is known as elasticity. The elastic properties of matter are a manifestation of the molecular forces that hold solids together. Elasticity is a fundamental concept in the study of the mechanical behavior of solids and is related to the deformation and restoration of materials when subjected to stress or strain. A regular, periodically repeated, three-dimensional array of the atoms or molecules comprising the solid are called lattice structure .    "
+},
+{
+  "id": "ch_eighth-2-1",
+  "level": "2",
+  "url": "ch_eighth.html#ch_eighth-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lattice structure "
 },
 {
   "id": "backmatter-2",
