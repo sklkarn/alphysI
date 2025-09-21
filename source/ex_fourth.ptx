@@ -330,40 +330,6 @@
     </hint>
   </exercise>
 
-  <exercise>
-    <p>
-     <term>A projectile with air resistance:</term> A projectile of mass 
-     1 kg is shot into the air with an initial velocity of 100 m/s at an angle of 
-     <m>60^{o}</m>. If the air resistive force is proportional to the velocity 
-     and directed opposite the velocity with a proportionality constant of 
-     c = 0.0, 0.01, 0.1, 1.0 N.s/m, in each case find 
-     <ol marker="a.">
-      <li>
-        the maximum height it reaches,
-      </li>
-      <li>
-        the range of the projectile, and 
-      </li>
-      <li>
-        the time of flight.
-      </li>
-    </ol>
-      </p>
-      <hint>
-        <p>
-          Use formula
-          <me>
-            y=y_{o}+v_{t}t+\frac{1}{k}\left(u-v_{t}\right)\left(1-e^{-kt}\right) 
-          </me>
-          <me>
-            x=\frac{u}{k}\left(1-e^{-kt}\right) \qquad [v_{t}=0 \text{along x-axis}]
-          </me>
-          <me>
-            t=-\frac{1}{k}\ln\left(1-\frac{xk}{u}\right)
-          </me>
-          </p>
-      </hint>
-  </exercise>
 </paragraphs>
 
 <paragraphs>

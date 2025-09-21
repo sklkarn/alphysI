@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-kepler" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kepler's Laws of Planetary Motion</title>
+  
+   <introduction>
+
+    <figure>
+      <caption></caption>
+        <sidebyside widths="60% 40%">
+    <figure xml:id="kepler2">
+      <caption></caption>
+      <image source="kepler2.png"/>
+    </figure>
+      <figure xml:id="kepler1">
+        <caption></caption>
+        <image source="kepler1.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+
+  <p>
+    The asymmetric position of a massive object within the elliptical orbit [<xref ref="kepler2"/>] renders 
+    the orbiting object moves in a varying distance from the massive object. 
+    The distance of closest approach <m>d_{1}</m> is called the periapsis and the distance 
+    of maximum separation, <m>d_{2} </m> is called the apoapsis. For the earth around 
+    the sun perihelion is the distance of closest approach and "aphelion" is distance 
+    of the maximum separation (helio means sun in Greek) [<xref ref="kepler1"/>]. For earth-moon system, 
+    "perigee" is the distance of closest approach and "apogee" is distance of the 
+    maximum separation (gee means earth in Greek). 
+  </p>
+
+  <p> Johannes Kepler established three laws for planetary motion from his and Tyco Brahe
+    years of sky gazing in early <m>17^{th}</m> century. They are </p>
+    <p>
+        
+    <ol>
+    <li>
+      <p>
+        <term>The law of orbit:</term> In Solar system, every planet revolves in an elliptical orbit 
+        and the <term>Sun</term> being at one of its focii [<xref ref="kepler2"/>].
+      </p>
+           <image source ="ellipse.png" width="70%"> </image>
+    </li>
+    <li>
+      <p>
+        <term>The law of area:</term> Planet sweeps out an equal area in equal interval of time in the orbit [<xref ref="kepler1"/>].
+      </p>
+      <image source ="Triangle.png" width="60%"> </image>
+      <p>
+        <men xml:id="eqn-klm2">
+          \frac{\,\Delta \vec{A}}{\,\Delta t} = constant
+        </men>
+      </p>
+      </li>
+    <li>
+      <p>
+        <term>The law of period:</term> The square of time period of planet around the sun is directly proportional 
+        to the cube of semi-major axis.
+      </p>
+      <p>
+        Any object moving in a circular motion needs centripetal force, 
+      here graviational force provides a necessary centripetal force to the planet,
+      <me>
+        F = \frac{GMm}{a^2} =\frac{mv^2}{a}
+      </me>
+      <m>v</m> is orbital velocity of the planet, <m>a</m> is semi-major axis of the elliptical orbit, and <m>M</m> mass of the sun. 
+      also, <m>v=a\omega</m> and <m>\omega = \frac{2\pi}{T}</m>. Now on rearrangeing the above equation, we get - 
+      <men xml:id="eqn-klm3">
+        T^2= \frac{4\pi^2 a^3}{GM}
+      </men>
+      
+      </p>
+    </li>
+  </ol>
+</p>
+   </introduction>
+
+ 
+    
+
+
+
+
+  </section>
+

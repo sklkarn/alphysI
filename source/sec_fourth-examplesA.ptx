@@ -3,7 +3,204 @@
 <section xml:id="sec_fourth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Examples A</title>
 
+   
+<paragraphs>
+  <title>Center of MassM</title>
+  
+  <example>
+    <statement>
+      <p>
+        Find the location of the center of mass of the point masses tabulated below:
+       
+          <tabular halign="center">
+          <row header="yes" bottom="minor" >
+           <cell>Mass (kg)  </cell>
+          <cell> x-coordinate (m)  </cell>
+          <cell>y-coordinate (m) </cell>
+          </row>
+          <row>
+          <cell> 1 </cell>
+          <cell> 2</cell>
+          <cell> 3</cell>
+          </row>
+          <row>
+          <cell> 4</cell>
+          <cell>-5</cell>
+          <cell> 6</cell>
+          </row>
+          <row>
+            <cell>7	</cell>
+            <cell>8 </cell>
+            <cell>-9</cell>
+           </row>
+            </tabular>
+            </p>
+    </statement>
+    <solution>
+      <p>
+         <md>
+          <mrow> x_{cm} \amp  =   \frac{\sum\limits_{i=1}^{n}{m_{i}x_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} = \frac{m_{1}x_{1}+m_{2}x_{2}+m_{3}x_{3}}{m_{1}+m_{2}+m_{3}} </mrow>
+          <mrow> \amp = \frac{(1\times 2) +(4\times -5) + (7\times 8)}{1+4+7} = 3.17 m</mrow>
+        </md>
+        <md>
+          <mrow>y_{cm} \amp  =   \frac{\sum\limits_{i=1}^{n}{m_{i}y_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} = \frac{m_{1}y_{1}+m_{2}y_{2}+m_{3}y_{3}}{m_{1}+m_{2}+m_{3}}  </mrow>
+        <mrow> \amp  = \frac{(1\times 3) +(4\times 6) + (7\times -9)}{1+4+7} = -3.00 \,m</mrow>
+        </md>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the center of mass of the point masses illustrated below:
+        <image source="cm1a.png" width ="50%"> </image>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        1. Find the coordinates of each mass and specify those coordinate pairs 
+        beside each respective mass. 
+      </p>
+      <p> 
+        2. Use the center of mass equations to calculate the coordinates of the center of mass. 
+        </p>
+        <p><m>\therefore</m> the center of mass lies at point <m>D(1.75\,m,4.87\,m).</m></p>
+       </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the center of mass of the uniform sheet illustrated at right:
+        <image source="cm1b.png" width ="50%"> </image>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        1. Break the body down into its two constituent parts. 
+      </p>
+      <p>
+      2. Specify the area of each constituent part. 
+      </p>
+        <p>
+          <m>(8m \times 10\,m = 80 \,m^{2}</m> and <m> 6\,m \times 4\,m = 24 \,m^{2})</m>
+      </p>
+	<p> 
+    3.	Locate the coordinates of the center of mass of each constituent part. 
+    The center of mass of big surface of surface area <m>80 \,m^{2}</m> 
+    is at (4,5) and that for small surface of surface area <m>24 \,m^{2}</m> is at (11,2). 
+    (Note: For uniform object geometrical center is taken as its center of mass.)	
+      </p>
+      <p>
+        4. Utilize the equations shown above. 
+      </p>
+      <answer>
+        <p>
+          Note: mass is proportional to area for a uniform surface: 
+          <me>
+            x_{cm} =\frac{80\times 4 + 24\times 11}{80+24}=5.62\,m; 
+          </me>
+          <me>
+            y_{cm} = \frac{80\times 5 + 24\times 2}{80+24}=4.31\,m.
+          </me>
+          </p>
+      </answer>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the x-coordinate of a center of mass of a uniform disk of 
+        radius 2R from which the mass of a small disk of radius R is 
+        missing as shown in given figure.
+        <image source="cm2.png" width ="30%"> </image>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We know that the center of mass of full disk of radius <m>2R</m> lies at its center (0,0).
+        <me>
+          \therefore\quad x_{f}= \frac{m_{s}x_{s}+m_{r}x_{r}}{m_{s}+m_{r}} =0
+        </me>
+        here <m>x_{f}, \quad x_{s},\quad x_{r}</m> stand for the x-coordinates of a center of 
+        mass of the full disk, small disk, and real disk, and <m>m_{s}, \quad m_{r}</m> 
+        stand for the mass of a small disk which is missing, and the mass of the real disk. 
+        <me>
+          \text{or,}\quad x_{r}= -\frac{m_{s}x_{s}}{m_{r}} =-\frac{(\rho \pi R^{2})(-R)}{\rho[\pi(2R)^{2}-\pi R^{2}]}=\frac{R}{3}
+        </me>
+        <term>Note:</term> mass is proportional to area for a uniform surface. <m>\rho</m> is a density of the disk.
+         </p>
+    </solution>
+  </example>
+
  
+
+  <example>
+    <statement>
+      <p>
+        Three bricks, each 2 inch thick by 3 inch wide by 6 inch long, 
+        are placed one on top of the other overhanging the edge of a table. 
+        What is the maximum distance <m>x</m> that the top brick can extend 
+        beyond the edge of the table without falling off the table?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Block(s) can be balanced at the edge of anything if its center of mass lies 
+        before edge or at least at the edge of that thing. 
+        </p>
+        <image source="cm9.png" width ="45%"> </image>
+      <p>
+        Maximum overhung = center of mass of blocks system. 
+      </p>
+      <p>
+        Maximum overhung for blue (I) brick = its center of mass from the free end =<m>\frac{l}{2} </m>.
+      </p>
+      <p>
+        Center of mass for red (II) and blue (I) bricks
+         <me>
+          = \left\{\frac{m\frac{l}{2}+m\left(\frac{l}{2}+\frac{l}{2}\right)}{2m}\right\} =\frac{3l}{4}.
+        </me>
+        Center of mass for green (III), red (II) and blue (I) bricks
+        <me>
+         = \left\{\frac{2m\frac{3l}{4}+m\left(\frac{3l}{4}+\frac{l}{2}\right)}{3m}\right\} =\frac{11l}{12}.
+        </me>
+        Which is the maximum overhung for three bricks system. Using torque equation <xref ref="sec_fourth-torque"/>, 
+        we can get same condition, if we set <m>x_{n}(nM) = x_{1}M</m>. 
+        Where <m>x_{1}</m> is C.M. of first object, and <m>n</m> stands for number 
+        of objects. Maximum overhung, 
+        <me>
+          x= x_{1}+x_{2}+x_{3}+\cdots.
+        </me>
+        For example, in three books system like above: we have for first book 
+        <me>x_{1} =\frac{l}{2}</me>
+        for second book 
+        <me>x_{2}(2M) =\frac{l}{2}M </me>
+        <me>\therefore x_{2} =\frac{l}{4} </me>
+        for third book 
+        <me>x_{3}(3M) =\frac{l}{2}M </me>
+        <me>\therefore x_{3} =\frac{l}{6} </me> 
+        Hence, maximum overhung, 
+        <me>
+          x=\frac{l}{2} + \frac{l}{4} +\frac{l}{6} = \frac{11l}{12}
+        </me>
+          </p>
+          <p>
+            The general rule to find the maximum overhung,x for a uniform object is 
+            <me>x= l\sum_{n=1}^{n}\left(\frac{1}{2n}\right)</me>
+          </p>
+    </solution>
+  </example>
+
+ 
+</paragraphs>
+  
+ <paragraphs>
+  <title>Force &amp; Equilibrium</title>
+  
+
 <example>
   <statement>
     <p>
@@ -164,5 +361,6 @@
     </p>
   </solution>
 </example>
+</paragraphs>
 
 </section>

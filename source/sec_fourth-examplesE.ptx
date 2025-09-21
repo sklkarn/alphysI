@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-examplesE" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples E</title>
+ 
+
+<paragraphs>
+  <title>Rotational Equilibrium</title>
+ <example>
+  <statement>
+    <p>
+      Write the torque equation about the specified axis for the forces indicated in the figure:
+      <image source="rd1.png" width ="35%"> </image>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \sum \Gamma = -(10N)(2m) +10N(x) -F_{1}(1m)-F_{2}y_{1}=0 
+      </me>
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      Write the torque equation about the specified axis for the forces indicated below:
+      <image source="rd2.png" width ="35%"> </image>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+      \sum \Gamma = +f(4m) -N(3m) +w(0)-(T\sin\theta)(3m)+(T\cos\theta )(4m)=0 
+      </me>
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A symmetrical beam of weight <m>w_{1} = 400 \,N</m> and length <m>2 \,m</m> is 
+      suspended from the ceiling on one end by a hinge and on the other by a wire 
+      also of length <m>2 \,m</m> so that both beam and wire make an angle of <m>30^{o}</m> 
+      with the ceiling as shown in the figure below. Suspended from the junction of wire 
+      and beam is a weight <m>w_{2}= 300\, N</m>. What is the tension in the cable 
+      and the horizontal and vertical components of the force on the beam at the hinge?
+      <image source="rd5.png" width ="35%"> </image>
+    </p>
+  </statement>
+  <solution>
+      <p>
+      <ol marker="A.">
+        <li>
+          List given quantities <m>w_{1} = 400 \,N, \quad w_{2} = 400\, N, \quad\theta = 30^{o}, \quad L = 2 \,m</m>.
+        </li>
+        <li>
+          Draw the forces acting on the beam and resolve them into components.
+          <image source="rd5a.png" width ="55%"> </image>
+        </li>
+        <li>
+          Choose an axis and specify the perpendicular distances from each line of action to that axis.
+        </li>
+        <li>
+          Write equations: 
+          <me>
+            \sum F_{x} = T \cos\theta - F_{x} = 0 
+          </me>
+          and 
+          <me>
+            \sum F_{y} = F_{y}+T \sin\theta - w_{1}-w_{2} = 0
+          </me>
+          <md>
+            <mrow> \sum \Gamma \amp  = -w_{1}\frac{(L\cos\theta)}{2}- w_{2}(L\cos\theta)+(T\cos\theta)(L\sin\theta) </mrow>
+          <mrow> \amp  + (T\sin\theta)(L\cos\theta) = 0 </mrow>
+          </md>
+           </li>
+           <li>
+            Solve to get answers: 
+            <me>
+              T=\frac{(\frac{w_{1}}{2}+w_{2})L\cos\theta}{2L\sin\theta\cos\theta} =500\,N;
+            </me>
+            <me>
+              F_{x}=T\cos\theta =433\,N;
+            </me>
+            <me>
+              F_{y}=w_{1}+w_{2}-T\sin\theta =450\,N 
+            </me>
+          </li>
+      </ol>
+       </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A uniform rod of length 1 meter and of weight 10 Newtons is resting against 
+      a vertical wall with its base 0.5 meters from the bottom of the wall. 
+      If a 20 Newton weight is suspended from the rod from a point 3/4 of the 
+      way up the rod, what is the minimum coefficient of friction that will keep 
+      the rod from slipping on the floor? Assume there is no friction between 
+      the rod and the vertical wall.
+      <image source="rd6a.png" width ="25%"> </image>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>L=1\,m,\quad w_{1}=10\,N, \quad w_{2}=20\,N, \quad x=0.5\,m,</m>
+           <image source="rd6b.png" width ="25%"> </image>
+           <me>
+            \frac{S}{L} =\frac{3}{4}; 
+          </me>
+          <me>
+            \cos\theta =\frac{x}{L} = \frac{0.5\,m}{1\,m} =0.5 
+          </me>
+          <me>\therefore\quad \theta=60^{o}</me>
+        <me>
+          \sum F_{x} = f-N_{2}=0
+        </me>
+       
+        <me>
+         \text{and}\quad \sum F_{y} = N_{1}-w_{1}-w_{2}=0
+        </me>
+        <me>
+          \sum \Gamma  = f\cdot 0+N_{2}L\sin\theta - N_{1}\cdot 0-w_{1}\cdot \frac{x}{2} -w_{2}\left(\frac{S}{L}\right)\cos\theta=0
+        </me>
+        <me>
+          \text{but}\quad f=\mu N_{1}
+        </me>
+        <me>
+          \text{hence,}\quad N_{2}.1.\frac{\sqrt{3}}{2} =10(0.25)+20(\frac{3}{4})(0.5)
+        </me>
+        <me>
+          or,\quad N_{2}=11.547 \,N
+        </me>
+       <me>
+        \text{and}\quad f=N_{2}=11.547 N; N_{1}=w_{1}+w_{2}=10+20=30\,N
+       </me>
+       <me>
+        \therefore\quad \mu=\frac{f}{N_{1}}=\frac{11.547\,N}{30\,N} = 0.385
+       </me>
+      </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A uniform rod of length L = 1 meter and mass <m>m_{1} = 10 \,kg</m> is suspended as 
+      shown in the figure below, making an angle of <m>\theta = 30^{o}</m> with the 
+      horizontal and supporting a second unknown mass <m>m_{2}</m>. The support wire 
+      on the left is horizontal, the support wire on the top makes an angle of 
+      <m>\theta = 30^{o}</m> with the rod, and the other wire on the right 
+      is vertical. The top wire is attached at a point S = 0.75 m up the rod from 
+      the left. 
+      <image source="rd4.png" width ="25%"> </image>
+      <ol marker="a.">
+        <li>
+          What is the tension <m>T_{1}</m> in the wire on the left? 
+        </li>
+        <li>
+          What is the tension <m>T_{2}</m>  in the wire on top?
+        </li>
+        <li>
+          What is the tension <m>T_{3}</m>  in the wire on the right?
+        </li>
+        <li>
+          What is the mass <m>m_{2}</m>?
+        </li>
+      </ol>
+      </p>
+  </statement>
+  <solution>
+    <p>
+      <sidebyside widths="45% 12%">
+        <image source="rd4b.png"> </image>
+        <image source="rd4c.png"> </image>
+      </sidebyside>
+      Given: <m>L=1\,m,\quad m_{1}=10 \,kg,\quad \theta=30^{o},\quad S =0.75\,m </m> 
+      <men xml:id="eqn-trq1">
+        \sum F_{x} = T_{2}\sin\phi-T_{1}=0;
+      </men>
+      <me>
+        \text{and}\quad \sum F_{y} = T_{2}\cos\phi-w_{1}-T_{3}=0
+      </me>
+      <men xml:id="eqn-trq2">
+        \therefore \quad T_{3}=T_{2}\cos\phi-w_{1}
+      </men>
+      <men xml:id="eqn-trq3">
+        \sum \Gamma = T_{2}S\sin\theta - w_{1}\left(\frac{L}{2}\right)\cos\theta-T_{3}L\cos\theta=0
+      </men>
+      <men xml:id="eqn-trq4">
+       \text{also}\quad  \sum F_{y} = T_{3}-w_{2}=0;
+      </men>
+      <me>
+        \text{and}\quad  w_{1} = m_{1}g =98N, \qquad w_{2} = m_{2}g.
+      </me>
+      from eqn. <xref ref="eqn-trq3"/>
+      <me>
+        T_{2}S\sin\theta -T_{3}L\cos\theta = w_{1}\left(\frac{L}{2}\right)\cos\theta
+      </me>
+      <me>
+        T_{2}S\sin\theta -\left(T_{2}\cos\phi-w_{1}\right)L\cos\theta = w_{1}\left(\frac{L}{2}\right)\cos\theta
+      </me>
+      <me>
+        T_{2}S\sin\theta-T_{2}\cos\theta L\cos\theta=w_{1}\left(\frac{L}{2}\right)\cos\theta-w_{1}L\cos\theta  
+         </me>
+      <me>
+        T_{2}=\left\{\frac{-0.5\times w_{1}\times L\cos\theta}{S\sin\theta-L\cos^{2}\theta}\right\}=113.16N
+      </me>
+      <me> [\because cos\phi=sin2\theta=cos\theta] \quad at \theta=30^o</me>
+      Hence, from eqn. <xref ref="eqn-trq2"/>
+      <me>
+        T_{3}=0,
+      </me>
+      from eqn. <xref ref="eqn-trq1"/>, we have -
+      <me>
+        T_{1}=T_{2}\sin\phi= T_{2}\sin\theta=56.58\,N,
+      </me>
+      <me>
+        w_{2}=T_{3}=0,
+      </me>
+      <me>
+        m_{2}=\frac{w_{2}}{g}=0
+      </me>
+      </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A block with a square base measuring <m>a \times a</m> and height <m>h</m> 
+      is placed on an inclined plane of angle <m>\theta</m>. The coefficient of friction 
+      is <m>\mu </m> and the angle of the incline is gradually increased. Find the condition 
+      at which block tip over before it begins to slide.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The block will not slide if the coefficient of friction <m>\mu_{s} \lt \tan\theta</m>. 
+      In other words, sliding begins only when <m>\theta</m> becomes the angle of repose <m>\phi</m>. 
+      The block will toppled down once the line of action of weight pass throgh the edge of the block, 
+      i.e. when normal force acts along the edge (point of rotation) of block as shown in figure below. 
+      <sidebyside widths="45% 45%">
+        <image source ="toppling1.png"> </image>
+        <image source="toppling2.png"> </image>
+      </sidebyside>
+    </p>
+    <p>
+      From first figure, we have - 
+      <me>
+        f_{s}=mg\sin\theta 
+      </me>
+      <me>
+        \text{and}\quad N=mg\cos\theta
+      </me>
+      Divide these equations and substitute <m>f_{s}=\mu_{s}N</m>, we get- 
+      <men xml:id="eqn-topple1">
+        \tan\theta = \mu_{s} 
+      </men>
+        If <m>\theta </m> is gradually increasing to <m>\theta=\phi </m> [second figure], then at the instant 
+        of toppling, normal force acts along the bottom edge of block which is the point of 
+        rotation. Hence the total torque must be zero (i.e., <m> \Gamma=0</m> at rotational equilibrium). 
+        <me>
+          \therefore \quad mg\sin\theta \left(\frac{h}{2}\right) -mg\cos\theta \left(\frac{a}{2}\right) =0
+        </me>
+        <me>
+          \text{or,}\quad mg\sin\theta \left(\frac{h}{2}\right) =mg\cos\theta \left(\frac{a}{2}\right)
+        </me>
+         <men xml:id="eqn-topple2">
+        \tan\theta = \frac{a}{h} 
+      </men>
+      Now, from eqns. <xref ref="eqn-topple1"/> and <xref ref="eqn-topple2"/>, 
+        if <m>\mu_{s}  \gt \frac{a}{h}</m>, it will tip over before slide, and  
+        if <m>\mu_{s}  \lt \frac{a}{h}</m>, it will slide before toppling.
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A uniform 10m beam of mass 300kg extends over a ledge. The beam is not attached, 
+      but simply rests on the surface. A 60kg man intends to position the beam in such 
+      a way that he can walk to the end of it. What is the maximum distance the beam 
+      can extend past end of the ledge and still allow him to perform this feat?
+      <image source ="re7.png" width="40%"> </image>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The beam can be balanced if it is placed on the edge of ledge by its new center 
+      of mass, <m>P</m> (i.e., the center of mass of beam and man system). Here <m>o</m> is 
+      the center of mass of a beam only.  <image source ="re7a.png" width="40%"> </image>
+    </p>
+    <p>
+      Let <m>x</m> be the distance of beam overhung past the edge of ledge, 
+      then from free -body diagram, we have -
+      <me>
+        \sum F_{y} = N-Mg-mg =0
+      </me>
+      <me>
+        \therefore \quad N = (M+m)g 
+      </me>
+      Since the beam is at static equilibrium. Now,
+      <me>
+        \sum \Gamma = Mg\left(\frac{l}{2}-x\right) -mgx =0
+      </me>
+       This is a total torque about the new center of mass, <m>P</m> (or the point of rotation). 
+       <me>
+        \text{or,}\quad \frac{Ml}{2}-Mx =mx
+       </me>
+       <me>
+        \therefore \quad x= \frac{Ml}{2(M+m)} = \frac{300\times 10}{2\times(300+60)} =4.17\,m 
+       </me>
+      <term> Alternative:</term> we can solve this problem using center of mass formula, 
+      <me>
+        x_{cm} = \frac{m_{1}x_{1}+m_{2}x_{2}}{m_{1}+m_{2}} = \frac{300\times 5 + 60\times 10}{300+60} = 5.83\,m
+      </me>
+      <me>
+        \therefore \quad x= l-x_{cm} =10-5.83 = 4.17\,m
+      </me>
+      </p>
+  </solution>
+ </example>
+</paragraphs>
+</section>
