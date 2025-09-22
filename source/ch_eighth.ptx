@@ -19,10 +19,8 @@
       </introduction>
 
  
- <!--   <xi:include href="./sec_eighth-intro.ptx" />
-
-  <xi:include href="./sec_eighth-examplesA.ptx" />  
-
+     <xi:include href="./sec_eighth-intro.ptx" />
+  <!-- <xi:include href="./sec_eighth-examplesA.ptx" />  
   <xi:include href="./ex_eighth.ptx"/>  -->
 
 </chapter>
