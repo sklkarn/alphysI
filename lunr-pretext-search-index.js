@@ -4222,22 +4222,85 @@ var ptx_lunr_docs = [
   "body": "A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N\/m. A system is executing SHM and has velocity 40 m\/s at 3 m away from equlibrium position. Determine its amplitude of oscillation. "
 },
 {
-  "id": "ch_eighth",
+  "id": "sec_eighth-intro",
   "level": "1",
-  "url": "ch_eighth.html",
-  "type": "Chapter",
-  "number": "8",
-  "title": "Elasticity",
-  "body": " Elasticity   The property of a material by virtue of which it regains its original shape and size after removal of deforming force is known as elasticity. The elastic properties of matter are a manifestation of the molecular forces that hold solids together. Elasticity is a fundamental concept in the study of the mechanical behavior of solids and is related to the deformation and restoration of materials when subjected to stress or strain. A regular, periodically repeated, three-dimensional array of the atoms or molecules comprising the solid are called lattice structure .    "
+  "url": "sec_eighth-intro.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Hooke’s Law",
+  "body": " Hooke's Law   Hook's law states that within the elastic limit, stress is proportional to strain. Stress, : It is an internal pressure exerted by the material. It is equal and opposite to the applied pressure. Stress is defined as a force per unit cross-sectional area.  Strain, : It is a change in dimension of the material per unit original dimension.         If the deforming force is applied on a material, initially strain increases gradually and remains proportional to the stress for a certain limit. After this high stress the atoms are pulled permanently away from their equilibrium position in the lattice structure. The maximum stress which the wire can experience and still return to its original length is called the elastic limit and the region is called elastic region as shown in . Hooke's law holds good only within this limit. If the stress is increased beyond this limit, the ultimate stress point is reached which is the highest point on the stress-strain curve. This is the greatest stress that the material can bear. Brittle materials break suddenly at this point, while some ductile materials can be stretched a little more due to a decrease in the cross-sectional area of the material. But they too break shortly thereafter at the breaking point. This region is called a plastic region.    Elastic Modulus   From Hook's law,  where is a proportionality constant, called modulus of elasticity. It is a material property which defines how stiff is the material. Hence modulus of elasticity, defines stress per unit strain. Its unit is Pascal (Pa). In the deformation process material stores energy in the form of potential energy or dissipates energy plastically. Stress is not directly measurable. We can calculate stress differently using applied tension, tangential force, compressional force, etc.    Young's Modulus or Elasticity of Length      Consider a rod of length whose top face is fixed and a normal force is being applied on its bottom face as shown in , then from Hook's law, normal (tensile) stress longitudinal strain, that is where is called Young's modulus, is cross-sectional area of wire, and is an original length. Hence    Young's modulus  Its unit is When a wire under tension is elongated, its width is slightly diminished. This lateral shrinkage constitutes a transverse strain that is equal to the change in the width divided by the original width, i.e., The ratio of the lateral contraction (transverse strain) to the elongation (longitudinal strain) is called Poisson's ratio . Tensile deformation is considered positive and compressive deformation is considered negative. The material which does not contract is brittle and the one which contracts is ductile. Poisson ratio of any material lies between 0 to 0.5.    Bulk Modulus or Elasticity of Volume      Consider a cube of surface area whose volume is being compressed by applying a deforming force as shown in . Now from Hook's law, volumetric stress volumetric strain, that is where is called bulk modulus or coefficient of volumetric elasticity. Hence Here is a deforming force, is surface area of a cube, is change in volume , and sign shows compression.    Shear Modulus (Modulus of Rigidity) or Elasticity of Shape  When a tangential force is applied on one of the faces of any material keeping opposite face fixed, it deforms its shape. Hence from Hook's law, shear stress shear strain. The elastic property of a body that causes the shape of the body to be changed when a stress is applied is called shear stress. The angle of shear, which is a measure of how much the body's shape has been deformed is called shear strain. When the shear stress is removed the body returns to its original shape.      Consider a cube of sides y whose bottom face is fixed and a tangential force is being applied on its top face as shown in , then from Hook's law, shear stress shear strain, that is   where is called modulus of shape or shear modulus. Hence Here is a deforming force, is surface area of a cube, and is a shear angle.     Hook's Law for a Spring      From Hook's law,    Since cross-sectional area, , length of spring, , and elastic constant of spring material, are constant, we can assume which provides stiffness constant of a spring it is also called a force constant. where .    Elastic Potential Energy  When a force is applied to deform the shape of a material work has been done against the restoring force of a material hence this work is stored in a material in the form of elastic potential energy. Suppose a wire is stretched to a distance by applying a deforming force, then work done by the force is given by But for a restoring force, Hence work done by a restoring force is given by and the work done by a deforming force is given by This work is stored in the spring as potential energy. That is,    "
 },
 {
-  "id": "ch_eighth-2-1",
+  "id": "sec_eighth-intro-2-1",
   "level": "2",
-  "url": "ch_eighth.html#ch_eighth-2-1",
+  "url": "sec_eighth-intro.html#sec_eighth-intro-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "lattice structure "
+  "body": "Stress, : Strain, : "
+},
+{
+  "id": "elst1",
+  "level": "2",
+  "url": "sec_eighth-intro.html#elst1",
+  "type": "Figure",
+  "number": "8.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_eighth-intro-2-3",
+  "level": "2",
+  "url": "sec_eighth-intro.html#sec_eighth-intro-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "elastic limit "
+},
+{
+  "id": "youngmod1",
+  "level": "2",
+  "url": "sec_eighth-intro.html#youngmod1",
+  "type": "Figure",
+  "number": "8.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-young_mod-3",
+  "level": "2",
+  "url": "sec_eighth-intro.html#subsubsec-young_mod-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Poisson's ratio "
+},
+{
+  "id": "bulkmod",
+  "level": "2",
+  "url": "sec_eighth-intro.html#bulkmod",
+  "type": "Figure",
+  "number": "8.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "shearmod1a",
+  "level": "2",
+  "url": "sec_eighth-intro.html#shearmod1a",
+  "type": "Figure",
+  "number": "8.1.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "oscil2",
+  "level": "2",
+  "url": "sec_eighth-intro.html#oscil2",
+  "type": "Figure",
+  "number": "8.1.5",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "backmatter-2",
