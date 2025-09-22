@@ -197,10 +197,10 @@
   <p>
     When a force is applied to deform the shape of a material work has been done against 
     the restoring force of a material hence this work is stored in a material in the 
-    form of elastic potential energy.  Suppose a wire is stretched to a distance <m>\,dx</m> 
+    form of elastic potential energy.  Suppose a wire is stretched to a distance <m>x</m> 
     by applying a deforming force, then work done by the force is given by 
     <me>
-      \,dW=F\,dx.
+      W=F_{avg}\cdot x
     </me>
      But for a restoring force, 
      <me>
@@ -208,7 +208,7 @@
      </me>
       Hence work done by a restoring force is given by 
       <me>
-        W_{r} = \int\,dW = -\int\limits_{0}^{x}kx\,dx = -\frac{1}{2}kx^{2}
+        W_{r} = F_{avg} x =\frac{F}{2}x = -\frac{1}{2}kx^{2}
       </me>
       and the work done by a deforming force is given by 
       <me>

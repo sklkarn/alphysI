@@ -61,9 +61,9 @@
   
 
   <!-- include sections -->
-    <xi:include href="sec_second-intro.ptx" />
+  <xi:include href="sec_second-intro.ptx" />
  <xi:include href="sec_second-examples.ptx" />
- <xi:include href="./ex_second.ptx"/>
+ <xi:include href="./ex_second.ptx"/> 
 
 
 </chapter>
