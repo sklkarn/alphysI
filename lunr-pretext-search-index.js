@@ -4303,6 +4303,1617 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
+  "id": "sec_eighth-examplesA",
+  "level": "1",
+  "url": "sec_eighth-examplesA.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "Examples A",
+  "body": " Examples A    A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                             Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:        A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.      A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by          A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:         A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.      A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. Will the rod return to its initial length when the load is removed or has this load exceeded the elastic limit of the rod? Note: Elastic limit of copper =     Given:   Here the applied force, , is less then the maximum force the copper wire can hold, hence the rod regains its original length after the removal of applied force.    "
+},
+{
+  "id": "sec_eighth-examplesA-2",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-2",
+  "type": "Example",
+  "number": "8.2.1",
+  "title": "",
+  "body": "  A mass of 10 kg is supported by a steel wire of iameter 0.5 mm and length 2 m.  What is the stress in the wire?  What is the strain of the wire?  How much does the wire stretch?  What is the effective force constant of the wire?  How much energy is stored in the wire?      Given:                          "
+},
+{
+  "id": "sec_eighth-examplesA-3",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-3",
+  "type": "Example",
+  "number": "8.2.2",
+  "title": "",
+  "body": "  Water has a Bulk modulus of . What is the percent change in volume for a drop of water which circulates from the top of a lake to the bottom if the lake is 1000 m deep where the pressure has increased by 9.8 MPa?    Given:     "
+},
+{
+  "id": "sec_eighth-examplesA-4",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-4",
+  "type": "Example",
+  "number": "8.2.3",
+  "title": "",
+  "body": "  A solid copper sphere of volume is placed 30.5 m below the ocean surface where the pressure is . What is the change in volume of the sphere? The bulk modulus for copper is     Given:    -ve sign shows that volume has decreased.   "
+},
+{
+  "id": "sec_eighth-examplesA-5",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-5",
+  "type": "Example",
+  "number": "8.2.4",
+  "title": "",
+  "body": "  A copper and aluminum wires are welded together at their ends. The original length of each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended from the combined wire. By how much will the combined wire stretch? Given: and       Given:   The combined stretch is gieven by       "
+},
+{
+  "id": "sec_eighth-examplesA-6",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-6",
+  "type": "Example",
+  "number": "8.2.5",
+  "title": "",
+  "body": "  A brass cube, 5.00 cm on a side, is subjected to a tangential force. If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?    Given:      "
+},
+{
+  "id": "sec_eighth-examplesA-7",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-7",
+  "type": "Example",
+  "number": "8.2.6",
+  "title": "",
+  "body": "  A horizontal spring stretches 20.0 cm when a force of 10.0 N is applied to the spring. By how much will it stretch if a 30.0 N force is now applied to the spring? If the same spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?    Given . The restoring force in a spring   Now, If the applied force remains same then stretch made in the spring remains the same, orientation of spring does not have any effect on its elongation.   "
+},
+{
+  "id": "sec_eighth-examplesA-8",
+  "level": "2",
+  "url": "sec_eighth-examplesA.html#sec_eighth-examplesA-8",
+  "type": "Example",
+  "number": "8.2.7",
+  "title": "",
+  "body": "  A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. Will the rod return to its initial length when the load is removed or has this load exceeded the elastic limit of the rod? Note: Elastic limit of copper =     Given:   Here the applied force, , is less then the maximum force the copper wire can hold, hence the rod regains its original length after the removal of applied force.   "
+},
+{
+  "id": "ex_eighth",
+  "level": "1",
+  "url": "ex_eighth.html",
+  "type": "Exercises",
+  "number": "8.3",
+  "title": "Exercise",
+  "body": "  Exercise  A towline used to tow hang gliders is 500 m long and in cross-sectional area. It is found to stretch 10 m under a tension equal to one-fourth the weight of an 100 kg glider-pilot combination. What is Young's modulus for the material used to make the towline?  A brass wire and a steel wire are both used (in parallel) to support a single mass of 1000 kg. Both wires have a length of 2 m and a cross-sectional area of .  What is the change in length of each wire?  What is the tension in each wire?  What is the stress in each wire?  What is the strain in each wire?  How much elastic potential energy is stored in each wire?    The deepest part of the ocean is about 11 km and has a pressure of about 1000 atm. If the bulk modulus of sea water is and the surface density of sea water is , what is the density of sea water at the bottom of the ocean?  A horizontal rod of negligible mass and of length 1 m is supported on each end by a wire of length 1 m and diameter 0.1 mm. The wire on the left has a diameter of 0.1 mm and is made of aluminum . The wire on the the right has a diameter of 0.2 mm and is made of copper . A mass of 1 kg is then suspended from the rod.  Where should the mass be located in order to produce equal stresses in the two wires?  Where should it be located to produce equal strains?    A lead block 50.0 cm long, 10.0 cm wide, and 10.0 cm thick, has a force of placed on it. Find the stress, the strain, and the change in length if  the block is standing upright, and  the block is lying flat.    A coil spring stretches by 4.50 cm when a mass of 250 g is suspended from it. What force is necessary to stretch the spring an additional 2.50 cm?  Find the ratio of the density of water at the bottom of a 50.0 m lake to the density of water at the surface of the lake. The pressure at the bottom of the lake is The bulk modulus for water is   "
+},
+{
+  "id": "ex_eighth-2",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-2",
+  "type": "Exercise",
+  "number": "8.3.1",
+  "title": "",
+  "body": "A towline used to tow hang gliders is 500 m long and in cross-sectional area. It is found to stretch 10 m under a tension equal to one-fourth the weight of an 100 kg glider-pilot combination. What is Young's modulus for the material used to make the towline? "
+},
+{
+  "id": "ex_eighth-3",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-3",
+  "type": "Exercise",
+  "number": "8.3.2",
+  "title": "",
+  "body": "A brass wire and a steel wire are both used (in parallel) to support a single mass of 1000 kg. Both wires have a length of 2 m and a cross-sectional area of .  What is the change in length of each wire?  What is the tension in each wire?  What is the stress in each wire?  What is the strain in each wire?  How much elastic potential energy is stored in each wire?   "
+},
+{
+  "id": "ex_eighth-4",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-4",
+  "type": "Exercise",
+  "number": "8.3.3",
+  "title": "",
+  "body": "The deepest part of the ocean is about 11 km and has a pressure of about 1000 atm. If the bulk modulus of sea water is and the surface density of sea water is , what is the density of sea water at the bottom of the ocean? "
+},
+{
+  "id": "ex_eighth-5",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-5",
+  "type": "Exercise",
+  "number": "8.3.4",
+  "title": "",
+  "body": "A horizontal rod of negligible mass and of length 1 m is supported on each end by a wire of length 1 m and diameter 0.1 mm. The wire on the left has a diameter of 0.1 mm and is made of aluminum . The wire on the the right has a diameter of 0.2 mm and is made of copper . A mass of 1 kg is then suspended from the rod.  Where should the mass be located in order to produce equal stresses in the two wires?  Where should it be located to produce equal strains?   "
+},
+{
+  "id": "ex_eighth-6",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-6",
+  "type": "Exercise",
+  "number": "8.3.5",
+  "title": "",
+  "body": "A lead block 50.0 cm long, 10.0 cm wide, and 10.0 cm thick, has a force of placed on it. Find the stress, the strain, and the change in length if  the block is standing upright, and  the block is lying flat.   "
+},
+{
+  "id": "ex_eighth-7",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-7",
+  "type": "Exercise",
+  "number": "8.3.6",
+  "title": "",
+  "body": "A coil spring stretches by 4.50 cm when a mass of 250 g is suspended from it. What force is necessary to stretch the spring an additional 2.50 cm? "
+},
+{
+  "id": "ex_eighth-8",
+  "level": "2",
+  "url": "ex_eighth.html#ex_eighth-8",
+  "type": "Exercise",
+  "number": "8.3.7",
+  "title": "",
+  "body": "Find the ratio of the density of water at the bottom of a 50.0 m lake to the density of water at the surface of the lake. The pressure at the bottom of the lake is The bulk modulus for water is  "
+},
+{
+  "id": "sec_ninth-intro",
+  "level": "1",
+  "url": "sec_ninth-intro.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "Fluid Statics",
+  "body": " Fluid Statics   Fluid statics is a branch of fluid mechanics that deals with the behavior of stationary (non-moving) fluids, typically liquids and gases, under the influence of gravitational forces. It focuses on the study of fluids at rest and how they exert pressure and forces on their surroundings.    Pascal's Principle   Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally to every portion of the fluid and the walls of the container. This principle is valid only for an incompressible fluid which is most of the liquid. Hydraulic press  hydraulic press is one of the good examples of Pascal's principle. It is a device to lift heavy objects. It has two cylindrical opening attached the horizontal tube as shown in . An incompressible liquid is filled in the device. It works on Pascal's principle and obeys the conservation of energy. Work done on the a pump (small cylindrical piston) to push it down is equal to the work done by the big piston to lift heavy objects like vehicle, elephant, etc. Let a force is applied on one piston to push it to a distance then it lifts the weight to a distance on the other pan attached to the second piston.          Since the hydraulic fluid is incompressible  which is the Pascal's principle. Also  Since area of cross-section, is greater than area of cross-section, a small force can generate a compressive force     Measurement of Fluid Pressure  Pressure measurement is important in many occasions in our daily life. To check tire pressure, pressure in balloon filled with air, pressure inside a pipe carrying fluid, pressure in gas cylinder, pressure in boiler used in industries, and pressure inside an airplane cabin. Two basic types of pressure measuring devices have been discussed here.     Manometer:  manometer Manometer is is a U-shaped tube used to measure pressure of a fluid at rest. It contains water, mercury, or any other suitable fluid in the tube. When a pressure line is connected to one column of manometer, the fluid in the column will be forced down, and the fluid in the other will rise as shown in . By measuring the difference in height of the fluid in the two columns, the pressure of the inlet can be expressed in length.            Here is an atmospheric pressure acting on the open end of manometer, and are densities of fluids in container A and in U-tube, respectively. Pressure at points A and B are same and the pressure at points C and D are same. Hence pressure in column BC is balanced by pressure in column DE.   alternate:         Barometer  barometer It is the simplest pressure gauge used for measuring atmospheric pressure. It is designed by Torricelli . A meter long tube completely filled with mercury is inverted in a mercury container in such a way that the open end of the tube is under the pool of mercury. Now on balancing the atmospheric pressure acting on the mercury container the mercury column in the tube drops to a certain height and creating a complete vacuum at the top of the tube and hence the pressure is zero at point C. In the , points A and B are at the same level so they have the same pressure.       This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube.       Archimedes' Principle  When an object is placed in a fluid it experiences an upthrust force called a buoyant force . It is arising due to changes of the pressure inside fluid. This phenomenon is known as Archimedes' principle. It states that when a body is fully or partially immersed in a fluid, the fluid exerts an upward force on the body equal to the weight of liquid displaced . That is, buoyant force (B) = weight of displaced fluid. Liquid does not distinguish between the volume of its own or the volume of some thing else. Meaning if we replace some arbitrary volume of the liquid with some other object of the same volume then the liquid applies the same force on its surface, and .                           If and are the mass and volume of displaced fluid and is the density of fluid then weight of displaced fluid is given by Due to buoyant force body appear lighter than it really is. Hence, the weight of a body in the fluid is called an apparent weight. Weight loss of a body is equal to weight of liquid displaced. That is, Where and are weight of a body in air and in the fluid, respectively. Apparent weight is the net downward force.  Hence apparent loss in weight = buoyant force = weight of water displaced.  If an object floats, then its apparent weight is zero. If its apparent weight is more than zero, it sinks. A floating object loss all of its weight.    If the body is completely submerged but suspended in the fluid [ ], then from Newton's second law net force acting on the body is zero. That is, buoyant force is equal to weight of the body  Since body is completely immersed in the fluid, . Hence,  The body will suspend in a fluid if their densities are same.  If the body is floating in the fluid [ ], then buoyant force is greater than the weight of the body. Hence body comes to a float, but at the surface of the fluid, net force acting on the body is zero.  Since body is floating in the fluid, volume of the displaced fluid is then only equal to immersed portion of the body. Hence   The body will float in a fluid if the densities of fluid is greater than that of the body.  If the body is sinking in the fluid [ ], then buoyant force is less than the weight of the body. Hence body sinks, but at the bottom of the fluid, net force acting on the body is zero.  Since Hence for to be +ve, must be positive. Here is the apparent weight of the body in the fluid.      "
+},
+{
+  "id": "subsec-pascle_prncpl-2-1",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsec-pascle_prncpl-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Hydraulic press "
+},
+{
+  "id": "hpress",
+  "level": "2",
+  "url": "sec_ninth-intro.html#hpress",
+  "type": "Figure",
+  "number": "9.1.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-pres_mesrmnt-3-1-1",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsubsec-pres_mesrmnt-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Manometer: "
+},
+{
+  "id": "manometer",
+  "level": "2",
+  "url": "sec_ninth-intro.html#manometer",
+  "type": "Figure",
+  "number": "9.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-pres_mesrmnt-3-1-4",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsubsec-pres_mesrmnt-3-1-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "alternate: "
+},
+{
+  "id": "subsubsec-pres_mesrmnt-3-2-1",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsubsec-pres_mesrmnt-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Barometer "
+},
+{
+  "id": "barometer",
+  "level": "2",
+  "url": "sec_ninth-intro.html#barometer",
+  "type": "Figure",
+  "number": "9.1.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-archm_princp-2",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsec-archm_princp-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "buoyant force "
+},
+{
+  "id": "subsec-archm_princp-3",
+  "level": "2",
+  "url": "sec_ninth-intro.html#subsec-archm_princp-3",
+  "type": "Figure",
+  "number": "9.1.4",
+  "title": "",
+  "body": "                        "
+},
+{
+  "id": "sec_ninth-fflow",
+  "level": "1",
+  "url": "sec_ninth-fflow.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Fluid Flow",
+  "body": " Fluid Flow   The motion of fluids is a complicated process but here our discussion will concentrate on ideal fluids' and its motion. Ideal fluids are incompressible, non-viscous (no internal friction between the fluids' layer), and have laminar flow laminar flow motion. In laminar flow fluid flows with the steady motion or streamline motion. Laminar flow occurs when the fluid flows in infinitesimal parallel layers with no disruption (i.e., no swirls or no eddies) between them. In such flow fluid follows the same velocity and direction at every points of its motion. There are another type of fluid motion called turbulent flows. In such flow fluid moves with changing velocities and directions on every point of its path. Reynolds number is used to distinguish the transition between laminar and turbulent flows. We limit our studies here to turbulent and Reynold's number .    Equation of Continuity  As a fluid is in steady motion and its flow progresses with time, it must be that the amount of mass flowing per unit time across to areas perpendicular to the flow is conserved. The flow rate is a measure of the flow of mass (volume) of fluid per unit time.      Consider a tube [ ] with areas of cross-section at one end and at another end. If mass of fluid is entering into the tube in time then the same amount of fluid must be leaving out of the tube in the same interval of time because fluid is incompressible. Hence, flow rate of fluid in laminar flow is same throughout its path, i.e.,     The quantity is called a flow rate. This equation is called an equation of continuity.    Bernoulli's Principle  It explains the movement of fluid through a pressure difference. work done by external force is equal to change in total energy of the fluid. If and are energy of the fluid at the ends of the tube where external forces and are acting normally on the cross-section of the tube, then       Consider a fluid is moving in a tube as shown in . Let fluid is entering into the tube with velocity and coming out of the tube with velocity The and are the heights of tube at its ends, respectively and is the mass of fluid flowing through the tube in time Now, Here and are the distances of the fluid moves in time at its ends. Hence,  This equation tells us that as the velocity of fluid flow increases, its pressure decreases. This is the conservation of energy principle in fluid motion. Bernoulli's equation says that the sum of the pressure, , (or, the energy per unit volume), the kinetic energy per unit volume ( ), and the gravitational potential energy per unit volume ( ) has the same value at all points along a streamline.    Applications of Bernoulli's Principle:     Airplane Wing  The top of the airplane wing is curved, while the bottom of the wing is totally flat. When an airplane runs air travels across the top of the wing is faster then it travels below the bottom part of the wing so that the air molecules travel equal distance in equal time ( equal transit theory ) to catch each other at the end of the wing. This phenomenon creates high pressure at the bottom and less pressure at the top. This pressure difference creates lift and allows planes to fly or take off easily [ ].        Spinning Ball  The ball spins in such a way that it decreases the velocity of air at top and increases the the velocity of air on the bottom. Which allows more air pressure on the top of the ball and less air pressure at the bottom of the ball. Due to which the ball accelerates downwards faster than the top part and the ball curves downward, which causes the batter to miscalculate the ball's position [ ].        Venturi Meter  It is a device used to measure the speed of the fluid. It is a broad tube with constriction at the middle as shown in . A manometer of U-shape is attached to it with one arm at the broad side and the other at the constriction. When the speed of incompressible fluid increases at the constriction, it lowers the pressure at that point. The pressure difference causes the manometer fluid (water) in the tube to rise in one arm and depressed at the other arm. The difference in height, measures the pressure difference. From Bernoulli's principle        Since the horizontal axis of the venturi meter is passing through the points M and N is at same height. Therefore  From equation of continuity,  where and are area of cross-section of the venturi tube at wide section and at the constriction.  The pressure difference between points M and N is also the pressure difference between the manaometer fluid at two points. That is the top of the water column on the left-hand side of the U-tube and the water column on the right-hand side. Hence, where is a gauge pressure in manometer. This equation will help find the speed of fluid (gas or liquid) entering into the venturi tube.    Siphon Effect  when one end of a pipe is deep into liquid and suck the air out from another end then there is vacuum created in the pipe and pressure gets low with respect to the atmospheric pressure at the surface of reservoir. This reduced pressure sucks the liquid up against the gravity and hence once the liquid rises up to the top of the pipe and due to gravity it begins flowing to the lower end of the siphon pipe to exit [ ].         There are numerous applications of Bernoulli's principle found in our daily life, e.g., spray atomizer, throwing of frisbees, flying of kites, Bird's wing design, water pump, etc.   "
+},
+{
+  "id": "sec_ninth-fflow-2-1",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#sec_ninth-fflow-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Reynold's number "
+},
+{
+  "id": "econt1",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#econt1",
+  "type": "Figure",
+  "number": "9.2.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "brnp1",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#brnp1",
+  "type": "Figure",
+  "number": "9.2.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "brnairplane",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#brnairplane",
+  "type": "Figure",
+  "number": "9.2.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "brnspnball",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#brnspnball",
+  "type": "Figure",
+  "number": "9.2.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "venturi",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#venturi",
+  "type": "Figure",
+  "number": "9.2.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "siphon",
+  "level": "2",
+  "url": "sec_ninth-fflow.html#siphon",
+  "type": "Figure",
+  "number": "9.2.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_ninth-examplesA",
+  "level": "1",
+  "url": "sec_ninth-examplesA.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "Examples A",
+  "body": " Examples A    A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then     where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.       A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:          A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.      The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and   Here,         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and           A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.        A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                      The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but        A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.      A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from           A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,         A U-tube manometer is used to measure the pressure of oil of specific gravity 0.85 flowing in a pipe line. Its left end is connected to the pipe and right end is open to atmosphere. The center of the pipe is 100 mm below the level of mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. Find pressure at the center of the pipe.      Given:             "
+},
+{
+  "id": "sec_ninth-examplesA-2",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-2",
+  "type": "Example",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.    If m is mass of water, V is its volume, and is its density., then     where is inner area of cross-scetion of the cylinder of radius and is the height of water in the cylindrical bottle.    "
+},
+{
+  "id": "sec_ninth-examplesA-3",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-3",
+  "type": "Example",
+  "number": "9.3.2",
+  "title": "",
+  "body": "  A girl is standing on her one foot which has high heeled shoes of surface area . If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel.    Given:       "
+},
+{
+  "id": "sec_ninth-examplesA-4",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-4",
+  "type": "Example",
+  "number": "9.3.3",
+  "title": "",
+  "body": "  A piston of a hydraulic system has a surface area of and pushes the hydraulic fluid with a pressure of 20,000 pascals. What pressure pushes on another piston in the same system?    Given: From Pascal's principle, So the other piston gets pushed by the same pressure.   "
+},
+{
+  "id": "sec_ninth-examplesA-5",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-5",
+  "type": "Example",
+  "number": "9.3.4",
+  "title": "",
+  "body": "  The specific gravity of mercury is 13.6.  What is the density of mercury in MKS units?  How high in meter will atmospheric pressure push a column of mercury up an evacuated tube?  How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?  How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the pressure inside the submarine is 1 atm?        Given: and   Here,         Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence,         and        "
+},
+{
+  "id": "sec_ninth-examplesA-6",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-6",
+  "type": "Example",
+  "number": "9.3.5",
+  "title": "",
+  "body": "  A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. what is the volume of the cavity inside the ball, if density of steel is ?      Given: Mass of steel ball, m=1.10 kg, its weight in water, w'=8.75N, and its density, Suppose w and w' are weights of the ball in air and in water, respectively. B is the bouyant force which is equal to the weight of displaced liquid. Since body loses weight due to buoyant force it is also equal to the weight loss of a body in the liquid. That is, The ball is totally submerged in water, volume of liquid displaced is the same as volume of ball itself. Hence  is the density of water and is weight loss of ball in water.    where, and are the volumes of cavity and steel in the ball.     "
+},
+{
+  "id": "sec_ninth-examplesA-7",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-7",
+  "type": "Example",
+  "number": "9.3.6",
+  "title": "",
+  "body": "  A robber takes a chest full of gold put it on their horse and ride off into the distance. The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high.  How many pounds would such a chest weigh if it were filled with gold ( )?  What would be the buoyant force (in pounds) on the chest if it were placed under water?  What would be the apparent weight (in pounds) of the chest while under water?      Given:                 "
+},
+{
+  "id": "sec_ninth-examplesA-8",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-8",
+  "type": "Example",
+  "number": "9.3.7",
+  "title": "",
+  "body": "    The density of fresh water is and the specific gravity of ice is 0.917. What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?    Given:  and Density of ice,   Buoyant force = wt. of a man + wt. of submerged portion of ice.  For a minimum surface area consider the entire ice is suspended inside the surface of water.   As ice is completely submerged volume of displaced water is the same as volume of ice   but     "
+},
+{
+  "id": "sec_ninth-examplesA-9",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-9",
+  "type": "Example",
+  "number": "9.3.8",
+  "title": "",
+  "body": "  A solid body when suspended by a string in air shows 40 N tension in the string. When it is completely submerged in water the tension in string will be 30 N and when it is completely submerged in unknown liquid, the tension will be 20 N. Find the density of unknown liquid.    Given: Tension in string in air, T=40 N, tension in string in water, and tension in string in unknown liquid,           From first figure From second figure From third figure From eqns. and ,    From eqns. and , we have -       alternate:  where is a weight of a body in air and is a weight of a body in fluid.   "
+},
+{
+  "id": "sec_ninth-examplesA-10",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-10",
+  "type": "Example",
+  "number": "9.3.9",
+  "title": "",
+  "body": "  A solid body of density is suspended at the interface of two liquids. A liquid is sitting on top of liquid without mixing to each other and the specific gravity of liquids and is 0.8 and 1.2, respectively. If fraction of the volume of the body immersed in liquid is . Find the value of       Given:  Specific gravity of a body, Total volume of the body, Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.       Hence, from        "
+},
+{
+  "id": "sec_ninth-examplesA-11",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-11",
+  "type": "Example",
+  "number": "9.3.10",
+  "title": "",
+  "body": "  A water rocket of length 20 cm and cross sectional area has half its volume initially filled with water. The air inside the rocket is pressurized to 10 atm and the area of the exhaust nozzle is .  What is the initial exhaust velocity of the rocket?  What is the initial volume flow rate for the rocket?  What is the initial rate of decrease of mass of the rocket?        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, pressure inside the water bottle, area of cross-section of nozzle,   From Bernoulli's principle,  From equation of continuity,        Here is density of water and .  initial volume flow rate,   initial rate of decrease of mass,      "
+},
+{
+  "id": "sec_ninth-examplesA-12",
+  "level": "2",
+  "url": "sec_ninth-examplesA.html#sec_ninth-examplesA-12",
+  "type": "Example",
+  "number": "9.3.11",
+  "title": "",
+  "body": "  A U-tube manometer is used to measure the pressure of oil of specific gravity 0.85 flowing in a pipe line. Its left end is connected to the pipe and right end is open to atmosphere. The center of the pipe is 100 mm below the level of mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. Find pressure at the center of the pipe.      Given:            "
+},
+{
+  "id": "ex_ninth",
+  "level": "1",
+  "url": "ex_ninth.html",
+  "type": "Exercises",
+  "number": "9.4",
+  "title": "Exercise",
+  "body": "  Exercise  A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?    A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?    An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?    The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs?  A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is .  Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section?  A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose.  A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?    A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of   "
+},
+{
+  "id": "ex_ninth-2",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-2",
+  "type": "Exercise",
+  "number": "9.4.1",
+  "title": "",
+  "body": "A block of aluminum has a size of .  What is the mass?  What is its weight?  If immersed in water, what would be the volume of the displaced water?  What would be the weight of the displaced water?  How large a force would be required to keep the block from sinking in the water?   "
+},
+{
+  "id": "ex_ninth-3",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-3",
+  "type": "Exercise",
+  "number": "9.4.2",
+  "title": "",
+  "body": "A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its top face 2 cm above the surface of the oil. What is  the density of the oil,  the volume of the displaced oil,  the mass of the displaced oil,  the weight of the displaced oil,  the weight of the cube,  the volume of the cube,  the density of the cube,  the pressure at the bottom of the cube, and  the force exerted by the oil on the bottom of the cube?   "
+},
+{
+  "id": "ex_ninth-4",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-4",
+  "type": "Exercise",
+  "number": "9.4.3",
+  "title": "",
+  "body": "An aluminum weight of mass 200 g is attached by a short string to the bottom of a float of density which is supported by another string attached to a mass balance. When both the weight and the float are completely immersed in water the balance reads 50 g. What is  the volume of the float,  the mass of the float,  the buoyant force of the water on the float, and  the buoyant force of the water on the aluminum weight.  What would the balance read if only the weight were under water?   "
+},
+{
+  "id": "ex_ninth-5",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-5",
+  "type": "Exercise",
+  "number": "9.4.4",
+  "title": "",
+  "body": "The weight density of fresh water is and the specific gravity of ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft thick that would support a man weighing 180 lbs? "
+},
+{
+  "id": "ex_ninth-6",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-6",
+  "type": "Exercise",
+  "number": "9.4.5",
+  "title": "",
+  "body": "A hang glider has a wing area of weighs 70 lb (pounds), and caries a pilot weighing 200 lb with his equipment. If the velocity of the air under the wing is half that over the top, what is the average airspeed of the glider in miles per hour? Hint: This problem can be worked in the FPS system by using the fact that the specific gravity of air is and the weight density of water is . "
+},
+{
+  "id": "ex_ninth-7",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-7",
+  "type": "Exercise",
+  "number": "9.4.6",
+  "title": "",
+  "body": "Water is flowing through a pipe with a constriction. The area of the narrow section is one half the area of the wide section. If the velocity of the incompressible fluid is in the wide section, then what is the velocity of the fluid in the narrow section? "
+},
+{
+  "id": "ex_ninth-8",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-8",
+  "type": "Exercise",
+  "number": "9.4.7",
+  "title": "",
+  "body": "A hose lying on the ground has water coming out of it at a speed of If the nozzle of the hose is lifted to a height of 1.3 m above the ground. Find the speed of water coming out of the hose. "
+},
+{
+  "id": "ex_ninth-9",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-9",
+  "type": "Exercise",
+  "number": "9.4.8",
+  "title": "",
+  "body": "A large tank of water open to the air at the top has a hose attached to its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water leaving the nozzle is 6 m\/s.  How high would the water squirt if the nozzle were aimed straight up?  What is the volume flow rate of the water leaving the tank?  What is the pressure in the water as it leaves the nozzle?  What is the pressure in the water at the top of the tank?  What is the velocity of the water at the top of the tank?  What is the height of the water in the tank?  If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose?  What is the gauge pressure in the hose?  What is the absolute pressure in the hose?   "
+},
+{
+  "id": "ex_ninth-10",
+  "level": "2",
+  "url": "ex_ninth.html#ex_ninth-10",
+  "type": "Exercise",
+  "number": "9.4.9",
+  "title": "",
+  "body": "A balloon filled with helium gas is floating in air with acceleration . If the density of air and helium gas is and , respectively and volume of balloon is Find the value of  "
+},
+{
+  "id": "sec_tenth-intro",
+  "level": "1",
+  "url": "sec_tenth-intro.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Heat",
+  "body": " Heat   Standing out in a scorching summer day we feel hot and touching an iron bar in the morning of a severing winter day, we feel cold. The sensation of hotness and coldness can be experienced by the increase or decrease of a certain kind of energy which we call heat . Heat is a form of energy that can transfer from one location to another because of the temperature difference between them. A quantitative measure of the sensation of hotness or coldness is given by temperature. Therefore, temperature is the degree of hotness or coldness of a body. Heat energy is produced at the expense of mechanical energy and vice versa. For example, rubbing palms vigorously makes palm warmer. An infinite amount of heat can be extracted from a substance by continually doing mechanical work on it just as heat is obtained from water in Joule's experiment. Work and heat both transfer the energy from one system to another but temperature plays no role in transfer of energy due to work. Objects can store heat (or thermal energy) because the atoms and molecules of the objects are jostling around and bumping into one another. This type of thermal energy is called internal kinetic energy of the materials. The energy also arise in molecules due to intermolecular attractions. This type of energy is called internal potential energy. During phase change of a material heat is stored in the form of internal potential energy. For example, heating of ice melts it without any rise of temperature. This energy is used in driving the molecules of ice away from each other against their molecular attraction. While internal energy refers to the total energy of all the molecules within the object, heat is the amount of energy flowing from one body to another spontaneously due to their temperature difference. Heat is energy in transit but not a property of the system.  To measure how hot or cold something is, we use an instrument called a thermometer. Hence, the thermometer is a device used to measure temperature. The definition of temperature is not very straight forward to explain but the degree of hotness or coldness of a body would suffice the definition for now. We will discuss more in defining the temperature in thermodynamics chapter.    Temperature and Thermometers   There are varieties of thermometers in existence. Based on the phases of materials used in thermometer they are solid state thermometer, liquid thermometer, and gas thermometer. Many physical properties of materials change significantly with temperature can be used as the basis for constructing thermometers. Solid thermometer works upon the principle that resistances of solid objects are proportional to changes in its temperature. Liquid thermometer works upon the principle that expansion in liquid volume are proportional to changes in its temperature. Gas thermometer works upon the principle that changes in gas pressure are proportional to changes in gas temperature. Here mainly discussed about liquid thermometer. Liquid thermometers, such as mercury-in-glass or alcohol thermometers, have been widely used for temperature measurement for many years. However, due to toxic effect of mercury for living being mercury thermometers are not much in use these days. The different calibration process of thermometers produces different types of temperature scales. They are Centigrade (Celsius) scale [ ], Fahrenheit scale[ ], and Kelvin scale [ ]. There are some other types of scales like Rankine's or Reamer's thermometers available but they are almost obsolete. A centigrade thermometer has 100 divisions between the freezing point (0 degree Celsius) and the boiling point (100 degree Celsius) of water. Swedish astronomer Andres Celsius is credited for its development. A temperature of 76 degree Celsius is abbreviated as The Celsius scale is the most widely accepted temperature scale in the world except the United States. In Fahrenheit thermometer, there are 180 divisions between the freezing point (32 degree Fahrenheit) and the boiling point (212 degree Fahrenheit) of water. German physicist Daniel Fahrenheit is credited for its development. It is the first modern thermometer developed in 1714. A temperature of 76 degree Fahrenheit is abbreviated as    Thermometers    Celcius Scale     Fahrenheit Scale     Kelvin Scale      Kelvin scale of temperature is the standard metric system of temperature measurement and mostly used by scientists. The Kelvin scale has 100 equal degree increments between the freezing point and the boiling point of water just as the Celsius scale. However, the zero-degree mark on the Kelvin scale is 273.15 units cooler than it is on the Celsius scale. So a temperature of 0 Kelvin is equivalent to a temperature of Traditionally, degree symbol is not used with the Kelvin scale. So a temperature of 300 units above 0 Kelvin is referred to as 300 Kelvin and not 300 degree Kelvin. Hence 300 Kelvin is abbreviated as 300 K. Conversions among Celsius, Fahrenheit, and Kelvin scales are summarized below.  Consider these thermometers are placed in a cup of coffey where Celsius scale reads a temperature of C, Fahrenheit scale reads a temperature of F, and Kelvin scale reads a temperature of K, then we can find their relationship as follows Here and are unknown temperature, boiling point of water, and freezing point of water in the respective thermometers, respectively. We have used here freezing point of water as 273 K instead of 273.15 K, just for simplicity.  Eqn. provides the temperature conversion between any two scales. Such as for Celsius\/Kelvin scale,  For Fahrenheit\/Celsius scale,       Absolute Scale  A physical thermometer uses the physical properties of a material or substance to determine temperature. It relies on the fact that certain physical properties change in a predictable way with temperature. Examples of physical thermometers include mercury-in-glass thermometers, alcohol thermometers, and bimetallic strip thermometers. These thermometers use the expansion and contraction of materials (e.g., mercury or alcohol) to indicate temperature changes. The scale of normal thermometers depends upon the physical propertise (thermal expansion, electrical resistance, etc) of the substance which is used in the thermometer. The physical property (e.g. thermal expansion) of materials varies differently at the different range of temperatures hence all these thermometers have fixed uses. For example, a mercury thermometer can measure temperature ranges from approximately to ( to ). For alcohol thermometer, the typical temperature range is approximately to ( to ). That means, if we go to Antarctica we must bring with us an alcohol thermometer and when going to Lut Desert a hotest place on earth, we need a mercury thermometer. Mercury thermometer may freeze in Antarctica and alcohol thermometer may boil in Lut Desert. To remedy such problems of limitation of physical thermometers, Scottish physicist William Thomson, Baron Kelvin proposed to constructing a temperature scale which should be independent on the material properties on the basis of thermodynamics principles that the lowest possible temperature which could be achieved was in 1848. This minimum temperature is the zero point on Kelvin scale and is known as absolute zero . Kelvin scale is a hypothetical (theoretical) thermometer scale also known as absolute scale . From third law of thermodynamics, it is impossible to reach absolute zero temperature by any physical means.       Temperature is a measure of average kinetic energy per molecule of any substance. In classical mechanical point of view, molecular motion ceases completely at absolute zero and hence possesses zero kinetic energy. (However, in quantum mechanical point if view, at absolute zero molecular motion takes minimum speed of its vibration.) It has been seen from the gas laws that the product of pressure and volume is directly proportional to temperature [ ]. In fact, all gases have energy ( ) heading to zero at the same temperature called absolute zero. At absolute zero the pressure of an ideal gas would drop to zero.   "
+},
+{
+  "id": "sec_tenth-intro-2-1",
+  "level": "2",
+  "url": "sec_tenth-intro.html#sec_tenth-intro-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "heat "
+},
+{
+  "id": "subsec-temp_therm-2-2",
+  "level": "2",
+  "url": "sec_tenth-intro.html#subsec-temp_therm-2-2",
+  "type": "Figure",
+  "number": "10.1.1",
+  "title": "",
+  "body": " Thermometers    Celcius Scale     Fahrenheit Scale     Kelvin Scale     "
+},
+{
+  "id": "subsec--2",
+  "level": "2",
+  "url": "sec_tenth-intro.html#subsec--2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "absolute zero "
+},
+{
+  "id": "abscale",
+  "level": "2",
+  "url": "sec_tenth-intro.html#abscale",
+  "type": "Figure",
+  "number": "10.1.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_tenth-therm_exp",
+  "level": "1",
+  "url": "sec_tenth-therm_exp.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Thermal Expansion",
+  "body": " Thermal Expansion   You may have observed that Jammed lid of a bottle can be easily unscrewed if it is put into the hot water for sometime. A partially inflated balloon expands to full size when placed in lukewarm water. A fully inflated balloon begins shrinking when immersed in cold water. Most materials expand on heating and contract on cooling. The physical property of a material due to which a body can change its dimensions with a change in temperature is called a thermal expansion . The expansion in length is called linear expansion , the expansion in area is called superficial expansion , and the expansion in volume is called volumetric expansion. or bulk expansion.                     Linear Expansion  Suppose a rod of original length is heated for a temperature difference of , then we can find that the change in its length is proportional to the change in temperature, i.e., . If increases also increases by itself. We can also see that the change in length is also proportional to its original length [ ], i.e., Hence by combining these properties, we can have  where is a proportionality constant called coefficient of linear expansion or linear expansivity. It is a material property. This distinguishes the expansion properties of one material to another.  Hence, linear expansivity is defined as the change in length of a rod per unit original length per unit rise of temperature.    Superficial Expansion  If a thin plate of original area [ ] is heated for a temperature difference of , then we can find that the change in its area  where is a proportionality constant called coefficient of superficial expansion or superficial expansivity. It is a material property.  Hence, superficial expansivity is defined as the change in area of a plate per unit original area per unit rise of temperature.    Volumetric (Cubic) Expansion  If a cuboid of original volume [ ] is heated for a temperature difference of , then we can find that the change in its volume,  where is a proportionality constant called coefficient of volumetric expansion or volumetric expansivity. It is a material property.  Most materials expand on heating and possess positive coefficient of expansion, e.g., metals, glass, etc. However, some materials contract on heating and possess negative coefficient of expansion, e.g., water, bismuth, welding rods, etc.    Relation between and  Consider a solid cube of side at temperature and at temperature Hence from linear expansion, we have The volume of a cube is therefore,  Now since is very small, is very very small. Hence the quantities and are neglected.  By comparing eqns. and , we get - Similarly the area of a cube is given by -    is very small. By comparing eqns. and , we get -      Anomalous expansion of water  Normally, substances expand on heating and contract on cooling. Water exists in three phases solid, liquid, and gas. At temperatures below water exists as a solid ice, occupying a bigger volume. When heated, it expands like normal solid up to It begins melting at to liquid water without any change in temperature. Melting is accompanied by a decrease in its volume by about . As temperature increases above water contracts further up to and occupies the minimum volume at . Therefore water has maximum density at which is about Above , water expands like any other liquid. This behavior of water is described as anomalous, unusual, irregular, or peculiar behavior of water. The importance of anomalous properties of water can be summarized as:  During cold weather, the temperature of lakes drops and water contracts, becomes denser and sinks. A circulation of water is thus set up until all the water attain maximum density i.e. at . If further cooling occurs (below ), then any water below will stay at the top due to its lower density. At ice forms on top and this acts as an insulator to the layers below. Hence the relatively warm water underneath ice layer can help sustain aquatic life.  Ice has a slightly lower density than that of water and hence it floats with a small portion above the water surface. The rest and a larger portion of the ice rests under water. This is called an iceberg. Icebergs pose a great danger to ships as the submerged parts cannot be seen easily by navigators.     "
+},
+{
+  "id": "sec_tenth-therm_exp-2-1",
+  "level": "2",
+  "url": "sec_tenth-therm_exp.html#sec_tenth-therm_exp-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "thermal expansion "
+},
+{
+  "id": "sec_tenth-therm_exp-2-2",
+  "level": "2",
+  "url": "sec_tenth-therm_exp.html#sec_tenth-therm_exp-2-2",
+  "type": "Figure",
+  "number": "10.2.1",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "sec_tenth-heat_meas",
+  "level": "1",
+  "url": "sec_tenth-heat_meas.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "Quantity of Heat",
+  "body": " Quantity of Heat   Heat is a transfer of energy. When an object gains or losses heat it either changes its temperature or its phase. A change in temperature is associated with changes in the average kinetic energy of the particles and a change in phase is associated with changes in the internal potential energy possessed by the object. In this section we will learn how to measure the quantity of heat gained or released by an object.    Specific Heat Capacity  Heat absorbing capacity of a material is known as specific heat capacity. Suppose we have two marbles at room temperature , one has mass 1 kg and another has mass 2 kg. If we want to heat them to , then from our experience we know that 2 kg marble will take longer than 1 kg marble to reach at the same temperature. Hence, the amount of heat (Q) put into the material is directly proportional to the mass (m) of the material. That is, Now suppose both of our marbles has a mass of 1 kg each and we want to heat one of them for and another for temperature We can again tell that the marble which has to be heated for will take longer than the other. That is, where . For marble of mass 1 kg, and for the marble of mass 2 kg By combining these two expressions, we have -  where is a proportionality constant and is called specific heat capacity of the material. It is the properties of a material. Different materials have different specific heat capacities and hence they absorb or release heat differently. If m=1 kg, , then , i.e., specific heat capacity of a material is the amount of heat added into or taken out from the material of unit mass to the unit degree rise or fall of temperature. In SI system, unit of is . In heat and thermodynamics, we normally measure heat in calorie unit but other physical quantities in SI unit . Hence the mixture of systems of unit can be seen in this chapter. In cgs system, unit of specific heat capacity of water is  The capacity of a material to absorb heat per degree rise of temperature is called heat capacity . It is defined as . The amount of heat required to raise the temperature of one mole of a substance by one degree (Celsius or Kelvin) is known as molar (specific) heat capacity .    Latent Heat  Heat absorbed or released by the material during phase change is called latent heat. There is no temperature change during a phase change hence this energy is hidden from temperature scale. The energy dissipated or released during phase change is in adjustment of particles potential energy in the bonds. Hence the amount of heat during phase change is proportional to the mass of a material. That is,  where is a latent heat during phase change. It is also a material property. The latent (hidden) heat of fusion for water at is approximately (79.7 calories\/g), and the latent heat of vaporization at is about 2,230 joules per gram (or, 533 calories per gram) .    Phase Changes of Matter  We know that ice is solid water, even steam is water as well. Any material can exist in three different states solid, liquid, and gas are also known as the phases of matter. When ice is heated it melts into liquid water and then evaporates into water vapor. These changes from one phase to another are referred to as phase changes .      We may also have noticed that the temperature of water doesn't change during boiling. The temperature of water increases up to boiling and then remains constant as it boils. The following diagram illustrates the relationship between temperature and amount of heat needed to change the phases of water. We can see that the temperature increases as heat is added to water within a phase. Adding heat into the water increases the kinetic energy of water molecules within the ice. During the phase change, the added heat doesn't make the molecules move faster, but make them further apart. The heat energy added during the phase change is consumed to overcome intermolecular force of attraction and stored within the material in the form of potential energy of the molecules. Where amount of heat added to the system can be obtained by    and   While cooling process heat is taken out from the system, then latent heat of vaporization becomes latent heat of condensation and latent heat of melting becomes latent heat of fusion. For water, latent heat of melting and latent heat of fusion are same. Similarly, latent heat of vaporization and latent heat of condensation are same but they are not same for many other materials. Phase of matter changes from solid to liquid is called melting or fusion , from solid to gas is called sublimation , from liquid to solid is called freezing , from liquid to gas is called evaporation or boiling, from gas to solid is called deposition , from gas to liquid is called condensation , from plasma state to gaseous state is called recombination , and from gaseous state to plasma state is called ionization .    Calorimetry      It is a process to measure amounts of heat (calories) transferred to or from a substance. A device used to measure the amount of heat involved in the process is called a calorimeter . A basic calorimeter consists of a metal container of water, in which a thermometer is used to measure the change in water temperature and a stirrer to stir water frequently to maintain uniform temperature. The principle of calorimetry states that in an isolated system heat lost by one component of calorimeter is equal to heat gained by the another components of the calorimeter. A calorie is the amount of energy required to raise one gram of water by one degree Celsius. From the principle of calorimetry, i.e., heat loss = heat gain.    Triple Point of Water      It is a point in the phase diagram at which the solid, liquid, and vapor can co-exist. Phase diagram is characteristic curves of the material between pressure, volume, and temperature. Figure 10.8 is a PT curve shown as a phase diagram of water at constant volume. The of temperature at which the solid and liquid states are in equilibrium is called melting point and the line at which they co-exist is called the ice line . The temperatures at which the solid and gaseous states are in equilibrium is called sublimation point and the line at which they co-exist is called the sublimation line or hoar-frost line. The values of these temperatures change with the pressure. The steam line shows the variation of boiling point of water with the pressure. Ice line shows the variation of melting point of water with the pressure. The negative slope of this line shows the melting point of ice decreases with the increase of pressure. Sublimation line or Hoar-frost line, shows the equilibrium between the ice and steam. These three lines meet at a single point 'p' called the triple point of water . The triple point of water is 273.16 K at pressure 0.006 atm pressure.    Heat Transfer   It is process by which heat transfers from one location to another due to temperature difference. Heat can only flow from high temperature to low temperature. There are three processes involved in heat transfer. They are conduction, convection, and radiation.   Conduction  In this process heat is transferred through stationary matter by physical contact. In microscopic level atoms and molecules are always in random motion at any temperature above absolute zero. When heated these particles (atoms and molecules) gain thermal energy and begin vibrating even higher amplitude knocking the neighboring particles. By doing so they impart some of their energy to their neighboring particles, and so on. Eventually heat is carried away from one end of a substance to another. In conduction, heat carrying particles do not physically move from its place rather they transfer their energy to neighbors when they knock one another. Every time they knock pass some of their energy to next one and returns to their original place. Heat transfers from the burner of a stove through the bottom of a pan to food in the pan is transferred by conduction. Conduction occurs in all states of substances solid, liquid, and gas. In solids, conduction happens due to molecular vibration. In gases and liquids, it is due to collisions and diffusion of the molecules during their random motion.  Consider one end of a metallic bar [ ] of length and area of cross-section is kept at hot temperature and another end is kept at cold temperature , then the amount of heat, transfers through this bar at time can be found experimentally as    combining these all, we get -  where is a proportionality constant, known as coefficient of thermal conduction or conductivity of a material. It is a material property.        Convection  In this process heat transfer occurs by the actual movement of fluid particles. Convection heat transfer is energy transport due to bulk fluid motion. Convection happens in gases and liquids.      When a fluid is heated, its molecules which are in contact with the hot surface get hot and expand. That is, the fluid above a hot surface expands, becomes less dense, and rises. It carries the thermal energy along when rises up. The relatively cold fluid on the upper surface is heavier and sink down near the heat source. Hence a current of heat cycle develops in the convection process, called convection cycle. The rate of heat flow in convection process is given by where is known as convective heat transfer coefficient, is surface area of fluid receiving heat, and are temperature of hot surface and cold fluid, respectively. The unit of is     Radiation  It is the process in which heat transfer without the need of intervening medium. Heat transfer occurs in this process when electromagnetic waves emitted or absorbed. The warming of the earth surface by the Sun is due to radiation. Heat transfer by this process is the fastest one. All bodies above absolute zero emit thermal radiation. At room temperature the radiation is in the infrared range, wavelengths longer than those of the visible spectrum. In atomic domain, the radiation is caused because of oscillating ions and electrons in a warm solid are accelerating electric charges, such charges radiate. Different substances radiate with different efficiencies. The good radiator of radiation is a good absorber of radiation. A perfect absorber is called a black body (such perfection is not found in nature, but some things are close). Hence a black body is also a perfect radiator. A black body absorbs and emits radiation of all most all frequencies. It was found experimentally that heat energy radiated per unit time per unit surface area of a perfectly black body is proportional to the fourth power of its absolute temperature. This statement is also called Stefan-Boltzmann law . That is,  where is called Stefan-Boltzmann constant and is called emissivity of the object. For a perfect black body If and be the temperatures of the body and its surroundings then, net rate of heat loss, For any particular wavelength and temperature the amount of thermal radiation emitted depends on the emissivity of the object's surface. Emissivity is defined as the ratio of the energy radiated from a material's surface to that radiated from a blackbody at the same temperature and wavelength under the same viewing conditions. It is a dimensionless number between 0 (for a perfect reflector) and 1 (for a perfect emitter). The emissivity of a surface depends not only on the material but also on the nature of the surface . For example, a clean and polished metal surface will have a low emissivity, whereas a roughened and oxidized metal surface will have a high emissivity. The emissivity also depends on the temperature of the surface as well as wavelength and angle.     To calculate temperature, heat transfer, and energy balance in various systems or to understand the transfer of energy (heat) as electromagnetic radiation between objects the following terminologies are very important to know.   Emissive Power  It is defined as the radiant energy emitted per unit time per unit surface area of the body at a particular temperature within a unit wavelength range. Emissive power represents the rate at which an object emits electromagnetic radiation, typically in the form of thermal radiation (infrared radiation) due to its temperature. Emissive power depends on the temperature of the object and its emissivity. Emissivity is a material property that describes how efficiently an object can emit radiation compared to an ideal black body, which has an emissivity of 1. Objects with higher emissivity values emit radiation more effectively.    Absorptive Power  It is defined as the ratio of radiant energy absorbed per unit time per unit surface area of the body to the total energy falling per unit time on the same area at a particular temperature within a unit wavelength range. Absorptive power represents the ability of an object to absorb electromagnetic radiation. It is the complement of reflectivity and is related to how efficiently a material can absorb incoming radiation. Materials with high absorptivity values absorb more radiation and convert it into thermal energy. Absorptivity, like emissivity, is also a material property and varies with wavelength. It is a unitless value between 0 and 1.    Kirchhoff's Law  Kirchhoff has two fundamental principles in the study of thermal radiation and the behavior of materials with regard to electromagnetic radiation. The details of Kirchhoff's law is not a part of discussion here but only taken here for some information. Kirchhoff's first law states that at any temperature, the ratio of the emissive power to the absorptive power for a given wavelength is the same for all bodies and is equal to the emissive power of a perfectly black body.  In other words, this law states that the emissivity ( ) of an object at a particular wavelength is equal to its absorptivity ( ) at that same wavelength. That is, the amount of radiation that an object emits at a specific wavelength is equal to the amount of radiation it absorbs at that same wavelength when the object is in thermal equilibrium with its surroundings.  Kirchhoff's second law states that at every temperature and for every wavelength, the emissivity ( ) of a perfect black body is equal to 1. That is, a perfect black body is an idealized object that absorbs all incident radiation and emits radiation at the maximum possible rate for a given temperature. It is often used as a reference to compare the behavior of real objects in radiative heat transfer.        Solar Constant      It is the rate at which solar energy received by the unit surface area of the earth, when it is placed at the mean sun-earth distance. Solar constant,  solar constant   If be the radius of the sun and be its surface temperature, then by considering the sun as a perfect black body, solar energy radiated by the sun surface is given by If be the mean sun-earth distance then sun's energy is radiated in the spherical surface of area . Hence the energy received by unit surface on the earth is         "
+},
+{
+  "id": "subsec-sp_heat-2",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#subsec-sp_heat-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "heat capacity molar (specific) heat capacity "
+},
+{
+  "id": "subsec-phase_change-2",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#subsec-phase_change-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "phase changes "
+},
+{
+  "id": "phasechanges",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#phasechanges",
+  "type": "Figure",
+  "number": "10.3.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "calorim",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#calorim",
+  "type": "Figure",
+  "number": "10.3.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-calrmtr-3",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#subsec-calrmtr-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "calorimeter "
+},
+{
+  "id": "tpoint",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#tpoint",
+  "type": "Figure",
+  "number": "10.3.3",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-heat_trans-2-1",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#subsec-heat_trans-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "black body Stefan-Boltzmann law Emissivity "
+},
+{
+  "id": "subsec-heat_trans-2-2",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#subsec-heat_trans-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Emissive Power Absorptive Power Kirchhoff's Law "
+},
+{
+  "id": "solarconst",
+  "level": "2",
+  "url": "sec_tenth-heat_meas.html#solarconst",
+  "type": "Figure",
+  "number": "10.3.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec_tenth-examplesA",
+  "level": "1",
+  "url": "sec_tenth-examplesA.html",
+  "type": "Section",
+  "number": "10.4",
+  "title": "Examples A",
+  "body": " Examples A   Temperature & Expansion    Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:               A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:                 A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:            A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                          Calorimetry    How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:          A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.               Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,            A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.             Heat Transfer    The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,        A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls                 The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                     Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:                  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.              A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body          A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in an evacuated container. The sphere has a radius of 0.020 m and is initially at The container is maintained at a temperature of   Assuming that the temperature of the sphere does not change very much, what is the net energy gained by the sphere in 10.0 s?  Estimate the change in temperature of the sphere.        The energy lost must be supplied at the same rate at which it is being lost by radiation. At equilibrium, power emitted = power absorbed. Therefore, the energy lost per second by the sphere is                  "
+},
+{
+  "id": "sec_tenth-examplesA-2-2",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-2-2",
+  "type": "Example",
+  "number": "10.4.1",
+  "title": "",
+  "body": "  Nitrogen liquefies at 63 K. What is this temperature in  degrees Celsius?  degrees Fahrenheit?      Given:            "
+},
+{
+  "id": "sec_tenth-examplesA-2-3",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-2-3",
+  "type": "Example",
+  "number": "10.4.2",
+  "title": "",
+  "body": "  A steel rail 50 m long and cross sectional area is laid out on a hot summer day when the temperature is . The next winter the temperature drops to below zero. How great a force would be required to keep the ends of the rail from moving? For steel, ,  .      Given:              "
+},
+{
+  "id": "sec_tenth-examplesA-2-4",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-2-4",
+  "type": "Example",
+  "number": "10.4.3",
+  "title": "",
+  "body": "  A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at is heated to . If , how much does the area of the sheet increase?    Given:         "
+},
+{
+  "id": "sec_tenth-examplesA-2-5",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-2-5",
+  "type": "Example",
+  "number": "10.4.4",
+  "title": "",
+  "body": "  A 1 L glass flask is filled to the mark with ethyl alcohol at . If the system is heated to ,    how much does the glass flask expand?  How much does the alcohol expand?  How high does the alcohol flow up the neck of the flask if its cross-sectional area is ?      Given:                       "
+},
+{
+  "id": "sec_tenth-examplesA-3-2",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-3-2",
+  "type": "Example",
+  "number": "10.4.5",
+  "title": "",
+  "body": "  How much heat is required to convert a 100 g ice cube taken from the refrigerator at into super heated steam at if the conversion is performed at atmospheric pressure? Note: c(ice) = c(steam) =       Given:       "
+},
+{
+  "id": "sec_tenth-examplesA-3-3",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-3-3",
+  "type": "Example",
+  "number": "10.4.6",
+  "title": "",
+  "body": "  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 100 g of ice at .  How much ice melts?  What is the final temperature of the system? Note:   .      Given: Mass of aluminum calorimeter, mass of ice, and mass of iron, Initial temperature of ice and calorimeter, initial temperature of iron, When hot iron is placed in calorimeter iron losses its heat and calorimeter and contents gains heat till the final temperature of the mixture reaches to equilibrium at     Now first calculate amount of heat needed for ice to melt completely, Heat lost by iron if cool to = Hence more heat is available in container than ice requires to melt completely.    All ice melts, i.e.,   Now from principle of calorimetry, Heat loss by iron = heat gained by calorimeter + ice.            "
+},
+{
+  "id": "sec_tenth-examplesA-3-4",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-3-4",
+  "type": "Example",
+  "number": "10.4.7",
+  "title": "",
+  "body": "  Table salt has the chemical formula of and a specific heat capacity of The atomic mass of sodium is 22.99 and of chlorine is 35.453.  What is the molar mass of salt?  What is the molar heat capacity of salt?  How many joules of heat are required to heat 2 moles of salt from room temperature to boiling temperature ?      Given:      Molecular mass    Molar heat capacity,         "
+},
+{
+  "id": "sec_tenth-examplesA-3-5",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-3-5",
+  "type": "Example",
+  "number": "10.4.8",
+  "title": "",
+  "body": "  A lead bullet of mass 10 g, traveling at 500 m\/s, strikes a target and comes to rest. The specific heat of solid lead is , lead melts at , and its heat of fusion is . If the bullet is at before hitting the target and all the heat generated by the collision goes into the bullet, what is the final temperature of the bullet?    Given:      Heat produced by bullet = change in kinetic energy of bullet.          "
+},
+{
+  "id": "sec_tenth-examplesA-4-2",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-2",
+  "type": "Example",
+  "number": "10.4.9",
+  "title": "",
+  "body": "  The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick of thermal conductivity, The interior temperature of the house is and that at the exterior is find the rate of heat loss through the wall.    Given:   and Now the rate of heat transfers due to conduction,     "
+},
+{
+  "id": "sec_tenth-examplesA-4-3",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-3",
+  "type": "Example",
+  "number": "10.4.10",
+  "title": "",
+  "body": "  A carpenter builds the walls of a basement out of solid concrete 4 inches thick. In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam sheets 2 inches thick before filling in the dirt. The average ground temperature at that location is and the interior temperature of the basement is kept at a comfortable year round.  How much heat flows through the wall of the basement per square meter during the course of one year?  If the basement measures 10 m long, 5 m wide, and 3 m high how much heat flows out the walls in one year?  If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat the basement per year? Note:       Given:           Since rate of heat flow from the wall is constant, We can find the value of T and plug that value in either or to get get by using formula       for 4 walls              "
+},
+{
+  "id": "sec_tenth-examplesA-4-4",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-4",
+  "type": "Example",
+  "number": "10.4.11",
+  "title": "",
+  "body": "  The wall of a house is 4 m wide and 3 m high. Except for the windows the wall consists of a sheet of rock , inches of fiberglass insulation , and wooden siding . There are two windows in the wall, each 1 m wide and 1.5 m tall consisting of single pane glass .  If the temperature outside is and inside is , how much heat flows out the wall and windows in 1 hour?  If the conductivity of window glass is and the window is 3.2 mm thick, what is the effective R-value of each of the two layers of \"dead\" air in contact with the window?      Given:                   and                  "
+},
+{
+  "id": "sec_tenth-examplesA-4-5",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-5",
+  "type": "Example",
+  "number": "10.4.12",
+  "title": "",
+  "body": "  Assume that the total surface area of the human body is about and the surface temperature of the skin is .  What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?  What is the net rate of heat loss through radiation by the body into an environment at ?      Given:               "
+},
+{
+  "id": "sec_tenth-examplesA-4-6",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-6",
+  "type": "Example",
+  "number": "10.4.13",
+  "title": "",
+  "body": "  Two metal rods, one lead and the other copper, are connected in end-to-end in series. Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. The temperature at the lead end of the rods is ; the temperature at the copper end is .  The average temperature of the two ends is . Is the temperature in the middle, at the lead-copper interface, greater than, less than, or equal to ? Explain.  Find the temperature at the lead-copper interface.  Given: and       Since and the rate of heat flow through both of the rods must be equal, then temperature at the junction must be greater than the average temperature , otherwise lead can not dissipate the same amount of heat every second as the copper does.        Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow.           "
+},
+{
+  "id": "sec_tenth-examplesA-4-7",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-7",
+  "type": "Example",
+  "number": "10.4.14",
+  "title": "",
+  "body": "  A copper pipe of radius 10mm is carrying a hot water. The external surface of the pipe is subjected to a material of convective heat transfer coefficient of find the heat lost by the convection per unit length of the pipe when external surface temperature is and the surroundings are at Assuming a black body radiation what is the heat lost by radiation?    For 1 m long pipe,  Now for radiation by assuming a pipe as black body       "
+},
+{
+  "id": "sec_tenth-examplesA-4-8",
+  "level": "2",
+  "url": "sec_tenth-examplesA.html#sec_tenth-examplesA-4-8",
+  "type": "Example",
+  "number": "10.4.15",
+  "title": "",
+  "body": "  A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in an evacuated container. The sphere has a radius of 0.020 m and is initially at The container is maintained at a temperature of   Assuming that the temperature of the sphere does not change very much, what is the net energy gained by the sphere in 10.0 s?  Estimate the change in temperature of the sphere.        The energy lost must be supplied at the same rate at which it is being lost by radiation. At equilibrium, power emitted = power absorbed. Therefore, the energy lost per second by the sphere is                "
+},
+{
+  "id": "sec_tenth-kt_gas",
+  "level": "1",
+  "url": "sec_tenth-kt_gas.html",
+  "type": "Section",
+  "number": "10.5",
+  "title": "Kinetic Theory of Ideal Gas",
+  "body": " Kinetic Theory of Ideal Gas   Kinetic theory of matter is developed to explain the nature of heat and the motion of particles associated with heat energy. According to this theory, every substance is composed of large number of very tiny particles called molecules . These molecules are always in random motion with all possible velocities which increases with the increase of temperature. On this basis, in solids, molecules are very closely packed and attract each other with a large cohesive force. They cannot move freely but can vibrate about their mean positions. This explains the definite size and shape of solids. In liquids, the molecules are farther apart than in solids and attract each other with a comparatively smaller cohesive force. This force does not allow them to escape the liquids however, they can move freely anywhere within the liquids. This explains why a liquid has a definite size (volume) but no shape of its own. In gases, the molecules are very far away from each other than in solids and liquids and have negligibly small force of attraction between them. Hence they can move freely anywhere within the available space. This explains why a gas has no definite shape and size.  To understand the more general behavior of gases kinetic theory of ideal gases is postulated as  All gases are made up of molecules. Molecules are identical, rigid, and perfectly elastic moving in random directions with all possible velocities.  The molecules are very far away from each other but they collide with each other and with walls of the container.  All the collision are elastic, but time spent during each collision is negligibly small compared to the time spent between the collisions.  Molecules do not interact with each other (no intermolecular force of attraction) except during a collision.  The average kinetic energy of the molecules of any gas depends only on the temperature.  The distance between the collision is called the free path .  Ideal gas is a hypothetical gas of negligible molecular size and have no interactions among their molecules. The above postulates are the correct description of ideal gas. In practice, a very dilute gas with extremely large volume of container space can be considered as an ideal gas. Remember the real gas molecules has definite size and may interact with each other. Hence this postulates are just a very simplified model to understand gas laws and need modification for real gas behaviors.    Pressure of an Ideal Gas  When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. Let us consider a cube of sides cm encloses number of molecules and mass of each molecule is . Since time during the collision of molecules is so small there is no transfer of momentum hence no exertion of force (Newton's II law) or no pressure, we ignore therefore the collision of molecules amongst themselves here. Let a molecule at point is moving with velocity in any direction. This velocity can be resolved into x,y, and z directions as and respectively, such that       Let a molecule collide elastically on the face BCDG along x-axis [ ]. The momentum of the molecule along x-axis before collision is Since the collision is elastic the molecule rebound with the same velocity along opposite to x-axis. Therefore the momentum in this case will be The change in momentum of the molecule due to this collision along x-axis will be Now once this molecule collide to the face EFAO while moving along -ve axis and rebounds it again comes to collide with the same face BCDG. The distance traveled by the molecule for collision on the same face is Hence, the time taken between each successive collision on face BCDG is given by Therefore, the force exerted on the face BCDG by molecule is given by Newton's II law of motion, Since there are molecules hence total force exerted on the face BCDG is given by  The pressure on the face BCDG will be  Similarly, pressures and along the y- and z- axes, respectively are and Hence, the average pressure in the container     where and Here, is called a root-mean square velocity of the molecule and is an average molecular speed and the mass of total gas in a container of volume    where = average transational kinetic energy of the gas and is the average transational kinetic energy of each moleucle. That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume. Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have  where is a degree of freedom for a gas molecules and is called the Boltzmann constant . In SI system,     Degree of Freedom:                   The degree of freedom is the number of independent motions possible to a particle or the number of independent coordinates required to specify particle's dynamic position or the number of independent ways of exchanging particle's energy. It depends on the atomic arrangement of an ideal gas molecule and types of motion it could have in the container. For example, it could have the combination of translation, rotational, and vibrational motion. For a monoatomic gas molecules (like helium, argon), consists of a single atom and can be represented by a point in space [ ]. Such molecule therefore can have only translational motion in any of x-,y-,and z- direction. Thus it can have three independent motion and hence three degrees of freedom. degree of freedom   The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined rigidly like a dumbbell [ ]. Such a molecule can translate as well as rotate about any one of the three mutually perpendicular axes. However, rotational inertia about an axis along the rigid rod will be negligible as compared to the other two rotational axes. Hence it can have only two rotational motions and three translational motions. The degrees of freedom for diatomic molecule is therefore five. A triatomic molecule either have linear arrangement of atoms (like ) or tringular arrangement (like ), hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational motions) degrees of freedom or 6 (3 rotational, and 3 translational motions) [ ]. If we consider each molecule has three translational motions , and the atoms are constrained to move along the rigid support, then degrees of freedom, . Hence for monoatomic gas, for diatomic gas, and for triatomic gas, in triangular arrangement of atoms, and in linear arrangement of atoms. If the container has moles of a gas, then total number of molecules in the container can be given as where molecules\/mole is known as Avogadro's number . Hence, for n mole of a gas, where or and is known as universal gas constant . Hence, eqn. is called the equation of state of an ideal gas.  From eqns. and , we have -  and  If n=1 mole, then M is a molar mass and we get- and if N=1, then The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molar mass. The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molecular mass.   Note: Molar mass [ ] is the mass of one mole of a substance, while molecular mass is the mass of one molecule of a substance. For examples, mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is Mass of 1 mole of molecule is 2.016 gram, mass of 1 molecule of     Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,      Internal Energy of a Gas  A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes to release mechanical energy. This production of energy is actually a conversion of stored energy of a system. The apparently stored energy of a system is called an internal energy . Real gas molecules posses both kinetic energy (due to motion of the molecules) and potential energy (due to intermolecular force of attraction) and hence the internal energy of the real gas is the sum of all of its internal kinetic and internal potential energy of the molecules. Ideal gas molecules are very far away from each other hence they do not have internal potential energy. The internal energy of an ideal is therefore solely due to the internal kinetic energy of all of its gas molecules and it is denoted by Therefore the internal energy of one molecule of a gas, Hence, for N molecules of a gas, the internal energy is given by and n moles of a gas,  and  It must be noted that the internal energy of an ideal gas is directly proportional to the absolute temperature, i.e.,     Gas Laws                   From equation of state, and if T of a gas remains constant, then   This is called a Boyle's law, the pV diagram of Boyle's law is shown in . At constant temperature, the average force of each particle striking the surface will be the same. But as the area of the container has increased, there will be fewer of these collisions per unit area and the pressure will decrease. Volume is inversely proportional to pressure , if the number of particles and the temperature are constant.  If pressure remains constant, then   This is called a Charle's law, the diagram is shown in . To keep the pressure constant as the volume increases is to raise the average force that each particle exerts on the surface. This happens when the temperature is increased. So if the number of particles and the pressure are constant, temperature is proportional to the volume .  If volume remains constant, then   This is called a pressure law (or Gay-Lussac's law), the diagram is shown in . As the temperature increases, the average kinetic energy increases as does the velocity of the gas particles hitting the walls of the container. The force exerted by the particles per unit of area on the container is the pressure, so as the temperature increases the pressure must also increase. Pressure is proportional to temperature , if the number of particles and the volume of the container are constant.   Avogadro's law: Volume of a gas is directly proportional to the amount of gas at a constant temperature and pressure, i.e.,  The Combined Gas Law: If number moles of a gas only remains constant, then we have - The volume of a given amount of gas is proportional to the ratio of its absolute temperature and its pressure, i.e.,    "
+},
+{
+  "id": "sec_tenth-kt_gas-2-1",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#sec_tenth-kt_gas-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "molecules "
+},
+{
+  "id": "idealgas1",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#idealgas1",
+  "type": "Figure",
+  "number": "10.5.1",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-gas_pres-4",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_pres-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Boltzmann constant "
+},
+{
+  "id": "subsec-dg_freedom-2",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-dg_freedom-2",
+  "type": "Figure",
+  "number": "10.5.2",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-dg_freedom-4",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-dg_freedom-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Avogadro's number "
+},
+{
+  "id": "subsec-dg_freedom-6",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-dg_freedom-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "subsubsec-avagdrs-2",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsubsec-avagdrs-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "molar mass "
+},
+{
+  "id": "subsec-gas_laws-2",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_laws-2",
+  "type": "Figure",
+  "number": "10.5.3",
+  "title": "",
+  "body": "                "
+},
+{
+  "id": "subsec-gas_laws-3",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_laws-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Volume is inversely proportional to pressure "
+},
+{
+  "id": "subsec-gas_laws-4",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_laws-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "temperature is proportional to the volume "
+},
+{
+  "id": "subsec-gas_laws-5",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_laws-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Pressure is proportional to temperature "
+},
+{
+  "id": "subsec-gas_laws-6",
+  "level": "2",
+  "url": "sec_tenth-kt_gas.html#subsec-gas_laws-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Avogadro's law: The Combined Gas Law: "
+},
+{
+  "id": "sec_tenth-thermdyn",
+  "level": "1",
+  "url": "sec_tenth-thermdyn.html",
+  "type": "Section",
+  "number": "10.6",
+  "title": "Thermodynamics",
+  "body": " Thermodynamics   The word thermodynamics was coined by Lord Kelvin in 1849. It is a combination of two words, thermo that refers heat and dynamics that refers force or motion of the molecules or atoms. It is the branch of physics which deals with heat energy, its transfer, and energy conversion. It begins its journey with the development of fire. People used to believe that every substance has some amount of invisible fluid called caloric fluid. When it moves from one object to another the object becomes hot or cold. The object which loses caloric fluid becomes cold and which gains caloric fluid becomes hot. We know now that there is nothing like caloric fluid but it is a heat energy which exists in a material due to molecular vibration. Heat is a form of energy that can flow due to temperature difference. We can obtain an infinite amount of heat energy out of the material. For example, we can produced an infinite amount of heat from water by performing a continuous mechanical work (as in Joul's experiment  ) without changing the condition of water. Work is also an energy that is transferred from one system to another without considering the temperature difference between them.  There are several processes in nature which occur always in a particular fashion. For examples, water falls from a high elevation to low elevation,  heat flows from high temperature to low temperature , current flows from high electric potential to low electric potential , in diffusion molecules flows from high concentration to low concentration , we grow older not younger , our hair turns gray not black as we go older , and so on. Even in the conversion of mechanical energy into heat energy, for example if you rub your right hand finger on the palm of left hand (mechanical work) you produce a heat but reverse does not seem to happen. Yes, some events can happen in both directions, for example you can heat a gas and you can cool a gas, you expand a gas and compress a gas, etc but even in that processes we can see there are some changes happen in the surroundings. We will discuss those events later in second law of thermodynamics which talks about the directional property of heat energy and its conversion. The conversion of mechanical energy into electrical energy and vice a versa is 100% possible in ideal case but if we want to convert heat energy into mechanical work (energy) then 100% conversion is not possible even in the ideal case. However, we can convert all of our mechanical energy into heat energy. Hence we can tell that the nature always follows a certain pattern to have some process to occur. Nature obeyes simple and universal laws that can be expressed in the mathematical language. Thermodynamics is thus a fundamental subject of nature that describes the basic laws governing the physical process and its occurrence associated with the transfer of energy and its conversion. It is based on our common experience, observation, and experimentation. It has two parts in observational points of view, that is microscopic view (statistical thermodynamics) and macroscopic view (classical thermodynamics). The characteristic of the over all behavior the system can be sensed in classical thermodynamics. The behavior of system on the basis of its molecular property can be studied in statistical thermodynamics. That is, the classical thermodynamics is an average outcome of statistical thermodynamics . Thermodynamics provides a very important aspects of our life that tells us which process in nature can only occur and which process can not occur.    Thermodynamical systems    open system     closed system     isolated system      To understand the thermodynamical process we need to know about the system and surroundings. The system is the part of the universe being studied, while the surroundings are the rest of the universe that interacts with the system. The system and surroundings are separated by a hypothetical line called a boundary . It may be real or imaginary, for example water in a beaker is separated from rest of the room, then the beaker behaves as a boundary, water as a system, and the rest of the room as surroundings. In other word, a system is a definite amount of matter bounded by a closed surface. Anything outside of this closed surface is called a surroundings . The closed surface is a boundary which separates the system and the surroundings. The boundary may be real or imaginary, it may be fixed, flexible, or distorted. System and surroundings must interact with each other by exchanging energy of any forms. System which can exchange energy and matter both with the surroundings is called open system . For example, boiling water in an open pot. If the system can exchange only energy but not the matter with its surroundings then system is called a closed system . For example, a cup of coffee with a lid on it. Some system neither exchange energy nor the matter with its surroundings then it is called an isolated system . For example, a thermos flask.    Thermodynamical Variables  The state of a thermodynamic system can be specified in terms of macroscopic state variables such as volume, V, temperature, T, and pressure, p. Out of these three, two are independent variables while the third may be considered as their function. In general, two of these parameters are needed to completely specify a thermodynamical system. These two types of variables are also known as extensive and intensive variables. Variables that depend on the size of a system such as volume, V, amount of substance (moles, n ), entropy, S, etc. are called extensive variables . Variables that do not depend on the size of a system such as temperature, T, pressure, p , density, , etc. are called intensive variables .    Laws of Thermodynamics   The laws of thermodynamics define fundamental physical quantities such as temperature, energy, and entropy that characterize thermodynamic systems. There are four laws of thermodynamics.    Zeroth Law of Thermodynamics   isolated system    It defines the temperature and states the thermal equilibrium condition. Thermal equilibrium is a state achieved by two or more systems after being in contact with one another through a diathermic wall. If an object with a higher temperature comes in contact with another object at a lower temperature, it will transfer some of its heat energy to the object at lower temperature till they come to the same temperature. If two systems are each in thermal equilibrium with a third system, then they must be in thermal equilibrium with each other. If temperature of object A = temperature of object C and temperature of object B = temperature of object C, then temperature of object A = temperature of object B [ ].    First Law of Thermodynamics               The first law is a consequence of conservation of energy and requires that a system may exchange energy with its surroundings strictly by heat flow or work. Joule has established the equivalence between heat and mechanical work as where W is amount of work done (in joule) on the system, Q is the amount of heat (in calorie) produced in the system, and J is a mechanical equivalent of heat also known as Joule's constant. The value of is . The first law states that when a given amount of work, W is done on a system, an equivalent amount of heat, Q is produced or when a certain amount of heat, Q disappears from the system an equivalent amount of work W is obtained. The equivalence is given by the constant . Heat is thus a form of energy. mechanical equivalent of heat   The Joule apparatus [ ] consisted of a weight suspended by string over a pulley, which in turn was wound around a winding drum. As long as the drum remained stationary, the weight remained at rest. When the drum was released, the weight was set free to fall, and its potential energy began converting to kinetic energy. In the process, the string attached to the weight unwound from the drum, which caused the drum to turn and along with it the paddle wheel attached to it. The rotating paddles agitated the water, causing its temperature to rise. Joule concluded from this experiment that the mechanical energy of the spinning paddle wheel had been converted into heat energy, which raise the temperature of the water. Joule's experiment thus proved the link between potential, kinetic, mechanical, and heat energies. Joule's experiment thus helped establish the principle of conservation of energy. Joul's experiment   Let us consider a system which absorbed amount of heat and does work done while going from initial state to the final state . The final state reached by the system may be achieved by the different paths but the quantity is the same. The quantity is known as the change in internal energy of the system.  Consider a gas cylinder [ ] with frictionless piston placed on a hot bath, then the change in internal energy of the cylinder is given by where is the amount of heat energy absorbed by the gas, and is the amount of work done by the gas in moving its piston from position to . This is the mathematical form of I law of thermodynamics. The I law establishes an exact relation between heat and work. This tells us that it is impossible to get the work from any machine without giving it an equivalent amount of energy in any form .   Quasi static state: A process during which the system only deviates from equilibrium by an infinitessimal amount. This may happen if the gas is allowed to expand or compress very slowly. As the piston compresses the pressure inside the gas remains very nearly uniform at all times during the process. So, the system never deviates significantly from mechanical equilibrium. Quasi static process is also a reversible process. A system is in thermodynamical equilibrium if it has achieved: mechanical equilibrium, chemical equilibrium, and thermal equilibrium. Thermodynamic variables like temperature, pressure etc. can only be used to describe the system that has achieved thermodynamical equilibrium.     Application of I law of thermodynamics     Specific heat capacity of a gas: Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  where is the infinitesimal work done by the gas in moving a piston from initial position to the final position , and is given by where is area of cross-section of the piston, is force applied by the gas molecules on the surface of the piston. If the piston is fixed from moving, then at constant volume, , and  But, for n mole of a gas where C is molar specific heat capacity of the gas. where is mass of the gas, but it is convenient to take mole instead of mass as an amount of gas. At constant volume, From eqns. and , we have - At constant pressure,  Now, differentiating eqn. with respect to , we get - But from euation of state of a gas , Differentiating this equation with respect to at constant , we get - substituting the values in eqn. from eqns. and , we get -  This is the relation between molar specific heat capacity of a gas at constant pressure and molar specific heat capacity of a gas at constant volume . From the kinetic theory of gas, the internal energy of a monoatomic gas [ ] is given by  Hence, from eqns. , , and , we have - Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of can be expressed as where is the number of degrees of freedom per molecule. For a monatomic gas, we find that since for a monoatomic gas. for a diatomic gas as .    Isothermal process: In an isothermal process system remains at constant temperature, , hence, As internal energy of an ideal gas [ ] is a function of temperature only, we have      Adiabatic process: In an adiabatic process system does not exchange heat , with surroundings, hence, also,      Isobaric process: A process at constant pressure, is called an isobaric process. Also,      Isochoric process: A process at constant volume, is called an isochoric process.      Free expansion: It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world, and gas expands freely so Therefore from I law of thermodynamics, That is, initial internal energy of the gas is same as its final internal energy.       Second Law of Thermodunamics  The first law of thermodynamics gives an equivalence between the quantity of heat and the mechanical work or vice-versa. This law does not tell the limitation and condition of conversion. That is how much heat is converted into work and whether the transformaiton itself can take place or not. The first law does not tell anything about the direction of transformation of energy. It does not indicate whether heat can flow from a cold end to a hot end or not. The first law places no restriction on the direction of a process, and satisfying the first law does not guarantee that the process will occur. In practice, it is not possible to convert the heat energy into an equivalent amount of work. Thus, we need another general principle to identify whether a process can occur or not. The law specifying the condition of transformation of heat into work is called the second law of thermodynamics. The second law of thermodynamics tells the direction of the flow of heat. It also tells that heat energy cannot be completely converted into equivalent work.                        Kelvin-Plank statement of the second law: It is impossible for any device that operates on a cycle to receive heat from a single reservoir and produce a net amount of work [ ]. For heat engine to operate, the working fluid has to exchange heat with heat sink as well with the heat source. A heat engine that violates the Kelvin-Planck statement of the second law cannot be built.   Clausius statement of the second law: It is impossible to construct a device that operates in a cycle and produces no effect other than the transfer of heat from a cold body to a hot body. In other words, a refrigerator will not operate unless an external work is done on its compressor [ ].  The above two statements are equivalent to each other. Consider a refrigerator that transfers heat from a cold to a hot body without having any work done on it [ ], thus violating the Clausius statement. Now, suppose an engine working between the same hot and cold bodies takes in heat from a hot body and gives out heat to the cold body [ ]. The engine does not violate any law by itself, but if the refrigerator and engine combined together [ ], they form a device that takes in heat from the hot body and converts all into work without delivering any to the cold body. This is a violation of Kelvin's statement. Similarly, a violation of the Kelvin's statement leads to violation of the Clausius statement.    Heat Engines  Heat engine is a device of converting heat continuously into work. The device absorbs heat from a high temperature reservoir, converts part of this energy into work and rejects the rest of the energy as heat to a low temperature drain. Hence, it consists of three essential parts: Source or reservoir for the supply of heat at high temperature. Sink or drain for the rejection of heat at lower temperature. Working Substance which absorbs heat from the source.  The working substance undergoes a cycle of operation in which it absorbs certain quantity of heat from the source, converts a part of it into work and rejected rest to the sink as shown in . Finally it reaches to the initial stage where its internal energy is the same. By performing the same cycle again and again, heat is continuously converted into work.       Efficiency: Let is the amount of heat absorbed by the working substance from the source at high temperature It does the work W and reject amount of heat to the sink at lower temperature The efficiency of the heat engine then defined as the ratio of the work done (output) by the engine to the amount of heat supplied (input) to the engine. That is, If there is no dissipative losses (i.e., no frictional loss in engine, etc.) then heat rejected would be  Hence  Since, efficiency is normally defined in percentage.    Carnot's Heat Engine       Carnot's Assumption: Heat cannot be taken in at a certain temperature and converted to work with no other change in the system of surroundings. Carnot presented theoretically an ideal heat engine, free from all imperfection of actual engines. The engine operates between source and sink each of which is maintained at constant temperature. The engine is known as a Caront's engine and its cycle of operation as the Carnot's cycle. The schematics of engine is shown in . The working substance is an ideal gas contained in an insulated cylinder with conducting bottom surface. A hot body of high thermal capacity maintained at a constant temperature serves as a source. A cold body maintained at a constant temperature serves as a sink. A stand has a perfectly insulated wall.  The cylinder can be moved in cycle from source, stand, sink, stand, and back to source without doing any work.    Reversible Heat Engines  A reversible process is defined as a process that can be reversed without leaving any trace on the surroundings. It means both system and surroundings are returned to their initial states at the end of the reverse process. Processes that are not reversible are called irreversible.  Reversible heat engine is just the heat engine which is running in the reverse direction of heat engine. In reversible heat engine all the three components re-assume exactly their original conditions and no changes are left in the surroundings. Such an engine can be realized if, the engine is free from friction, the process is infinitely slow, and working substance never differs appreciable from its surroundings. No heat engine can have efficiency greater than a reversible heat engine.    Carnot's Cycle:  The Carnot engine operates in the four steps of Carnot cycle which are perfectly reversible. Carnot's cycle        Step 1, Isothermal Expansion:  isothermal expansion Consider a mole of gas as a working substance in a cylinder [ ]. The initial state of the gas is denoted by point A in the figure 10.25 and it's temperature is the same as that of source . Let the cylinder be placed on the source and allowed to expand so slowly that the temperature remains constant at throughout the expansion while amount of heat is being absorbed by the gas. The final state of the gas is represented by a point B. Because none of the heat goes into changing the temperature of the gas, all of the heat goes into pushing the piston up as the gas expands. Thus all of the heat, is turned into work, That is,    Step 2, Adiabatic Expansion:  adiabatic expansion Now the cylinder is removed from the source and placed on the stand. The gas is then allowed to expand adiabatically with no heat added to the system. The gas continues to expand, and the temperature of the gas drops to the temperature of the cold reservoir, . If the volume of the gas has expanded, and the pressure is constant, then the temperature has to drop to compensate when reaches to a point   The work done in this case is given by    Step 3, Isothermal compression: The cylinder is removed from stand and placed on the sink. The gas is then compressed slowly at constant temperature when the gas reaches to a point The heat, is transferred to the cold reservoir by doing work on it.    Step 4, Adiabatic compression: In the last step, the cylinder is removed from sink and placed once again on the stand. The gas is compressed adiabatically to the initial state . Since the heat can not be extracted from the gas as it causes the temperature of the gas to rise back to . The work done on this compression is given by   Hence the total work done during the complete cycle of operation    Quantity of heat absorbed by the gas in full cycle   The efficiency of the Carnot cycle is therefore,  This is the efficiency of Carnot's heat engine. The Carnot's engine can not be realized in practice because - (i) The temperature of source and sink can not be kept constant. The body (source) which loses energy its temperature falls gradually and the one (sink) which gains energy its temperature rises gradually, meaning reservoirs of infinite thermal capacity do not exist. (ii) It is a perfectly reversible in action, if the cycle is reversed the working substance will take amount of heat from sink and gives out amount of heat to the source, meaning reversible heat transfers are not possible. (iii) Heat transfer takes place at infinitesimally slow in isothermal process having very small temperature difference between the source and the receiver. On the other hand, in adiabatic process, heat transfer is zero and a very fast process.    Carnot's Theorem:   The efficiency of all reversible engines operating between the same two temperatures is the same, and no irreversible engine operating between these temperatures can be more efficient than a reversible engine working between the same two temperatures.       Consider two engines I and R working between the same two temperatures where I is irreversible and R is reversible. The two engines are so designed that they perform equal amount of work. If engine R draws amount of heat from source does W work done and rejects amount of heat to the sink then its efficiency, Similarly, if the engine I extracts amount of heat from the source, perform the same amount of work W, and rejects the to the sink, then its efficiency, Now, assume that the irreversible engine I is more efficient than the reversible engine R, then we have   That is, is a positive quantity.  Now combine these two engines in such a way that engine I drives the engine R in the backward direction, so that R behaves as a refrigerator. The refrigerator R then extracts heat from the sink, after work done on it by I it rejects heat to the source. The two engines are so coupled that they behave as a self acting machine. Since the work needed to run the refrigerator R is supplied by the irreversible engine I. The quantity of heat extracted from the sink is given by This is also the net amount of heat rejected to the source.That is this device transfers the same amount of heat from the sink to the source without the aid of any external source. This violates the second law of thermodynamics. Hence an irreversible engine never be more efficient than the reversible one.  Now consider the reversible engines and are working between the same source and sink. Let be driving backward, then as described above, can not be more efficient than . Similarly if is driving backward, then can not be more efficient than . Hence the two engines must have same efficiency.    Heat Pump and Refrigerator   Heat flows from hot body to cold body naturally. The reverse process, however, cannot occur by itself. To transfer heat from a low temperature region to a high temperature requires special devices called refrigerators or heat pump. Heat pumps transfer heat from a low temperature medium to a high temperature one. Refrigerators and heat pumps are essentially the same devices; they differ in their objectives only. Refrigerator is to maintain the refrigerated space at a low temperature. On the other hand, a heat pump absorbs heat from a low temperature source and supplies the heat to a warmer medium. Heat pumps and refrigerators are heat engine working in backward direction. They transfer heat from cold to hot.    Coefficient of Performance, COP:      The performance of refrigerators and heat pumps is expressed in terms of the coefficient of performance (COP) which is defined as coef. of perform.    Since it can be seen that      Entropy   A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. Entropy is a measure of that disorderness. It is a measure of the system's thermal energy per unit temperature that is unavailable for useful work. The concept of entropy provides the direction of spontaneous change for many process. It tells us that which process is allowed and which is completely prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, depending on whether a small amount of heat is added to or taken out from the system. Such a process is reversible because only an infinitesimal amount of heat is needed to change its direction from progressive freezing to progressive thawing.      Spontaneous change for an irreversible process in an isolated system always proceeds in a direction of increasing entropy. Entropy describes the degradation of energy to perform work. Crystals are more orderly than salt molecules in solution; however, vaporized water is more disordered than liquid water. The process taken as a whole results in a net increase in disorder. The first law of thermodynamics is the conservation of energy and is easy to express quantitatively. The second law explains that heat only flows from a hotter object to a colder one. It measures quantitatively that the efficiency of any reversible engine has to equal that of the Carnot cycle, and any irreversible engine has less efficiency. In the view of measuring the amount of irreversibility Clausius described a parameter, called entropy that doesn't change in a reversible process but always increases in an irreversible one.  The total work done by the gas is the area of the curve ABCD. Hence the work done must be just the difference between the heat supplied at and that dumped at Now the heat supplied along the initial hot isothermal path AB is equal to the work done along that curve, and the heat dumped into the cold reservoir along CD is   The difference between these two is the net work output. This can be simplified using the adiabatic equations for the other two sides of the cycle: and On dividing of these two equations, we get - and using that in the preceding equation for    So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the absolute temperatures. If we draw many isotherms and many adiabatics curve, then we can find in general that This quantity is a definite thermal property of the working substance. During adiabatic change, there is no transfer of heat so this quantity is zero. Hence that thermal property of the substance which remains constant during an adiabatic change is termed as entropy .  Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature when the gas passes from the state A to the state B remains constant even if a path other than the isotherm AB is followed. Now starting from the point A in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics AD and CB the quantity is zero and the quantity along the isothermal DC But we know that Hence the quantity is independent of the manner of transformation, i.e., the entropy is a definite function of the thermal state of a body and is not affected in any way by the manner in which the particular state is reached. In other words, entropy is a definite physical entity like pressure, volume, temperature, or internal energy but there is nothing physical to represent it . Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute entropy of a substance in any situation, we can only measure the change in entropy as the substance moves from one state to another. Entropy is denoted by a letter, .  Change of entropy = heat energy\/temperature  or, Change of entropy Temperature = Heat Energy.  That is the dimension of heat energy is same as that of the product of entropy and temperature. If we compare, gravitational potential energy mass height with the above expression then it seems like, entropy bears to heat motion in the same fashion as mass bears to linear motion. Hence entropy is also known as a thermal inertia. The second law of thermodynamics can be stated in terms of entropy. The total entropy of the universe is continually increasing because all natural process is irreversible and entropy increases in irreversible process where as there is no change in entropy in the reversible process. But reversible process barely happen in the universe.    Principle of increase of entropy:  According to this principle, entropy of the universe always increases for any irreversible process, or remains constant for a reversible process.   Change of entropy of the universe due to reversible process: Consider a Carnot cycle in isothermal expansion. The increase of entropy of the working substance is equal to The decrease of entropy of the source is equal to Thus the net change of entropy of universe during a reversible isothermal process is zero . There is no change of entropy during adiabatic process. Similarly, the decrease of entropy of the working substance during isothermal compression is the increases of entropy of the sink during isothermal compression is Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle at once, then loss of entropy of the source (surrounding) is and gains of entropy of the sink (surrounding) is , hence the net change of entropy of the universe,  The entropy of the whole system remains constant.   Change of entropy of the universe due to irreversible process: Consider a heat transfer in conduction process. It is an irreversible process. Let a quantity be transferred from a hot body A at a temperature to a cold body B at temperature The loss of entropy of A is and the gain of entropy of B is Thus the net change in entropy is Since . Therefore the entropy of the system as a whole increase during this process. The entropy of the universe increases in the irreversible process.      Principle of degradation of entropy:  It states that the available energy of the universe is tending towards zero. From the second law whenever an irreversible process takes place, a certain quantity of energy of the universe is converted from a form in which it is unavailable for work. In Carnot engine, is the heat that is taken from a source and is the amount of heat given to the sink. The difference of this heat is converted into work and is called the available energy . Available energy is therefore,  Thus the lower the temperature of the sink, the greater will be the available energy.  Now consider an irreversible process in which heat Q is transferred from hot body at temperature to a cold body at temperature Suppose is the lowest available temperature in the system, then available energy to start with is After transfer it becomes Hence the loss available energy in the process of transformation is  Since is increasing in irreversible process available energy is decreasing. All natural process are irreversible the available energy of the universe is continually decreasing. When a state of maximum entropy of the universe is reached there would be no available energy to do any work, this condition is called the heat-death .     Third Law of Thermodynamics  From now we may have known that the entropy difference between two points like the potential energy. Where we must define the base line to calculate the potential energy. We already have a natural base line thermodynamically, a system at absolute zero has zero entropy. This is sometimes called the third law of thermodynamics. The efficiency of Carnot engine, If  i.e., efficient. It means if the temperature of the sink be zero, then complete conversion of heat into work is possible. But further lowering of temperature if it is already sufficiently low is not easy. Hence, third law states that it is impossible by any procedure to reduce temperature of any system to absolute zero.   "
+},
+{
+  "id": "sec_tenth-thermdyn-2-1",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#sec_tenth-thermdyn-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "thermodynamics "
+},
+{
+  "id": "sec_tenth-thermdyn-2-3",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#sec_tenth-thermdyn-2-3",
+  "type": "Figure",
+  "number": "10.6.1",
+  "title": "",
+  "body": " Thermodynamical systems    open system     closed system     isolated system     "
+},
+{
+  "id": "sec_tenth-thermdyn-2-4",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#sec_tenth-thermdyn-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "system surroundings "
+},
+{
+  "id": "subsec-therm_varbls-2",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-therm_varbls-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extensive variables intensive variables "
+},
+{
+  "id": "zeroth",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#zeroth",
+  "type": "Figure",
+  "number": "10.6.2",
+  "title": "",
+  "body": " isolated system   "
+},
+{
+  "id": "subsubsec-I_law-therm-2",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsubsec-I_law-therm-2",
+  "type": "Figure",
+  "number": "10.6.3",
+  "title": "",
+  "body": "            "
+},
+{
+  "id": "subsubsec-I_law-therm-7",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsubsec-I_law-therm-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quasi static state: "
+},
+{
+  "id": "subsec-Ilaw_appl-2",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-Ilaw_appl-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Specific heat capacity of a gas: Isothermal process: Adiabatic process: Isobaric process: Isochoric process: Free expansion: "
+},
+{
+  "id": "subsec-II_law-3",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-II_law-3",
+  "type": "Figure",
+  "number": "10.6.4",
+  "title": "",
+  "body": "                    "
+},
+{
+  "id": "subsec-II_law-4",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-II_law-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Kelvin-Plank statement of the second law: "
+},
+{
+  "id": "subsec-II_law-5",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-II_law-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Clausius statement of the second law: "
+},
+{
+  "id": "he5",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#he5",
+  "type": "Figure",
+  "number": "10.6.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-heat_engn-5",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-heat_engn-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Efficiency: "
+},
+{
+  "id": "carnte",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#carnte",
+  "type": "Figure",
+  "number": "10.6.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "carntc",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#carntc",
+  "type": "Figure",
+  "number": "10.6.7",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-canot_cycl-4",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-canot_cycl-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 1, Isothermal Expansion: "
+},
+{
+  "id": "subsec-canot_cycl-5",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-canot_cycl-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 2, Adiabatic Expansion: "
+},
+{
+  "id": "subsec-canot_cycl-7",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-canot_cycl-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 3, Isothermal compression: "
+},
+{
+  "id": "subsec-canot_cycl-8",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-canot_cycl-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 4, Adiabatic compression: "
+},
+{
+  "id": "crnt",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#crnt",
+  "type": "Figure",
+  "number": "10.6.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "cop",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#cop",
+  "type": "Figure",
+  "number": "10.6.9",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsec-entropy-2-1",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsec-entropy-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Entropy "
+},
+{
+  "id": "heatcurve",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#heatcurve",
+  "type": "Figure",
+  "number": "10.6.10",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsubsec-entropy_degrad-2",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsubsec-entropy_degrad-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "available energy "
+},
+{
+  "id": "subsubsec-entropy_degrad-3",
+  "level": "2",
+  "url": "sec_tenth-thermdyn.html#subsubsec-entropy_degrad-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "heat-death "
+},
+{
+  "id": "sec_tenth-examplesB",
+  "level": "1",
+  "url": "sec_tenth-examplesB.html",
+  "type": "Section",
+  "number": "10.7",
+  "title": "Examples B",
+  "body": " Examples B   KTG    The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that         At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule        At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,           I Law of Thermodynamics    A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,          Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.         An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                    Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume          A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.        II Law of Thermodynamics    A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                                  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:              An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by            A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,          If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,       Entropy   "
+},
+{
+  "id": "sec_tenth-examplesB-2-2",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-2-2",
+  "type": "Example",
+  "number": "10.7.1",
+  "title": "",
+  "body": "  The rms speed of molecules is 1.84 km\/sec. What will be the rms speed of molecules at the same temperature? The molecular weights of hydrogen and oxygen are 2 and 32 respectively.    We know that      "
+},
+{
+  "id": "sec_tenth-examplesB-2-3",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-2-3",
+  "type": "Example",
+  "number": "10.7.2",
+  "title": "",
+  "body": "  At what temperature does the kinetic energy of an atom be 1.0 eV? .    Average kinetic energy of an atom is given by  for a monoatomic molecule     "
+},
+{
+  "id": "sec_tenth-examplesB-2-4",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-2-4",
+  "type": "Example",
+  "number": "10.7.3",
+  "title": "",
+  "body": "  At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.    We have - At NTP, . At NTP,        "
+},
+{
+  "id": "sec_tenth-examplesB-3-2",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-3-2",
+  "type": "Example",
+  "number": "10.7.4",
+  "title": "",
+  "body": "  A spherical balloon one foot in diameter contains helium at one atmosphere of pressure and at a temperature of . Find  the number of moles of helium in the balloon,  the number of molecules in the balloon,  the average kinetic energy of each helium molecule,  the rms velocity of a helium molecule,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of rubber that allows the pressure to remain at one atmosphere,  the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius if the balloon is made of non-stretching aluminum so the volume remains constant,  the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.      Given:       Here,                                   Now,       "
+},
+{
+  "id": "sec_tenth-examplesB-3-3",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-3-3",
+  "type": "Example",
+  "number": "10.7.5",
+  "title": "",
+  "body": "  Use the principle of equipartition of energy to determine the equations for the internal energy, the molar specific heat capacity at constant volume, and the molar specific heat capacity at constant pressure for  a monatomic ideal gas,  diatomic ideal gas,  diatomic ideal gas with vibration, and  solid substance.      Internal energy per molecule of a gas,        for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.   for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom.   for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)   for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom.      "
+},
+{
+  "id": "sec_tenth-examplesB-3-4",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-3-4",
+  "type": "Example",
+  "number": "10.7.6",
+  "title": "",
+  "body": "  An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the temperature remains constant throughout the process, find each of the following:  the initial volume of the gas,  the final volume of the gas,  the final temperature of the gas,  the final pressure of the gas,  the work done by the gas,  the change in internal energy of the gas, and  the heat added to the gas.      Given:   and                                 "
+},
+{
+  "id": "sec_tenth-examplesB-3-5",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-3-5",
+  "type": "Example",
+  "number": "10.7.7",
+  "title": "",
+  "body": "  Calculate the change in the internal energy when 5 gm of air is heated from to the specific heat of air at constant volume being  Note: 1 cal = 4.18 J.    From first law of thermodynamics, Since air is heated at constant volume       "
+},
+{
+  "id": "sec_tenth-examplesB-3-6",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-3-6",
+  "type": "Example",
+  "number": "10.7.8",
+  "title": "",
+  "body": "  A system absorbs 2500 J of heat and at the same time does 90 J of external work.  Find the change in internal energy of the system.  Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it.  What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.      From first law of thermodynamics,   Given:  We know that , hence if volume increases or is +ve, then is positive. That is, work done by the system is +ve.  Given:  We know that , hence if volume decreases or is -ve, then is negative. That is, work done on the system is -ve.  Given: and  -ve sign indicates that heat is taken out from the system.     "
+},
+{
+  "id": "sec_tenth-examplesB-4-2",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-4-2",
+  "type": "Example",
+  "number": "10.7.9",
+  "title": "",
+  "body": "  A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J of heat into a second heat reservoir at temperature 300 K.  How much work does the engine do per cycle.  If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?  What is the actual efficiency of the engine?  What would be the efficiency of a Carnot engine utilizing the same temperatures?  Assuming the Carnot engine absorbed the same amount of heat per cycle as the original engine, how much work would it do per cycle?  Assuming it ran at the same speed as the original, what would be its power output?      Given:  and                               "
+},
+{
+  "id": "sec_tenth-examplesB-4-3",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-4-3",
+  "type": "Example",
+  "number": "10.7.10",
+  "title": "",
+  "body": "  A Carnot engine is used to make a heat pump. In winter time, the engine pumps heat from outside the house at a temperature of into the house at a temperature .  What is the COP of the heat pump?  How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? In the summer time, the engine is used as an air conditioner pumping heat from an exterior temperature of to an interior temperature of .  What is the COP of this heat pump operating as an air conditioner?  What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power?        Given:    Given:      Given:    Given:           "
+},
+{
+  "id": "sec_tenth-examplesB-4-4",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-4-4",
+  "type": "Example",
+  "number": "10.7.11",
+  "title": "",
+  "body": "  An engine works between the temperature and and develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot engine working between the same temperature limits, calculate:  the heat supplied to the engine,  the heat rejected by the engine.        The efficiency of Carnot heat engine is given by Heat supplied by the engine per second is    The efficiency of heat engine is given by         "
+},
+{
+  "id": "sec_tenth-examplesB-4-5",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-4-5",
+  "type": "Example",
+  "number": "10.7.12",
+  "title": "",
+  "body": "  A Carnot engine works at high temperature 600 K with the efficiency of . If the efficiency of the engine is and the low temperature kept constant, what is the high temperature?    For Carnot engine efficiency,   For heat engine efficiency,       "
+},
+{
+  "id": "sec_tenth-examplesB-4-6",
+  "level": "2",
+  "url": "sec_tenth-examplesB.html#sec_tenth-examplesB-4-6",
+  "type": "Example",
+  "number": "10.7.13",
+  "title": "",
+  "body": "  If 3 moles of an ideal polyatomic gas initially with a volume of and a temperature of 273 K. This gas is compressed isothermally to 1\/2 its initial volume. How much heat must be added to the system during this compression?      Now, at constant T, . Hence,    "
+},
+{
+  "id": "ex_tenth",
+  "level": "1",
+  "url": "ex_tenth.html",
+  "type": "Exercises",
+  "number": "10.8",
+  "title": "Exercise",
+  "body": "  Exercise   Temperature & Expansion  An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?    Find the temeprature at which Fahrenheit and Celcius scales have the same reading.  An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract?  A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?    A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?    The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?  An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid.    Calorimetry  If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?   How much heat is required to take 10 moles of ice at to water at ?  A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?    A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?    A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated?  A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience?  A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and     Heat Transfer  A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?    A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?    A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?    Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?     The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is     A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of     KTG  How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u?  What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   .  On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?    At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant?  At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively.    I Law of Thermodynamics  An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first cooled at a constant volume to half its initial pressure and then allowed to expand at constant pressure to its final volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.    An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first allowed to expand at constant pressure to its final volume and then cooled at constant volume to half its initial pressure, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.    An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is allowed to expand adiabadically to twice its initial volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.      With the assumption that the air temperature is a uniform , what is the atmospheric pressure at an altitude of 5000 m?  With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?  Which of the previous two inconsistent assumptions is more realistic and why?      II Law of Thermodynamics  A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine?  A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject?  An ideal heat pump pumps heat from an outside temperature of into an inside temperature of . If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h?  A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator?  What is the coefficient of performance of a Carnot refrigerator whose inside temperature is an whose outside temperature is if it takes 500 W of electrical power to operate it?  A gasoline engine operates approximately according to the Otto cycle which takes in a gas\/air mixture at ambient temperature , compresses that mixture adiabatically to a higher temperature , ignites the mixture at constant volume to an even higher temperature , expands the gas adiabatically to a cooler temperature , reduces the pressure at constant volume back to , and then expels the gas into the atmosphere. The efficiency of an Otto cycle is . Assume , and .  What is the efficiency of this gasoline engine?  What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?  What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?      Entropy   "
+},
+{
+  "id": "ex_tenth-2-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-2",
+  "type": "Exercise",
+  "number": "10.8.1",
+  "title": "",
+  "body": "An absolute temperature of 300 K is  how many degrees Fahrenheit?  How many degrees Celcius?   "
+},
+{
+  "id": "ex_tenth-2-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-3",
+  "type": "Exercise",
+  "number": "10.8.2",
+  "title": "",
+  "body": "Find the temeprature at which Fahrenheit and Celcius scales have the same reading. "
+},
+{
+  "id": "ex_tenth-2-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-4",
+  "type": "Exercise",
+  "number": "10.8.3",
+  "title": "",
+  "body": "An aluminum wire 0.05 mm in diameter and 2 m long is heated from to . How much does it contract? "
+},
+{
+  "id": "ex_tenth-2-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-5",
+  "type": "Exercise",
+  "number": "10.8.4",
+  "title": "",
+  "body": "A steel gas tank is filled with 80 L (about 20 gallons) of gasoline at a temperature of .  How much gasoline flows out of the tank when the temperature rises to ?  If the hose of the tank is 4 cm in diameter, what is the minimum length of the hose in order to keep the gasoline from spilling?   "
+},
+{
+  "id": "ex_tenth-2-6",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-6",
+  "type": "Exercise",
+  "number": "10.8.5",
+  "title": "",
+  "body": "A thin steel wire   of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod   of the same length. The system is heated from to .  How much does the brass rod expand?  How much would the steel wire have expanded if it had not been attached to the brass rod?  What is the thermal strain in the steel wire attached to the brass rod?  What is the thermal stress in the steel wire?  What is the tension in the wire?   "
+},
+{
+  "id": "ex_tenth-2-7",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-7",
+  "type": "Exercise",
+  "number": "10.8.6",
+  "title": "",
+  "body": "The coefficient of linear expansion of lead is . What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm? "
+},
+{
+  "id": "ex_tenth-2-8",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-2-8",
+  "type": "Exercise",
+  "number": "10.8.7",
+  "title": "",
+  "body": "An aluminum can is filled to the brim with a liquid. The can and the liquid are heated so their temperatures change by the same amount. The can's initial volume at is . The coefficient of volume expansion for aluminum is When the can and the liquid are heated to  of liquid spills over. What is the coefficient of volume expansion for the liquid. "
+},
+{
+  "id": "ex_tenth-3-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-2",
+  "type": "Exercise",
+  "number": "10.8.8",
+  "title": "",
+  "body": "If 100 g of steam condense into 1 kg of water initially at , what is the final temperature of the combination?  "
+},
+{
+  "id": "ex_tenth-3-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-3",
+  "type": "Exercise",
+  "number": "10.8.9",
+  "title": "",
+  "body": "How much heat is required to take 10 moles of ice at to water at ? "
+},
+{
+  "id": "ex_tenth-3-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-4",
+  "type": "Exercise",
+  "number": "10.8.10",
+  "title": "",
+  "body": "A 400 g piece of iron is taken from an oven at and placed in a 100 g aluminum calorimeter containing 200 g of ice at .  How much ice melts?  What is the final temperature of the system?   "
+},
+{
+  "id": "ex_tenth-3-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-5",
+  "type": "Exercise",
+  "number": "10.8.11",
+  "title": "",
+  "body": "A water fall is 500 m high.  What is the difference in temperature between the water at the top and bottom if no water evaporates while falling?  What fraction of the water must evaporate to keep the temperatures the same?   "
+},
+{
+  "id": "ex_tenth-3-6",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-6",
+  "type": "Exercise",
+  "number": "10.8.12",
+  "title": "",
+  "body": "A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases . How thick is the surface of his hands which is being heated? "
+},
+{
+  "id": "ex_tenth-3-7",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-7",
+  "type": "Exercise",
+  "number": "10.8.13",
+  "title": "",
+  "body": "A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of methanol is -725 \\,kJ\/mole, and assuming that the 2.0 L of water absorbed all of the heat of combustion, what temperature change did the water experience? "
+},
+{
+  "id": "ex_tenth-3-8",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-3-8",
+  "type": "Exercise",
+  "number": "10.8.14",
+  "title": "",
+  "body": "A 20g sample of iron at a temperature of is placed into a container of water. There are 300 ml of water in the container at a temperature of . What is the final temperature of the water?  and  "
+},
+{
+  "id": "ex_tenth-4-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-2",
+  "type": "Exercise",
+  "number": "10.8.15",
+  "title": "",
+  "body": "A copper rod of length 40 cm and diameter 2 cm is placed end to end with an iron rod of length 60 cm and diameter 2 cm. The combined rod is then insulated on its sides and the two ends subject to different temperatures. If the copper end is at and the iron end is at ,  what is the temperature at the copper-iron interface?  How many joules of heat energy flow through the system in 1 hour?   "
+},
+{
+  "id": "ex_tenth-4-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-3",
+  "type": "Exercise",
+  "number": "10.8.16",
+  "title": "",
+  "body": "A Styrofoam ice chest is cubic in shape with each edge 30 cm long. Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest and the outside temperature is a constant ,  how long does it take the ice to melt?  How long after the ice melts does it take for the interior of the ice chest to heat up to ?   "
+},
+{
+  "id": "ex_tenth-4-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-4",
+  "type": "Exercise",
+  "number": "10.8.17",
+  "title": "",
+  "body": "A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of . If the sun radiates of solar power upon the earth,  how many Btu's of heat are collected on an average day?  If the house is well insulated on the sides and bottom and if the roof\/ceiling is 20 ft by 40 ft consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the outside temperature is a freezing ?   "
+},
+{
+  "id": "ex_tenth-4-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-5",
+  "type": "Exercise",
+  "number": "10.8.18",
+  "title": "",
+  "body": "Two rods, one of aluminum and the other of copper are joined end to end. The cross-sectional area of each is and the length of each is 0.04 m. The free end of the aluminum rod is kept at while the free end of the copper rod is kept at . The loss of heat through the sides of the rods may be ignored.  What is the temperature at the aluminum-copper interface?  How much heat is conducted through the unit in 2.0 s?    "
+},
+{
+  "id": "ex_tenth-4-6",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-6",
+  "type": "Exercise",
+  "number": "10.8.19",
+  "title": "",
+  "body": "The surface of the Sun has a temperature of   Treating the Sun as a perfect blackbody, with an emissivity of 1.0, find the power that it radiates into space. The radius of the sun is and the temperature of space can be taken to be 3.0 K.  The solar constant is the number of watts of sunlight power falling on a square meter of the Earth's upper atmosphere. Use your result from part (a) to calculate the solar constant, given that the distance from the Sun to the Earth is    "
+},
+{
+  "id": "ex_tenth-4-7",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-4-7",
+  "type": "Exercise",
+  "number": "10.8.20",
+  "title": "",
+  "body": "A long copper rod of diameter 2.0cm is initially at a uniform temperature of It is now exposed to an air stream at with a heat transfer coefficient of How long would it take for the copper rod to cool at an average temperature of  "
+},
+{
+  "id": "ex_tenth-5-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-5-2",
+  "type": "Exercise",
+  "number": "10.8.21",
+  "title": "",
+  "body": "How many molecules are in a cube of aluminum 2 cm on a side if the density of aluminum is and the atomic mass of aluminum is 26.98 u? "
+},
+{
+  "id": "ex_tenth-5-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-5-3",
+  "type": "Exercise",
+  "number": "10.8.22",
+  "title": "",
+  "body": "What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? Assume ,   . "
+},
+{
+  "id": "ex_tenth-5-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-5-4",
+  "type": "Exercise",
+  "number": "10.8.23",
+  "title": "",
+  "body": "On first day a tank of oxygen having a volume of 100 L is filled to a gauge pressure of at a temperature of . On the second day the temperature is and the gauge pressure of the tank is .  How many moles of oxygen were initially in the container?  How many grams of oxygen were used before the second day measurements were made?   "
+},
+{
+  "id": "ex_tenth-5-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-5-5",
+  "type": "Exercise",
+  "number": "10.8.24",
+  "title": "",
+  "body": "At high enough temperatures a diatomic molecule like hydrogen has three degrees of translational freedom, two degrees of rotational freedom, and two degrees of vibrational freedom. How much heat Q must be added to n moles of hydrogen to raise its temperature from such a high temperature to one even higher by an amount if the volume of the gas remains constant? "
+},
+{
+  "id": "ex_tenth-5-6",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-5-6",
+  "type": "Exercise",
+  "number": "10.8.25",
+  "title": "",
+  "body": "At what temperature does the oxygen molecules have the same rms speed as those of hydrogen at Molar mass of oxygen and hydrogen are 32 and 2, respectively. "
+},
+{
+  "id": "ex_tenth-6-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-6-2",
+  "type": "Exercise",
+  "number": "10.8.26",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first cooled at a constant volume to half its initial pressure and then allowed to expand at constant pressure to its final volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "ex_tenth-6-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-6-3",
+  "type": "Exercise",
+  "number": "10.8.27",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is first allowed to expand at constant pressure to its final volume and then cooled at constant volume to half its initial pressure, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "ex_tenth-6-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-6-4",
+  "type": "Exercise",
+  "number": "10.8.28",
+  "title": "",
+  "body": "An ideal monatomic gas containing 10 moles of Helium initially at and one atmosphere is allowed to expand to twice its initial volume. If the gas is allowed to expand adiabadically to twice its initial volume, find each of the following:  the initial volume of the gas,  the final pressure of the gas,  the final volume of the gas,  the final temperature of the gas,  the work done by the gas,  the heat added to the gas,  the change in internal energy of the gas.   "
+},
+{
+  "id": "ex_tenth-6-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-6-5",
+  "type": "Exercise",
+  "number": "10.8.29",
+  "title": "",
+  "body": "  With the assumption that the air temperature is a uniform , what is the atmospheric pressure at an altitude of 5000 m?  With the assumption that a bubble of air rises adiabatically from the surface of the earth to the pressure obtained in part (a) of this problem, what would be the temperature of the bubble at that altitude?  Which of the previous two inconsistent assumptions is more realistic and why?   "
+},
+{
+  "id": "ex_tenth-7-2",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-2",
+  "type": "Exercise",
+  "number": "10.8.30",
+  "title": "",
+  "body": "A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of heat at 300 K. What is the efficiency of this engine? "
+},
+{
+  "id": "ex_tenth-7-3",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-3",
+  "type": "Exercise",
+  "number": "10.8.31",
+  "title": "",
+  "body": "A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat at 300 K. How much heat does it reject? "
+},
+{
+  "id": "ex_tenth-7-4",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-4",
+  "type": "Exercise",
+  "number": "10.8.32",
+  "title": "",
+  "body": "An ideal heat pump pumps heat from an outside temperature of into an inside temperature of . If 1000 J of heat are deposited into the house every second and if electricity costs 10 cents per kilowatt-hour, then what is the cost of operating this heat pump for 24 h? "
+},
+{
+  "id": "ex_tenth-7-5",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-5",
+  "type": "Exercise",
+  "number": "10.8.33",
+  "title": "",
+  "body": "A refrigerator requires an amount of work W to extract heat Qc from a refrigerator and reject an amount of heat Qh into the surroundings. What is the coefficient of performance of the refrigerator? "
+},
+{
+  "id": "ex_tenth-7-6",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-6",
+  "type": "Exercise",
+  "number": "10.8.34",
+  "title": "",
+  "body": "What is the coefficient of performance of a Carnot refrigerator whose inside temperature is an whose outside temperature is if it takes 500 W of electrical power to operate it? "
+},
+{
+  "id": "ex_tenth-7-7",
+  "level": "2",
+  "url": "ex_tenth.html#ex_tenth-7-7",
+  "type": "Exercise",
+  "number": "10.8.35",
+  "title": "",
+  "body": "A gasoline engine operates approximately according to the Otto cycle which takes in a gas\/air mixture at ambient temperature , compresses that mixture adiabatically to a higher temperature , ignites the mixture at constant volume to an even higher temperature , expands the gas adiabatically to a cooler temperature , reduces the pressure at constant volume back to , and then expels the gas into the atmosphere. The efficiency of an Otto cycle is . Assume , and .  What is the efficiency of this gasoline engine?  What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?  What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
