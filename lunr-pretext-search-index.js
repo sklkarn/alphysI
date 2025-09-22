@@ -5914,9 +5914,135 @@ var ptx_lunr_docs = [
   "body": "A gasoline engine operates approximately according to the Otto cycle which takes in a gas\/air mixture at ambient temperature , compresses that mixture adiabatically to a higher temperature , ignites the mixture at constant volume to an even higher temperature , expands the gas adiabatically to a cooler temperature , reduces the pressure at constant volume back to , and then expels the gas into the atmosphere. The efficiency of an Otto cycle is . Assume , and .  What is the efficiency of this gasoline engine?  What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures?  What is the efficiency ratio for this gasoline engine (i.e. the ratio of its efficiency to the maximum possible efficiency)?   "
 },
 {
-  "id": "backmatter-2",
+  "id": "append_math",
   "level": "1",
-  "url": "backmatter-2.html",
+  "url": "append_math.html",
+  "type": "Appendix",
+  "number": "A",
+  "title": "(Mathematical Relations)",
+  "body": " (Mathematical Relations)     Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base e. If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by        Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.       Trigonometric Identities: in right angled triangle                     If then                               Trigonometric Identities: in any with sides and and angles and      Law of sines:     Law of cosines:         Binomial Theorem:       Power Series:            Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now      and  and        "
+},
+{
+  "id": "append_math-2-1-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
+},
+{
+  "id": "append_math-2-2-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Geometric Formulae: "
+},
+{
+  "id": "append_math-2-3-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Trigonometric Identities: "
+},
+{
+  "id": "append_math-2-4-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Trigonometric Identities: "
+},
+{
+  "id": "append_math-2-5-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Binomial Theorem: "
+},
+{
+  "id": "append_math-2-6-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-6-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Power Series: "
+},
+{
+  "id": "append_math-2-7-1",
+  "level": "2",
+  "url": "append_math.html#append_math-2-7-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Vectors: "
+},
+{
+  "id": "append_physTable",
+  "level": "1",
+  "url": "append_physTable.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "(Useful Data and Greek Letters)",
+  "body": " (Useful Data and Greek Letters)   Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance        Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta       "
+},
+{
+  "id": "append_physTable-2",
+  "level": "2",
+  "url": "append_physTable.html#append_physTable-2",
+  "type": "Table",
+  "number": "B.0.1",
+  "title": "Physical Data Table",
+  "body": " Physical Data Table    Quantity  Symbol  Value  SI Unit    Avagadro's Number    particles\/mol    Bohr Radius    m    Boltzmann's Constant    J\/K    Coulomb's Constant       Electron Mass       Proton Mass       Neutron Mass       Electron's Charge       Gravitational Constant       Mass of Earth       Mass of Sun       Mass of Moon       Radius of Earth       Planck's Constant       Spped of Light in Vacuum       Stefan-Boltzmann Constant       Universal Gas Constant       Permittivity of Free Space       Permeability of Free Space       Molar volume of ideal gas at STP       Standard Atmospheric Pressure       Acceleration due to gravity       Average Earth-Sun distance  Astronomical Unit      Average Earth-Moon distance  Lunar Distance      "
+},
+{
+  "id": "append_physTable-3",
+  "level": "2",
+  "url": "append_physTable.html#append_physTable-3",
+  "type": "Table",
+  "number": "B.0.2",
+  "title": "Greek Alphabet",
+  "body": " Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta      "
+},
+{
+  "id": "backmatter-4",
+  "level": "1",
+  "url": "backmatter-4.html",
+  "type": "Appendix",
+  "number": "C",
+  "title": "List of Symbols",
+  "body": " List of Symbols   "
+},
+{
+  "id": "backmatter-5",
+  "level": "1",
+  "url": "backmatter-5.html",
+  "type": "Index",
+  "number": "",
+  "title": "Index",
+  "body": " Index   "
+},
+{
+  "id": "refs-list",
+  "level": "1",
+  "url": "refs-list.html",
+  "type": "References",
+  "number": "",
+  "title": "References",
+  "body": " University Physics, Young, H. D. and Freedman, Roger A., Pearson, 2015.  Physics for Scientists and Engineers, Katz, D. M., Cengage Learning, 2015.  Thermal and Statistical Physics, Gupta, S., Pragati Prakashan, 1993.  Lecture Notes of Physics, Hewett, L. D., TAMUK, 2013.  An Introduction to Mechanics, Kleppner, D. and Kolenkow, R., Cambridge University Press, 2014.  Mathematical Physics for Undergraduate, Karna, S., Kindle Publication, 2018.  "
+},
+{
+  "id": "backmatter-7",
+  "level": "1",
+  "url": "backmatter-7.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
